@@ -1,0 +1,102 @@
+{
+ "tag": "smoke_gemma",
+ "provider": "modal",
+ "wall_s": 139.2,
+ "per_model": [
+  {
+   "model": "gemma4-12b",
+   "total": 40,
+   "cached_in_file": 0,
+   "run": 40,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 5800,
+   "session": {
+    "billed_s": 274.0,
+    "session_cost_usd": 0.1823,
+    "cold_start_s": 109.0
+   },
+   "cold_start_s": 109.0,
+   "gen_wall_s": 30.0,
+   "measured_tok_per_s": 193.1,
+   "mean_out_tokens": 145.0
+  }
+ ],
+ "harness_spent_usd": 0.1823,
+ "design_sha256": "30cb3435cebae97a1cf130b4ec368e4c4bf2b3dfeddb83784759ec813b9ac5e9",
+ "plan_sha256": "56ab4bf768f75c0f75daf22a631fd841e64ac238375bbc93f9faaa46058f656c",
+ "format_report": {
+  "cells": {
+   "gemma4-12b|ACC-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 121.0,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|ACC-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 122.0,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|NEU-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 125.5,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|SAT-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 125.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|SAT-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 130.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   }
+  },
+  "near_duplicate": {
+   "gemma4-12b": {
+    "rounds": 8,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": false,
+  "any_dead_manipulation": false
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "R": 200,
+ "B": 2000,
+ "len_eff": 0.5,
+ "data_seeds": "90000..90199",
+ "boot_seeds": "0..199",
+ "covers_0": {
+  "alpha": 192,
+  "N1u": 147,
+  "N1h": 193
+ },
+ "coverage": {
+  "alpha": 0.96,
+  "N1u": 0.735,
+  "N1h": 0.965
+ },
+ "false_positive_rate": {
+  "alpha": 0.040000000000000036,
+  "N1u": 0.265,
+  "N1h": 0.03500000000000003
+ },
+ "mean_estimate": {
+  "alpha": 0.0008097368357823426,
+  "N1u": 0.04282018843907919,
+  "N1h": 0.0010085070015975147
+ },
+ "guard_93pct_alpha": true,
+ "design": "synthetic, erasure effect 0, corr(E,len)=0.3, 60 launches (eval/coverage.py synth_hard generator)",
+ "gate_tag": "NOT_REAL(synthetic)"
+}

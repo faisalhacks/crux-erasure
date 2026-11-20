@@ -1,0 +1,59 @@
+{
+ "mode": "n3_iter1_labels",
+ "scorer": "qwen3.8-27b",
+ "stats": {
+  "calls": 0,
+  "errors": 0,
+  "truncated": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0
+ },
+ "session": null,
+ "error": "BudgetExceeded(\"pilot 'T3-1-core-tier2': committed $7.2075 + this call (worst case) $2.8692 > pilot cap $10.00\")",
+ "plan": {
+  "scorer": "qwen3.8-27b",
+  "gpu": "H100x1",
+  "rate_usd_per_s": 0.00134388,
+  "calls": 4732,
+  "decode_tokens": 141960,
+  "prefill_tokens": 3182127,
+  "expected_wall_s": 1154,
+  "session_max_seconds": 2000,
+  "expected_usd": 1.732,
+  "worst_case_usd": 2.869,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  },
+  "timeout_note": "fixed 2000 s (measured N2 rate); assumption-rule timeout would be 2400 s"
+ },
+ "wall_s": 3.5,
+ "prompt_sha256": {
+  "E1": "be662ca757c7e17d88ac2b0dcbdb2c9133844f3f90036306ec424b166b82f226",
+  "L1": "8799f803b571b4e584779b54f170c2f305cab5cddc10721ba47988aeda2e350e",
+  "C1": "cea226abba1285912e76825327ed2d80449705381b46c4d5d0e4f369d737a3d1"
+ },
+ "scorer_py_sha256": "1413ad6aad3b088c6baac408cb6305a5ac0ed5d776a9bc3d2ecce8d81c733cfa",
+ "extractions_sha256": "9dddc782ccab6d3d591130bac42d2c502a8c7accd2babbbf3be2cf06e9fea086",
+ "decoding": {
+  "temperature": 0.0,
+  "seed": 0,
+  "retry_seed": 1,
+  "max_tokens_label": 300
+ },
+ "container_check": {
+  "waited_s": 2,
+  "own_rows_final": 0,
+  "other_app_rows": 0,
+  "stopped_by_id": [],
+  "returncode": 0,
+  "error": null,
+  "stdout_tail": "Active Containers in environment:                    \n+------------------------------------------------------------------------------\n| Container ID                  | App ID                    | App Name | Start \n|-------------------------------+---------------------------+----------+-------\n+------------------------------------------------------------------------------"
+ }
+}

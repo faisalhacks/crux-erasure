@@ -1,0 +1,39 @@
+{
+ "kind": "dummy",
+ "analysis_set": {
+  "set": "CONFIRMATORY (development launches excluded)",
+  "n_launches_in": 120,
+  "n_launches_out": 120,
+  "n_dev_launches_dropped": 0,
+  "dev_file_sha256": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ },
+ "tier_of_record_set": "confirmatory set (development launches excluded)",
+ "counts": {
+  "rounds_in_set": 240,
+  "R_inf": 60,
+  "K_inf": 30
+ },
+ "counts_including_development_launches": {
+  "rounds_in_set": 240,
+  "R_inf": 60,
+  "K_inf": 30
+ },
+ "counts_other": {},
+ "counts_other_including_development_launches": {},
+ "R_inf": 60,
+ "K_inf": 30,
+ "SD_null_beta_E": 0.08054175763063898,
+ "MDE80": 0.22551692136578913,
+ "n_null_fits": 20,
+ "null_beta_E_mean": -0.014386499996628027,
+ "shuffle_seeds": "random.Random(430000+i), i=0..19",
+ "thresholds": {
+  "K_informative": 100,
+  "K_low_power": 50,
+  "MDE80_max": 0.1
+ },
+ "tier": "NOT MEASURABLE",
+ "disclosure": "The all-launch tier of D35 (K_inf=168, MDE80=0.0509, INFORMATIVE; 144 informative launches outside the development set) was logged before this row was written; thresholds were fixed in R1 and are unchanged (FR 7.1).",
+ "note": "computed from shuffled ranks only; one-way downgrade after unblinding is applied by the A2 run (FR 7.1)",
+ "gate_tag": "NOT_REAL(dummy)"
+}

@@ -1,0 +1,149 @@
+{
+ "note": "synthetic only; no project data read",
+ "cells": [
+  {
+   "polar_sd": 0.8,
+   "mean_sd": 1.0,
+   "hsplit_prev": 0.283,
+   "n_hsplit0": 1163,
+   "scorers": [
+    {
+     "scorer": "null_high_crux",
+     "BA2": 0.501,
+     "ci": [
+      0.49,
+      0.511
+     ]
+    },
+    {
+     "scorer": "weak",
+     "BA2": 0.543,
+     "ci": [
+      0.527,
+      0.557
+     ]
+    },
+    {
+     "scorer": "moderate",
+     "BA2": 0.64,
+     "ci": [
+      0.621,
+      0.657
+     ]
+    },
+    {
+     "scorer": "good",
+     "BA2": 0.722,
+     "ci": [
+      0.698,
+      0.742
+     ]
+    },
+    {
+     "scorer": "null_size_confounded",
+     "BA2": 0.491,
+     "ci": [
+      0.476,
+      0.505
+     ]
+    }
+   ]
+  },
+  {
+   "polar_sd": 1.5,
+   "mean_sd": 1.2,
+   "hsplit_prev": 0.428,
+   "n_hsplit0": 927,
+   "scorers": [
+    {
+     "scorer": "null_high_crux",
+     "BA2": 0.494,
+     "ci": [
+      0.484,
+      0.504
+     ]
+    },
+    {
+     "scorer": "weak",
+     "BA2": 0.564,
+     "ci": [
+      0.552,
+      0.577
+     ]
+    },
+    {
+     "scorer": "moderate",
+     "BA2": 0.631,
+     "ci": [
+      0.609,
+      0.65
+     ]
+    },
+    {
+     "scorer": "good",
+     "BA2": 0.698,
+     "ci": [
+      0.676,
+      0.718
+     ]
+    },
+    {
+     "scorer": "null_size_confounded",
+     "BA2": 0.503,
+     "ci": [
+      0.49,
+      0.516
+     ]
+    }
+   ]
+  },
+  {
+   "polar_sd": 2.5,
+   "mean_sd": 1.5,
+   "hsplit_prev": 0.501,
+   "n_hsplit0": 809,
+   "scorers": [
+    {
+     "scorer": "null_high_crux",
+     "BA2": 0.5,
+     "ci": [
+      0.49,
+      0.51
+     ]
+    },
+    {
+     "scorer": "weak",
+     "BA2": 0.546,
+     "ci": [
+      0.532,
+      0.56
+     ]
+    },
+    {
+     "scorer": "moderate",
+     "BA2": 0.637,
+     "ci": [
+      0.619,
+      0.656
+     ]
+    },
+    {
+     "scorer": "good",
+     "BA2": 0.702,
+     "ci": [
+      0.679,
+      0.723
+     ]
+    },
+    {
+     "scorer": "null_size_confounded",
+     "BA2": 0.509,
+     "ci": [
+      0.496,
+      0.52
+     ]
+    }
+   ]
+  }
+ ]
+}

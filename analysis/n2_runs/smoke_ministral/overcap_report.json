@@ -1,0 +1,42 @@
+{
+ "ministral3-14b|ACC-COMMON": {
+  "n": 8,
+  "mean_words": 157.1,
+  "median_words": 161,
+  "max_words": 188,
+  "over_cap": 4,
+  "over_cap_rate": 0.5
+ },
+ "ministral3-14b|ACC-DIS": {
+  "n": 8,
+  "mean_words": 167.1,
+  "median_words": 168,
+  "max_words": 218,
+  "over_cap": 6,
+  "over_cap_rate": 0.75
+ },
+ "ministral3-14b|NEU-COMMON": {
+  "n": 8,
+  "mean_words": 145.4,
+  "median_words": 145,
+  "max_words": 162,
+  "over_cap": 3,
+  "over_cap_rate": 0.375
+ },
+ "ministral3-14b|SAT-COMMON": {
+  "n": 8,
+  "mean_words": 144.4,
+  "median_words": 153,
+  "max_words": 163,
+  "over_cap": 4,
+  "over_cap_rate": 0.5
+ },
+ "ministral3-14b|SAT-DIS": {
+  "n": 8,
+  "mean_words": 149.8,
+  "median_words": 150,
+  "max_words": 184,
+  "over_cap": 3,
+  "over_cap_rate": 0.375
+ }
+}

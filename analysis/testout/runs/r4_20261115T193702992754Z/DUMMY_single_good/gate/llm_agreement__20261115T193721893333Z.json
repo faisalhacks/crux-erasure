@@ -1,0 +1,82 @@
+{
+ "step": "llm",
+ "kind": "dummy",
+ "label": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "problems": [],
+ "supplementary": "no cut-off, no rule, no effect on gate 1, the N2 check, the headline or any label (FR 6.8)",
+ "design": "single_labeler",
+ "n_llm_labels": 49,
+ "missing_or_invalid_llm_labels_left_out": [
+  "P1_005"
+ ],
+ "unknown_ids_ignored": [],
+ "author_pass1_vs_llm": {
+  "n": 49,
+  "kappa": 0.6886417791898334,
+  "ac1": 0.7789369801212463,
+  "percent_agreement": 0.8367346938775511,
+  "B": 1000,
+  "seed": 20261134,
+  "kappa_ci95": [
+   0.49800020727594596,
+   0.8449489378269377
+  ],
+  "ac1_ci95": [
+   0.6347935097132115,
+   0.8931443369224479
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.349146110056926,
+  "kappa_both_definite": 0.3866666666666668,
+  "n_both_definite": 46,
+  "unsure_first": 2,
+  "unsure_second": 1,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 18,
+    "NO_DISAGREEMENT": 1,
+    "SHOWS": 2,
+    "UNSURE": 1
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 2,
+    "SHOWS": 6,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 7,
+    "SHOWS": 8,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 2,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 37,
+   "kappa": 0.5999999999999999,
+   "ac1": 0.7042218336247814
+  },
+  "by_kind_n2": {
+   "n": 12,
+   "kappa": 1.0,
+   "ac1": 1.0
+  }
+ },
+ "scorer1_BA_vs_llm_labels_NOT_HUMAN": {
+  "n": 36,
+  "n_human_pos": 17,
+  "n_human_neg": 19,
+  "ba": 0.8065015479876161,
+  "lo": 0.6686790505675955,
+  "hi": 0.9347826086956521
+ },
+ "status": "COMPUTED",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

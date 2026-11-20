@@ -1,0 +1,102 @@
+{
+ "tag": "smoke_qwen",
+ "provider": "modal",
+ "wall_s": 152.0,
+ "per_model": [
+  {
+   "model": "qwen3.8-27b",
+   "total": 40,
+   "cached_in_file": 0,
+   "run": 40,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 7042,
+   "session": {
+    "billed_s": 286.8,
+    "session_cost_usd": 0.3854,
+    "cold_start_s": 120.2
+   },
+   "cold_start_s": 120.2,
+   "gen_wall_s": 31.7,
+   "measured_tok_per_s": 222.2,
+   "mean_out_tokens": 176.1
+  }
+ ],
+ "harness_spent_usd": 0.3854,
+ "design_sha256": "c708e75b4fd6c2eb0e041f4bd4b035f02bd251627a30bc67a5490e0e7411a349",
+ "plan_sha256": "a34d39d41c2b2dc52d06f63880dc74ca01441a5c49c23e797f8b322cfcf1ccb8",
+ "format_report": {
+  "cells": {
+   "qwen3.8-27b|ACC-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 145.2,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|ACC-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 143.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|NEU-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 154.1,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|SAT-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 152.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|SAT-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 150.9,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   }
+  },
+  "near_duplicate": {
+   "qwen3.8-27b": {
+    "rounds": 8,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": false,
+  "any_dead_manipulation": false
+ }
+}

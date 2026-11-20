@@ -1,0 +1,84 @@
+{
+ "n_statements": 280,
+ "n_with_E": 205,
+ "n_zero_cruxes": 60,
+ "n_missing_E": 15,
+ "mean_E": 0.8236,
+ "n_E_ge_half": 173,
+ "order_flips": 0,
+ "order_checked": 0,
+ "calls": 299,
+ "errors": 0,
+ "truncated": 0,
+ "prompt_tokens": 0,
+ "completion_tokens": 0,
+ "chunks_total": 1,
+ "chunks_done": 1,
+ "resumed_statements": 0,
+ "parse_fail_first_extract": 1,
+ "parse_fail_final_extract": 1,
+ "n_extract": 70,
+ "t_extract_s": 64.3,
+ "parse_fail_first_label": 12,
+ "parse_fail_final_label": 11,
+ "n_label": 216,
+ "t_label_s": 22.1,
+ "empty_side_cruxes_dropped_this_process": 4,
+ "mode": "probe",
+ "scorer": "falcon-h1-34b",
+ "wall_s": 703.9,
+ "session": {
+  "billed_s": 699.3,
+  "session_cost_usd": 1.0545,
+  "cold_start_s": 477.9
+ },
+ "plan": {
+  "scorer": "falcon-h1-34b",
+  "gpu": "H200x1",
+  "rate_usd_per_s": 0.00150788,
+  "calls": 350,
+  "decode_tokens": 29400,
+  "prefill_tokens": 286870,
+  "expected_wall_s": 500,
+  "session_max_seconds": 1000,
+  "expected_usd": 0.957,
+  "worst_case_usd": 1.711,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  }
+ },
+ "prompt_sha256": {
+  "E1": "be662ca757c7e17d88ac2b0dcbdb2c9133844f3f90036306ec424b166b82f226",
+  "L1": "8799f803b571b4e584779b54f170c2f305cab5cddc10721ba47988aeda2e350e",
+  "C1": "cea226abba1285912e76825327ed2d80449705381b46c4d5d0e4f369d737a3d1"
+ },
+ "thinking": "off (enable_thinking=False) on modal",
+ "decoding": {
+  "temperature": 0.0,
+  "seed": 0,
+  "retry_seed": 1,
+  "max_tokens": {
+   "extract": 700,
+   "label": 300
+  },
+  "response_format": "json_object"
+ },
+ "container_check": {
+  "waited_s": 139,
+  "own_rows_final": 0,
+  "other_app_rows": 0,
+  "stopped_by_id": [],
+  "returncode": 0,
+  "error": null,
+  "stdout_tail": "Active Containers in environment:                    \n+------------------------------------------------------------------------------\n| Container ID                  | App ID                    | App Name | Start \n|-------------------------------+---------------------------+----------+-------\n+------------------------------------------------------------------------------"
+ },
+ "n_requested": 280,
+ "complete": true
+}

@@ -1,0 +1,25 @@
+{
+ "kappa": {
+  "n_shared": 20,
+  "primary": 0.62,
+  "primary_ci_info_only": [
+   0.3,
+   0.85
+  ],
+  "unsure_L1": 1,
+  "unsure_L2": 2,
+  "cutoff": 0.6,
+  "pass": true
+ },
+ "balanced_accuracy": {
+  "n_used": 57,
+  "n_unsure_excluded": 3,
+  "ba": 0.72,
+  "lo": 0.6,
+  "hi": 0.83,
+  "must_exceed": 0.5,
+  "pass": true
+ },
+ "verdict": "PASS",
+ "kind": "dummy"
+}

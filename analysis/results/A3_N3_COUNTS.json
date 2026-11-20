@@ -1,0 +1,21 @@
+{
+ "eligible_rounds_check": 1960,
+ "expected_eligible_rounds": 1960,
+ "A3": {
+  "rounds_confirmatory": 0,
+  "launches_confirmatory": 0,
+  "rounds_incl_dev": 0,
+  "launches_incl_dev": 0,
+  "floor_launches": 30,
+  "qualifies": false
+ },
+ "N3": {
+  "rounds_confirmatory": 1607,
+  "launches_confirmatory": 713,
+  "rounds_incl_dev": 1940,
+  "launches_incl_dev": 859,
+  "floor_launches": 30,
+  "qualifies": true
+ },
+ "source_parquet_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4"
+}

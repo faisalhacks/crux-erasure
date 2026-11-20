@@ -1,0 +1,73 @@
+{
+ "analysis_set": {
+  "set": "SENSITIVITY: including the development launches",
+  "n_launches_in": 871,
+  "n_launches_out": 871,
+  "n_dev_launches_dropped": 0,
+  "dev_file_sha256": null
+ },
+ "unit": "rater",
+ "interval": "wild",
+ "B": 10000,
+ "seed": 20261119,
+ "n_rows": 27260,
+ "n_clusters": 775,
+ "n_rounds": 1409,
+ "rounds_dropped_missing_E": 551,
+ "rater_rounds_dropped_all_tied": 22,
+ "rounds_no_E_variation": 1233,
+ "launches_with_E_variation": 166,
+ "interpretability_floor_fires": false,
+ "controlled": {
+  "erasure": {
+   "est": 0.05316215725676373,
+   "lo": 0.01306406411561023,
+   "hi": 0.0936747310368494,
+   "se": 0.020375834319173603,
+   "p_boot": 0.010798920107989201
+  },
+  "length": {
+   "est": 0.1663816306043228,
+   "lo": 0.15803704506783645,
+   "hi": 0.17461451604669526,
+   "se": 0.004214585444980759,
+   "p_boot": 9.999000099990002e-05
+  },
+  "clarity": {
+   "est": -0.023363101948033312,
+   "lo": -0.031216668576511945,
+   "hi": -0.01556573820581763,
+   "se": 0.003945222024122927,
+   "p_boot": 9.999000099990002e-05
+  }
+ },
+ "uncontrolled": {
+  "erasure": {
+   "est": -0.07382388419782872,
+   "lo": -0.12265935157592327,
+   "hi": -0.026282593167794487,
+   "se": 0.024002946182854652,
+   "p_boot": 0.0025997400259974
+  }
+ },
+ "A2h": {
+  "erasure": {
+   "est": 0.04809623349027813,
+   "lo": 0.0077351109197483295,
+   "hi": 0.08859416763274575,
+   "se": 0.02044795454808993,
+   "p_boot": 0.019998000199980003
+  },
+  "length": {
+   "est": 0.16699469210409182,
+   "lo": 0.15869852162280634,
+   "hi": 0.17520487324088221,
+   "se": 0.004223733796184925,
+   "p_boot": 9.999000099990002e-05
+  }
+ },
+ "kind": "real",
+ "tier_blind": "INFORMATIVE",
+ "tier_final": "INFORMATIVE",
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED"
+}

@@ -1,0 +1,8 @@
+{
+ "script": "figures/make_real_figures.py",
+ "stamp": "HIDE_NOT_HUMAN_VALIDATED",
+ "inputs_sha256": {
+  "figures\\data\\a2_forest.csv": "9c609d69ba29957986b0c3516d05064e8bdec94d9f811942d1653631bacc475b",
+  "figures\\data\\a2_controls.csv": "d07d6848efe0f1542148b7ca9801e8eb5774218de9c320c0ac0ac1e65e887816"
+ }
+}

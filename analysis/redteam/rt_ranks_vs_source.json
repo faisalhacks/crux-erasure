@@ -1,0 +1,141 @@
+{
+ "source_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+ "rater_rows": 9501,
+ "matched": 9376,
+ "missing_in_source": 0,
+ "mismatch_examples": [
+  {
+   "round": "4dce41f4c4bbb385941b5227a03e2dd0",
+   "pid": "76fa4fcad4",
+   "all_groups": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "source_mapped": [
+    "3",
+    "3",
+    "3",
+    "0"
+   ],
+   "source_raw": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "rc_ids_eq_cand_ids": true,
+   "cand_meta_eq": true
+  },
+  {
+   "round": "4dce41f4c4bbb385941b5227a03e2dd0",
+   "pid": "1f3e8fafe7",
+   "all_groups": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "source_mapped": [
+    "3",
+    "3",
+    "3",
+    "0"
+   ],
+   "source_raw": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "rc_ids_eq_cand_ids": true,
+   "cand_meta_eq": true
+  },
+  {
+   "round": "4e0553229ffd0dd2ef030a7bfc07a1fc",
+   "pid": "4c446a47b8",
+   "all_groups": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "source_mapped": [
+    "2",
+    "3",
+    "2",
+    "2"
+   ],
+   "source_raw": [
+    "0",
+    "3",
+    "1",
+    "2"
+   ],
+   "rc_ids_eq_cand_ids": true,
+   "cand_meta_eq": true
+  },
+  {
+   "round": "4e0553229ffd0dd2ef030a7bfc07a1fc",
+   "pid": "76fa4fcad4",
+   "all_groups": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "source_mapped": [
+    "2",
+    "3",
+    "2",
+    "2"
+   ],
+   "source_raw": [
+    "0",
+    "3",
+    "1",
+    "2"
+   ],
+   "rc_ids_eq_cand_ids": true,
+   "cand_meta_eq": true
+  },
+  {
+   "round": "4e0553229ffd0dd2ef030a7bfc07a1fc",
+   "pid": "1f3e8fafe7",
+   "all_groups": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "source_mapped": [
+    "2",
+    "3",
+    "2",
+    "2"
+   ],
+   "source_raw": [
+    "0",
+    "3",
+    "1",
+    "2"
+   ],
+   "rc_ids_eq_cand_ids": true,
+   "cand_meta_eq": true
+  }
+ ],
+ "raw_order_equal": 9501,
+ "rankings_candidate_ids_equal_cand_ids": 9501,
+ "rounds_with_duplicate_cand_ids": 40,
+ "words_E_missing": {
+  "n": 123,
+  "median": 98.0,
+  "mean": 101.6829268292683
+ },
+ "words_E_present": {
+  "n": 5781,
+  "median": 87.0,
+  "mean": 92.67894827884449
+ }
+}

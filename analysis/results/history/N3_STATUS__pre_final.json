@@ -1,0 +1,15 @@
+{
+ "status": "NOT_SCORED_MODAL_SCALEUP_FAILURE",
+ "short": "Modal never started a scorer container in four attempts 02:18–03:03Z ($0 spent); one more try at 04:00Z",
+ "approved": "decisions.md D57 (cap $3; serial after N2; deadline 06:30Z); orchestrator follow-up: 15-min limit per attempt, one retry at 04:00Z, finalize by 06:00Z",
+ "attempts": [
+  "1: 02:18-02:31Z, polled /health, no container; killed (stale reservation later released)",
+  "2: 02:32Z, refused by the harness budget (attempt 1's open reservation on the shared pilot); no call",
+  "3: 02:33-02:45Z, own pilot T3-1-N3, polled /health, no container; stopped, reservation released",
+  "4: 02:48-03:03Z, own pilot T3-1-N3, polled /health, no container; stopped at 15 min, reservation released"
+ ],
+ "evidence": "/health 503 'no upstreams available'; `modal container list` empty; app ap-SjaTupPcJSiqo6zAtVdPbL tasks 0; no app log line after 02:16:15Z",
+ "spend_usd": 0.0,
+ "holm_of_record_if_not_done": "conservative bound, N3 at p = 1 (D57)",
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED"
+}

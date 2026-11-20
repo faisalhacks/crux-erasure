@@ -1,0 +1,8 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [
+  "C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\analysis\\testdata\\DUMMY_inc_L1.csv: item DUMMY018: invalid or blank label ''"
+ ],
+ "status": "INCOMPLETE"
+}

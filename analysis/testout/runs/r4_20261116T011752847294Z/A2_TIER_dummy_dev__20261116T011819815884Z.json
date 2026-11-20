@@ -1,0 +1,39 @@
+{
+ "kind": "dummy",
+ "analysis_set": {
+  "set": "CONFIRMATORY (development launches excluded)",
+  "n_launches_in": 60,
+  "n_launches_out": 40,
+  "n_dev_launches_dropped": 20,
+  "dev_file_sha256": "testsha"
+ },
+ "tier_of_record_set": "confirmatory set (development launches excluded)",
+ "counts": {
+  "rounds_in_set": 80,
+  "R_inf": 10,
+  "K_inf": 5
+ },
+ "counts_including_development_launches": {
+  "rounds_in_set": 120,
+  "R_inf": 50,
+  "K_inf": 25
+ },
+ "counts_other": {},
+ "counts_other_including_development_launches": {},
+ "R_inf": 10,
+ "K_inf": 5,
+ "SD_null_beta_E": 0.06910691258765492,
+ "MDE80": 0.19349935524543377,
+ "n_null_fits": 10,
+ "null_beta_E_mean": 0.01868152654287871,
+ "shuffle_seeds": "random.Random(430000+i), i=0..9",
+ "thresholds": {
+  "K_informative": 100,
+  "K_low_power": 50,
+  "MDE80_max": 0.1
+ },
+ "tier": "NOT MEASURABLE",
+ "disclosure": "The all-launch tier of D35 (K_inf=168, MDE80=0.0509, INFORMATIVE; 144 informative launches outside the development set) was logged before this row was written; thresholds were fixed in R1 and are unchanged (FR 7.1).",
+ "note": "computed from shuffled ranks only; one-way downgrade after unblinding is applied by the A2 run (FR 7.1)",
+ "gate_tag": "NOT_REAL(dummy)"
+}

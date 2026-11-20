@@ -1,0 +1,198 @@
+{
+ "step": "llm",
+ "kind": "dummy",
+ "label": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "problems": [],
+ "supplementary": "no cut-off, no rule, no effect on gate 1, the N2 check, the headline or any label (FR 6.8)",
+ "design": "two_human",
+ "n_llm_labels": 49,
+ "missing_or_invalid_llm_labels_left_out": [
+  "P1_005"
+ ],
+ "unknown_ids_ignored": [],
+ "author_pass1_vs_llm": {
+  "n": 49,
+  "kappa": 0.6984615384615385,
+  "ac1": 0.7766381766381767,
+  "percent_agreement": 0.8367346938775511,
+  "B": 1000,
+  "seed": 20261134,
+  "kappa_ci95": [
+   0.5241733316762196,
+   0.8752694185059423
+  ],
+  "ac1_ci95": [
+   0.6306186196757295,
+   0.9173228346456693
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.4902470741222366,
+  "kappa_both_definite": 0.5631067961165047,
+  "n_both_definite": 45,
+  "unsure_first": 2,
+  "unsure_second": 2,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 21,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 1
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 3,
+    "SHOWS": 4,
+    "UNSURE": 1
+   },
+   "SHOWS": {
+    "HIDES": 3,
+    "NO_DISAGREEMENT": 4,
+    "SHOWS": 9,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 1,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 37,
+   "kappa": 0.6495263870094723,
+   "ac1": 0.7414524581981534
+  },
+  "by_kind_n2": {
+   "n": 12,
+   "kappa": 0.7999999999999999,
+   "ac1": 0.8949671772428883
+  }
+ },
+ "volunteer_vs_llm": {
+  "n": 49,
+  "kappa": 0.6881463802704854,
+  "ac1": 0.7794345196230131,
+  "percent_agreement": 0.8367346938775511,
+  "B": 1000,
+  "seed": 20261134,
+  "kappa_ci95": [
+   0.49880361067928597,
+   0.8459179970972424
+  ],
+  "ac1_ci95": [
+   0.642320679349388,
+   0.8929695672663189
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.4428093645484949,
+  "kappa_both_definite": 0.47230538922155685,
+  "n_both_definite": 47,
+  "unsure_first": 0,
+  "unsure_second": 2,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 21,
+    "NO_DISAGREEMENT": 1,
+    "SHOWS": 0,
+    "UNSURE": 1
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 2,
+    "NO_DISAGREEMENT": 1,
+    "SHOWS": 4,
+    "UNSURE": 1
+   },
+   "SHOWS": {
+    "HIDES": 3,
+    "NO_DISAGREEMENT": 5,
+    "SHOWS": 10,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 37,
+   "kappa": 0.634180790960452,
+   "ac1": 0.7455795677799606
+  },
+  "by_kind_n2": {
+   "n": 12,
+   "kappa": 0.7999999999999999,
+   "ac1": 0.8949671772428883
+  }
+ },
+ "labels_of_record_vs_llm": {
+  "n": 49,
+  "kappa": 0.766109785202864,
+  "ac1": 0.8345758897172598,
+  "percent_agreement": 0.8775510204081632,
+  "B": 1000,
+  "seed": 20261134,
+  "kappa_ci95": [
+   0.6082880623373073,
+   0.9181969949916526
+  ],
+  "ac1_ci95": [
+   0.7198659084494202,
+   0.9456489656669721
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.5345997286295794,
+  "kappa_both_definite": 0.5711026615969581,
+  "n_both_definite": 47,
+  "unsure_first": 0,
+  "unsure_second": 2,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 22,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 1
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 1,
+    "SHOWS": 2,
+    "UNSURE": 1
+   },
+   "SHOWS": {
+    "HIDES": 3,
+    "NO_DISAGREEMENT": 6,
+    "SHOWS": 12,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 37,
+   "kappa": 0.7387005649717515,
+   "ac1": 0.8182711198428292
+  },
+  "by_kind_n2": {
+   "n": 12,
+   "kappa": 0.7999999999999999,
+   "ac1": 0.8949671772428883
+  }
+ },
+ "scorer1_BA_vs_llm_labels_NOT_HUMAN": {
+  "n": 35,
+  "n_human_pos": 22,
+  "n_human_neg": 13,
+  "ba": 0.8863636363636364,
+  "lo": 0.7916666666666667,
+  "hi": 0.9687959558823529
+ },
+ "status": "COMPUTED",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

@@ -1,0 +1,1644 @@
+{
+ "WARNING": "NOT for labelers. Contains launch/round/candidate ids and duplicate links.",
+ "data_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+ "frozen_rules_sha256": "5c9638c9320c830a1d6997534dc6bb6d3183f79313f1e8427df1baaf2ca5795a",
+ "seeds": {
+  "sample_and_dups": 20261115,
+  "row_order": {
+   "L1": 20261117,
+   "L2": 20261118
+  },
+  "item_id_naming": 20261130
+ },
+ "reshuffle_tries_for_dup_spacing": {
+  "L1": 4,
+  "L2": 1
+ },
+ "eligible_counts": {
+  "eligible_rounds": 1960,
+  "eligible_launches": 871,
+  "eligible_rater_rows": 9501
+ },
+ "development_launches_excluded": 150,
+ "pool_launches": 721,
+ "sample": {
+  "shared": [
+   {
+    "launch_id": "69b5ee5f8e4a492099265be2fe20bf56",
+    "round_id": "6c096d448db05c17224f24af33a8579f",
+    "cand": 0,
+    "role": "shared",
+    "item_id": "c2c063fe",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "06849bffc75443f49f7b6635221846ad",
+    "round_id": "296d9442d46cc1df6ba5f1e9b930fd8f",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "239eed24",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "ab4fdb0daea941398e4d027e98d167d4",
+    "round_id": "581a7dfe0191b749d0dbe4f6961c4f92",
+    "cand": 0,
+    "role": "shared",
+    "item_id": "958507ad",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "ff77e284cf1d495189461ebb9aa31139",
+    "round_id": "07b48af11552a077dab89e14d8547e2d",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "f768064f",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "f1c687e99ad248f5a36ebebc4ab363f8",
+    "round_id": "a0b8b3692a67510811e90dd6e7e94c0c",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "0e9a8df5",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "e0348f75756c4600b4f17952834566f4",
+    "round_id": "8ae3821d5d47e38642538a8fe882c16a",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "55113dc3",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "39570b52e55844498773094717c8581c",
+    "round_id": "d31efbecc7c2c5ba93d01d3a3567721e",
+    "cand": 1,
+    "role": "shared",
+    "item_id": "e0c67744",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "7b1b65f9587f45a6bf7138f9df4e6299",
+    "round_id": "eebcbf2880af36fa3d7a9fe598db3147",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "5966eb44",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "3dab426c00184554996d62001b1b6208",
+    "round_id": "bd83bc2808d57996ff3deb41d5cecb21",
+    "cand": 1,
+    "role": "shared",
+    "item_id": "fcb042d9",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "fda7c40c479c4b268d0fca0db1763961",
+    "round_id": "3d65f72c8966843836d55f7c4256fc07",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "4ca82984",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "fed2aea55b0e452d970d2ca338ad7641",
+    "round_id": "1ca827a1d6f0dbd5765da01a1859ed5d",
+    "cand": 3,
+    "role": "shared",
+    "item_id": "1720800e",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "a2843b73bd2f44f2a50b1019146162da",
+    "round_id": "3c8295aaefb4b7b514d791488b330111",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "b9c48cb0",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "e6fded0197fc418d81b779bcf6b5f4a3",
+    "round_id": "dc2b6e5c29995914be4d86937c3311d7",
+    "cand": 3,
+    "role": "shared",
+    "item_id": "a9f18630",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "426305a26cf1415fa08ecb14a8303cdb",
+    "round_id": "9709e0f4c687d24ae88b0a90b6f75e9a",
+    "cand": 0,
+    "role": "shared",
+    "item_id": "d6c93f01",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "212fce1df30245b5b06fd87c411a9116",
+    "round_id": "5d970db5795c5103c25e8a0d3d1381ba",
+    "cand": 3,
+    "role": "shared",
+    "item_id": "bc4d13dc",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "0d698db83fbd4920b188403d1e19e182",
+    "round_id": "202712748595a34c3a1b4a30b2785581",
+    "cand": 1,
+    "role": "shared",
+    "item_id": "a83c546d",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "58eb286f3c34408ea38b8509dffd8a80",
+    "round_id": "2ccec5416ea0455ba7f61e9fc3d0d0d7",
+    "cand": 1,
+    "role": "shared",
+    "item_id": "df2d5c05",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "ba181a5ada374d2abaa8aeff031828fb",
+    "round_id": "d61d78b682f3265648d768293f165100",
+    "cand": 3,
+    "role": "shared",
+    "item_id": "a3966023",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "f9b0ab67c9734ca5afd9e69228cf1ae8",
+    "round_id": "a411c9ebe8c6c405d7f26c1a08f7d4d8",
+    "cand": 3,
+    "role": "shared",
+    "item_id": "cddba416",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "406aaefad00040b2a442d5fd567e66a9",
+    "round_id": "0c2e4296148a1cfac5354398fa98e429",
+    "cand": 2,
+    "role": "shared",
+    "item_id": "ace970fc",
+    "labelers": [
+     "L1",
+     "L2"
+    ]
+   }
+  ],
+  "L1_unique": [
+   {
+    "launch_id": "34e2e6b99f4c4180869058db94e35af0",
+    "round_id": "14f471536901dade57c967a6653ee0b6",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "2b5eadad",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "1b429af584cd419592ecae991056bad1",
+    "round_id": "5d3148a88daf400a939a31968820d288",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "4fe2c4e1",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "c5b1cfe44406448faffd1f73f9f1f054",
+    "round_id": "7b6379df41f2521713a82ee42cb82372",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "e25fe71d",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "b095b420142e4cf5ae874a959902d55a",
+    "round_id": "8027cb96776b6b6b394ae5d30de3a248",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "00633256",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "387c68b5a41b4af0912df96282750b6b",
+    "round_id": "f8a9c1f10ec68d929dbce4baacc51275",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "a9998118",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "b8008285be1e42cb997df259357df77e",
+    "round_id": "ba36ca9b3951edc221486d8e26cc5b03",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "34c6049f",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "76f49f62cbca480f8317e15e766e139c",
+    "round_id": "c1e96084aad6931b2576e56e4aa02eb3",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "19428e8a",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "7799c8123419436c8c6c9e743e962ac0",
+    "round_id": "e4e4adf44a483aed381587b30ce8319e",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "e66c0e98",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "3233284ee18a4339b6b21102949f1812",
+    "round_id": "5a1435b61104d39241b94067d7ec88b2",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "be71c2d9",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "7f67dbac87f14f1685b3b46eac390b9e",
+    "round_id": "4f72b331e54e2dcd14a1815bf810f80d",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "a62d2465",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "a4f70dd225124dc1b3e76b8a98367175",
+    "round_id": "01beab0ef9970866e75f3931b81cb844",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "d9f9bacd",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "7fddf129404a4b30bed27ae086983cdc",
+    "round_id": "7643eacef4a91d8557f8f93a0319036e",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "3c19c840",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "3da40d8ef9ac465896a882aed063f54d",
+    "round_id": "0998b98813a3f67272c50aaddcf3fd5c",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "57a73cab",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "c72c67079bb14689bf4edb664f5fe6e5",
+    "round_id": "707019ef816e06736040cba88c3023df",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "f5a6b47b",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "0cee315fcf3b4df9aee49365bc95bea9",
+    "round_id": "f714b85a4deaa98ff1bc65b9de032c55",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "a11b5c7d",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "e32039fd99de4bc382bfaf35b0ce1370",
+    "round_id": "ce7806646b92d5b32568f37f393f5bf0",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "e7f137f5",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "965de0767c644c48a28578b95602e84f",
+    "round_id": "8ae432711f2fbb5ce34d0b6a6bbb697e",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "fdbc4be2",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "033c1f7284ce42cf89f688b5d6f02947",
+    "round_id": "a296e99372be06ea259cd05d1d2f0aed",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "60a8a1e2",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "7d717174eb2644dca2fed70232961908",
+    "round_id": "338dbd40fe20ad6f85c07cdc5d78ebc1",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "43d2ba11",
+    "labelers": [
+     "L1"
+    ]
+   },
+   {
+    "launch_id": "cd593c54e50141c9be302e3f3f380eae",
+    "round_id": "60dac22f15e32a240f7e41af568b089f",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "12f034c1",
+    "labelers": [
+     "L1"
+    ]
+   }
+  ],
+  "L2_unique": [
+   {
+    "launch_id": "6910612a0edb4b3f87c6fa9dc9e56590",
+    "round_id": "a53456c29fff9f6ac6be323b7de212bc",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "cfbaa4dd",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "7324c66c6d5e40e3bdf83ea9202fe9a0",
+    "round_id": "4773edafe95358e674cf1481862234e3",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "d6567964",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "db37fd7d45774b78b78f38e700f834b4",
+    "round_id": "14d6a2cecfc796225bee358df50b9756",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "946a0998",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "7b741bdd1d74450c9156e9db3fb33735",
+    "round_id": "e6edfa6537fccce17a26734f9b22fb24",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "83de0b93",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "8351dd54415446d8bbba3e4ebc532298",
+    "round_id": "bf410889480eaac1e3f4c7fec3b75da7",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "923fe54e",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "732928ea1c2648fbadb63f3f326a2702",
+    "round_id": "e6ffc24d369431d3a66e7f003cb28f35",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "9f777337",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "1e50e39ebe34436bb41eb68c94f38abf",
+    "round_id": "5c2b741b34852c025466f90bbf30ee36",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "f65cc902",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "475fca19523d43e7a7537c0c56b674b4",
+    "round_id": "8c2a03ec69ad80f8b76872164aa9570b",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "068c193b",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "2157e9f431df4f0b965312c0ff3ef53d",
+    "round_id": "c471ed83508f4424cddc681039af95ef",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "12806dcc",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "0a9405ce2b8c4dd7985930989fed16ae",
+    "round_id": "2d2dc3884498dd523c7571ef2f653a73",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "3379782e",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "911e0a61f3574a45aec453b46bcf6da9",
+    "round_id": "29c4be1f7a40b55cb2d4e781e4b2e8df",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "6546e4be",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "ebbf32441bbd4ec7a9c3406046da5df4",
+    "round_id": "7e8c54eb1bd582280d21a9a66f55a5c5",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "c85ad6ff",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "2106a21a3fe649c99bae5eb2b9fc7092",
+    "round_id": "1b02de3e8cd3115e695efa5379250339",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "53c80a75",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "9f6b36b3b4f941e08af23ca0a21e532b",
+    "round_id": "80b301cd2d2f0b882fa5066f4953e061",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "33ba20d2",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "e96a30dbb6df402dbe266ab7d157a92a",
+    "round_id": "9df905320f3bd2a60f272e36ee393a20",
+    "cand": 3,
+    "role": "unique",
+    "item_id": "2fb71eac",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "a173918d6864474bab6899f506833121",
+    "round_id": "6e9140ea689ae13d93f0cb8ec9b01ec7",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "10cc8042",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "791956d8aefe44fabaa09ddeda8a8be7",
+    "round_id": "3597bc41706e0218edcb26b1052334c5",
+    "cand": 0,
+    "role": "unique",
+    "item_id": "dba55617",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "c2d7a13285bd48ffbfc2dc7ae73f88b5",
+    "round_id": "e28a8271a93645cac40eae2e94cd3400",
+    "cand": 1,
+    "role": "unique",
+    "item_id": "f7453614",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "2c7e4f91a72043839b90eec2f3b073e8",
+    "round_id": "4115793c3500c26ad9e9ae5db00e8021",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "3701003f",
+    "labelers": [
+     "L2"
+    ]
+   },
+   {
+    "launch_id": "56dc8ad8d16d4af4a9030159cd5d1f25",
+    "round_id": "cd14a00b6fbe12bce4a21352a4a2f102",
+    "cand": 2,
+    "role": "unique",
+    "item_id": "33393138",
+    "labelers": [
+     "L2"
+    ]
+   }
+  ]
+ },
+ "duplicate_sources_index": {
+  "L1": {
+   "shared_idx": [
+    9,
+    3
+   ],
+   "unique_idx": [
+    1,
+    7
+   ]
+  },
+  "L2": {
+   "shared_idx": [
+    17,
+    16
+   ],
+   "unique_idx": [
+    17,
+    14
+   ]
+  }
+ },
+ "items": [
+  {
+   "labeler": "L1",
+   "row": 1,
+   "item_id": "a83c546d",
+   "launch_id": "0d698db83fbd4920b188403d1e19e182",
+   "round_id": "202712748595a34c3a1b4a30b2785581",
+   "cand": 1,
+   "cand_id": "c63ec91f5ca372b0172429b73684fe0f",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 2,
+   "item_id": "5966eb44",
+   "launch_id": "7b1b65f9587f45a6bf7138f9df4e6299",
+   "round_id": "eebcbf2880af36fa3d7a9fe598db3147",
+   "cand": 2,
+   "cand_id": "29649ff2339bfa02801a3327f3227e45",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 3,
+   "item_id": "ace970fc",
+   "launch_id": "406aaefad00040b2a442d5fd567e66a9",
+   "round_id": "0c2e4296148a1cfac5354398fa98e429",
+   "cand": 2,
+   "cand_id": "e7d190fb09c3b56b278f46658f1b09b4",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 4,
+   "item_id": "fdbc4be2",
+   "launch_id": "965de0767c644c48a28578b95602e84f",
+   "round_id": "8ae432711f2fbb5ce34d0b6a6bbb697e",
+   "cand": 1,
+   "cand_id": "e8c050cd947774e496e6d397d06ce998",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 5,
+   "item_id": "12f034c1",
+   "launch_id": "cd593c54e50141c9be302e3f3f380eae",
+   "round_id": "60dac22f15e32a240f7e41af568b089f",
+   "cand": 0,
+   "cand_id": "ff8ff9fd3f1bbce85bbeb03f0d9b564f",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 6,
+   "item_id": "34c6049f",
+   "launch_id": "b8008285be1e42cb997df259357df77e",
+   "round_id": "ba36ca9b3951edc221486d8e26cc5b03",
+   "cand": 1,
+   "cand_id": "71bac40a801144d02b8c020221e5a295",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 7,
+   "item_id": "a11b5c7d",
+   "launch_id": "0cee315fcf3b4df9aee49365bc95bea9",
+   "round_id": "f714b85a4deaa98ff1bc65b9de032c55",
+   "cand": 2,
+   "cand_id": "08ce0d57a4d68b4bf50fbc50a41d8197",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 8,
+   "item_id": "e66c0e98",
+   "launch_id": "7799c8123419436c8c6c9e743e962ac0",
+   "round_id": "e4e4adf44a483aed381587b30ce8319e",
+   "cand": 3,
+   "cand_id": "59beba29c3e4aa510245f8b35603787d",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 9,
+   "item_id": "f5a6b47b",
+   "launch_id": "c72c67079bb14689bf4edb664f5fe6e5",
+   "round_id": "707019ef816e06736040cba88c3023df",
+   "cand": 2,
+   "cand_id": "51aaebe0b9d46ef98af7618b60dffd7c",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 10,
+   "item_id": "4fe2c4e1",
+   "launch_id": "1b429af584cd419592ecae991056bad1",
+   "round_id": "5d3148a88daf400a939a31968820d288",
+   "cand": 0,
+   "cand_id": "6da7c6d1a6f65a6ce7affd3c552fb203",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 11,
+   "item_id": "f768064f",
+   "launch_id": "ff77e284cf1d495189461ebb9aa31139",
+   "round_id": "07b48af11552a077dab89e14d8547e2d",
+   "cand": 2,
+   "cand_id": "4985c57c5a99c600e6b3f512ac20b097",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 12,
+   "item_id": "a3966023",
+   "launch_id": "ba181a5ada374d2abaa8aeff031828fb",
+   "round_id": "d61d78b682f3265648d768293f165100",
+   "cand": 3,
+   "cand_id": "26b52436b0b63d536f4b4c667d987b35",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 13,
+   "item_id": "3c19c840",
+   "launch_id": "7fddf129404a4b30bed27ae086983cdc",
+   "round_id": "7643eacef4a91d8557f8f93a0319036e",
+   "cand": 0,
+   "cand_id": "cc798b2f553b538323e735083b086967",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 14,
+   "item_id": "cddba416",
+   "launch_id": "f9b0ab67c9734ca5afd9e69228cf1ae8",
+   "round_id": "a411c9ebe8c6c405d7f26c1a08f7d4d8",
+   "cand": 3,
+   "cand_id": "59e0021a4d4025225ec72879c89848e8",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 15,
+   "item_id": "d6c93f01",
+   "launch_id": "426305a26cf1415fa08ecb14a8303cdb",
+   "round_id": "9709e0f4c687d24ae88b0a90b6f75e9a",
+   "cand": 0,
+   "cand_id": "563bb2e67f0a758eb524163d3453372e",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 16,
+   "item_id": "1720800e",
+   "launch_id": "fed2aea55b0e452d970d2ca338ad7641",
+   "round_id": "1ca827a1d6f0dbd5765da01a1859ed5d",
+   "cand": 3,
+   "cand_id": "b17e1a8d9a14797389f60b47afe34cfd",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 17,
+   "item_id": "57a73cab",
+   "launch_id": "3da40d8ef9ac465896a882aed063f54d",
+   "round_id": "0998b98813a3f67272c50aaddcf3fd5c",
+   "cand": 0,
+   "cand_id": "67509cc5dcbf294c73913dc1490f10ac",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 18,
+   "item_id": "2b5eadad",
+   "launch_id": "34e2e6b99f4c4180869058db94e35af0",
+   "round_id": "14f471536901dade57c967a6653ee0b6",
+   "cand": 3,
+   "cand_id": "fe77d88c40b8687ecbe0053186c5809e",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 19,
+   "item_id": "00633256",
+   "launch_id": "b095b420142e4cf5ae874a959902d55a",
+   "round_id": "8027cb96776b6b6b394ae5d30de3a248",
+   "cand": 1,
+   "cand_id": "46c9f37404c4bf8180bbf29a54c5515f",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 20,
+   "item_id": "239eed24",
+   "launch_id": "06849bffc75443f49f7b6635221846ad",
+   "round_id": "296d9442d46cc1df6ba5f1e9b930fd8f",
+   "cand": 2,
+   "cand_id": "14c7efd387eaeecc7d7d93b3a7515c80",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 21,
+   "item_id": "a62d2465",
+   "launch_id": "7f67dbac87f14f1685b3b46eac390b9e",
+   "round_id": "4f72b331e54e2dcd14a1815bf810f80d",
+   "cand": 3,
+   "cand_id": "135e4fa4b2c21beab37c9604eb73bd58",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 22,
+   "item_id": "fcb042d9",
+   "launch_id": "3dab426c00184554996d62001b1b6208",
+   "round_id": "bd83bc2808d57996ff3deb41d5cecb21",
+   "cand": 1,
+   "cand_id": "a56557ffec1a8b2f7dbfd0d96ca06d57",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 23,
+   "item_id": "be71c2d9",
+   "launch_id": "3233284ee18a4339b6b21102949f1812",
+   "round_id": "5a1435b61104d39241b94067d7ec88b2",
+   "cand": 1,
+   "cand_id": "e124a40ff5fd0eb642f006acb6a589bc",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 24,
+   "item_id": "4ca82984",
+   "launch_id": "fda7c40c479c4b268d0fca0db1763961",
+   "round_id": "3d65f72c8966843836d55f7c4256fc07",
+   "cand": 2,
+   "cand_id": "98e4697b36c2055b8b4fd17ffec9e007",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 25,
+   "item_id": "19428e8a",
+   "launch_id": "76f49f62cbca480f8317e15e766e139c",
+   "round_id": "c1e96084aad6931b2576e56e4aa02eb3",
+   "cand": 3,
+   "cand_id": "6a59fe58eff960bf9d39173aaeef98c3",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 26,
+   "item_id": "e7f137f5",
+   "launch_id": "e32039fd99de4bc382bfaf35b0ce1370",
+   "round_id": "ce7806646b92d5b32568f37f393f5bf0",
+   "cand": 3,
+   "cand_id": "3822146710d6bc7b7b8314216b03839b",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 27,
+   "item_id": "df2d5c05",
+   "launch_id": "58eb286f3c34408ea38b8509dffd8a80",
+   "round_id": "2ccec5416ea0455ba7f61e9fc3d0d0d7",
+   "cand": 1,
+   "cand_id": "f2c343b5f19201ebc77bd1b09deef520",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 28,
+   "item_id": "d9f9bacd",
+   "launch_id": "a4f70dd225124dc1b3e76b8a98367175",
+   "round_id": "01beab0ef9970866e75f3931b81cb844",
+   "cand": 2,
+   "cand_id": "cc9155b1041c961c9186cfe503d80bbc",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 29,
+   "item_id": "958507ad",
+   "launch_id": "ab4fdb0daea941398e4d027e98d167d4",
+   "round_id": "581a7dfe0191b749d0dbe4f6961c4f92",
+   "cand": 0,
+   "cand_id": "445e0204366a80c23f55d3499ac5f970",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 30,
+   "item_id": "43d2ba11",
+   "launch_id": "7d717174eb2644dca2fed70232961908",
+   "round_id": "338dbd40fe20ad6f85c07cdc5d78ebc1",
+   "cand": 3,
+   "cand_id": "095b754ca9e2cd0f548a23636a9faa5f",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 31,
+   "item_id": "4223d05b",
+   "launch_id": "7799c8123419436c8c6c9e743e962ac0",
+   "round_id": "e4e4adf44a483aed381587b30ce8319e",
+   "cand": 3,
+   "cand_id": "59beba29c3e4aa510245f8b35603787d",
+   "role": "duplicate",
+   "dup_of": "e66c0e98"
+  },
+  {
+   "labeler": "L1",
+   "row": 32,
+   "item_id": "a9f18630",
+   "launch_id": "e6fded0197fc418d81b779bcf6b5f4a3",
+   "round_id": "dc2b6e5c29995914be4d86937c3311d7",
+   "cand": 3,
+   "cand_id": "d3b86a52d89dce9475bb91ec4e070337",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 33,
+   "item_id": "0e9a8df5",
+   "launch_id": "f1c687e99ad248f5a36ebebc4ab363f8",
+   "round_id": "a0b8b3692a67510811e90dd6e7e94c0c",
+   "cand": 2,
+   "cand_id": "034cf1d8f466d0eff48f0ca2cdcee783",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 34,
+   "item_id": "60a8a1e2",
+   "launch_id": "033c1f7284ce42cf89f688b5d6f02947",
+   "round_id": "a296e99372be06ea259cd05d1d2f0aed",
+   "cand": 2,
+   "cand_id": "1691f271889a43ec8c7dbb1565ce1788",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 35,
+   "item_id": "e25fe71d",
+   "launch_id": "c5b1cfe44406448faffd1f73f9f1f054",
+   "round_id": "7b6379df41f2521713a82ee42cb82372",
+   "cand": 0,
+   "cand_id": "63e331a382a32dc2c5f3f535027a284c",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 36,
+   "item_id": "17b98c28",
+   "launch_id": "1b429af584cd419592ecae991056bad1",
+   "round_id": "5d3148a88daf400a939a31968820d288",
+   "cand": 0,
+   "cand_id": "6da7c6d1a6f65a6ce7affd3c552fb203",
+   "role": "duplicate",
+   "dup_of": "4fe2c4e1"
+  },
+  {
+   "labeler": "L1",
+   "row": 37,
+   "item_id": "bc4d13dc",
+   "launch_id": "212fce1df30245b5b06fd87c411a9116",
+   "round_id": "5d970db5795c5103c25e8a0d3d1381ba",
+   "cand": 3,
+   "cand_id": "c3284cc1b0e512088e9783fec1454fda",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 38,
+   "item_id": "b9c48cb0",
+   "launch_id": "a2843b73bd2f44f2a50b1019146162da",
+   "round_id": "3c8295aaefb4b7b514d791488b330111",
+   "cand": 2,
+   "cand_id": "36da6b0449ee2c5fa26326decf0638ca",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 39,
+   "item_id": "c2c063fe",
+   "launch_id": "69b5ee5f8e4a492099265be2fe20bf56",
+   "round_id": "6c096d448db05c17224f24af33a8579f",
+   "cand": 0,
+   "cand_id": "bd03fbd41529fc6f757460b19f259769",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 40,
+   "item_id": "55113dc3",
+   "launch_id": "e0348f75756c4600b4f17952834566f4",
+   "round_id": "8ae3821d5d47e38642538a8fe882c16a",
+   "cand": 2,
+   "cand_id": "da1c52ab201028e1ef2dc76c0d77b740",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 41,
+   "item_id": "e0c67744",
+   "launch_id": "39570b52e55844498773094717c8581c",
+   "round_id": "d31efbecc7c2c5ba93d01d3a3567721e",
+   "cand": 1,
+   "cand_id": "514ec4c5532aac59c7c2b9e18422ed90",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L1",
+   "row": 42,
+   "item_id": "ca927d72",
+   "launch_id": "ff77e284cf1d495189461ebb9aa31139",
+   "round_id": "07b48af11552a077dab89e14d8547e2d",
+   "cand": 2,
+   "cand_id": "4985c57c5a99c600e6b3f512ac20b097",
+   "role": "duplicate",
+   "dup_of": "f768064f"
+  },
+  {
+   "labeler": "L1",
+   "row": 43,
+   "item_id": "5879f224",
+   "launch_id": "fda7c40c479c4b268d0fca0db1763961",
+   "round_id": "3d65f72c8966843836d55f7c4256fc07",
+   "cand": 2,
+   "cand_id": "98e4697b36c2055b8b4fd17ffec9e007",
+   "role": "duplicate",
+   "dup_of": "4ca82984"
+  },
+  {
+   "labeler": "L1",
+   "row": 44,
+   "item_id": "a9998118",
+   "launch_id": "387c68b5a41b4af0912df96282750b6b",
+   "round_id": "f8a9c1f10ec68d929dbce4baacc51275",
+   "cand": 0,
+   "cand_id": "0f4167fb790de016e61c6ff1e4b2ca97",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 1,
+   "item_id": "1720800e",
+   "launch_id": "fed2aea55b0e452d970d2ca338ad7641",
+   "round_id": "1ca827a1d6f0dbd5765da01a1859ed5d",
+   "cand": 3,
+   "cand_id": "b17e1a8d9a14797389f60b47afe34cfd",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 2,
+   "item_id": "068c193b",
+   "launch_id": "475fca19523d43e7a7537c0c56b674b4",
+   "round_id": "8c2a03ec69ad80f8b76872164aa9570b",
+   "cand": 1,
+   "cand_id": "4a883e64a2385472abb42ba10ff88866",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 3,
+   "item_id": "f7453614",
+   "launch_id": "c2d7a13285bd48ffbfc2dc7ae73f88b5",
+   "round_id": "e28a8271a93645cac40eae2e94cd3400",
+   "cand": 1,
+   "cand_id": "d16e5411d3012eed796ea478b0aea5bd",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 4,
+   "item_id": "ace970fc",
+   "launch_id": "406aaefad00040b2a442d5fd567e66a9",
+   "round_id": "0c2e4296148a1cfac5354398fa98e429",
+   "cand": 2,
+   "cand_id": "e7d190fb09c3b56b278f46658f1b09b4",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 5,
+   "item_id": "83de0b93",
+   "launch_id": "7b741bdd1d74450c9156e9db3fb33735",
+   "round_id": "e6edfa6537fccce17a26734f9b22fb24",
+   "cand": 0,
+   "cand_id": "455438ad4eacc93b8de586d6c03cc3d1",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 6,
+   "item_id": "df2d5c05",
+   "launch_id": "58eb286f3c34408ea38b8509dffd8a80",
+   "round_id": "2ccec5416ea0455ba7f61e9fc3d0d0d7",
+   "cand": 1,
+   "cand_id": "f2c343b5f19201ebc77bd1b09deef520",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 7,
+   "item_id": "3379782e",
+   "launch_id": "0a9405ce2b8c4dd7985930989fed16ae",
+   "round_id": "2d2dc3884498dd523c7571ef2f653a73",
+   "cand": 1,
+   "cand_id": "68d9cd82be65c27d1fb007b39c88b6b2",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 8,
+   "item_id": "9f777337",
+   "launch_id": "732928ea1c2648fbadb63f3f326a2702",
+   "round_id": "e6ffc24d369431d3a66e7f003cb28f35",
+   "cand": 1,
+   "cand_id": "542d864f800c16f00ce0bda2fcdbf6cc",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 9,
+   "item_id": "2fb71eac",
+   "launch_id": "e96a30dbb6df402dbe266ab7d157a92a",
+   "round_id": "9df905320f3bd2a60f272e36ee393a20",
+   "cand": 3,
+   "cand_id": "faec083f0b57d9f8881641efed709228",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 10,
+   "item_id": "a9f18630",
+   "launch_id": "e6fded0197fc418d81b779bcf6b5f4a3",
+   "round_id": "dc2b6e5c29995914be4d86937c3311d7",
+   "cand": 3,
+   "cand_id": "d3b86a52d89dce9475bb91ec4e070337",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 11,
+   "item_id": "dba55617",
+   "launch_id": "791956d8aefe44fabaa09ddeda8a8be7",
+   "round_id": "3597bc41706e0218edcb26b1052334c5",
+   "cand": 0,
+   "cand_id": "a1ff852022d44499ae8fc49ceb40872b",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 12,
+   "item_id": "cddba416",
+   "launch_id": "f9b0ab67c9734ca5afd9e69228cf1ae8",
+   "round_id": "a411c9ebe8c6c405d7f26c1a08f7d4d8",
+   "cand": 3,
+   "cand_id": "59e0021a4d4025225ec72879c89848e8",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 13,
+   "item_id": "a83c546d",
+   "launch_id": "0d698db83fbd4920b188403d1e19e182",
+   "round_id": "202712748595a34c3a1b4a30b2785581",
+   "cand": 1,
+   "cand_id": "c63ec91f5ca372b0172429b73684fe0f",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 14,
+   "item_id": "12806dcc",
+   "launch_id": "2157e9f431df4f0b965312c0ff3ef53d",
+   "round_id": "c471ed83508f4424cddc681039af95ef",
+   "cand": 0,
+   "cand_id": "9823bda67a0ad3ecc78d8041e5b736f0",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 15,
+   "item_id": "4ca82984",
+   "launch_id": "fda7c40c479c4b268d0fca0db1763961",
+   "round_id": "3d65f72c8966843836d55f7c4256fc07",
+   "cand": 2,
+   "cand_id": "98e4697b36c2055b8b4fd17ffec9e007",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 16,
+   "item_id": "f768064f",
+   "launch_id": "ff77e284cf1d495189461ebb9aa31139",
+   "round_id": "07b48af11552a077dab89e14d8547e2d",
+   "cand": 2,
+   "cand_id": "4985c57c5a99c600e6b3f512ac20b097",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 17,
+   "item_id": "53c80a75",
+   "launch_id": "2106a21a3fe649c99bae5eb2b9fc7092",
+   "round_id": "1b02de3e8cd3115e695efa5379250339",
+   "cand": 3,
+   "cand_id": "32ab35d06430d357f28b3d3aa8de0f1f",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 18,
+   "item_id": "fcb042d9",
+   "launch_id": "3dab426c00184554996d62001b1b6208",
+   "round_id": "bd83bc2808d57996ff3deb41d5cecb21",
+   "cand": 1,
+   "cand_id": "a56557ffec1a8b2f7dbfd0d96ca06d57",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 19,
+   "item_id": "f65cc902",
+   "launch_id": "1e50e39ebe34436bb41eb68c94f38abf",
+   "round_id": "5c2b741b34852c025466f90bbf30ee36",
+   "cand": 0,
+   "cand_id": "6b6db2f4d8bb2a403f44fd49e941ce6e",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 20,
+   "item_id": "33ba20d2",
+   "launch_id": "9f6b36b3b4f941e08af23ca0a21e532b",
+   "round_id": "80b301cd2d2f0b882fa5066f4953e061",
+   "cand": 1,
+   "cand_id": "06cebb956c4d6bf2b405e55eae9994c8",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 21,
+   "item_id": "b9c48cb0",
+   "launch_id": "a2843b73bd2f44f2a50b1019146162da",
+   "round_id": "3c8295aaefb4b7b514d791488b330111",
+   "cand": 2,
+   "cand_id": "36da6b0449ee2c5fa26326decf0638ca",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 22,
+   "item_id": "10cc8042",
+   "launch_id": "a173918d6864474bab6899f506833121",
+   "round_id": "6e9140ea689ae13d93f0cb8ec9b01ec7",
+   "cand": 2,
+   "cand_id": "f88a9edc281ff9f8587aa571f7b79037",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 23,
+   "item_id": "a3966023",
+   "launch_id": "ba181a5ada374d2abaa8aeff031828fb",
+   "round_id": "d61d78b682f3265648d768293f165100",
+   "cand": 3,
+   "cand_id": "26b52436b0b63d536f4b4c667d987b35",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 24,
+   "item_id": "f3ddcd46",
+   "launch_id": "58eb286f3c34408ea38b8509dffd8a80",
+   "round_id": "2ccec5416ea0455ba7f61e9fc3d0d0d7",
+   "cand": 1,
+   "cand_id": "f2c343b5f19201ebc77bd1b09deef520",
+   "role": "duplicate",
+   "dup_of": "df2d5c05"
+  },
+  {
+   "labeler": "L2",
+   "row": 25,
+   "item_id": "5966eb44",
+   "launch_id": "7b1b65f9587f45a6bf7138f9df4e6299",
+   "round_id": "eebcbf2880af36fa3d7a9fe598db3147",
+   "cand": 2,
+   "cand_id": "29649ff2339bfa02801a3327f3227e45",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 26,
+   "item_id": "c2c063fe",
+   "launch_id": "69b5ee5f8e4a492099265be2fe20bf56",
+   "round_id": "6c096d448db05c17224f24af33a8579f",
+   "cand": 0,
+   "cand_id": "bd03fbd41529fc6f757460b19f259769",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 27,
+   "item_id": "3701003f",
+   "launch_id": "2c7e4f91a72043839b90eec2f3b073e8",
+   "round_id": "4115793c3500c26ad9e9ae5db00e8021",
+   "cand": 2,
+   "cand_id": "952f853c8a200ad6561da41dfd0cb1c1",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 28,
+   "item_id": "e0c67744",
+   "launch_id": "39570b52e55844498773094717c8581c",
+   "round_id": "d31efbecc7c2c5ba93d01d3a3567721e",
+   "cand": 1,
+   "cand_id": "514ec4c5532aac59c7c2b9e18422ed90",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 29,
+   "item_id": "55113dc3",
+   "launch_id": "e0348f75756c4600b4f17952834566f4",
+   "round_id": "8ae3821d5d47e38642538a8fe882c16a",
+   "cand": 2,
+   "cand_id": "da1c52ab201028e1ef2dc76c0d77b740",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 30,
+   "item_id": "6546e4be",
+   "launch_id": "911e0a61f3574a45aec453b46bcf6da9",
+   "round_id": "29c4be1f7a40b55cb2d4e781e4b2e8df",
+   "cand": 0,
+   "cand_id": "4a169c8caeae884b23791569265f0912",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 31,
+   "item_id": "33393138",
+   "launch_id": "56dc8ad8d16d4af4a9030159cd5d1f25",
+   "round_id": "cd14a00b6fbe12bce4a21352a4a2f102",
+   "cand": 2,
+   "cand_id": "1616d93d50f1d758615882d9a9645444",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 32,
+   "item_id": "946a0998",
+   "launch_id": "db37fd7d45774b78b78f38e700f834b4",
+   "round_id": "14d6a2cecfc796225bee358df50b9756",
+   "cand": 1,
+   "cand_id": "02c99178d0bfdbe15ead274baa2c8ac2",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 33,
+   "item_id": "c85ad6ff",
+   "launch_id": "ebbf32441bbd4ec7a9c3406046da5df4",
+   "round_id": "7e8c54eb1bd582280d21a9a66f55a5c5",
+   "cand": 3,
+   "cand_id": "1cf9ceaf79c404c6c55130b241586a76",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 34,
+   "item_id": "cfbaa4dd",
+   "launch_id": "6910612a0edb4b3f87c6fa9dc9e56590",
+   "round_id": "a53456c29fff9f6ac6be323b7de212bc",
+   "cand": 2,
+   "cand_id": "00762e2647ae9c335b8108f15c512503",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 35,
+   "item_id": "923fe54e",
+   "launch_id": "8351dd54415446d8bbba3e4ebc532298",
+   "round_id": "bf410889480eaac1e3f4c7fec3b75da7",
+   "cand": 2,
+   "cand_id": "2eb825c8698d29f29eb243cfb710cf2c",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 36,
+   "item_id": "bc4d13dc",
+   "launch_id": "212fce1df30245b5b06fd87c411a9116",
+   "round_id": "5d970db5795c5103c25e8a0d3d1381ba",
+   "cand": 3,
+   "cand_id": "c3284cc1b0e512088e9783fec1454fda",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 37,
+   "item_id": "239eed24",
+   "launch_id": "06849bffc75443f49f7b6635221846ad",
+   "round_id": "296d9442d46cc1df6ba5f1e9b930fd8f",
+   "cand": 2,
+   "cand_id": "14c7efd387eaeecc7d7d93b3a7515c80",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 38,
+   "item_id": "c67e2041",
+   "launch_id": "e96a30dbb6df402dbe266ab7d157a92a",
+   "round_id": "9df905320f3bd2a60f272e36ee393a20",
+   "cand": 3,
+   "cand_id": "faec083f0b57d9f8881641efed709228",
+   "role": "duplicate",
+   "dup_of": "2fb71eac"
+  },
+  {
+   "labeler": "L2",
+   "row": 39,
+   "item_id": "958507ad",
+   "launch_id": "ab4fdb0daea941398e4d027e98d167d4",
+   "round_id": "581a7dfe0191b749d0dbe4f6961c4f92",
+   "cand": 0,
+   "cand_id": "445e0204366a80c23f55d3499ac5f970",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 40,
+   "item_id": "0e9a8df5",
+   "launch_id": "f1c687e99ad248f5a36ebebc4ab363f8",
+   "round_id": "a0b8b3692a67510811e90dd6e7e94c0c",
+   "cand": 2,
+   "cand_id": "034cf1d8f466d0eff48f0ca2cdcee783",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 41,
+   "item_id": "d6567964",
+   "launch_id": "7324c66c6d5e40e3bdf83ea9202fe9a0",
+   "round_id": "4773edafe95358e674cf1481862234e3",
+   "cand": 0,
+   "cand_id": "f0372628f8f056b0d6e5d39374601b4e",
+   "role": "unique",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 42,
+   "item_id": "d6c93f01",
+   "launch_id": "426305a26cf1415fa08ecb14a8303cdb",
+   "round_id": "9709e0f4c687d24ae88b0a90b6f75e9a",
+   "cand": 0,
+   "cand_id": "563bb2e67f0a758eb524163d3453372e",
+   "role": "shared",
+   "dup_of": null
+  },
+  {
+   "labeler": "L2",
+   "row": 43,
+   "item_id": "df70b032",
+   "launch_id": "c2d7a13285bd48ffbfc2dc7ae73f88b5",
+   "round_id": "e28a8271a93645cac40eae2e94cd3400",
+   "cand": 1,
+   "cand_id": "d16e5411d3012eed796ea478b0aea5bd",
+   "role": "duplicate",
+   "dup_of": "f7453614"
+  },
+  {
+   "labeler": "L2",
+   "row": 44,
+   "item_id": "e156ceb2",
+   "launch_id": "ba181a5ada374d2abaa8aeff031828fb",
+   "round_id": "d61d78b682f3265648d768293f165100",
+   "cand": 3,
+   "cand_id": "26b52436b0b63d536f4b4c667d987b35",
+   "role": "duplicate",
+   "dup_of": "a3966023"
+  }
+ ]
+}

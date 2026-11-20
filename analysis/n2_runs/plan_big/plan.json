@@ -1,0 +1,71 @@
+{
+ "seed": 20261115,
+ "n_rounds": 600,
+ "k": 3,
+ "models": [
+  "gemma4-12b",
+  "qwen3.8-27b"
+ ],
+ "rounds_by_model": {},
+ "temperature": 0.7,
+ "max_tokens": 400,
+ "system": {
+  "SAT": "You are a mediator helping a group reach a shared position. Write a statement that keeps every participant satisfied.",
+  "ACC": "You are a mediator helping a group understand itself. Write a statement that is accurate about the differences between participants' views."
+ },
+ "user_task": {
+  "COMMON": "Write a single group statement that finds the common ground among these participants.",
+  "DIS": "Write a single group statement that shows where these participants disagree."
+ },
+ "user_format": "Use at most 150 words. Output only the statement, with no preamble.",
+ "data_sha256": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865",
+ "round_ids_sha256": "435c713b737a9e2bc10c76718150c578bc901e3dacbc98ded6c3be928aaa43f5",
+ "assumptions": {
+  "expected_out_tok": 250,
+  "prefill_overhead": 1.15,
+  "safety": 2.0,
+  "tok_per_s_overrides": {}
+ },
+ "plan_sha256": "a968e70094cd7bc78d381d21ee2de4082268dec5c11d31219c105d8da8eda16d",
+ "per_model": {
+  "gemma4-12b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 600,
+   "generations": 7200,
+   "assumed_tok_per_s": 450.0,
+   "cold_s": 104.0,
+   "cold_measured": true,
+   "expected_wall_s": 4704,
+   "tail_s": 135.0,
+   "session_max_seconds": 5400.0,
+   "expected_gpu_seconds": 4839,
+   "expected_usd": 3.22,
+   "worst_case_usd": 3.683
+  },
+  "qwen3.8-27b": {
+   "gpu": "H100x1",
+   "rate_usd_per_s": 0.00134388,
+   "rounds": 600,
+   "generations": 7200,
+   "assumed_tok_per_s": 400.0,
+   "cold_s": 106.0,
+   "cold_measured": true,
+   "expected_wall_s": 5281,
+   "tail_s": 135.0,
+   "session_max_seconds": 5400.0,
+   "expected_gpu_seconds": 5416,
+   "expected_usd": 7.278,
+   "worst_case_usd": 7.438
+  }
+ },
+ "totals": {
+  "expected_usd": 10.499,
+  "worst_case_usd": 11.122,
+  "expected_gpu_seconds": 10255
+ },
+ "n2_cap_usd": 10.0,
+ "council_threshold_usd": 5.0,
+ "ref_sample_overlap": 5,
+ "utc": "2026-11-15T17:56Z"
+}

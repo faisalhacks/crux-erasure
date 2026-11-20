@@ -1,0 +1,37 @@
+rep 0 done 2s
+rep 10 done 23s
+rep 20 done 44s
+rep 30 done 64s
+rep 40 done 85s
+rep 50 done 106s
+rep 60 done 127s
+rep 70 done 148s
+rep 80 done 167s
+rep 90 done 188s
+rep 100 done 208s
+rep 110 done 227s
+rep 120 done 247s
+rep 130 done 266s
+rep 140 done 286s
+rep 150 done 305s
+rep 160 done 325s
+rep 170 done 346s
+rep 180 done 365s
+rep 190 done 386s
+A2_rater_controlled                        190/200 = 0.950  CP95 [0.910, 0.976]
+A2_rater_uncontrolled                      190/200 = 0.950  CP95 [0.910, 0.976]
+A2_rater_A2h                               190/200 = 0.950  CP95 [0.910, 0.976]
+A2_rater_controlled_length                 185/200 = 0.925  CP95 [0.879, 0.957]
+A2_rater_controlled_clarity                188/200 = 0.940  CP95 [0.898, 0.969]
+A2_rater_controlled_cr1                    191/200 = 0.955  CP95 [0.916, 0.979]
+A2_rater_controlled_boot_se_normal         191/200 = 0.955  CP95 [0.916, 0.979]
+A2_rater_controlled_bca                    192/200 = 0.960  CP95 [0.923, 0.983]
+N1                                         188/200 = 0.940  CP95 [0.898, 0.969]
+launches_with_E_variation                  mean 300.0000 sd 0.0000
+A2_rater_controlled_est                    mean -0.0013 sd 0.0204
+A2_rater_uncontrolled_est                  mean -0.0014 sd 0.0204
+A2_rater_A2h_est                           mean -0.0013 sd 0.0204
+A2_rater_ratio_bootSE_to_CR1               mean 0.9992 sd 0.0158
+N1_est                                     mean -0.0008 sd 0.0094
+N1_tied_excluded                           mean 110.0650 sd 10.1892
+N1_rounds                                  mean 489.9350 sd 10.1892

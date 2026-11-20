@@ -1,0 +1,30 @@
+{
+ "measure": "mean erasure score of generated statement (0-1)",
+ "cells": {
+  "keep_all_satisfied|common_ground": {
+   "mean": 0.62,
+   "lo": 0.522,
+   "hi": 0.718,
+   "n_clusters": 40
+  },
+  "keep_all_satisfied|show_disagreement": {
+   "mean": 0.48,
+   "lo": 0.382,
+   "hi": 0.578,
+   "n_clusters": 40
+  },
+  "accurate_differences|common_ground": {
+   "mean": 0.45,
+   "lo": 0.352,
+   "hi": 0.548,
+   "n_clusters": 40
+  },
+  "accurate_differences|show_disagreement": {
+   "mean": 0.25,
+   "lo": 0.152,
+   "hi": 0.348,
+   "n_clusters": 40
+  }
+ },
+ "kind": "dummy"
+}

@@ -1,0 +1,7 @@
+{
+ "script": "figures/make_figures.py",
+ "inputs_sha256": {
+  "gate1.json": "07792fc2689a5490bc496ba39d36dae793f48d3f05e9470a8ab28d08b09b0928"
+ },
+ "dummy": true
+}

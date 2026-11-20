@@ -1,0 +1,62 @@
+{
+ "params": {
+  "kappa_cutoff": 0.6,
+  "ba_lower_must_exceed": 0.5,
+  "B": 10000,
+  "seed": 20261115,
+  "ai_threshold": 0.5,
+  "kappa_unsure": "category",
+  "alpha": 0.05
+ },
+ "kappa": {
+  "n_shared": 20,
+  "kappa_unsure_as_category": 0.06103286384976521,
+  "kappa_unsure_excluded": 0.05263157894736842,
+  "n_after_exclusion": 18,
+  "primary": 0.06103286384976521,
+  "primary_rule": "category",
+  "primary_ci_info_only": [
+   -0.26829268292682934,
+   0.3976130084246759
+  ],
+  "unsure_L1": 1,
+  "unsure_L2": 1,
+  "cutoff": 0.6,
+  "pass": false
+ },
+ "balanced_accuracy": {
+  "n_adjudicated": 60,
+  "n_unsure_excluded": 1,
+  "n_ai_missing_excluded": 0,
+  "n_used": 59,
+  "n_pos": 25,
+  "n_neg": 34,
+  "ba": 0.5647058823529412,
+  "lo": 0.4335748792270532,
+  "hi": 0.6917675070028011,
+  "valid_boot_reps": 10000,
+  "must_exceed": 0.5,
+  "pass": false
+ },
+ "duplicate_consistency": {
+  "L1": {
+   "n_pairs": 4,
+   "n_pairs_both_decided": 4,
+   "agree_all": 0.5,
+   "agree_decided": 0.5
+  },
+  "L2": {
+   "n_pairs": 4,
+   "n_pairs_both_decided": 4,
+   "agree_all": 0.75,
+   "agree_decided": 0.75
+  },
+  "AI": {
+   "n_pairs": 8,
+   "agree": 1.0
+  }
+ },
+ "verdict": "FAIL",
+ "note": "FAIL => write the 'not yet measurable' version; never change definitions.",
+ "kind": "dummy"
+}

@@ -1,0 +1,32 @@
+{
+ "all_pass": true,
+ "n1a_small": {
+  "R": 40,
+  "B": 300,
+  "len_eff": 0.5,
+  "data_seeds": "90000..90039",
+  "boot_seeds": "0..39",
+  "covers_0": {
+   "alpha": 38,
+   "N1u": 27,
+   "N1h": 38
+  },
+  "coverage": {
+   "alpha": 0.95,
+   "N1u": 0.675,
+   "N1h": 0.95
+  },
+  "false_positive_rate": {
+   "alpha": 0.050000000000000044,
+   "N1u": 0.32499999999999996,
+   "N1h": 0.050000000000000044
+  },
+  "mean_estimate": {
+   "alpha": 0.009349763171386163,
+   "N1u": 0.0513700125781771,
+   "N1h": 0.009487998720558393
+  },
+  "guard_93pct_alpha": true
+ },
+ "gate_tag": "NOT_REAL(synthetic)"
+}

@@ -1,0 +1,23 @@
+{
+ "unit": "rater",
+ "n_clusters": 300,
+ "B": 2000,
+ "seed": 20261115,
+ "erasure": {
+  "est": 0.3,
+  "lo": 0.12,
+  "hi": 0.48,
+  "est_in_within_round_SD": 0.35
+ },
+ "length": {
+  "est": 0.02,
+  "lo": -0.14,
+  "hi": 0.18
+ },
+ "clarity": {
+  "est": 0.08,
+  "lo": -0.08,
+  "hi": 0.24
+ },
+ "kind": "dummy"
+}

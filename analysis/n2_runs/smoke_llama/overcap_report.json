@@ -1,0 +1,42 @@
+{
+ "llama3.1-8b|ACC-COMMON": {
+  "n": 8,
+  "mean_words": 118.4,
+  "median_words": 118,
+  "max_words": 127,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|ACC-DIS": {
+  "n": 8,
+  "mean_words": 114.4,
+  "median_words": 118,
+  "max_words": 122,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|NEU-COMMON": {
+  "n": 8,
+  "mean_words": 118.9,
+  "median_words": 120,
+  "max_words": 130,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|SAT-COMMON": {
+  "n": 8,
+  "mean_words": 119.6,
+  "median_words": 119,
+  "max_words": 135,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|SAT-DIS": {
+  "n": 8,
+  "mean_words": 117.8,
+  "median_words": 120,
+  "max_words": 131,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ }
+}

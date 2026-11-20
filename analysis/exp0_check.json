@@ -1,0 +1,99 @@
+{
+ "sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+ "n_rows": 39955,
+ "rank_prov": {
+  "HUMAN_CITIZEN": 35489,
+  "BOT_CITIZEN": 4466
+ },
+ "rows_with_ranks": 39955,
+ "rank_pid_eq_own_pid": 1.0,
+ "rank_id_unique_share": 1.0,
+ "rank_pid_nunique": 7189,
+ "groups_with_rank_rows": 8274,
+ "rows_per_group_dist": {
+  "1": 6,
+  "2": 330,
+  "4": 401,
+  "5": 7537
+ },
+ "share_groups_rows_eq_distinct_pid": 1.0,
+ "groups_ge2_raters": 8268,
+ "groups_ge2_with_more_than_one_distinct_ranking": 8131,
+ "groups_ge2_all_identical": 137,
+ "multi_rater_groups_with_identical_candidate_id_list": [
+  8268,
+  8268
+ ],
+ "group_level_fields": [
+  "top_candidate.reward_data.welfare_or_rank",
+  "candidates.reward_data.welfare_or_rank (list, per row)"
+ ],
+ "example_rows": [
+  {
+   "launch_id": "00295a73",
+   "round_id": "49e3bcc2",
+   "iteration_index": 0,
+   "worker_id": "69ccc530",
+   "rankings.metadata.participant_id": "604c0f5c35",
+   "own_opinion.metadata.participant_id": "604c0f5c35",
+   "rankings.metadata.id": "fb32c7c0",
+   "rankings.candidate_ids": [
+    "c54c39",
+    "26653c",
+    "f482b0",
+    "e98a7f"
+   ],
+   "rankings.numerical_ranks": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "rankings.metadata.provenance": "HUMAN_CITIZEN"
+  },
+  {
+   "launch_id": "00295a73",
+   "round_id": "49e3bcc2",
+   "iteration_index": 0,
+   "worker_id": "4e65aed2",
+   "rankings.metadata.participant_id": "7c9df9b7ee",
+   "own_opinion.metadata.participant_id": "7c9df9b7ee",
+   "rankings.metadata.id": "a318e029",
+   "rankings.candidate_ids": [
+    "c54c39",
+    "26653c",
+    "f482b0",
+    "e98a7f"
+   ],
+   "rankings.numerical_ranks": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "rankings.metadata.provenance": "HUMAN_CITIZEN"
+  },
+  {
+   "launch_id": "00295a73",
+   "round_id": "49e3bcc2",
+   "iteration_index": 0,
+   "worker_id": "32dee0e9",
+   "rankings.metadata.participant_id": "83936534f9",
+   "own_opinion.metadata.participant_id": "83936534f9",
+   "rankings.metadata.id": "9c11d87b",
+   "rankings.candidate_ids": [
+    "c54c39",
+    "26653c",
+    "f482b0",
+    "e98a7f"
+   ],
+   "rankings.numerical_ranks": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "rankings.metadata.provenance": "HUMAN_CITIZEN"
+  }
+ ]
+}

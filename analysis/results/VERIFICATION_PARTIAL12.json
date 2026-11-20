@@ -1,0 +1,206 @@
+{
+ "n_items": 12,
+ "B": 10000,
+ "seed": 20261144,
+ "V_ev": {
+  "k": 7,
+  "n": 12,
+  "rate": 0.5833333333333334,
+  "wilson": [
+   0.31951131084242423,
+   0.8067396875653928
+  ]
+ },
+ "V_ev_original": {
+  "k": 4,
+  "n": 9,
+  "wilson": [
+   0.18877851977054566,
+   0.7333487081991259
+  ]
+ },
+ "V_ev_n2": {
+  "k": 3,
+  "n": 3,
+  "wilson": [
+   0.43850296436068037,
+   1.0
+  ]
+ },
+ "presence_table": {
+  "C1_Q1yes": 5,
+  "C1_Q1no": 3,
+  "C0_Q1yes": 2,
+  "C0_Q1no": 2,
+  "raw_agreement": 0.5833333333333334,
+  "wilson": [
+   0.31951131084242423,
+   0.8067396875653928
+  ]
+ },
+ "n_missing_E_on_q1_yes_counted_wrong": 0,
+ "usable": false,
+ "n_q1_yes": 7,
+ "n_not_ack": 6,
+ "n_ack": 1,
+ "table_A_by_S": [
+  [
+   4,
+   2
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "fisher_p_one_sided_conditional": 1.0,
+ "BA3": 0.3333333333333333,
+ "kappa": -0.23529411764705913,
+ "sens": {
+  "k": 4,
+  "n": 6,
+  "wilson": [
+   0.29999331299474324,
+   0.9032285897864654
+  ]
+ },
+ "spec": {
+  "k": 0,
+  "n": 1,
+  "wilson": [
+   0.0,
+   0.7934506882081973
+  ]
+ },
+ "BA3_ci": [
+  0.1,
+  0.5
+ ],
+ "BA3_one_class_resamples": 3392,
+ "kappa_ci": [
+  -0.6153846153846153,
+  0.0
+ ],
+ "kappa_undefined_resamples": 3392,
+ "split_original": [
+  [
+   2,
+   1
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "split_n2": [
+  [
+   2,
+   1
+  ],
+  [
+   0,
+   0
+  ]
+ ],
+ "outcome": "UNUSABLE",
+ "H5": null,
+ "note": "POST-GATE, RESULTS-AWARE, PARTIAL 12 of 25 items; descriptive only; not a gate input",
+ "per_item": {
+  "v5-01": {
+   "q1": "NO",
+   "q2": "NO",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "ok": true
+  },
+  "v5-02": {
+   "q1": "YES",
+   "q2": "NO",
+   "kind": "n2",
+   "E": 0.5,
+   "n_cruxes": 2,
+   "ok": true
+  },
+  "v5-03": {
+   "q1": "NO",
+   "q2": "NO",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 1,
+   "ok": false
+  },
+  "v5-04": {
+   "q1": "YES",
+   "q2": "YES",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 2,
+   "ok": true
+  },
+  "v5-05": {
+   "q1": "NO",
+   "q2": "NO",
+   "kind": "original",
+   "E": 0.0,
+   "n_cruxes": 1,
+   "ok": true
+  },
+  "v5-06": {
+   "q1": "YES",
+   "q2": "NO",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "ok": true
+  },
+  "v5-07": {
+   "q1": "NO",
+   "q2": "YES",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "ok": true
+  },
+  "v5-08": {
+   "q1": "YES",
+   "q2": "NO",
+   "kind": "n2",
+   "E": null,
+   "n_cruxes": 0,
+   "ok": true
+  },
+  "v5-09": {
+   "q1": "NO",
+   "q2": "NO",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 2,
+   "ok": true
+  },
+  "v5-10": {
+   "q1": "YES",
+   "q2": "NO",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "ok": true
+  },
+  "v5-11": {
+   "q1": "YES",
+   "q2": "NO",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "ok": true
+  },
+  "v5-12": {
+   "q1": "YES",
+   "q2": "NO",
+   "kind": "n2",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "ok": true
+  }
+ }
+}

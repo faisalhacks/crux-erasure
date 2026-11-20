@@ -1,0 +1,369 @@
+{
+ "wording": "LLM annotator panel (supplementary; not human)",
+ "task": "P1",
+ "rules": "FROZEN_RULES.md 6.R5.4; decisions.md D50, D51",
+ "manifest_sha256": "3e253167227ab48e6b4429c52f1dabd71e37371ecb18fb6c4647fe2129002d72",
+ "prompt_sha256": "9040afedf5fdc6036eb26535ad5322726bf9dbd1b4549894c83c6e7330de5ab4",
+ "per_model": {
+  "falcon-h1-34b": {
+   "format_bar": {
+    "alias": "falcon-h1-34b",
+    "items": 20,
+    "calls": 20,
+    "first_attempt_valid": 20,
+    "valid_after_retry": 20,
+    "valid_share": 1.0,
+    "bar_pass": true,
+    "truncated": 0,
+    "decided_utc": "2026-11-16T01:42Z",
+    "cold_start_s": 138.6
+   },
+   "bar_pass": true,
+   "session_cost_usd": 0.4462,
+   "packet_called": true,
+   "packet_items": 25,
+   "packet_calls": 25,
+   "packet_first_attempt_valid": 25,
+   "packet_valid_after_retry": 25,
+   "packet_missing": 0,
+   "packet_valid_share": 1.0
+  },
+  "command-r7b": {
+   "format_bar": {
+    "alias": "command-r7b",
+    "items": 20,
+    "calls": 20,
+    "first_attempt_valid": 20,
+    "valid_after_retry": 20,
+    "valid_share": 1.0,
+    "bar_pass": true,
+    "truncated": 0,
+    "decided_utc": "2026-11-16T01:41Z",
+    "cold_start_s": 86.1
+   },
+   "bar_pass": true,
+   "session_cost_usd": 0.1943,
+   "packet_called": true,
+   "packet_items": 25,
+   "packet_calls": 25,
+   "packet_first_attempt_valid": 25,
+   "packet_valid_after_retry": 25,
+   "packet_missing": 0,
+   "packet_valid_share": 1.0
+  },
+  "granite4.2-30b": {
+   "format_bar": {
+    "alias": "granite4.2-30b",
+    "items": 20,
+    "calls": 20,
+    "first_attempt_valid": 20,
+    "valid_after_retry": 20,
+    "valid_share": 1.0,
+    "bar_pass": true,
+    "truncated": 0,
+    "decided_utc": "2026-11-16T01:41Z",
+    "cold_start_s": 99.0
+   },
+   "bar_pass": true,
+   "session_cost_usd": 0.3967,
+   "packet_called": true,
+   "packet_items": 25,
+   "packet_calls": 25,
+   "packet_first_attempt_valid": 25,
+   "packet_valid_after_retry": 25,
+   "packet_missing": 0,
+   "packet_valid_share": 1.0
+  }
+ },
+ "members": [
+  "falcon-h1-34b",
+  "command-r7b",
+  "granite4.2-30b"
+ ],
+ "panel_status": "PANEL",
+ "note": "P1 shares its inputs (the same quotes) with the author, so agreement with the author is partly built in. Not human; never a gate input; no effect on the gate status, H5 or any wording state.",
+ "majority": {
+  "q1_quotes_disagree": {
+   "by_item": {
+    "v5-01": "yes",
+    "v5-02": "yes",
+    "v5-03": "no",
+    "v5-04": "yes",
+    "v5-05": "yes",
+    "v5-06": "yes",
+    "v5-07": "no",
+    "v5-08": "yes",
+    "v5-09": "yes",
+    "v5-10": "yes",
+    "v5-11": "yes",
+    "v5-12": "yes",
+    "v5-13": "yes",
+    "v5-14": "no",
+    "v5-15": "yes",
+    "v5-16": "yes",
+    "v5-17": "yes",
+    "v5-18": "yes",
+    "v5-19": "yes",
+    "v5-20": "yes",
+    "v5-21": "yes",
+    "v5-22": "no",
+    "v5-23": "yes",
+    "v5-24": "yes",
+    "v5-25": "yes"
+   },
+   "n_items": 25,
+   "n_no_majority": 0,
+   "n_yes": 21,
+   "n_no": 4
+  },
+  "q2_statement_acknowledges": {
+   "by_item": {
+    "v5-01": "no",
+    "v5-02": "yes",
+    "v5-03": "no",
+    "v5-04": "yes",
+    "v5-05": "yes",
+    "v5-06": "yes",
+    "v5-07": "no",
+    "v5-08": "yes",
+    "v5-09": "no",
+    "v5-10": "yes",
+    "v5-11": "yes",
+    "v5-12": "yes",
+    "v5-13": "no",
+    "v5-14": "no",
+    "v5-15": "no",
+    "v5-16": "yes",
+    "v5-17": "no",
+    "v5-18": "yes",
+    "v5-19": "no",
+    "v5-20": "no",
+    "v5-21": "yes",
+    "v5-22": "no",
+    "v5-23": "no",
+    "v5-24": "no",
+    "v5-25": "yes"
+   },
+   "n_items": 25,
+   "n_no_majority": 0,
+   "n_yes": 12,
+   "n_no": 13
+  }
+ },
+ "agreement": {
+  "q1_quotes_disagree": {
+   "members": [
+    "falcon-h1-34b",
+    "command-r7b",
+    "granite4.2-30b"
+   ],
+   "fleiss_kappa": {
+    "point": 0.6487119437939113,
+    "ci95": [
+     0.1428571428571421,
+     0.9205508474576269
+    ],
+    "n": 25,
+    "B": 10000,
+    "undefined_resamples": 2,
+    "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+   },
+   "gwet_ac1": {
+    "point": 0.8468215471023742,
+    "ci95": [
+     0.6641477749790091,
+     0.967900706184464
+    ],
+    "n": 25,
+    "B": 10000,
+    "undefined_resamples": 0,
+    "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+   },
+   "pairwise": {
+    "falcon-h1-34b|command-r7b": {
+     "cohen_kappa": {
+      "point": 0.504950495049505,
+      "ci95": [
+       -0.056338028169013725,
+       0.883720930232558
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 2,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "gwet_ac1": {
+      "point": 0.7647058823529412,
+      "ci95": [
+       0.47049924357034795,
+       0.9512195121951219
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "raw_agreement": 0.84
+    },
+    "falcon-h1-34b|granite4.2-30b": {
+     "cohen_kappa": {
+      "point": 0.7023809523809527,
+      "ci95": [
+       0.0,
+       1.0
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 42,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "gwet_ac1": {
+      "point": 0.8905908096280089,
+      "ci95": [
+       0.6954933008526188,
+       1.0
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "raw_agreement": 0.92
+    },
+    "command-r7b|granite4.2-30b": {
+     "cohen_kappa": {
+      "point": 0.7524752475247526,
+      "ci95": [
+       0.2857142857142855,
+       1.0
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 10,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "gwet_ac1": {
+      "point": 0.8823529411764708,
+      "ci95": [
+       0.6749024707412224,
+       1.0
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "raw_agreement": 0.92
+    }
+   }
+  },
+  "q2_statement_acknowledges": {
+   "members": [
+    "falcon-h1-34b",
+    "command-r7b",
+    "granite4.2-30b"
+   ],
+   "fleiss_kappa": {
+    "point": 0.569583931133429,
+    "ci95": [
+     0.2974017103115461,
+     0.7866287339971549
+    ],
+    "n": 25,
+    "B": 10000,
+    "undefined_resamples": 0,
+    "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+   },
+   "gwet_ac1": {
+    "point": 0.5770179767359886,
+    "ci95": [
+     0.3333333333333333,
+     0.817795323413301
+    ],
+    "n": 25,
+    "B": 10000,
+    "undefined_resamples": 0,
+    "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+   },
+   "pairwise": {
+    "falcon-h1-34b|command-r7b": {
+     "cohen_kappa": {
+      "point": 0.5283018867924528,
+      "ci95": [
+       0.24657534246575352,
+       0.8344370860927153
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "gwet_ac1": {
+      "point": 0.5384615384615385,
+      "ci95": [
+       0.2012779552715655,
+       0.8516320474777449
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "raw_agreement": 0.76
+    },
+    "falcon-h1-34b|granite4.2-30b": {
+     "cohen_kappa": {
+      "point": 0.4680851063829787,
+      "ci95": [
+       0.1935483870967744,
+       0.7619047619047619
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "gwet_ac1": {
+      "point": 0.453978159126365,
+      "ci95": [
+       0.1200000000000001,
+       0.7822931785195937
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "raw_agreement": 0.72
+    },
+    "command-r7b|granite4.2-30b": {
+     "cohen_kappa": {
+      "point": 0.7588424437299036,
+      "ci95": [
+       0.4580630946193307,
+       1.0
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "gwet_ac1": {
+      "point": 0.7615262321144675,
+      "ci95": [
+       0.5207667731629393,
+       1.0
+      ],
+      "n": 25,
+      "B": 10000,
+      "undefined_resamples": 0,
+      "bootstrap": "item percentile; numpy.random.default_rng(20261145)"
+     },
+     "raw_agreement": 0.88
+    }
+   }
+  }
+ },
+ "members_without_packet_answers": [],
+ "majority_rule": "value given by >= 2 members; a member missing -> the other two must agree; else NO_MAJORITY; with exactly 2 members: unanimity"
+}

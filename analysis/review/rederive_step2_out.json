@@ -1,0 +1,79 @@
+{
+ "hash_checks": {
+  "candidate_comparisons": true,
+  "pilot_groups": true
+ },
+ "n_dev_launches": 150,
+ "n_a2_rounds_all": 1960,
+ "n_a2_launches_all": 871,
+ "n_rounds_in": 1622,
+ "n_launches_in": 721,
+ "diag_own_opinion_prov_not_human_in_human_rows": 0,
+ "n_pr_rows_total": 45976,
+ "n_duplicate_rating_keys": 0,
+ "token_counts_member_ratings": {
+  "('STRONGLY_AGREE',)": 1333,
+  "('SOMEWHAT_DISAGREE',)": 768,
+  "('AGREE',)": 1614,
+  "('STRONGLY_DISAGREE',)": 1044,
+  "('DISAGREE',)": 987,
+  "('NEUTRAL',)": 909,
+  "('SOMEWHAT_AGREE',)": 1251
+ },
+ "unusable_reasons": {},
+ "n_dropped_context_length": 0,
+ "n_extraction_missing_counted_wrong": 3,
+ "n_cruxes_removed_by_resanitising": 0,
+ "n_usable_rounds": 1622,
+ "n_usable_launches": 721,
+ "hsplit_class_counts": {
+  "0": {
+   "rounds": 614,
+   "launches": 437
+  },
+  "1": {
+   "rounds": 1008,
+   "launches": 605
+  }
+ },
+ "confusion": {
+  "tp": 907,
+  "fn": 101,
+  "tn": 297,
+  "fp": 317
+ },
+ "BA2": 0.6917574711752237,
+ "sens": 0.8998015873015873,
+ "spec": 0.4837133550488599,
+ "launch_boot": {
+  "lb": 0.6689521057995578,
+  "ub": 0.7140082337979413,
+  "n_one_class": 0,
+  "K": 721,
+  "method": "rng.integers(0,K,K), sorted clusters, np.percentile linear"
+ },
+ "question_in_more_than_one_launch": true,
+ "n_questions": 1259,
+ "question_boot": {
+  "lb": 0.6699079258128309,
+  "ub": 0.7133818132887074,
+  "n_one_class": 0,
+  "K": 1259,
+  "method": "rng.integers(0,K,K), sorted clusters, np.percentile linear"
+ },
+ "lb_used": 0.6689521057995578,
+ "usable": true,
+ "outcome": "PASS",
+ "reported_no_rule": {
+  "prevalence_hsplit": 0.6214549938347719,
+  "prevalence_sdis": 0.7546239210850801,
+  "BA2_n_rated_5": 0.6811456111209182,
+  "n_rated_5_rounds": 1422,
+  "BA2_all_rated": 0.6929251565615202,
+  "n_all_rated": 1604,
+  "BA2_strong_split": 0.6265131746435846,
+  "spearman_ncruxes_sd": 0.4031402663719961,
+  "spearman_ncruxes_sd_missing0_npstd": 0.40325021717636095,
+  "context_drop_share": 0.0
+ }
+}

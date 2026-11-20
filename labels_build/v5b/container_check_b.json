@@ -1,0 +1,16 @@
+{
+ "waited_s": 2,
+ "polls": [
+  {
+   "t": 2,
+   "rc": 0,
+   "all_rows": 0,
+   "own": [],
+   "err": ""
+  }
+ ],
+ "stops": [],
+ "own_final": [],
+ "baseline": [],
+ "other_rows_final": 0
+}

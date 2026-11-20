@@ -1,0 +1,10 @@
+Question put to a group: {question}
+
+Statement:
+"""{statement}"""
+
+Rate how clear this statement is to a general adult reader. Ignore whether you agree with it
+and ignore how long it is. 1 = very hard to follow, 2 = hard, 3 = acceptable, 4 = clear,
+5 = very clear.
+
+Return JSON only: {"clarity": <integer 1-5>}

@@ -1,0 +1,8 @@
+{
+  "rules": "R5",
+  "status": "VALIDATED_PRESENCE",
+  "meaning": "Gate 1 is RECORDED under FROZEN_RULES 6.R5.6 (not a PASS under the old R4 rule). N2 scoring is permitted by 6.R5.6 and is ALWAYS EXPLORATORY (6.R5.7; N2 spec Amendment 5).",
+  "gate_record": "gate1/GATE1_RESULT.json (sha256 df0e212e904ac83885a0dee6c842295c79089f6183933dc4abf1cbae4573873e)",
+  "scorer_manifest_sha256": "ed64b540c8018645c16156d0320f6b1152cd2ab57a146cbce2978faa82307f9e",
+  "written_by": "orchestrator, 2026-11-16T02:08Z (D56)"
+}

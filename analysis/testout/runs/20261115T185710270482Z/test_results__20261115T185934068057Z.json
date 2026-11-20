@@ -1,0 +1,141 @@
+{
+ "results": {
+  "A2 planted effect recovered (rater)": {
+   "pass": true,
+   "gating": true,
+   "detail": "+0.656 [+0.619,+0.693]"
+  },
+  "A2 planted effect recovered (group)": {
+   "pass": true,
+   "gating": true,
+   "detail": "+0.656 [+0.619,+0.693]"
+  },
+  "A2 confound: controlled CI covers 0": {
+   "pass": true,
+   "gating": true,
+   "detail": "-0.007 [-0.049,+0.035]"
+  },
+  "A2 confound: uncontrolled biased (CI excludes 0)": {
+   "pass": true,
+   "gating": true,
+   "detail": "+0.569 [+0.522,+0.614]"
+  },
+  "A2 A2h (length only) covers 0 in confound": {
+   "pass": true,
+   "gating": true,
+   "detail": "-0.007 [-0.049,+0.035]"
+  },
+  "A2 synthetic null (single dataset) covers 0": {
+   "pass": true,
+   "gating": false,
+   "detail": "+0.003 [-0.037,+0.044]"
+  },
+  "N1 planted effect recovered": {
+   "pass": true,
+   "gating": true,
+   "detail": "+0.157 [+0.142,+0.171]"
+  },
+  "N1 synthetic null (single dataset) covers 0": {
+   "pass": true,
+   "gating": false,
+   "detail": "+0.005 [-0.014,+0.022]"
+  },
+  "A2 synthetic null coverage 60 datasets >= 88%": {
+   "pass": true,
+   "gating": true,
+   "detail": "56/60"
+  },
+  "N1 synthetic null coverage 60 datasets >= 88%": {
+   "pass": true,
+   "gating": true,
+   "detail": "58/60"
+  },
+  "N4 planted interaction recovered": {
+   "pass": true,
+   "gating": true,
+   "detail": "int +0.929 [+0.855,+1.002] maj +0.014 [-0.042,+0.069] min +0.943 [+0.896,+0.990]"
+  },
+  "N4 synthetic null interaction (single dataset) covers 0": {
+   "pass": true,
+   "gating": false,
+   "detail": "+0.058 [-0.034,+0.149]"
+  },
+  "A3 planted effect recovered": {
+   "pass": true,
+   "gating": true,
+   "detail": "+0.159 [+0.138,+0.179]"
+  },
+  "A3 synthetic null (single dataset) covers 0": {
+   "pass": true,
+   "gating": false,
+   "detail": "-0.019 [-0.040,+0.001]"
+  },
+  "A3 floor: <30 launches -> NOT_RUN": {
+   "pass": true,
+   "gating": true,
+   "detail": "10 launches < floor 30 (FR s8)"
+  },
+  "N3 planted effect recovered": {
+   "pass": true,
+   "gating": true,
+   "detail": "+0.159 [+0.138,+0.180]"
+  },
+  "N3 synthetic null (single dataset) covers 0": {
+   "pass": true,
+   "gating": false,
+   "detail": "-0.019 [-0.039,+0.000]"
+  },
+  "N3 floor: <30 launches -> NOT_RUN": {
+   "pass": true,
+   "gating": true,
+   "detail": "10 launches < floor 30 (FR s8)"
+  },
+  "Holm adjustment": {
+   "pass": true,
+   "gating": true,
+   "detail": "{'a': 0.03, 'c': 0.06, 'b': 0.06}"
+  },
+  "A2 shuffled null covers 0 (rater)": {
+   "pass": true,
+   "gating": true,
+   "detail": "-0.003 [-0.023,+0.016] clusters=871 p=0.742"
+  },
+  "A2 shuffled null covers 0 (group)": {
+   "pass": true,
+   "gating": true,
+   "detail": "-0.003 [-0.023,+0.016] clusters=871 p=0.734"
+  },
+  "N1 shuffled null covers 0": {
+   "pass": true,
+   "gating": true,
+   "detail": "-0.006 [-0.016,+0.004] rounds=1666 ties_excl=294"
+  },
+  "gate1 DUMMY good -> PASS": {
+   "pass": true,
+   "gating": true,
+   "detail": "status=PASS kappa=0.90 BA=0.86 lo=0.77 unsure_excl=2 parse_fail=1 dup={'n_pairs': 4, 'exact_match': 2, 'match_3cat': 3}"
+  },
+  "gate1 DUMMY bad -> FAIL": {
+   "pass": true,
+   "gating": true,
+   "detail": "status=FAIL kappa=-0.35 BA=0.44 lo=0.31 unsure_excl=3 parse_fail=1 dup={'n_pairs': 4, 'exact_match': 3, 'match_3cat': 3}"
+  },
+  "gate1 blank label -> INCOMPLETE, nothing filled": {
+   "pass": true,
+   "gating": true,
+   "detail": "[\"C:\\\\Users\\\\intel\\\\Downloads\\\\OU\\\\projects\\\\_apart_intel\\\\t3_1\\\\analysis\\\\testdata\\\\DUMMY_incomplete_L1.csv: item DUMMY018: invalid or blank label ''\"]"
+  },
+  "gate1 never writes GATE1_RESULT.json": {
+   "pass": true,
+   "gating": true,
+   "detail": "ok"
+  },
+  "real-rank analysis refused without GATE1_RESULT.json": {
+   "pass": true,
+   "gating": true,
+   "detail": "SystemExit raised"
+  }
+ },
+ "all_gating_pass": true,
+ "gate_tag": "NOT_REAL(synthetic)"
+}

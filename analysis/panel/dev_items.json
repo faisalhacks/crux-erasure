@@ -1,0 +1,454 @@
+{
+ "summary": {
+  "utc": "2026-11-16T01:39Z",
+  "seed": 20261146,
+  "n_drawn": 24,
+  "n_valid": 24,
+  "n_invalid_dropped": 0,
+  "n_bar_items": 20,
+  "calls": 24,
+  "truncated": 0,
+  "conflict_found_false": 4,
+  "session": {
+   "billed_s": 343.7,
+   "session_cost_usd": 0.4619,
+   "cold_start_s": 89.7
+  },
+  "wall_s": 350.1,
+  "container_check": {
+   "waited_s": 140,
+   "stops": [],
+   "own_final": [],
+   "baseline": [
+    "ta-01M7GZQWXXR9KWKV8ZA4XB9S2R"
+   ],
+   "other_rows_final": 0
+  },
+  "x1_sha256": "cb25581a311fd663321124f9a722cc8325093417e5300f35b0662413af4e1ab2",
+  "script_sha256": "68997b41d836c2ea8ace20933314250839d34238cceee8c9e03c677f8ad29c8f",
+  "data_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+  "dev_groups_sha256": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ },
+ "items": [
+  {
+   "draw_index": 0,
+   "launch_id": "4b5f4011486c429ba9a122e37bef0633",
+   "round_id": "61c6110c73c0b57fefedecb91b51871d",
+   "cand": 2,
+   "question": "Should we force landlords to install insulation before renting their property to a new tenant?",
+   "statement": "We believe that landlords should be forced to install insulation before renting their property to a new tenant. The property should be fully ready for a renter. It is the landlords responsibility to ensure this is done. In order to become a landlord the government should place requirements on landlords. If the insulation is top notch, tenants won't have to spend much on heating their homes. This will reduce energy usage throughout the country. Most landlords are in this position to make as much money as possible without actually providing or producing anything. Any regulation or law that makes it harder for landlords to make money at the expense of people just trying to find a home is a good thing in my opinion.",
+   "quote_a": "I believe we should force landlords to install insulation before renting their property to new tenants.",
+   "quote_b": "Yeah. If the insulation is top notch, tenants won't have to spend much on heating their homes. This will reduce energy usage throughout the country",
+   "extraction": {
+    "quote_a": "I believe we should force landlords to install insulation before renting their property to new tenants.",
+    "quote_b": "Yeah. If the insulation is top notch, tenants won't have to spend much on heating their homes. This will reduce energy usage throughout the country",
+    "pid_a": "6f11b972a0",
+    "pid_b": "989fed69ba",
+    "opinion_no_a": 1,
+    "opinion_no_b": 4,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 1,
+   "launch_id": "f46c078ae99c4a4aae344baa0362b16a",
+   "round_id": "fe6840cb924a3301f4a9b75e534f684c",
+   "cand": 0,
+   "question": "Should we increase the tax rate on people who earn above a certain amount?",
+   "statement": "In conclusion, we should increase the tax rate on people who earn above a certain amount. The current system of taxation is outdated and does not take into account the cost of living and the inequality of wealth in the UK. By increasing the tax rate on the higher earners, it would allow increased funding for social welfare and services across the UK, such as the NHS. It would make society fairer, allow wealth to distribute among classes and would also allow people to contribute to the economy in a way that is proportional to their income.",
+   "quote_a": "We should increase the tax rate on individuals who earn over £150k per year.",
+   "quote_b": "We should also take influence from the likes of Finland who fine according to income when it comes to things like speeding and parking fines.",
+   "extraction": {
+    "quote_a": "We should increase the tax rate on individuals who earn over £150k per year.",
+    "quote_b": "We should also take influence from the likes of Finland who fine according to income when it comes to things like speeding and parking fines.",
+    "pid_a": "1be20c901a",
+    "pid_b": "3cbe93570d",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 2,
+   "launch_id": "0f93d01df69b40cca32fdc5931a66be8",
+   "round_id": "c5a1b61409369412dfd7965219ab9f15",
+   "cand": 1,
+   "question": "Should the government introduce a higher minimum wage for workers under 18?",
+   "statement": "In general, the group was in favour of a higher minimum wage for workers under 18. However, the group was not in favour of an increase in the minimum wage in the short term, due to the potential inflationary impact of such a move. The group was in favour of a gradual increase in the minimum wage over the next few years, as this would allow for businesses to adjust to the change in the minimum wage. The group was also in favour of the introduction of a living wage, which would be set at a level that would allow for a worker to live comfortably. The group was also in favour of the introduction of a higher minimum wage for workers under 18, as they often do the same level of work that older workers do, whilst getting paid less for it. They often face significant financial difficulties, and being able to remunerate them for their labour to a greater extent would allow for these difficulties to be alleviated. Furthermore, wages have not risen with inflation for decades, reducing prospects for younger people to have savings and financial security. A higher minimum wage would go some way in addressing these issues.",
+   "quote_a": "No, because raising wages leads to higher inflation. In this case, prices of the products and services will increase.",
+   "quote_b": "The wages in this category have been stagnating for a long time and do not account for inflation.",
+   "extraction": {
+    "quote_a": "No, because raising wages leads to higher inflation. In this case, prices of the products and services will increase.",
+    "quote_b": "The wages in this category have been stagnating for a long time and do not account for inflation.",
+    "pid_a": "5f5b0c0465",
+    "pid_b": "cbd3acbb36",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 3,
+   "launch_id": "a5fb2de950724e56bf969814f72229cf",
+   "round_id": "ced8454935aecf74ec5537024961f6b3",
+   "cand": 2,
+   "question": "Should public transport be free?",
+   "statement": "Public transport should be free. However, we recognise that there are costs involved in providing public transport, and that it is impractical to make it completely free. We therefore suggest that a system of subsidies be put in place to reduce the costs of public transport for low income groups.",
+   "quote_a": "It is fair that the users of the transport pay for it, not everyone.",
+   "quote_b": "Public transport should be paid by the government.",
+   "extraction": {
+    "quote_a": "It is fair that the users of the transport pay for it, not everyone.",
+    "quote_b": "Public transport should be paid by the government.",
+    "pid_a": "10dadc50b9",
+    "pid_b": "92157ff647",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 4,
+   "launch_id": "4ff0eb1f143249c5beec7acbcaba2fb3",
+   "round_id": "d638b555b8fef063c6efba43c2e210ad",
+   "cand": 0,
+   "question": "Should everyone receive a basic income?",
+   "statement": "We should trial a basic income, but only for people who are unable to work due to a disability.",
+   "quote_a": "I think a universal basic income should certainly be trialled. It would reduce inequality, give more people from working class backgrounds to pursue careers that genuinely interest them (but might be seen as risky if you don't have rich parents to back you), and give more credit to carers and stay at home parents for their contribution to society.",
+   "quote_b": "I dont believe everyone should recieve a basic income, it may reduce the incentive to work. It could actually make the country poorer as a result of individuals not wanting to seek work and contribute towards the economy.",
+   "extraction": {
+    "quote_a": "I think a universal basic income should certainly be trialled. It would reduce inequality, give more people from working class backgrounds to pursue careers that genuinely interest them (but might be seen as risky if you don't have rich parents to back you), and give more credit to carers and stay at home parents for their contribution to society.",
+    "quote_b": "I dont believe everyone should recieve a basic income, it may reduce the incentive to work. It could actually make the country poorer as a result of individuals not wanting to seek work and contribute towards the economy.",
+    "pid_a": "000afe7cc9",
+    "pid_b": "c48f60e673",
+    "opinion_no_a": 1,
+    "opinion_no_b": 5,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 5,
+   "launch_id": "8c85b56004284b108e871c7f1a92766e",
+   "round_id": "d5a627f37dd78d9adb9b23f22d33f8d0",
+   "cand": 2,
+   "question": "Should children be educated at home?",
+   "statement": "Children should be educated at school as it is the best way to learn. It is important to learn in a structured environment, to meet and interact with other children and adults. The social aspect of school is important to help develop communication and social skills.",
+   "quote_a": "I do not believe children should be educated at home because they need the social aspect that going to brick and mortar school gives them.",
+   "quote_b": "If the parents are willing to teach their kids, and they believe they will teach their kids to a high standard, then this is fine.",
+   "extraction": {
+    "quote_a": "I do not believe children should be educated at home because they need the social aspect that going to brick and mortar school gives them.",
+    "quote_b": "If the parents are willing to teach their kids, and they believe they will teach their kids to a high standard, then this is fine.",
+    "pid_a": "399ce0f281",
+    "pid_b": "d94905a514",
+    "opinion_no_a": 1,
+    "opinion_no_b": 5,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 6,
+   "launch_id": "20afa0c9fbf846529d5426b90c75b2f6",
+   "round_id": "82d51bb959f361a312bcc5bed3ce7a13",
+   "cand": 0,
+   "question": "Has the Internet been a net positive for humanity?",
+   "statement": "The Internet has been a net positive for humanity.  It has provided easy access to data that would otherwise be difficult to obtain for the average individual.  It has become a fabric of our lives in lots of ways.  Whether that be investigating what a medical problem may or may not be, to investigating work related issues or keeping in contact with friends and loved ones across the world.  The term, \"I'll google that\" is as familiar as any reference to looking things up.  It is interwoven into our very existence.  It does however also enable nefarious activities but as with any advancement, be that faster engines for cars, or fast food, there are always areas that can be exploited.  Everything is completely at your fingertips today and is enabled by the internet.  Whether that be sending cash, ordering food, paying bills, keeping tabs on your children via car driving apps, the list is endless.  Whilst the opportunity for harm to result from use of the internet, we believe the good outweighs the bad and we need legislation to frame the use of the internet to prevent misuse.",
+   "quote_a": "I believe that the connections it enables, whether that be work or friends is invaluable and we could not live without it now.",
+   "quote_b": "One problem is the amount of misinformation, malicious information, trolling and harmful content that is out there - it has certainly provided a platform for nasty and dishonest people to cause lots of harm.",
+   "extraction": {
+    "quote_a": "I believe that the connections it enables, whether that be work or friends is invaluable and we could not live without it now.",
+    "quote_b": "One problem is the amount of misinformation, malicious information, trolling and harmful content that is out there - it has certainly provided a platform for nasty and dishonest people to cause lots of harm.",
+    "pid_a": "2429796451",
+    "pid_b": "60ce2ede40",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 7,
+   "launch_id": "59442b23c38743f99ad77b1baa75329d",
+   "round_id": "1eb0380d731dbb0697b591a1c89089a9",
+   "cand": 2,
+   "question": "Should children under the age of 12 be allowed to walk home from school on their own?",
+   "statement": "Children should be allowed to walk home from school on their own, but only after certain requirements are met. First, the route to and from school should be checked by the parent and child, so that the child is aware of any potential dangers. The child should also have their mobile phone and the parents contact number with them at all times. They should be able to identify all houses and locations along the route, and identify any strangers or potentially dangerous people. If all of these requirements are met, then it should be acceptable for children under 12 to walk home from school on their own.",
+   "quote_a": "I think ideally, it would be safer and wiser for children under the age of 12 to have a responsible adult who could pick them up from school every day.",
+   "quote_b": "i do not see any reason why they should not.",
+   "extraction": {
+    "quote_a": "I think ideally, it would be safer and wiser for children under the age of 12 to have a responsible adult who could pick them up from school every day.",
+    "quote_b": "i do not see any reason why they should not.",
+    "pid_a": "0eb7077ea5",
+    "pid_b": "fbfda54a36",
+    "opinion_no_a": 1,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 8,
+   "launch_id": "491bfedba3ee4454aa93b04bb61f07e0",
+   "round_id": "652bf3958398d19858ce55c7b93ced17",
+   "cand": 0,
+   "question": "Should we limit the number of times a person can run for political office?",
+   "statement": "There should be a limit on the number of times a person can run for political office. The limit should be determined by the nature of the position and the person's performance in office.",
+   "quote_a": "Lastly, I think that it's against the spirit of democracy to not invite change as part of the political process.",
+   "quote_b": "I don't think there should be a limit, although limiting it may reduce corruption by switching round the politicians.",
+   "extraction": {
+    "quote_a": "Lastly, I think that it's against the spirit of democracy to not invite change as part of the political process.",
+    "quote_b": "I don't think there should be a limit, although limiting it may reduce corruption by switching round the politicians.",
+    "pid_a": "1ecf3c2f45",
+    "pid_b": "79205368ae",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 9,
+   "launch_id": "de9fd136287b4cf98af3910b2baea2ec",
+   "round_id": "05dc19dfc4167b358873ee27a6503db5",
+   "cand": 3,
+   "question": "Is it possible to create a sustainable food supply?",
+   "statement": "It is possible to create a sustainable food supply, but only on a small scale and not on a global scale.\nThe group agreed that in order to create a sustainable food supply on a global scale, there would have to be a global effort. The world is too large and diverse for this to be possible. There are too many different cultures, belief systems, and different levels of wealth. There are too many different types of climates and environments to make this possible. The participants agreed that this is an idealistic idea that is not practical. However, they did agree that it is possible to create a sustainable food supply on a small scale, such as a small community or a small group of people. In this case, the people would have to work together, cooperate, and be willing to make sacrifices in order to make it work. This would require a strong leader to bring everyone together and to keep everyone on the same page. The participants also agreed that it would be a very difficult thing to accomplish, but it would be possible.",
+   "quote_a": "Global scale, it is not possible to create sustainable food supply.",
+   "quote_b": "I believe it is possibly create a sustainable food supply - with structure, thought and leadership",
+   "extraction": {
+    "quote_a": "Global scale, it is not possible to create sustainable food supply.",
+    "quote_b": "I believe it is possibly create a sustainable food supply - with structure, thought and leadership",
+    "pid_a": "2784d27bdf",
+    "pid_b": "8a1e8d74e9",
+    "opinion_no_a": 2,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 10,
+   "launch_id": "62aa35b48fa44fb391e42b9c62d93bac",
+   "round_id": "16f97352cb6a7b718a2205b158d62a03",
+   "cand": 1,
+   "question": "Should we have more or fewer migrant workers to the UK?",
+   "statement": "In general, the UK has benefited from migrant workers in the past. In the current climate, with high unemployment, we should not be bringing in any more migrant workers. If we have high unemployment, we should be looking to train up our own people first.",
+   "quote_a": "I think we should have fewer migrant workers to the UK.",
+   "quote_b": "We should have more migrant workers.",
+   "extraction": {
+    "quote_a": "I think we should have fewer migrant workers to the UK.",
+    "quote_b": "We should have more migrant workers.",
+    "pid_a": "1900f5d587",
+    "pid_b": "93ee3b877e",
+    "opinion_no_a": 2,
+    "opinion_no_b": 5,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 11,
+   "launch_id": "73a5dc1fa1f14b27898e56c7097d4be5",
+   "round_id": "ed9e19bc43999b0019595759efc35a8b",
+   "cand": 1,
+   "question": "Should students who have a higher education be obliged to do a year of national service?",
+   "statement": "We have come to the decision that students should be encouraged to take a year of national service after their higher education. In the case of the participants in this study, they all agreed that this year of service should be voluntary, though encouraged. The reasoning behind this was that although the participants had originally had mixed opinions, it was the view of all of them that young people with a higher education should be given the opportunity to choose for themselves, whether to contribute to their country, or to move on to the next stage of their lives.",
+   "quote_a": "I believe that all school-leavers (at 16, 18 or older) should do a minimum of two years national service.",
+   "quote_b": "I do not think they should be obliged to do a year of national service, they could be encouraged.",
+   "extraction": {
+    "quote_a": "I believe that all school-leavers (at 16, 18 or older) should do a minimum of two years national service.",
+    "quote_b": "I do not think they should be obliged to do a year of national service, they could be encouraged.",
+    "pid_a": "5e7e9b53bf",
+    "pid_b": "2192bf5624",
+    "opinion_no_a": 5,
+    "opinion_no_b": 1,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 12,
+   "launch_id": "8b0782f837e240819cfbf174aba6832c",
+   "round_id": "7bde92269b8fc03ba98fcde9aa61d272",
+   "cand": 0,
+   "question": "Should companies be required to tell you where your clothes were made?",
+   "statement": "Although it isn't a necessity to do this I think that companies should be upfront about where their clothes are made. If they are made in Far East or Indian factories the conditions for the workers are terrible and I would want to know if the clothes I might buy were being made under those circumstances. I would also like to know if the clothes were being made in the UK as it would greatly help our clothing industry and the UK economy. I believe that clothes made in the UK are far better quality than those made in 'sweat shops' in other countries so you would know you are getting a decent well made product if it said Made in England on it.",
+   "quote_a": "Yes, if only for ethical reasons.",
+   "quote_b": "Probably not, in the grand scheme of things.",
+   "extraction": {
+    "quote_a": "Yes, if only for ethical reasons.",
+    "quote_b": "Probably not, in the grand scheme of things.",
+    "pid_a": "090e6bcce9",
+    "pid_b": "73a11ac98b",
+    "opinion_no_a": 1,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 13,
+   "launch_id": "ec064b42b3ed4e01978941d1ad88d884",
+   "round_id": "4a3a690ecd93bb8f2884576dafcb6cbb",
+   "cand": 1,
+   "question": "Should we encourage high-earning students to stay in the UK by offering them special scholarships?",
+   "statement": "We believe that offering high-earning students special scholarships to stay in the UK would be beneficial. They could go on to create innovative businesses and job opportunities contributing to the UK's growth and success. However, the job market and universities should be appealing to students, and they should naturally want to stay in the UK and continue to contribute to the country. We believe that the more a person earns, the more they pay in taxes so will be good for the economic state of the country also. We believe that high earning students will make their own mind up on which country they wish to work in. We see no harm in offering them special scholarships but we don't believe that alone, will  encourage them to stay in this country. Political, environmental and standard of living could also play a part in their choice.",
+   "quote_a": "I believe high earning students should be offered scholarships to stay in the UK.",
+   "quote_b": "however, offering them financial scholarships would be a severe waste of money.",
+   "extraction": {
+    "quote_a": "I believe high earning students should be offered scholarships to stay in the UK.",
+    "quote_b": "however, offering them financial scholarships would be a severe waste of money.",
+    "pid_a": "79e01875d8",
+    "pid_b": "6d79b31106",
+    "opinion_no_a": 3,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 14,
+   "launch_id": "90ac1f2194de4f6c840d7a4506ab5208",
+   "round_id": "f9b9c32ef5011004ca81ab3bb5a78b60",
+   "cand": 2,
+   "question": "Is it a good thing that people are now living to 100 or more?",
+   "statement": "It is a good thing that people are living to 100 or more as it is a reflection of the advances in modern medicine.  It is also good for the individual to have the opportunity to live a longer life and for society to be able to benefit from the accumulated wisdom of the elderly.  However, it is important that the quality of life of the elderly is good and that society can afford to support them.",
+   "quote_a": "Living to 100 or more is a good reflection on the greater health we enjoy now.",
+   "quote_b": "If an aging population means that the state cannot support anyone who needs help, not just the aged then an aging population may not be a good thing.",
+   "extraction": {
+    "quote_a": "Living to 100 or more is a good reflection on the greater health we enjoy now.",
+    "quote_b": "If an aging population means that the state cannot support anyone who needs help, not just the aged then an aging population may not be a good thing.",
+    "pid_a": "f6c3077c52",
+    "pid_b": "130b8d86d6",
+    "opinion_no_a": 5,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 15,
+   "launch_id": "d02ae7ff0b7e4f12aa8d6ebbca8f44aa",
+   "round_id": "0b0baa6f8a43701505bbba67f865c6c3",
+   "cand": 2,
+   "question": "Should we require businesses to allow workers to take more holidays?",
+   "statement": "We believe that workers should be allowed to take more holidays. This is because the current work culture is not very conducive to a good work-life balance. There are many different factors that contribute to this, such as the increasing use of technology to stay connected to work. This can lead to people feeling as if they are constantly at work. This can lead to stress, anxiety and other mental health problems. This is not only bad for the workers themselves, but also for their families and their employers. It is in everyone's best interest to have a good work-life balance and we believe that this can be achieved by allowing workers to take more holidays.",
+   "quote_a": "Yes, we should. Increased holidays increase work-life balance.",
+   "quote_b": "I don't think massive changed should be made.",
+   "extraction": {
+    "quote_a": "Yes, we should. Increased holidays increase work-life balance.",
+    "quote_b": "I don't think massive changed should be made.",
+    "pid_a": "35dd207fba",
+    "pid_b": "4198cce2bf",
+    "opinion_no_a": 2,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 16,
+   "launch_id": "4a49eda51ce84e02829cb8a23a3d1a79",
+   "round_id": "9c24963c894260a942efb5dc057e8b69",
+   "cand": 3,
+   "question": "Should the minimum wage be raised?",
+   "statement": "In general, the minimum wage should be raised. However, it is important to note that there are various different perspectives on this topic. The cost of living is increasing, and therefore a higher minimum wage is needed to help those who are struggling to survive. On the other hand, some businesses may find it difficult to cope with an increase in the minimum wage, especially in the current economic climate. The minimum wage should be increased in a way that is fair to all parties involved.",
+   "quote_a": "Yes, absolutely",
+   "quote_b": "I'm not sure I have enough information to offer an opinion on this subject.",
+   "extraction": {
+    "quote_a": "Yes, absolutely",
+    "quote_b": "I'm not sure I have enough information to offer an opinion on this subject.",
+    "pid_a": "944c349182",
+    "pid_b": "cde478bdf0",
+    "opinion_no_a": 2,
+    "opinion_no_b": 4,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 17,
+   "launch_id": "91b3876e20694f5ea143cd783376b547",
+   "round_id": "3f9ac3147332b3f9a88b8f53df72125d",
+   "cand": 0,
+   "question": "Should the UK change its asylum seeking policy to make it easier to enter the country?",
+   "statement": "The UK should change its asylum seeking policy to make it easier to enter the country. The current system is very difficult to navigate and in some cases, the process can take years. This means that those who are in genuine need of asylum are often left in limbo, in fear of their lives, while their application is processed. The system needs to be streamlined to make it easier for those in genuine need to access asylum. It is also important that the UK government works with other countries to support them in providing safe and legal routes for asylum seekers to access the UK.",
+   "quote_a": "If the UK truly sees itself as an influential global power, it must step up and change its asylum seeking policy.",
+   "quote_b": "No. The system needs tightening and only those who seek genuine asylum should have it granted.",
+   "extraction": {
+    "quote_a": "If the UK truly sees itself as an influential global power, it must step up and change its asylum seeking policy.",
+    "quote_b": "No. The system needs tightening and only those who seek genuine asylum should have it granted.",
+    "pid_a": "33b9d79053",
+    "pid_b": "bb13a376c8",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 18,
+   "launch_id": "548dc7ffff6a4e9c894cf1f09ee27069",
+   "round_id": "c4ab259a20a316c2c711dcf09992b944",
+   "cand": 1,
+   "question": "Should there be an age limit on who can run for Prime Minister?",
+   "statement": "In general, the group was in favour of there being no age limit for who can run for Prime Minister. The group felt that the age of a person should not be a barrier to them running for Prime Minister, and that the skills and aptitude of the candidate should speak for themselves. The group felt that if a person is fit and able, and has the skills and aptitude to do the job, then they should be able to run for Prime Minister, regardless of their age. The group felt that if there was an age limit for who could run for Prime Minister, then it would be ageist and discriminatory, and would not allow the best person for the job to be selected.",
+   "quote_a": "I believe there should be an age limit on who can run for Prime Minister because it would be foolish if there was not.",
+   "quote_b": "I disagree that there should be an age limit, aside from it needs to be an adult i.e over 18.",
+   "extraction": {
+    "quote_a": "I believe there should be an age limit on who can run for Prime Minister because it would be foolish if there was not.",
+    "quote_b": "I disagree that there should be an age limit, aside from it needs to be an adult i.e over 18.",
+    "pid_a": "362273f36b",
+    "pid_b": "2b2f394288",
+    "opinion_no_a": 2,
+    "opinion_no_b": 1,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  },
+  {
+   "draw_index": 19,
+   "launch_id": "cde347703f4c4bf5b3221c0cc2ebd6d9",
+   "round_id": "d3266fc5d23b12df6e5352cb7ba1bf68",
+   "cand": 3,
+   "question": "Should the UK keep the monarchy?",
+   "statement": "We believe the UK should keep the monarchy. It is a tradition that has been long standing and creates the identity of the UK. The tourism it brings in is very valuable and helps boost the economy. It is also a positive for British people to have a British monarchy and shows how great the UK is. It also symbolises the rich history and tradition of the UK.\nThe procedure followed by the group of participants is described below.\nThe individual participants in the group of four participants first submitted their views on the question. Then, they engaged in a deliberative discussion to come up with a consensus view.  Each participant was allowed to speak and then comment on the others' views. After that, they took a break to think about the different views that were presented. Then, they returned to the discussion with an aim of finding a consensus view. A moderator was present to facilitate the discussion. \nThere are advantages and disadvantages of this approach to coming up with a consensus view.\nOne of the advantages is that it can be used for various topics, and can even be used in everyday life. \nHowever, the disadvantage is that it is difficult to do, and requires participants to be able to discuss calmly and have",
+   "quote_a": "They bring tourism money in, they set our country apart from many others.",
+   "quote_b": "The money spent on the monarchy is very wasteful and could be better used elsewhere.",
+   "extraction": {
+    "quote_a": "They bring tourism money in, they set our country apart from many others.",
+    "quote_b": "The money spent on the monarchy is very wasteful and could be better used elsewhere.",
+    "pid_a": "7ee593098e",
+    "pid_b": "88658fcc25",
+    "opinion_no_a": 2,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   }
+  }
+ ]
+}

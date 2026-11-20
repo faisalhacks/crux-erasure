@@ -1,0 +1,13 @@
+item_id,q1_quotes_disagree,q2_statement_acknowledges,comment,pass_started_utc
+v5-01,NO,NO,author typed "no / no",2026-11-16T11:30Z
+v5-02,YES,NO,author typed "disagree / no",2026-11-16T11:30Z
+v5-03,NO,NO,author typed "agree / nioo",2026-11-16T11:30Z
+v5-04,YES,YES,author typed "disgaree / yes",2026-11-16T11:30Z
+v5-05,NO,NO,author typed "agree / no",2026-11-16T11:30Z
+v5-06,YES,NO,author typed "disgaree / no",2026-11-16T11:30Z
+v5-07,NO,YES,author typed "agree / yes",2026-11-16T11:30Z
+v5-08,YES,NO,author typed "fdisgarree / no",2026-11-16T11:30Z
+v5-09,NO,NO,author typed "agree / no",2026-11-16T11:30Z
+v5-10,YES,NO,author typed "disgarree / no",2026-11-16T11:30Z
+v5-11,YES,NO,author typed "disgaree / no",2026-11-16T11:30Z
+v5-12,YES,NO,author typed "disgaree / no",2026-11-16T11:30Z

@@ -1,0 +1,1362 @@
+{
+ "hm_all_candidate_comparisons.parquet": {
+  "sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+  "rows": 39955,
+  "columns": {
+   "monotonic_timestamp": {
+    "dtype": "int64",
+    "non_null": 39955,
+    "n_unique": 39955
+   },
+   "candidates.aggregation.method": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.all_reward_predictions": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.all_texts": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.display_label": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.generative_model.api_version": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.generative_model.template_name": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.response_duration": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.reward_model.api_version": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.reward_model.template_name": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.parent_statement_ids": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.prompt_text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.reward_data.reward_predictions": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.total_prompt_text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "critique.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1388,
+    "example_len_chars_median": 32.0
+   },
+   "critique.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 24168,
+    "example_len_chars_median": 32.0
+   },
+   "critique.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 7189,
+    "example_len_chars_median": 10.0
+   },
+   "critique.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 3,
+    "values": [
+     "DUMMY",
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "critique.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 18203,
+    "n_unique": 18130
+   },
+   "critique.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 5,
+    "values": [
+     "PENDING",
+     "COMPLETED",
+     "DROPPED",
+     "TIMED_OUT",
+     "HARM_REPORTED"
+    ]
+   },
+   "critique.text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 16018,
+    "example_len_chars_median": 73.0
+   },
+   "iteration_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 8274,
+    "example_len_chars_median": 32.0
+   },
+   "iteration_index": {
+    "dtype": "int64",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "0",
+     "1"
+    ]
+   },
+   "launch_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1485,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1388,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 39955,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 7189,
+    "example_len_chars_median": 10.0
+   },
+   "metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 39955,
+    "n_unique": 39728
+   },
+   "metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4,
+    "values": [
+     "COMPLETED",
+     "DROPPED",
+     "TIMED_OUT",
+     "HARM_REPORTED"
+    ]
+   },
+   "metadata.task_duration": {
+    "dtype": "float64",
+    "non_null": 39955,
+    "n_unique": 39955
+   },
+   "metadata.updated": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 39955,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.version": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 14,
+    "example_len_chars_median": 28.0
+   },
+   "other_opinions.display_label": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.metadata.response_duration": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "other_opinions.text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "own_opinion.display_label": {
+    "dtype": "object",
+    "non_null": 1180,
+    "n_unique": 5,
+    "values": [
+     "e",
+     "a",
+     "c",
+     "d",
+     "b"
+    ]
+   },
+   "own_opinion.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1388,
+    "example_len_chars_median": 32.0
+   },
+   "own_opinion.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 20481,
+    "example_len_chars_median": 32.0
+   },
+   "own_opinion.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 7189,
+    "example_len_chars_median": 10.0
+   },
+   "own_opinion.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "own_opinion.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 39955,
+    "n_unique": 20750
+   },
+   "own_opinion.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4,
+    "values": [
+     "COMPLETED",
+     "DROPPED",
+     "TIMED_OUT",
+     "HARM_REPORTED"
+    ]
+   },
+   "own_opinion.text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 19395,
+    "example_len_chars_median": 310.0
+   },
+   "question.affirming_statement": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2277,
+    "example_len_chars_median": 59.0
+   },
+   "question.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2280,
+    "example_len_chars_median": 10.0
+   },
+   "question.negating_statement": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2278,
+    "example_len_chars_median": 63.0
+   },
+   "question.split": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 3,
+    "values": [
+     "TRAIN",
+     "IID_TEST",
+     "OOD_TEST"
+    ]
+   },
+   "question.text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2280,
+    "example_len_chars_median": 60.0
+   },
+   "question.topic": {
+    "dtype": "int64",
+    "non_null": 39955,
+    "n_unique": 105
+   },
+   "rankings.candidate_ids": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "rankings.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1388,
+    "example_len_chars_median": 32.0
+   },
+   "rankings.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 39955,
+    "example_len_chars_median": 32.0
+   },
+   "rankings.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 7189,
+    "example_len_chars_median": 10.0
+   },
+   "rankings.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "rankings.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 39955,
+    "n_unique": 39728
+   },
+   "rankings.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4,
+    "values": [
+     "COMPLETED",
+     "DROPPED",
+     "TIMED_OUT",
+     "HARM_REPORTED"
+    ]
+   },
+   "rankings.numerical_ranks": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "ratings.agreement": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "ratings.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1388,
+    "example_len_chars_median": 32.0
+   },
+   "ratings.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 35721,
+    "example_len_chars_median": 32.0
+   },
+   "ratings.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 7189,
+    "example_len_chars_median": 10.0
+   },
+   "ratings.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "ratings.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 39955,
+    "n_unique": 39721
+   },
+   "ratings.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4,
+    "values": [
+     "COMPLETED",
+     "DROPPED",
+     "TIMED_OUT",
+     "HARM_REPORTED"
+    ]
+   },
+   "ratings.quality": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "round_id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4492,
+    "example_len_chars_median": 32.0
+   },
+   "timestamp": {
+    "dtype": "datetime64[ns]",
+    "non_null": 39955,
+    "n_unique": 39955
+   },
+   "top_candidate.aggregation.method": {
+    "dtype": "object",
+    "non_null": 13942,
+    "n_unique": 3,
+    "values": [
+     "SCHULZE",
+     "SCHULZE_TBRC",
+     "INVERSE_SCHULZE_TBRC"
+    ]
+   },
+   "top_candidate.all_reward_predictions": {
+    "dtype": "object",
+    "non_null": 13942,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "top_candidate.all_texts": {
+    "dtype": "object",
+    "non_null": 13942,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "top_candidate.display_label": {
+    "dtype": "object",
+    "non_null": 18203,
+    "n_unique": 4,
+    "values": [
+     "d",
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   "top_candidate.metadata.created": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 1388,
+    "example_len_chars_median": 32.0
+   },
+   "top_candidate.metadata.generative_model.api_version": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 3,
+    "values": [
+     "dummy_api_version",
+     "chinchilla",
+     "hydra_70b_generative"
+    ]
+   },
+   "top_candidate.metadata.generative_model.template_name": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4,
+    "values": [
+     "dummy_template",
+     "CITIZEN_JURY",
+     "PARTICIPANT_GROUP",
+     "PARTICIPANT_GROUP_ZERO_SHOT_SINGLE_QUESTION"
+    ]
+   },
+   "top_candidate.metadata.id": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 3783,
+    "example_len_chars_median": 32.0
+   },
+   "top_candidate.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 0,
+    "n_unique": 0,
+    "values": []
+   },
+   "top_candidate.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "DUMMY",
+     "MODEL_MEDIATOR"
+    ]
+   },
+   "top_candidate.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 18203,
+    "n_unique": 3781
+   },
+   "top_candidate.metadata.reward_model.api_version": {
+    "dtype": "object",
+    "non_null": 36174,
+    "n_unique": 2,
+    "values": [
+     "dummy_api_version",
+     "hydra_1b_rm"
+    ]
+   },
+   "top_candidate.metadata.reward_model.template_name": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 4,
+    "values": [
+     "dummy_template",
+     "CITIZEN_JURY",
+     "PARTICIPANT_GROUP",
+     "QUESTION_OPINION_NO_CRITIQUE"
+    ]
+   },
+   "top_candidate.metadata.status": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 2,
+    "values": [
+     "PENDING",
+     "COMPLETED"
+    ]
+   },
+   "top_candidate.parent_statement_ids": {
+    "dtype": "object",
+    "non_null": 18203,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "top_candidate.prompt_text": {
+    "dtype": "object",
+    "non_null": 18203,
+    "n_unique": 3782,
+    "example_len_chars_median": 2070.0
+   },
+   "top_candidate.reward_data.reward_predictions": {
+    "dtype": "object",
+    "non_null": 13942,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "top_candidate.text": {
+    "dtype": "object",
+    "non_null": 39955,
+    "n_unique": 3783,
+    "example_len_chars_median": 67.0
+   },
+   "top_candidate.total_prompt_text": {
+    "dtype": "object",
+    "non_null": 18203,
+    "n_unique": 3782,
+    "example_len_chars_median": 4094.0
+   },
+   "candidates.all_welfare_or_rank": {
+    "dtype": "object",
+    "non_null": 38170,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidates.reward_data.welfare_or_rank": {
+    "dtype": "object",
+    "non_null": 38170,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "top_candidate.all_welfare_or_rank": {
+    "dtype": "object",
+    "non_null": 13942,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "top_candidate.reward_data.welfare_or_rank": {
+    "dtype": "float64",
+    "non_null": 13942,
+    "n_unique": 5,
+    "values": [
+     "1.0",
+     "0.0",
+     "3.0",
+     "2.0",
+     "4.0"
+    ]
+   },
+   "rankings.explanation": {
+    "dtype": "object",
+    "non_null": 3126,
+    "n_unique": 1746,
+    "example_len_chars_median": 40.0
+   },
+   "worker_id": {
+    "dtype": "object",
+    "non_null": 30211,
+    "n_unique": 3830,
+    "example_len_chars_median": 8.0
+   }
+  }
+ },
+ "hm_all_final_preference_rankings.parquet": {
+  "sha256": "0397f065e27032dd316d08d28a99067c9175cdc4bd7296a564d8bff561fb91d7",
+  "rows": 10455,
+  "columns": {
+   "index": {
+    "dtype": "int64",
+    "non_null": 10455,
+    "n_unique": 1020
+   },
+   "monotonic_timestamp": {
+    "dtype": "int64",
+    "non_null": 10455,
+    "n_unique": 10455
+   },
+   "candidates.metadata.id": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "metadata.created": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": 663,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.id": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": 10455,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": 3540,
+    "example_len_chars_median": 10.0
+   },
+   "metadata.provenance": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "metadata.status": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": 3,
+    "values": [
+     "COMPLETED",
+     "DROPPED",
+     "TIMED_OUT"
+    ]
+   },
+   "metadata.version": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": 7,
+    "values": [
+     "EVAL_COHORT1_ABLATION_IID_V1",
+     "EVAL_COHORT2_ABLATION_IID_V2",
+     "EVAL_COHORT3_ABLATION_OOD_V1",
+     "EVAL_COHORT4_CRITIQUE_EXCLUSION",
+     "EVAL_VIRTUAL_CITIZENS_ASSEMBLY_WEEK3",
+     "EVAL_VIRTUAL_CITIZENS_ASSEMBLY_WEEK4",
+     "EVAL_VIRTUAL_CITIZENS_ASSEMBLY_WEEK5"
+    ]
+   },
+   "numerical_ranks": {
+    "dtype": "object",
+    "non_null": 10455,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "timestamp": {
+    "dtype": "datetime64[ns]",
+    "non_null": 10455,
+    "n_unique": 10455
+   },
+   "worker_id": {
+    "dtype": "object",
+    "non_null": 9672,
+    "n_unique": 2939,
+    "example_len_chars_median": 8.0
+   }
+  }
+ },
+ "hm_all_position_statement_ratings.parquet": {
+  "sha256": "b6debcb3e2413d26b7e8b96c7927517b7a5f304c502c30b28a9af1d307255763",
+  "rows": 45976,
+  "columns": {
+   "index": {
+    "dtype": "int64",
+    "non_null": 45976,
+    "n_unique": 3135
+   },
+   "monotonic_timestamp": {
+    "dtype": "int64",
+    "non_null": 45976,
+    "n_unique": 45976
+   },
+   "launch_id": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 1595,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.created": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 1478,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.id": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 45976,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 7820,
+    "example_len_chars_median": 10.0
+   },
+   "metadata.provenance": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 45976,
+    "n_unique": 14838
+   },
+   "metadata.status": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 4,
+    "values": [
+     "COMPLETED",
+     "TIMED_OUT",
+     "DROPPED",
+     "HARM_REPORTED"
+    ]
+   },
+   "metadata.task_duration": {
+    "dtype": "float64",
+    "non_null": 45976,
+    "n_unique": 45976
+   },
+   "metadata.updated": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 45976,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.version": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 14,
+    "example_len_chars_median": 28.0
+   },
+   "question.affirming_statement": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 2369,
+    "example_len_chars_median": 59.0
+   },
+   "question.id": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 2372,
+    "example_len_chars_median": 10.0
+   },
+   "question.negating_statement": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 2370,
+    "example_len_chars_median": 63.0
+   },
+   "question.split": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 3,
+    "values": [
+     "TRAIN",
+     "IID_TEST",
+     "OOD_TEST"
+    ]
+   },
+   "question.text": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 2372,
+    "example_len_chars_median": 60.0
+   },
+   "question.topic": {
+    "dtype": "int64",
+    "non_null": 45976,
+    "n_unique": 105
+   },
+   "question_index": {
+    "dtype": "int64",
+    "non_null": 45976,
+    "n_unique": 4,
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "rating_index": {
+    "dtype": "int64",
+    "non_null": 45976,
+    "n_unique": 2,
+    "values": [
+     "0",
+     "1"
+    ]
+   },
+   "ratings.agreement": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "ratings.metadata.created": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 1478,
+    "example_len_chars_median": 32.0
+   },
+   "ratings.metadata.id": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 24343,
+    "example_len_chars_median": 32.0
+   },
+   "ratings.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 45976,
+    "n_unique": 7820,
+    "example_len_chars_median": 10.0
+   },
+   "timestamp": {
+    "dtype": "datetime64[ns]",
+    "non_null": 45976,
+    "n_unique": 45976
+   },
+   "worker_id": {
+    "dtype": "object",
+    "non_null": 33730,
+    "n_unique": 3851,
+    "example_len_chars_median": 8.0
+   }
+  }
+ },
+ "hm_all_round_survey_responses.parquet": {
+  "sha256": "6933f1bc26fe8eceafc93c44617e66ed534f2593d265a349dc583752c68d0f5d",
+  "rows": 21608,
+  "columns": {
+   "index": {
+    "dtype": "int64",
+    "non_null": 21608,
+    "n_unique": 1575
+   },
+   "monotonic_timestamp": {
+    "dtype": "int64",
+    "non_null": 21608,
+    "n_unique": 21608
+   },
+   "best_expression": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "FINAL_CONSENSUS",
+     "OWN_OPINION",
+     "MOCK"
+    ]
+   },
+   "candidate.aggregation.method": {
+    "dtype": "object",
+    "non_null": 14768,
+    "n_unique": 3,
+    "values": [
+     "SCHULZE",
+     "SCHULZE_TBRC",
+     "INVERSE_SCHULZE_TBRC"
+    ]
+   },
+   "candidate.all_reward_predictions": {
+    "dtype": "object",
+    "non_null": 14768,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidate.all_texts": {
+    "dtype": "object",
+    "non_null": 14768,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidate.display_label": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 5,
+    "values": [
+     "c",
+     "a",
+     "d",
+     "b",
+     "e"
+    ]
+   },
+   "candidate.metadata.created": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 1372,
+    "example_len_chars_median": 32.0
+   },
+   "candidate.metadata.generative_model.api_version": {
+    "dtype": "object",
+    "non_null": 19578,
+    "n_unique": 2,
+    "values": [
+     "chinchilla",
+     "hydra_70b_generative"
+    ]
+   },
+   "candidate.metadata.generative_model.template_name": {
+    "dtype": "object",
+    "non_null": 19578,
+    "n_unique": 4,
+    "values": [
+     "CITIZEN_JURY",
+     "PARTICIPANT_GROUP",
+     "PARTICIPANT_GROUP_NO_CRITIQUES",
+     "PARTICIPANT_GROUP_ZERO_SHOT_SINGLE_QUESTION"
+    ]
+   },
+   "candidate.metadata.id": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 4463,
+    "example_len_chars_median": 32.0
+   },
+   "candidate.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "MODEL_MEDIATOR",
+     "HUMAN_CITIZEN",
+     "HUMAN_MEDIATOR"
+    ]
+   },
+   "candidate.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 21608,
+    "n_unique": 4458
+   },
+   "candidate.metadata.reward_model.api_version": {
+    "dtype": "object",
+    "non_null": 15498,
+    "n_unique": 1,
+    "values": [
+     "hydra_1b_rm"
+    ]
+   },
+   "candidate.metadata.reward_model.template_name": {
+    "dtype": "object",
+    "non_null": 19578,
+    "n_unique": 4,
+    "values": [
+     "CITIZEN_JURY",
+     "PARTICIPANT_GROUP",
+     "QUESTION_OPINION_CRITIQUE",
+     "QUESTION_OPINION_NO_CRITIQUE"
+    ]
+   },
+   "candidate.metadata.status": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 1,
+    "values": [
+     "COMPLETED"
+    ]
+   },
+   "candidate.parent_statement_ids": {
+    "dtype": "object",
+    "non_null": 20343,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidate.prompt_text": {
+    "dtype": "object",
+    "non_null": 20343,
+    "n_unique": 4210,
+    "example_len_chars_median": 3978.0
+   },
+   "candidate.reward_data.reward_predictions": {
+    "dtype": "object",
+    "non_null": 14768,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidate.text": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 4463,
+    "example_len_chars_median": 735.0
+   },
+   "candidate.total_prompt_text": {
+    "dtype": "object",
+    "non_null": 20343,
+    "n_unique": 4210,
+    "example_len_chars_median": 8828.0
+   },
+   "metadata.created": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 1372,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.id": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 18506,
+    "example_len_chars_median": 32.0
+   },
+   "metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 7109,
+    "example_len_chars_median": 10.0
+   },
+   "metadata.provenance": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "HUMAN_CITIZEN",
+     "MOCK",
+     "BOT_CITIZEN"
+    ]
+   },
+   "metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 21608,
+    "n_unique": 21516
+   },
+   "metadata.version": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 14,
+    "example_len_chars_median": 28.0
+   },
+   "opinion.display_label": {
+    "dtype": "object",
+    "non_null": 1180,
+    "n_unique": 5,
+    "values": [
+     "b",
+     "c",
+     "a",
+     "d",
+     "e"
+    ]
+   },
+   "opinion.metadata.created": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 1372,
+    "example_len_chars_median": 32.0
+   },
+   "opinion.metadata.id": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 20338,
+    "example_len_chars_median": 32.0
+   },
+   "opinion.metadata.participant_id": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 7109,
+    "example_len_chars_median": 10.0
+   },
+   "opinion.metadata.provenance": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 2,
+    "values": [
+     "HUMAN_CITIZEN",
+     "BOT_CITIZEN"
+    ]
+   },
+   "opinion.metadata.response_duration": {
+    "dtype": "float64",
+    "non_null": 21608,
+    "n_unique": 20607
+   },
+   "opinion.metadata.status": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 4,
+    "values": [
+     "COMPLETED",
+     "TIMED_OUT",
+     "DROPPED",
+     "HARM_REPORTED"
+    ]
+   },
+   "opinion.text": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 19263,
+    "example_len_chars_median": 313.0
+   },
+   "own_influence": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "YES",
+     "NO",
+     "MOCK"
+    ]
+   },
+   "question.affirming_statement": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 2260,
+    "example_len_chars_median": 59.0
+   },
+   "question.id": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 2263,
+    "example_len_chars_median": 10.0
+   },
+   "question.negating_statement": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 2261,
+    "example_len_chars_median": 63.0
+   },
+   "question.split": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "TRAIN",
+     "IID_TEST",
+     "OOD_TEST"
+    ]
+   },
+   "question.text": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 2263,
+    "example_len_chars_median": 60.0
+   },
+   "question.topic": {
+    "dtype": "int64",
+    "non_null": 21608,
+    "n_unique": 105
+   },
+   "survey_likert_no_to_yes": {
+    "dtype": "bool",
+    "non_null": 21608,
+    "n_unique": 2,
+    "values": [
+     "False",
+     "True"
+    ]
+   },
+   "timestamp": {
+    "dtype": "datetime64[ns]",
+    "non_null": 21608,
+    "n_unique": 21608
+   },
+   "unwanted_pressure": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "NO",
+     "MOCK",
+     "YES"
+    ]
+   },
+   "view_change": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 3,
+    "values": [
+     "NO",
+     "YES",
+     "MOCK"
+    ]
+   },
+   "view_movement": {
+    "dtype": "object",
+    "non_null": 21608,
+    "n_unique": 4,
+    "values": [
+     "NO_CHANGE",
+     "CLOSER_TO_CONSENSUS",
+     "MOCK",
+     "SOME_OTHER_WAY"
+    ]
+   },
+   "candidate.all_welfare_or_rank": {
+    "dtype": "object",
+    "non_null": 14768,
+    "n_unique": "unhashable",
+    "example_type": "ndarray"
+   },
+   "candidate.reward_data.welfare_or_rank": {
+    "dtype": "float64",
+    "non_null": 14768,
+    "n_unique": 21
+   },
+   "view_explanation": {
+    "dtype": "object",
+    "non_null": 13710,
+    "n_unique": 11488,
+    "example_len_chars_median": 78.0
+   },
+   "worker_id": {
+    "dtype": "object",
+    "non_null": 16683,
+    "n_unique": 3809,
+    "example_len_chars_median": 8.0
+   }
+  }
+ }
+}

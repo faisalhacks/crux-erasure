@@ -1,0 +1,82 @@
+{
+ "gemma4-12b|ACC-COMMON": {
+  "n": 250,
+  "mean_words": 120.9,
+  "median_words": 122,
+  "max_words": 140,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "gemma4-12b|ACC-DIS": {
+  "n": 250,
+  "mean_words": 124.5,
+  "median_words": 127,
+  "max_words": 143,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "gemma4-12b|NEU-COMMON": {
+  "n": 250,
+  "mean_words": 125.5,
+  "median_words": 126,
+  "max_words": 145,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "gemma4-12b|SAT-COMMON": {
+  "n": 250,
+  "mean_words": 125.8,
+  "median_words": 127,
+  "max_words": 140,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "gemma4-12b|SAT-DIS": {
+  "n": 250,
+  "mean_words": 126.8,
+  "median_words": 127,
+  "max_words": 145,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "qwen3.8-27b|ACC-COMMON": {
+  "n": 250,
+  "mean_words": 142.5,
+  "median_words": 142,
+  "max_words": 180,
+  "over_cap": 68,
+  "over_cap_rate": 0.272
+ },
+ "qwen3.8-27b|ACC-DIS": {
+  "n": 250,
+  "mean_words": 145.6,
+  "median_words": 146,
+  "max_words": 185,
+  "over_cap": 88,
+  "over_cap_rate": 0.352
+ },
+ "qwen3.8-27b|NEU-COMMON": {
+  "n": 250,
+  "mean_words": 148.1,
+  "median_words": 148,
+  "max_words": 175,
+  "over_cap": 103,
+  "over_cap_rate": 0.412
+ },
+ "qwen3.8-27b|SAT-COMMON": {
+  "n": 250,
+  "mean_words": 143.8,
+  "median_words": 144,
+  "max_words": 176,
+  "over_cap": 75,
+  "over_cap_rate": 0.3
+ },
+ "qwen3.8-27b|SAT-DIS": {
+  "n": 250,
+  "mean_words": 146.4,
+  "median_words": 146,
+  "max_words": 184,
+  "over_cap": 97,
+  "over_cap_rate": 0.388
+ }
+}

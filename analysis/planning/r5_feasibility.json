@@ -1,0 +1,33 @@
+{
+ "script": "analysis/planning/r5_feasibility.py",
+ "utc": "20261116T005803818973Z",
+ "a2_rounds_all": 1960,
+ "a2_launches_all": 871,
+ "dev_file_found": true,
+ "conf_rounds": 1622,
+ "conf_launches": 721,
+ "conf_rounds_found_in_cc": 1622,
+ "conf_rounds_unique_question": 1622,
+ "members_per_round": {
+  "3": 3,
+  "4": 180,
+  "5": 1439
+ },
+ "pre_rows_completed_human": 21178,
+ "pre_keys_with_more_than_one_row": 0,
+ "n_rated_dist": {
+  "3": 4,
+  "4": 196,
+  "5": 1422
+ },
+ "n_missing_dist": {
+  "0": 1604,
+  "1": 18
+ },
+ "usable_rule": "n_rated >= 3 and n_missing <= 1 (rated = has >= 1 COMPLETED HUMAN_CITIZEN rating_index 0 row; values unread)",
+ "usable_rounds": 1622,
+ "usable_launches": 721,
+ "all_rated_rounds": 1604,
+ "all_rated_launches": 713,
+ "caveat": "Upper bound: a COMPLETED row may still carry an empty or invalid agreement token; values were not read. Confirmatory rounds taken from the A2 analysis table (1,960 eligible rounds) minus development launches."
+}

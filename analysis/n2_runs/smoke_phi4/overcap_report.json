@@ -1,0 +1,42 @@
+{
+ "phi4-14b|ACC-COMMON": {
+  "n": 8,
+  "mean_words": 133.6,
+  "median_words": 136,
+  "max_words": 148,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "phi4-14b|ACC-DIS": {
+  "n": 8,
+  "mean_words": 143.5,
+  "median_words": 148,
+  "max_words": 164,
+  "over_cap": 3,
+  "over_cap_rate": 0.375
+ },
+ "phi4-14b|NEU-COMMON": {
+  "n": 8,
+  "mean_words": 134.6,
+  "median_words": 141,
+  "max_words": 154,
+  "over_cap": 1,
+  "over_cap_rate": 0.125
+ },
+ "phi4-14b|SAT-COMMON": {
+  "n": 8,
+  "mean_words": 129.8,
+  "median_words": 132,
+  "max_words": 150,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "phi4-14b|SAT-DIS": {
+  "n": 8,
+  "mean_words": 125.6,
+  "median_words": 128,
+  "max_words": 149,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ }
+}

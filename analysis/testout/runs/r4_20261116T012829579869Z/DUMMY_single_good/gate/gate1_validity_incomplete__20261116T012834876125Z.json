@@ -1,0 +1,15 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "STOP: author_pass1.csv changed since gate time (DESIGN.json)",
+  "STOP: author_pass1.csv differs from the hash recorded in FREEZE.json",
+  "G1 hash mismatch: author_pass1 changed since KAPPA.json"
+ ],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "llm_wording": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "status": "INCOMPLETE",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

@@ -1,0 +1,95 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "kappa": {
+  "n": 20,
+  "kappa": 0.19999999999999996,
+  "ac1": 0.4666666666666666,
+  "percent_agreement": 0.6,
+  "B": 1000,
+  "seed": 20261116,
+  "kappa_ci95": [
+   -0.19999999999999996,
+   0.6000000000000001
+  ],
+  "ac1_ci95": [
+   0.2025913621262459,
+   0.736842105263158
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.3495934959349593,
+  "kappa_both_definite": 0.3495934959349593,
+  "n_both_definite": 20,
+  "unsure_first": 0,
+  "unsure_second": 0,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 6,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 4,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 3,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 3,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 15,
+   "kappa": 0.07079646017699116,
+   "ac1": 0.37777777777777777
+  },
+  "by_kind_n2": {
+   "n": 5,
+   "kappa": 0.6153846153846155,
+   "ac1": 0.7333333333333334
+  },
+  "cut": 0.6,
+  "statistic": "self-consistency kappa (author pass 1 vs pass 2, 20 repeats)",
+  "primary": 0.19999999999999996,
+  "primary_ci_info_only": [
+   -0.19999999999999996,
+   0.6000000000000001
+  ],
+  "n_repeats": 20,
+  "pass": false
+ },
+ "pass2_rule": {
+  "ok": true,
+  "reasons": [],
+  "pass1_mtime_utc": "2026-11-20T10:00:00+00:00",
+  "pass1_mtime_source": "FREEZE.json",
+  "pass2_started_utc": "2026-11-20T12:00:00+00:00",
+  "pass2_mtime_utc": "2026-11-20T12:30:00+00:00"
+ },
+ "to_adjudicate": [],
+ "provisional_real_rank_output_existed_when_pass2_arrived": false,
+ "hashes": {
+  "author_pass1": "8f2ec44a73bee00457d738fe61c1a98e9a8133de9aad53c4fed458ddb28a8c79",
+  "author_pass2": "3dc20a3261b65c26bb2e1f4f281d2b2704f0649761df484c094b3c597215887c",
+  "item_key": "dfcbf85cb54c8245ab417593645c317022920117c0ae8dfefb7f29944f7d2660"
+ },
+ "row_hashes": {
+  "author_pass1_repeated_rows": "b76e3e1705c57e4e11ce428e0f537613c8ef749901bbbbdc9a76c2e180766c80",
+  "author_pass1_all": "a829f774affa9f5b1ad1c4f7106a4bb39ad741a27ff33f1778d7fa4e75366548",
+  "author_pass2_all": "81f5a24e5ad04b7ef0ed10510926b220167815e557899d7bf0b4336a5ed8af2c"
+ },
+ "status": "COMPUTED"
+}

@@ -1,0 +1,17 @@
+{
+  "approved": true,
+  "experiment": "N2",
+  "plan_sha256": "1c0f2d7cbb0cdbc154319d7451b823334f5f78196ec272ffd5b351b84fac0b91",
+  "hash_note": "corrected 2026-11-15: earlier value had a transposition copied from a misprinted handback; verified against analysis/n2_runs/full_k1/plan.json by the orchestrator",
+  "plan_label": "k=1 fallback, 5 cells (2x2 + neutral-system arm under common ground), 250 rounds, gemma4-12b + qwen3.8-27b",
+  "max_usd": 5.50,
+  "approved_by": "experiment council 3/3 APPROVE-WITH-CONDITIONS (N2_vote_skeptic.md, N2_vote_methodologist.md, N2_vote_costcutter.md); orchestrator verified the plan's worst case ($5.45) is within the council ceiling ($6.50). The k=2 plan (worst $7.71) exceeds the ceiling and is NOT approved.",
+  "scope": "GENERATION ONLY. Scoring is blocked in code until GATE1_PASSED.json exists with matching scorer manifest hash.",
+  "conditions": [
+    "log estimate + timeout in ledger.csv before launch and actual after",
+    "confirm own app's containers stopped after the run (poll, bounded)",
+    "any re-plan changes plan_sha256 and voids this approval",
+    "analysis must control for statement length (qwen exceeded the 150-word cap in 19/40 smoke outputs)"
+  ],
+  "written_utc": "2026-11-15"
+}

@@ -1,0 +1,40 @@
+{
+ "analysis_set": {
+  "set": "CONFIRMATORY (development launches excluded)",
+  "n_launches_in": 300,
+  "n_launches_out": 300,
+  "n_dev_launches_dropped": 0,
+  "dev_file_sha256": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ },
+ "B": 10000,
+ "seed": 20261124,
+ "n_clusters": 300,
+ "n_rows": 9600,
+ "raters_excluded_no_side": 0,
+ "rater_rounds_dropped_all_tied": 0,
+ "n_minority_raters": 946,
+ "n_majority_raters": 1454,
+ "majority": {
+  "est": -0.030493800643240237,
+  "lo": -0.0837911244876087,
+  "hi": 0.024014227413375434,
+  "se": 0.027412105137676383,
+  "p_boot": 0.2676732326767323
+ },
+ "minority": {
+  "est": 0.02740457187677194,
+  "lo": -0.04297918410575073,
+  "hi": 0.09721982426552504,
+  "se": 0.03573268446866066,
+  "p_boot": 0.44045595440455954
+ },
+ "interaction": {
+  "est": 0.057898372520012176,
+  "lo": -0.0336061988725284,
+  "hi": 0.148742907703364,
+  "se": 0.04645334159422665,
+  "p_boot": 0.2106789321067893
+ },
+ "kind": "synthetic",
+ "gate_tag": "NOT_REAL(synthetic)"
+}

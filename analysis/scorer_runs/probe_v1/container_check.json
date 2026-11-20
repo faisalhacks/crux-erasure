@@ -1,0 +1,6 @@
+{
+ "returncode": 0,
+ "container_rows": 2,
+ "stdout_tail": "----------------------------------------\n| Container ID                  | App ID                    | App Name         \n|-------------------------------+---------------------------+------------------\n| ta-01M7G6363KK93T1DQ4VJXPDHHR | ap-SjaTupPcJSiqo6zAtVdPbL | pilot-vllm-qwen\u2026 \n|                               |                           |                  \n|                               |                           |                  \n| ta-01M7G66X29XDVPPC11J5NTX8KR | ap-1zICEI6idq1NNUtkV5L5at | pilot-vllm-gemm\u2026 \n+------------------------------------------------------------------------------",
+ "stderr_tail": ""
+}

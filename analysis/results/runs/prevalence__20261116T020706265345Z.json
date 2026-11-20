@@ -1,0 +1,77 @@
+{
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED",
+ "set": "CONFIRMATORY (development launches excluded)",
+ "B": 10000,
+ "seed": 20261128,
+ "interval": "wild cluster bootstrap-t (intercept-only), launch clusters",
+ "rounds_with_ge1_crux": 1222,
+ "statements_with_E": 4780,
+ "statements_missing_E_in_crux_rounds": 108,
+ "share_E_eq_1": {
+  "est": 0.9612970711297071,
+  "lo": 0.9551117811075025,
+  "hi": 0.9673917507896924,
+  "se": 0.0031209329685831467,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 4780,
+  "n_launches": 652
+ },
+ "share_any_VISIBLE": {
+  "est": 0.038702928870292884,
+  "lo": 0.03260824921030759,
+  "hi": 0.044888218892497514,
+  "se": 0.003120932968583146,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 4780,
+  "n_launches": 652
+ },
+ "label_share_VISIBLE": {
+  "est": 0.03168376584188292,
+  "lo": 0.02664125019207695,
+  "hi": 0.036955064555261326,
+  "se": 0.002627740392240416,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 6628,
+  "n_launches": 652
+ },
+ "label_share_SIDED": {
+  "est": 0.8284550392275196,
+  "lo": 0.8166187071060513,
+  "hi": 0.8404429286386365,
+  "se": 0.006107305583995091,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 6628,
+  "n_launches": 652
+ },
+ "label_share_BLENDED": {
+  "est": 0.049487024743512374,
+  "lo": 0.042777675586167976,
+  "hi": 0.05623233955596517,
+  "se": 0.0034413829209771316,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 6628,
+  "n_launches": 652
+ },
+ "label_share_OMITTED": {
+  "est": 0.0903741701870851,
+  "lo": 0.08052447500903283,
+  "hi": 0.1003670007525134,
+  "se": 0.005014884002577959,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 6628,
+  "n_launches": 652
+ },
+ "R_inf_over_rounds": {
+  "est": 0.12864493996569468,
+  "lo": 0.10979121981959827,
+  "hi": 0.1472966518807928,
+  "se": 0.009560073184907697,
+  "p_boot": 9.999000099990002e-05,
+  "n_units": 1166,
+  "n_launches": 642
+ },
+ "inputs": {
+  "a2_scores_v2.jsonl": "c9e83a5d74e68a37c01191a060d42a7c1fc69aac90a20f71b3387c2ea8fa8307",
+  "pilot_groups.jsonl": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ }
+}

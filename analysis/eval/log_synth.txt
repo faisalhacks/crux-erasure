@@ -1,0 +1,36 @@
+rep 0 done 2s
+rep 10 done 22s
+rep 20 done 43s
+rep 30 done 65s
+rep 40 done 88s
+rep 50 done 110s
+rep 60 done 132s
+rep 70 done 154s
+rep 80 done 177s
+rep 90 done 198s
+rep 100 done 219s
+rep 110 done 240s
+rep 120 done 262s
+rep 130 done 284s
+rep 140 done 305s
+rep 150 done 326s
+rep 160 done 347s
+rep 170 done 368s
+rep 180 done 390s
+rep 190 done 412s
+A2_rater_controlled                           195/200 = 0.975  CP95 [0.943, 0.992]
+A2_rater_uncontrolled                         194/200 = 0.970  CP95 [0.936, 0.989]
+A2_rater_controlled_length                    195/200 = 0.975  CP95 [0.943, 0.992]
+A2_rater_controlled_clarity                   186/200 = 0.930  CP95 [0.885, 0.961]
+A2_rater_controlled_cr1                       195/200 = 0.975  CP95 [0.943, 0.992]
+A2_rater_controlled_boot_se_normal            195/200 = 0.975  CP95 [0.943, 0.992]
+A2_rater_controlled_bca                       194/200 = 0.970  CP95 [0.936, 0.989]
+N1_rater                                      193/200 = 0.965  CP95 [0.929, 0.986]
+A2_group_controlled                           195/200 = 0.975  CP95 [0.943, 0.992]
+A2_group_uncontrolled                         194/200 = 0.970  CP95 [0.936, 0.989]
+A2_group_controlled_length                    195/200 = 0.975  CP95 [0.943, 0.992]
+A2_group_controlled_clarity                   186/200 = 0.930  CP95 [0.885, 0.961]
+A2_group_controlled_cr1                       195/200 = 0.975  CP95 [0.943, 0.992]
+A2_group_controlled_boot_se_normal            195/200 = 0.975  CP95 [0.943, 0.992]
+A2_group_controlled_bca                       194/200 = 0.970  CP95 [0.936, 0.989]
+N1_group                                      190/200 = 0.950  CP95 [0.910, 0.976]

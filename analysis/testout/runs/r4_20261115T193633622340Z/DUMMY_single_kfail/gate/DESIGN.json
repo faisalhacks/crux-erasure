@@ -1,0 +1,17 @@
+{
+ "design": "single_labeler",
+ "created_utc": "2026-11-15T19:36:44Z",
+ "rule": "volunteer_pass1.csv exists at gate time -> two_human; otherwise single_labeler; nothing else decides (FR 6.0)",
+ "files_in_labels_dir": {
+  "author_pass1.csv": {
+   "sha256": "8f2ec44a73bee00457d738fe61c1a98e9a8133de9aad53c4fed458ddb28a8c79",
+   "mtime_utc": "2026-11-20T10:00:00Z"
+  },
+  "author_pass2.csv": {
+   "sha256": "3dc20a3261b65c26bb2e1f4f281d2b2704f0649761df484c094b3c597215887c",
+   "mtime_utc": "2026-11-20T12:30:00Z"
+  }
+ },
+ "item_key_sha256": "dfcbf85cb54c8245ab417593645c317022920117c0ae8dfefb7f29944f7d2660",
+ "validation_wording": "validated against a single hypothesis-aware human annotator"
+}

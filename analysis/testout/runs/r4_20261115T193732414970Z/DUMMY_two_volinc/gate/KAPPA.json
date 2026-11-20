@@ -1,0 +1,10 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [
+  "volunteer_pass1.csv: item V_003: invalid or blank label ''"
+ ],
+ "design": "two_human",
+ "validation_wording": "validated against labels from two human annotators, a hypothesis-blind volunteer and the hypothesis-aware author, with disagreements adjudicated by the two together without sight of scores, rankings, model or condition",
+ "status": "INCOMPLETE"
+}

@@ -1,0 +1,10 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "ADJ.csv: no adj_label column (final_label is not accepted, FR 6.3 R1)",
+  "ADJ.csv: shared item DUMMY016 needs an adjudicated label"
+ ],
+ "status": "INCOMPLETE",
+ "verdict": "INCOMPLETE"
+}

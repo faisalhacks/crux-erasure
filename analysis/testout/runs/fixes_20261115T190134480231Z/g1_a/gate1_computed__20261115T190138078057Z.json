@@ -1,0 +1,141 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [],
+ "status": "PASS",
+ "kappa": {
+  "n_shared": 20,
+  "primary": 0.9019607843137253,
+  "primary_ci_info_only": [
+   0.6923076923076923,
+   1.0
+  ],
+  "cutoff": 0.6,
+  "pass": true,
+  "kappa_4cat": 0.47955390334572495,
+  "kappa_both_definite": 0.516949152542373,
+  "n_both_definite": 19,
+  "unsure_L1": 0,
+  "unsure_L2": 1,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 8,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 2,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 3,
+    "SHOWS": 3,
+    "UNSURE": 1
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "B": 10000,
+  "seed": 20261116
+ },
+ "balanced_accuracy": {
+  "n_adjudicated": 60,
+  "n_unsure_excluded": 2,
+  "unsure_items": [
+   "DUMMY021",
+   "DUMMY024"
+  ],
+  "n_used": 58,
+  "n_pos": 28,
+  "n_neg": 30,
+  "n_ai_parse_failure_or_missing": 1,
+  "ba": 0.8630952380952381,
+  "lo": 0.7696078431372549,
+  "hi": 0.9482758620689655,
+  "must_exceed": 0.5,
+  "B": 10000,
+  "seed": 20261116,
+  "pass": true
+ },
+ "confusion": {
+  "TP": 25,
+  "FN": 3,
+  "TN": 25,
+  "FP": 5
+ },
+ "FR_6_4a": {
+  "BA_crux": {
+   "n": 58,
+   "n_human_pos": 28,
+   "n_human_neg": 30,
+   "ba": 0.8630952380952381,
+   "lo": 0.7696078431372549,
+   "hi": 0.9482758620689655
+  },
+  "n_gate_items_dropped_ncruxes_unknown": 0,
+  "BA_sh": {
+   "n": 49,
+   "n_human_pos": 28,
+   "n_human_neg": 21,
+   "ba": 0.8273809523809523,
+   "lo": 0.7125,
+   "hi": 0.9307017543859649,
+   "n_no_disagreement_left_out": 9,
+   "n_human_shows": 21
+  },
+  "zero_crux_share_of_correct_AI_negatives": {
+   "zero_crux_correct_negatives": 0,
+   "correct_negatives": 25,
+   "share": 0.0
+  },
+  "wording_rule_fires": false,
+  "D1h_wilson95": {
+   "HIDES_among_non_UNSURE": [
+    0.4827586206896552,
+    0.3592818533349368,
+    0.6083773831032109
+   ],
+   "HIDES_among_HIDES_or_SHOWS": [
+    0.5714285714285714,
+    0.432704929846029,
+    0.6997668101134018
+   ]
+  }
+ },
+ "also_reported": {
+  "ba_L1_own_labels": 0.8421052631578947,
+  "spearman_E_vs_human_binary": 0.677038617198417
+ },
+ "duplicate_checks": {
+  "L1": {
+   "n_pairs": 4,
+   "exact_match": 2,
+   "match_3cat": 3
+  },
+  "L2": {
+   "n_pairs": 4,
+   "exact_match": 4,
+   "match_3cat": 4
+  }
+ },
+ "hashes": {
+  "L1": "064f1aa3493c79d881c9209e511c800721bc5dbea5c5bd6d172a7f811c204a31",
+  "L2": "95de4e49e33678a61b00503e70de5f640220ddbc6a5a891989df9c23479c1f6b",
+  "ADJ": "fe4631304363059953efcff6d95476414ca1c3b3cba52029f21ce4559eee4298",
+  "scores": "37f704346be89b83679c71d5b9d9a0ecfcef60871fbadce8c24d7f5c63a14178",
+  "item_key": "75c85228656f0ba4ef063e79ff4e9a4bbcd2f83a102c177e0e7e009fd469a408",
+  "FROZEN_RULES": "ae230f970f836eab524c5c88e754d498f7c125d3a808e28d549ba723a83e336d",
+  "sample": null
+ },
+ "verdict": "PASS",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

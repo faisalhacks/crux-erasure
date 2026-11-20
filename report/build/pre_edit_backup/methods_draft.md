@@ -1,0 +1,36 @@
+# Methods (draft)
+
+Aligned to `FROZEN_RULES.md` (still a DRAFT until the first label file exists; re-check section numbers at freeze). Section references "FR §" point to it. No labels or real-ranking results are used here. Items marked [OPEN] are not yet fixed in FROZEN_RULES.md.
+
+## 1. Data
+We use the public Habermas Machine release of Tessler et al. [CITE:tessler2024habermas]. Data are CC-BY 4.0 and code is Apache 2.0 [CITE:habermas_machine_repo]. The main file is `hm_all_candidate_comparisons.parquet` (39,955 rows; 1,485 groups, 4,492 rounds, 2,280 questions; sha256 `7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4`, re-checked by every script, FR §2). Each row is one participant in one iteration: the participant's opinion, the other members' opinions, four candidate statements, the participant's ranking, and ratings. `iteration_index` 0 holds statements written from opinions only; 1 holds post-critique revisions.
+
+**Rankings are per rater (Experiment 0).** `rankings.metadata.participant_id` equals the row's own-opinion participant id in 100% of rows. Of 8,268 multi-rater groups, 8,131 have differing ranking vectors over an identical candidate list. The repository builds one ranking per citizen and derives the group ranking afterwards (`analysis/EXP0_rank_unit.md`, `exp0_check.py`). The per-group fallback (FR §11) was not triggered. Raters in a launch share opinions, so we resample by `launch_id`.
+
+**Unit and eligibility (FR §2).** A round is one (launch, round) at iteration 0. It is eligible if all opinions are from human citizens, no bot critique exists in that round, there are exactly four candidates all from model mediators, no candidate is "Citizen's Jury" and each has at least 15 words, and at least three human raters ranked the four candidates with no invalid ranks. This yields 1,960 rounds, 871 launches and 9,501 rater rows. The filter removes more than half of the 4,492 rounds, so results describe the all-human, four-candidate subset only. A 150-launch development set (used only for prompt development) is reported with and without (A2d).
+
+## 2. Pipeline (FR §3-4)
+1. **Cruxes** from opinions only. Scorer 1 (Qwen3.8-27B, revision pinned, temperature 0, seed 0) extracts 0-4 cruxes per round with the members on each side (prompt E1). It never sees statements or rankings. A crux is a point one member asserts or prioritises and another denies or weighs very differently.
+2. **Labelling.** For each statement separately, each crux gets one label: VISIBLE, SIDED, BLENDED or OMITTED (prompt L1). A crux is hidden unless VISIBLE.
+3. **Crux erasure score** E = hidden cruxes / cruxes, in [0, 1]. Unweighted. A round with zero cruxes has undefined E and is excluded and counted.
+4. **Second scorer (A4):** Gemma-4-12B-it, a different family, running both steps.
+5. **Controls:** log word count, and Flesch Reading Ease as the clarity control, both computed deterministically. An LLM clarity rating from scorer 2 is a sensitivity model (A2c).
+Prompts of record are in FR Appendix A and are hashed in `scorer_manifest.json`.
+
+## 3. Gate 1: blind human validation (FR §5-6)
+Labelers see the question, the numbered opinions and one statement. They do not see rankings, ratings, AI scores, AI cruxes, the other candidates, or the hypothesis. Disagreement is judged from the opinions. Options: HIDES, SHOWS, NO_DISAGREEMENT, UNSURE. L1 is a consultant blind to the hypothesis; L2 is an author who knows it. Labels come only from `labels/L1.csv` and `labels/L2.csv`.
+- **Sample:** 60 statements from 60 launches by simple random sampling (fixed seed), excluding development launches: 20 shared, 20 unique to each labeler. Each packet has 4 repeated rows, hidden in the order, giving 44 rows per labeler. Intra-labeler agreement on repeats is reported without a pass rule.
+- **Step 1:** Cohen's kappa on the 20 shared items before adjudication, categories HIDES / NOT_HIDING / UNSURE, cut-off 0.60 on the point estimate. We print its bootstrap interval and state that agreement at n = 20 is imprecise.
+- **Step 2:** the two humans adjudicate disagreements, blind to AI scores.
+- **Step 3:** pass if the bootstrap (10,000 resamples) 2.5th-percentile lower bound of balanced accuracy of the AI binary (E >= 0.5) against adjudicated labels is above 0.5. UNSURE items are excluded and listed; a parse failure counts as a wrong prediction.
+- A fail produces the "not yet measurable" version, with no change to definitions (FR §12). Before gate 1 is recorded, analysis scripts run only on within-rater shuffled ranks or dummy data (FR §6.5).
+
+## 4. Analysis plan (FR §7-10)
+- **A2 (single confirmatory test).** Outcome y = (4 - midrank)/3 per rater and round (1 = ranked best). Model: rater-by-round fixed effects, E, log length and clarity. Estimand beta_E, two-sided, 95% percentile interval from a cluster bootstrap over launches (10,000 resamples). Observational wording only ("rankings were associated with ..."). A null is reported as "no association detected at this precision", not as no effect. If fewer than 50 launches have within-round variation in E, we report that the question was not measurable at this sample.
+- **Sensitivity models (reported beside A2, never replacing it):** A2b adds similarity to the rater's own opinion, with a binding wording rule that a sign flip or null means we cannot separate the effect from raters preferring statements close to their own view; A2c, A2d (without development launches), A2e (one-sided statements counted as shown), A2f (vagueness count), A2g (member-weighted E), A2h (without clarity, because clarity may be a mediator). Both clarity estimates are printed side by side.
+- **Tier 2 (Holm family, at most five tests):** N1 (winner versus mean of the four candidates), A4 (scorer 2), A3 (AI versus human statements, only if at least 30 launches qualify), N3 (first draft versus revised, same threshold), N4 (minority versus majority raters).
+- **Exploratory, labelled as such:** N2, N5, N6, B, F, and anything not in FROZEN_RULES.md. The pre-brief pilot's real-rank results, if any, are pre-gate exploratory and not evidence (decisions.md D1). A pre-registration pilot built a sealed feature file that placed real ranks beside two crude erasure proxies for all 1,960 eligible rounds; no analysis relating them was run, only per-display-position means (not using rank) were printed, and the file is unused. Its 150 rounds are the development set (full disclosure in the limitations appendix).
+- Every number reports its script, seed and data hash, with a confidence interval. Flat and negative results are kept.
+
+---
+CHANGES (round 1): removed PENDING markers (Tessler, repository cited by key); filled every [FROZEN:xxx] placeholder from FROZEN_RULES.md (eligibility, filter counts, scorers, gate sample, kappa categories, A2 spec, sensitivity models, Tier 2 family); the second scorer is now Gemma-4-12B-it, not the embedding position-axis score (rejected for A4 in FR §7); clarity control is Flesch Reading Ease, not an LLM rating; 3 raters minimum came from FR §2(e); no Tessler supplement cited. Round 3: pilot disclosure filled from decisions.md D33. Remaining [OPEN]: numbers from gate 1 and A2 once recorded.

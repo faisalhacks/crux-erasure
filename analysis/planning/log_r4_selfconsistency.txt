@@ -1,0 +1,30 @@
+﻿selfkappa n=20 prev=0.5 r=0.8: pop=0.360 sd=0.184 undefined=0 P(>=.60)=0.0470
+selfkappa n=20 prev=0.5 r=0.85: pop=0.490 sd=0.182 undefined=0 P(>=.60)=0.1610
+selfkappa n=20 prev=0.5 r=0.9: pop=0.640 sd=0.170 undefined=0 P(>=.60)=0.3435
+selfkappa n=20 prev=0.5 r=0.95: pop=0.810 sd=0.146 undefined=0 P(>=.60)=0.6970
+selfkappa n=20 prev=0.5 r=0.975: pop=0.902 sd=0.136 undefined=0 P(>=.60)=0.8485
+selfkappa n=20 prev=0.5 r=0.99: pop=0.960 sd=0.126 undefined=0 P(>=.60)=0.9260
+selfkappa n=20 prev=0.75 r=0.8: pop=0.297 sd=0.196 undefined=0 P(>=.60)=0.0295
+selfkappa n=20 prev=0.75 r=0.85: pop=0.419 sd=0.199 undefined=0 P(>=.60)=0.0860
+selfkappa n=20 prev=0.75 r=0.9: pop=0.571 sd=0.197 undefined=0 P(>=.60)=0.2285
+selfkappa n=20 prev=0.75 r=0.95: pop=0.762 sd=0.187 undefined=0 P(>=.60)=0.5140
+selfkappa n=20 prev=0.75 r=0.975: pop=0.874 sd=0.176 undefined=0 P(>=.60)=0.7035
+selfkappa n=20 prev=0.75 r=0.99: pop=0.948 sd=0.168 undefined=0 P(>=.60)=0.8030
+BA n=38 prev=0.5 acc=0.5: P(pass)=0.026
+BA n=38 prev=0.5 acc=0.6: P(pass)=0.251
+BA n=38 prev=0.5 acc=0.65: P(pass)=0.460
+BA n=38 prev=0.5 acc=0.7: P(pass)=0.702
+BA n=38 prev=0.5 acc=0.8: P(pass)=0.982
+BA n=38 prev=0.5 acc=0.9: P(pass)=1.000
+BA n=38 prev=0.25 acc=0.5: P(pass)=0.035
+BA n=38 prev=0.25 acc=0.6: P(pass)=0.205
+BA n=38 prev=0.25 acc=0.65: P(pass)=0.345
+BA n=38 prev=0.25 acc=0.7: P(pass)=0.546
+BA n=38 prev=0.25 acc=0.8: P(pass)=0.891
+BA n=38 prev=0.25 acc=0.9: P(pass)=0.981
+BA n=38 prev=0.75 acc=0.5: P(pass)=0.028
+BA n=38 prev=0.75 acc=0.6: P(pass)=0.186
+BA n=38 prev=0.75 acc=0.65: P(pass)=0.370
+BA n=38 prev=0.75 acc=0.7: P(pass)=0.562
+BA n=38 prev=0.75 acc=0.8: P(pass)=0.880
+BA n=38 prev=0.75 acc=0.9: P(pass)=0.984

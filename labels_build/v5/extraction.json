@@ -1,0 +1,971 @@
+{
+ "summary": {
+  "utc": "2026-11-16T01:12:58Z",
+  "x1_sha256": "cb25581a311fd663321124f9a722cc8325093417e5300f35b0662413af4e1ab2",
+  "alias": "gptoss-120b",
+  "n_items": 25,
+  "n_valid": 25,
+  "n_replacements": 2,
+  "replacements": [
+   {
+    "slot_index": 19,
+    "slot": "gen:qwen3.8-27b",
+    "replaced": "qwen3.8-27b|e3f4f02fceaab4c68b1bdb15ff7feac7|NEU-COMMON|0",
+    "by": "qwen3.8-27b|0d038cbd781dae39fbfb327e537b3e8b|ACC-DIS|0",
+    "reasons": [
+     {
+      "seed": 0,
+      "valid": false,
+      "why": "not exact substring (a found False, b found True)",
+      "error": null
+     },
+     {
+      "seed": 1,
+      "valid": false,
+      "why": "not exact substring (a found False, b found True)",
+      "error": null
+     }
+    ]
+   },
+   {
+    "slot": "gen:ministral3-14b",
+    "replaced": "ministral3-14b|b581bf2ccc05c503b906cce875ff9351|ACC-COMMON|0",
+    "by": "ministral3-14b|2bd3303580e4b73789206c080e5aa52a|ACC-COMMON|0",
+    "reasons": [
+     {
+      "why": "D49e: statement fails the stricter markdown filter (single-asterisk italics)"
+     }
+    ]
+   }
+  ],
+  "conflict_found_false": 8,
+  "located_by_search": 0,
+  "calls": 28,
+  "truncated": 0,
+  "session": {
+   "billed_s": 486.9,
+   "session_cost_usd": 0.6543,
+   "cold_start_s": 96.3
+  },
+  "wall_s": 493.2,
+  "container_check": {
+   "waited_s": 141,
+   "stops": [],
+   "own_final": [],
+   "baseline": [],
+   "other_rows_final": 0
+  },
+  "selection_sha256": "2555c21116fe0875c027f1157df0a503922c464ce29215cf30aade178fe9dba3",
+  "extract_py_sha256": "f6a5a49e05591bb08a97473372eb487b9e572e8605ddc943df9d47c3b88e031f",
+  "data_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+  "d49e": {
+   "utc": "2026-11-16T01:21:40Z",
+   "strict_filter": "\\*[^*\\s][^*\\n]*?\\*|\\*\\*|(?<![0-9A-Za-z])_[^_\\s][^_\\n]*?_(?![0-9A-Za-z])|`|#|^[ \\t]*(?:[-*+\\u2022]|\\d+[.)])[ \\t]",
+   "slot_check": {
+    "gen:qwen3.8-27b": false,
+    "gen:gemma4-12b": false,
+    "gen:ministral3-14b": true,
+    "gen:phi4-14b": false,
+    "gen:llama3.1-8b": false,
+    "extra": false
+   },
+   "ministral_strict_markdown": 1052,
+   "ministral_outputs": 1250,
+   "reserve_position_1based": 3,
+   "new_item": "ministral3-14b|2bd3303580e4b73789206c080e5aa52a|ACC-COMMON|0",
+   "replaced": "ministral3-14b|b581bf2ccc05c503b906cce875ff9351|ACC-COMMON|0",
+   "extra_failures": [],
+   "session": {
+    "billed_s": 306.3,
+    "session_cost_usd": 0.4116,
+    "cold_start_s": 108.4
+   },
+   "container_check": {
+    "waited_s": 140,
+    "stops": [],
+    "own_final": [],
+    "baseline": [],
+    "other_rows_final": 0
+   },
+   "redraw_py_sha256": "7b6f02bd13754c56c9e49a2d0189686a4ffda523ff68daa1bef39241a2ee09bc",
+   "select_items_py_sha256": "b3fb8fb21a4e75247504b27685df9c1d28abf03083a82fb3375a9fcf51cc92b2"
+  }
+ },
+ "items": [
+  {
+   "slot_index": 0,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 13,
+   "r4_item_id": "73e7d452",
+   "job_id": "",
+   "launch_id": "426305a26cf1415fa08ecb14a8303cdb",
+   "round_id": "9709e0f4c687d24ae88b0a90b6f75e9a",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Are we over-populated?",
+   "statement": "We are not over-populated, but it does feel that way. I feel that population is one of the biggest problems we face in the UK today. This is not just due to the fact we are seeing over-population in certain areas of the country but also due to the fact that there is not enough housing, jobs, GP appointments, and schools. There are a lot of reasons that there is overpopulation in the UK. Immigration is one of the most common reasons people cite, however immigration in the UK is actually falling, which is likely to continue with the recent Brexit referendum. However, immigration can still have a big impact on the UK’s population. In 2015 when there was a rise in immigration, it accounted for a rise of 600,000 people in the UK’s population, this is still a significant amount. In areas such as the capital of London, it is also seeing an increase in population due to natural growth. This is mainly due to the fact that the population in London is younger than in the rest of the UK. There are also significant pressures on the public sector in the UK. The population in the UK is set to rise by the year 2033 to 77 million.",
+   "result": {
+    "quote_a": "I feel that the UK is not over-populated, however it can sometimes feel that way due to demand for housing and essential services.",
+    "quote_b": "We are definitely over-populated, we do not have enough jobs, housing or other important things for the amount of people we have.",
+    "pid_a": "a9e0317c90",
+    "pid_b": "77462e0c8f",
+    "opinion_no_a": 4,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 1,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 37,
+   "r4_item_id": "c382310a",
+   "job_id": "",
+   "launch_id": "033c1f7284ce42cf89f688b5d6f02947",
+   "round_id": "a296e99372be06ea259cd05d1d2f0aed",
+   "cand": 2,
+   "generator": "",
+   "cell": "",
+   "question": "Should the UK use the euro as its currency?",
+   "statement": "No, the UK should not use the Euro as its currency. The UK should not adopt the Euro as its currency because it will lose its monetary policy and control over the economy. The Euro is an unstable currency and the UK should not join it.\nThe UK has a long history of the pound and people are proud of it. It is a symbol of our country and we should keep it. We have had previous referendums on this and the public have voted to keep the pound. The Euro is also not as stable as the pound and the UK would be at risk of joining a currency crisis.\nThe Euro is an unstable currency and the UK should not join it. The UK has a long history of the pound and people are proud of it. It is a symbol of our country and we should keep it. We have had previous referendums on this and the public have voted to keep the pound. The Euro is also not as stable as the pound and the UK would be at risk of joining a currency crisis.",
+   "result": {
+    "quote_a": "The British Pound is something that the UK should be proud of",
+    "quote_b": "Having our own currency helps attract business especially in the financial decisions.",
+    "pid_a": "22dfbe3d7a",
+    "pid_b": "2a27197715",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 2,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 25,
+   "r4_item_id": "35da83dd",
+   "job_id": "",
+   "launch_id": "b8008285be1e42cb997df259357df77e",
+   "round_id": "ba36ca9b3951edc221486d8e26cc5b03",
+   "cand": 1,
+   "generator": "",
+   "cell": "",
+   "question": "Should the UK apply to rejoin the European Union?",
+   "statement": "In general, the group was in favour of the UK rejoining the EU. The reasons for this were that the UK is a small country and it is better to be part of a larger entity, and that the EU has a number of benefits. However, it was also noted that the UK is in a weak negotiating position and it is unlikely that it would be able to regain all of the benefits that it previously had. It was also noted that the UK is currently in a state of flux, with the COVID-19 pandemic and Brexit still ongoing, and it may be better to wait until the situation has stabilised before making a decision.",
+   "result": {
+    "quote_a": "It would make life much easier id we re-joined the EU.",
+    "quote_b": "Absolutely Not.",
+    "pid_a": "58868f7ef0",
+    "pid_b": "765e24e01e",
+    "opinion_no_a": 3,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 3,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 21,
+   "r4_item_id": "6c236053",
+   "job_id": "",
+   "launch_id": "1b429af584cd419592ecae991056bad1",
+   "round_id": "5d3148a88daf400a939a31968820d288",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Should we ban smoking?",
+   "statement": "Smoking should be banned as it is harmful to health and is a dangerous habit to form. The law should be enforced against anyone selling or buying tobacco products. Smoking in public should be banned and should be punishable by a fine.",
+   "result": {
+    "quote_a": "No I do not think we should ban smoking.",
+    "quote_b": "I think that smoking should be banned due the danger to health for everyone.",
+    "pid_a": "1eb0992090",
+    "pid_b": "28e26ab66f",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 4,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 32,
+   "r4_item_id": "c3403d8b",
+   "job_id": "",
+   "launch_id": "3da40d8ef9ac465896a882aed063f54d",
+   "round_id": "0998b98813a3f67272c50aaddcf3fd5c",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Should we ban plastic bags?",
+   "statement": "“I feel that we should ban the sale of plastic bags, but not the use of existing plastic bags. There's no need to sell plastic bags for shopping these days but no need to ban the use of existing plastic bags.”",
+   "result": {
+    "quote_a": "Plastic bags have ruined the planet and should therefore be banned.",
+    "quote_b": "Therefore, I would reduce them as much as possible but still keep them.",
+    "pid_a": "9527135dfb",
+    "pid_b": "e9b17f4c65",
+    "opinion_no_a": 4,
+    "opinion_no_b": 5,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 5,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 20,
+   "r4_item_id": "82950229",
+   "job_id": "",
+   "launch_id": "34e2e6b99f4c4180869058db94e35af0",
+   "round_id": "14f471536901dade57c967a6653ee0b6",
+   "cand": 3,
+   "generator": "",
+   "cell": "",
+   "question": "Should the United Kingdom stop investing in fossil fuels?",
+   "statement": "In general, the group was in favour of the idea that the UK should stop investing in fossil fuels. However, it was noted that fossil fuels are currently an important part of the energy mix, and are likely to remain so for some time to come. It was also noted that fossil fuels are a major export of the UK, and so we should continue to invest in this area to protect the economy. It was agreed that investment in renewable energy sources should be increased, and the government should be looking at ways to increase this. It was also noted that it is important to reduce the amount of CO2 that is produced by fossil fuels, and so investment in this area is important. It was agreed that it is important to have a diverse energy mix in the UK, and so it is important to have a mix of renewable energy sources as well as fossil fuels.",
+   "result": {
+    "quote_a": "I believe that fossil fuels are dangerous to the environment and therefore I think where possible, the UK should stop investing in them.",
+    "quote_b": "Absolutely, categorically NOT.",
+    "pid_a": "337206b86f",
+    "pid_b": "65d4e9a995",
+    "opinion_no_a": 2,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 6,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 0,
+   "r4_item_id": "ad374684",
+   "job_id": "",
+   "launch_id": "69b5ee5f8e4a492099265be2fe20bf56",
+   "round_id": "6c096d448db05c17224f24af33a8579f",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Should the government encourage businesses to hire more women in senior positions?",
+   "statement": "The group came to the consensus view that the government should encourage more women in senior positions because more diversity is needed, women should be given more equal opportunities in the workforce and men and women are just as competent.",
+   "result": {
+    "quote_a": "Yes the government should definitely hire more women in senior positions as they've been discriminated against for so long.",
+    "quote_b": "just hiring someone based on gender negates the argument of equality.",
+    "pid_a": "d7c84ce9cf",
+    "pid_b": "7dc696f015",
+    "opinion_no_a": 5,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 7,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 16,
+   "r4_item_id": "8bb5e391",
+   "job_id": "",
+   "launch_id": "58eb286f3c34408ea38b8509dffd8a80",
+   "round_id": "2ccec5416ea0455ba7f61e9fc3d0d0d7",
+   "cand": 1,
+   "generator": "",
+   "cell": "",
+   "question": "Should we restrict the sale of fireworks to licensed vendors?",
+   "statement": "Yes, fireworks are dangerous and should be well regulated. There should be stricter usage requirements and limits linked to when they can be sold. The retail sale of fireworks should be restricted to licensed vendors and those putting on authorised displays. It's ridiculous that anyone can essentially buy explosives over the counter. They are highly dangerous and they're far from essential at the average celebration. The retail sale of fireworks should be restricted to licensed vendors. This will go some way to ensuring that fireworks are not sold to those who are irresponsible and should reduce any firework related accidents.",
+   "result": {
+    "quote_a": "Yes we should be able to restrict the sale of fireworks to licensed vendors.",
+    "quote_b": "I also believe there should be stricter usage requirements and limits linked to when they can be sold because of the negative effects they can have on animals and wildlife and would like to see a move to limiting the noise or better yet reducing the noise completely if that is possible.",
+    "pid_a": "30db6d2452",
+    "pid_b": "f93098b011",
+    "opinion_no_a": 1,
+    "opinion_no_b": 5,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 8,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 6,
+   "r4_item_id": "64206648",
+   "job_id": "",
+   "launch_id": "39570b52e55844498773094717c8581c",
+   "round_id": "d31efbecc7c2c5ba93d01d3a3567721e",
+   "cand": 1,
+   "generator": "",
+   "cell": "",
+   "question": "Should we prioritise the protection of endangered species over the preservation of rural industries?",
+   "statement": "There should be a balance between the two. The protection of endangered species is of upmost importance, but rural industries also need to be protected.",
+   "result": {
+    "quote_a": "So, we as a race should prioritise helping nature and the endangered species over preserving rural industries.",
+    "quote_b": "There should be a balance between the two.",
+    "pid_a": "0df6ca2dd1",
+    "pid_b": "11283153bd",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 9,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 22,
+   "r4_item_id": "57405752",
+   "job_id": "",
+   "launch_id": "c5b1cfe44406448faffd1f73f9f1f054",
+   "round_id": "7b6379df41f2521713a82ee42cb82372",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Should there be restrictions on the age at which children can enter a nightclub?",
+   "statement": "Children should not be allowed into nightclubs because of the content and the behaviour of adults in nightclubs. It is not appropriate for children to be exposed to alcohol, drugs, or sexualised behaviour, and they are not old enough to deal with these things. Children should be protected from these things, and nightclubs are not appropriate places for children.",
+   "result": {
+    "quote_a": "Alcohol is sold in nightclubs and can easily be bought for minors there.",
+    "quote_b": "If there is a special teenage nightclub, set up without alcohol, for their own age, in a monitored way, that seems sensible to me.",
+    "pid_a": "5963d4b6be",
+    "pid_b": "e5ec6e03de",
+    "opinion_no_a": 1,
+    "opinion_no_b": 5,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 10,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 31,
+   "r4_item_id": "62c5e8da",
+   "job_id": "",
+   "launch_id": "7fddf129404a4b30bed27ae086983cdc",
+   "round_id": "7643eacef4a91d8557f8f93a0319036e",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Should we move to a form of direct democracy meaning that people vote directly on issues via referendums?",
+   "statement": "We believe that it is important that we move to a form of direct democracy meaning that people vote directly on issues via referendums.  This is because it would allow the people of the country to have a say in what goes on and creates a more personal connection with their own country.  It would also allow the government to establish a plan best suited to the needs of a particular problem.  It would be most beneficial as it is the people that are the most affected by changes implemented by the government in power.  It would also allow us to have a say in the issues that face us and not have to rely on the rich politicians of the country who have a biased view based on what's best for them!  We do not think that this would cost a lot of money to bring this to fruition.  We also do not think that a lot of people may not vote so we may not get a true picture of what is the view of the population.",
+   "result": {
+    "quote_a": "Yes. I believe we should be able to vote directly on issues via referendum due to the individual nature of each issue.",
+    "quote_b": "I do not think we should move to a form of direct democracy where by people vote directly on issues via referendums. This is because it would take too much time to organise",
+    "pid_a": "201eadc8ee",
+    "pid_b": "b8f80fe614",
+    "opinion_no_a": 2,
+    "opinion_no_b": 5,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 11,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 24,
+   "r4_item_id": "8ff81f5a",
+   "job_id": "",
+   "launch_id": "387c68b5a41b4af0912df96282750b6b",
+   "round_id": "f8a9c1f10ec68d929dbce4baacc51275",
+   "cand": 0,
+   "generator": "",
+   "cell": "",
+   "question": "Should we ban the sale of pets?",
+   "statement": "“Pets should not be banned. However, we should not allow people to buy pets from puppy farms. A vetting system should be in place where the new owners are investigated to ensure that they are careful owners. The pet becomes an integral part of the home and brings pleasure to both pet and owner alike.",
+   "result": {
+    "quote_a": "I think pets should not be banned.",
+    "quote_b": "The sale of pets should be banned because there are to many needy animals in shelters.",
+    "pid_a": "08accf9496",
+    "pid_b": "5434b05288",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 12,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 30,
+   "r4_item_id": "bc124b68",
+   "job_id": "",
+   "launch_id": "a4f70dd225124dc1b3e76b8a98367175",
+   "round_id": "01beab0ef9970866e75f3931b81cb844",
+   "cand": 2,
+   "generator": "",
+   "cell": "",
+   "question": "Should the government subsidize electric cars?",
+   "statement": "The government should subsidize electric cars. The subsidies will help in the production of more electric cars. This will reduce the cost of electric cars, making them more affordable to the people. This will help in reducing the use of fossil fuels, hence reducing the effects of global warming. The subsidies will also help in the production of more electric cars. This will reduce the cost of electric cars, making them more affordable to the people. This will help in reducing the use of fossil fuels, hence reducing the effects of global warming.",
+   "result": {
+    "quote_a": "Yes, it would go a long way in solving climate change",
+    "quote_b": "Also the price of electric at the moment is more than petrol costs therefore costing even more to run on a day to day business when nobody has any extra available money available.",
+    "pid_a": "2929a2cb67",
+    "pid_b": "49f901ee66",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 13,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 35,
+   "r4_item_id": "29d3a426",
+   "job_id": "",
+   "launch_id": "e32039fd99de4bc382bfaf35b0ce1370",
+   "round_id": "ce7806646b92d5b32568f37f393f5bf0",
+   "cand": 3,
+   "generator": "",
+   "cell": "",
+   "question": "Should a country like the UK still have a royal family?",
+   "statement": "A country like the UK should still have a royal family.  A royal family generates tourism and publicity for a country and therefore increases revenue.  It is also an important part of tradition for a country and influences the government and ruling of a country.  A royal family also acts as a balance to the prime minister who could be dismissed if they abused power to a very serious extent.  There is also something aesthetically pleasing about the monarchy, like the guards, horses, golden carriages and so on.",
+   "result": {
+    "quote_a": "Arguably a royal family is an anachronism, particularly the heriditary element.",
+    "quote_b": "It is an important part of British heritage and social structure.",
+    "pid_a": "479baecaf5",
+    "pid_b": "462c240767",
+    "opinion_no_a": 2,
+    "opinion_no_b": 1,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 14,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 33,
+   "r4_item_id": "d4957d8e",
+   "job_id": "",
+   "launch_id": "c72c67079bb14689bf4edb664f5fe6e5",
+   "round_id": "707019ef816e06736040cba88c3023df",
+   "cand": 2,
+   "generator": "",
+   "cell": "",
+   "question": "Is it appropriate to eat meat?",
+   "statement": "Humans have evolved to eat meat and we should be allowed to continue to do so. However, we should also try to reduce the amount of meat we eat in order to help the climate. This can be done by having more meat free days, more vegetarian options in supermarkets and more education on the climate impacts of eating meat.",
+   "result": {
+    "quote_a": "However, to limit our climate impact, we must cut down on meat consumption.",
+    "quote_b": "I believe it is fine to eat meat, as our bodies need the proteins and we are designed to have meat in our diets.",
+    "pid_a": "32de194668",
+    "pid_b": "5586e1c47a",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 15,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 18,
+   "r4_item_id": "ab57b65f",
+   "job_id": "",
+   "launch_id": "f9b0ab67c9734ca5afd9e69228cf1ae8",
+   "round_id": "a411c9ebe8c6c405d7f26c1a08f7d4d8",
+   "cand": 3,
+   "generator": "",
+   "cell": "",
+   "question": "Should we scrap the NHS and replace it with a 'private healthcare system'?",
+   "statement": "No, we should not scrap the NHS. The NHS is a crucial part of the UK's economy and society. It provides healthcare to everyone and is funded by the government through taxes. A private healthcare system would mean that people would have to pay for their healthcare and could not afford it. The NHS needs to be reformed to reduce waiting times and improve the quality of healthcare. Mental health services should be completely separate from other NHS services, so the allocation of funding is clear.",
+   "result": {
+    "quote_a": "However i think private healthcare should be more accessible and affordable as then more people may choose private and free up capacity in NHS.",
+    "quote_b": "I believe health care shoud be avaliable to all and not based on your ability to pay for it.",
+    "pid_a": "13673ceac5",
+    "pid_b": "392a951b12",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 16,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 11,
+   "r4_item_id": "5666ce76",
+   "job_id": "",
+   "launch_id": "a2843b73bd2f44f2a50b1019146162da",
+   "round_id": "3c8295aaefb4b7b514d791488b330111",
+   "cand": 2,
+   "generator": "",
+   "cell": "",
+   "question": "Should the UK raise taxes on people earning more than $200,000 to help pay for the National Health Service?",
+   "statement": "The UK should raise taxes on people earning more than $200000 to help pay for the NHS. With the rising cost of health care and more people accessing healthcare, it is only right to raise taxes for those who can afford to pay. The UK has a fairly flat tax system, therefore it is not really fair for those earning under $200000 to continue to pay the same tax as someone earning a lot more than they are. The UK should ensure that the taxes they collect from these high earners are spent wisely. The additional funds raised should be used to improve the services offered by the NHS, reduce waiting times, improve access to care and increase the quality of care for patients.",
+   "result": {
+    "quote_a": "they're the only ones that can still afford to pay more.",
+    "quote_b": "Government should be smarter with spending to not require constant raising of taxes",
+    "pid_a": "0bf25fbe51",
+    "pid_b": "d31caad83e",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 17,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 26,
+   "r4_item_id": "fa33bc57",
+   "job_id": "",
+   "launch_id": "76f49f62cbca480f8317e15e766e139c",
+   "round_id": "c1e96084aad6931b2576e56e4aa02eb3",
+   "cand": 3,
+   "generator": "",
+   "cell": "",
+   "question": "Should more public places in the UK provide free Wi-Fi access?",
+   "statement": "In general, the group was in favour of more public places providing free Wi-Fi access.  This is because the group felt that the advantages of providing free Wi-Fi outweighed the disadvantages.  The group felt that providing free Wi-Fi would allow people to access the internet in places where they would not otherwise be able to do so, such as people who cannot afford to pay for mobile data or who do not have access to the internet at home.  The group also felt that providing free Wi-Fi would attract more people to public places, which would be good for businesses.  However, the group did feel that there were some disadvantages to providing free Wi-Fi.  These included the risk of personal information being vulnerable to hackers and the fact that people may spend too much time on their phones.  The group felt that these disadvantages could be mitigated by ensuring that the Wi-Fi networks were secure and by making people aware of the risks of using public Wi-Fi.",
+   "result": {
+    "quote_a": "I believe more places with free Wifi allows people less fortunate to be able to access the internet where mobile data or home wifi isn't an option for them.",
+    "quote_b": "Phones have 4G so it is unnecessary and expensive.",
+    "pid_a": "4ac79f4e8d",
+    "pid_b": "e6f7da6eb4",
+    "opinion_no_a": 2,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 18,
+   "slot": "original",
+   "source": "r4_pass1",
+   "kind": "original",
+   "uid": 7,
+   "r4_item_id": "d2743609",
+   "job_id": "",
+   "launch_id": "7b1b65f9587f45a6bf7138f9df4e6299",
+   "round_id": "eebcbf2880af36fa3d7a9fe598db3147",
+   "cand": 2,
+   "generator": "",
+   "cell": "",
+   "question": "Should animals be used for testing?",
+   "statement": "Animals should not be used for testing, unless there is no alternative and it is for the greater good. The group believes that the practise of testing on animals is outdated and unnecessary. The group believes that there are many alternatives to testing on animals, and that the practise is cruel and inhumane. The group believes that animals should only be used for testing in cases where it is absolutely necessary and there is no other alternative. The group believes that the practise should be heavily regulated and that the animals should be treated humanely and with respect. The group believes that the animals should be treated as well as possible and that their suffering should be kept to a minimum. The group believes that animals should only be used for testing in cases where it is absolutely necessary and there is no other alternative. The group believes that the practise should be heavily regulated and that the animals should be treated humanely and with respect. The group believes that the animals should be treated as well as possible and that their suffering should be kept to a minimum.",
+   "result": {
+    "quote_a": "Animals should be used for anything that benefits the human race.",
+    "quote_b": "No, animals should not be used for animal testing. They are helpless and innocent.",
+    "pid_a": "1ac25a6241",
+    "pid_b": "4f0a55a6cf",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 19,
+   "slot": "gen:qwen3.8-27b",
+   "source": "r4_pass1",
+   "kind": "n2",
+   "uid": 38,
+   "r4_item_id": "4c49422a",
+   "job_id": "qwen3.8-27b|0d038cbd781dae39fbfb327e537b3e8b|ACC-DIS|0",
+   "launch_id": "7c6630b1fd714ff8a8b7bf9e895533bf",
+   "round_id": "0d038cbd781dae39fbfb327e537b3e8b",
+   "cand": -1,
+   "generator": "qwen3.8-27b",
+   "cell": "ACC-DIS",
+   "question": "Are there any limits to freedom of speech?",
+   "statement": "While all participants agree that freedom of speech has limits, they disagree on the specific boundaries and mechanisms of those restrictions. Participants 2, 4, and 5 align on limiting speech that causes direct, tangible harm, such as hate speech, threats, or incitement to violence, viewing these as clear violations of others' rights. In contrast, Participant 1 implies that significant limits exist for specific topics regardless of immediate harm, a view not shared by the others who favor broader protections for unpopular opinions. Furthermore, Participant 3 diverges by focusing on informal social enforcement and silencing by the public or elites, rather than formal legal consequences. This creates a split between those who advocate for strict legal prohibitions on harmful content (2, 4, 5), those who perceive hidden, unadvertised restrictions (1), and those emphasizing social dynamics over codified laws (3).",
+   "result": {
+    "quote_a": "I believe that there are some limits to freedom of speech.",
+    "quote_b": "I think social media allows a lot of freedom of speech, however larger political figures and celebrities etc. are sometimes silenced if the general population do not agree with them.",
+    "pid_a": "164e36d385",
+    "pid_b": "5747620e49",
+    "opinion_no_a": 1,
+    "opinion_no_b": 3,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 20,
+   "slot": "gen:gemma4-12b",
+   "source": "r4_pass1",
+   "kind": "n2",
+   "uid": 48,
+   "r4_item_id": "45033365",
+   "job_id": "gemma4-12b|ec7a8648f3d2c93c977b09f34a45956f|SAT-DIS|0",
+   "launch_id": "ac584518bb694450b8a18717bf874a8a",
+   "round_id": "ec7a8648f3d2c93c977b09f34a45956f",
+   "cand": -1,
+   "generator": "gemma4-12b",
+   "cell": "SAT-DIS",
+   "question": "Should people have a right to privacy in the UK?",
+   "statement": "The group reached a consensus that privacy is a fundamental human right essential for protecting personal information, ensuring freedom of speech, and preventing the misuse of data by commercial entities or others. Participants agree that privacy is most critical within the home and regarding sensitive personal details to prevent intrusion and harm. However, the group acknowledges that this right is not absolute. Disagreement exists regarding the specific boundaries of these limitations: while some emphasize the necessity of CCTV and surveillance for crime prevention, others specify that privacy should only be forfeited when there is a direct threat of danger, criminal intent, or when serving a jail term. Ultimately, the group supports a framework where privacy is protected as a default, but may be balanced against public safety and legal accountability.",
+   "result": {
+    "quote_a": "People should have a right to privacy in the UK as it is important to protect people personal information, the amount of sensitive information that people have nowadays should be protected through privacy.",
+    "quote_b": "In the bigger picture I beleive CCTV is necessary for solving crimes etc, therefore we should forfeit our privacy in that instance.",
+    "pid_a": "44142761ee",
+    "pid_b": "60b10094ee",
+    "opinion_no_a": 1,
+    "opinion_no_b": 2,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 21,
+   "slot": "gen:ministral3-14b",
+   "source": "full_ext_ministral_D49c",
+   "kind": "n2",
+   "uid": null,
+   "r4_item_id": "",
+   "job_id": "ministral3-14b|2bd3303580e4b73789206c080e5aa52a|ACC-COMMON|0",
+   "launch_id": "6753c63134d24193acd0ea988473ed32",
+   "round_id": "2bd3303580e4b73789206c080e5aa52a",
+   "cand": -1,
+   "generator": "ministral3-14b",
+   "cell": "ACC-COMMON",
+   "question": "Is it a good idea to force everyone in the UK to stop using fossil fuels?",
+   "statement": "While there is broad agreement that fossil fuel use presents serious environmental and long-term sustainability challenges, the group acknowledges differing perspectives on how—and how quickly—this transition should occur. Everyone agrees that reducing reliance on fossil fuels is necessary, but there is a clear divide between those advocating for an immediate and swift shift (even if challenging) and those emphasizing the importance of a gradual, managed transition to avoid disproportionate hardship and ensure feasibility.\n\nThe group recognizes the need for collective action to address climate change while balancing practical realities: fossil fuels underpin much of the economy and daily life, and alternatives must be accessible and equitable. There is also consensus that government policies should prioritize accountability for major emitters, such as industries, rather than burdensome restrictions on the public. Overall, the discussion highlights the importance of finding a unified approach that respects both urgency and practicality, fostering innovation while protecting people and the environment.",
+   "result": {
+    "quote_a": "so it would be a good idea to stop everyone using fossil fuels as soon as possible.",
+    "quote_b": "You cannot get force anyone to do what they do not want to do.",
+    "pid_a": "1c01c1f803",
+    "pid_b": "7403c1cdb1",
+    "opinion_no_a": 2,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 22,
+   "slot": "gen:phi4-14b",
+   "source": "r4_pass1",
+   "kind": "n2",
+   "uid": 45,
+   "r4_item_id": "ab9f4083",
+   "job_id": "phi4-14b|249125bc5a175eafc8bfe3b930fb1a39|ACC-COMMON|0",
+   "launch_id": "37f71501617f4057a7c16a19c318e459",
+   "round_id": "249125bc5a175eafc8bfe3b930fb1a39",
+   "cand": -1,
+   "generator": "phi4-14b",
+   "cell": "ACC-COMMON",
+   "question": "Should it be mandatory to wear a helmet while cycling?",
+   "statement": "The group collectively acknowledges the importance of wearing helmets while cycling, primarily for their role in reducing the risk of serious injury or death during accidents. There is a shared understanding that helmets provide essential protection to cyclists, particularly in situations involving fast-moving traffic or unforeseen hazards. Participants recognize that while helmets may not prevent accidents, they significantly mitigate the severity of injuries, which can lead to broader societal benefits such as reduced healthcare costs and less traffic congestion. Moreover, there is consensus on the notion of personal responsibility and the preventive nature of helmet use, highlighting the shared belief in proactive safety measures as a means to protect oneself and potentially minimize legal and medical repercussions in the event of an accident.",
+   "result": {
+    "quote_a": "If you hadn't been wearing a helmet, the other party might not be prosecuted due to it being seen as \"your fault\" for not protecting yourself.",
+    "quote_b": "It is absolute essential to wear a helmet to protect cyclist's heads.",
+    "pid_a": "5d5ff31347",
+    "pid_b": "e1dda72cfc",
+    "opinion_no_a": 1,
+    "opinion_no_b": 5,
+    "conflict_found": false,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 23,
+   "slot": "gen:llama3.1-8b",
+   "source": "r4_pass1",
+   "kind": "n2",
+   "uid": 43,
+   "r4_item_id": "a1906a50",
+   "job_id": "llama3.1-8b|e627d0810d183bb9eef8087eb7e95dbd|ACC-COMMON|0",
+   "launch_id": "b64c10b92e5c48599fc08195d42616e2",
+   "round_id": "e627d0810d183bb9eef8087eb7e95dbd",
+   "cand": -1,
+   "generator": "llama3.1-8b",
+   "cell": "ACC-COMMON",
+   "question": "Should people with more money be forced to pay more taxes?",
+   "statement": "\"We agree that the current taxation system is not equitable, with those who earn more money and accumulate wealth often paying a lower tax rate. A more progressive taxation system, where those with higher incomes and wealth are taxed at a higher rate, is needed to ensure that everyone contributes their fair share to support the community. This includes taxing income from salaries, as well as addressing tax loopholes and lack of taxation on wealth generated by property ownership and offshore accounts. By doing so, we can create a more level playing field and ensure that the wealth generated by those who have more is distributed more fairly, benefiting not only the wealthy but also the lower class in society.\"",
+   "result": {
+    "quote_a": "I do not agree that those with a higher asset wealth should necessarily be penalised by higher taxes - it should be done on salary.",
+    "quote_b": "wealth generated by property ownership or held in offshore accounts in not being taxed at anywhere near the same proportion as working people who are generally taxed at source. Wealth in this country is owned by a small percentage and it is this group that need to pay increased tax on land, property and investment ownership so that the majority can enjoy can benefit.",
+    "pid_a": "2e7b1c8423",
+    "pid_b": "f7b9c1fcb6",
+    "opinion_no_a": 1,
+    "opinion_no_b": 5,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  },
+  {
+   "slot_index": 24,
+   "slot": "extra",
+   "source": "r4_pass1",
+   "kind": "n2",
+   "uid": 41,
+   "r4_item_id": "0c677dea",
+   "job_id": "llama3.1-8b|433f12e423d6a12b3d37a433d7bd7f23|SAT-COMMON|0",
+   "launch_id": "afeb37cd90714b4482c7d435790d91c6",
+   "round_id": "433f12e423d6a12b3d37a433d7bd7f23",
+   "cand": -1,
+   "generator": "llama3.1-8b",
+   "cell": "SAT-COMMON",
+   "question": "Should the UK’s national flag feature the English St. George’s Cross, the Scottish St. Andrew’s Cross, the Irish St. Patrick’s Cross, and the Welsh Dragon?",
+   "statement": "\"While we acknowledge the significance of the current national flag, we also recognize the importance of representing the diversity and unity of the United Kingdom. We propose a revised design that incorporates the English St. George's Cross, the Scottish St. Andrew's Cross, and the Welsh Dragon, while respectfully acknowledging the distinct identity of Northern Ireland and its current representation on the flag. This would symbolize the nation's commitment to solidarity, inclusivity, and respect for all four constituent countries. The proposed design would not replace the existing flag, but rather offer an alternative that reflects the evolving identity of the United Kingdom and its people.\"",
+   "result": {
+    "quote_a": "Absolutely not. St. Patricks cross is not an appropriate representation for Northern Ireland. That's insulting.",
+    "quote_b": "The proposal would incorporate all four countries of the UK and create a solidarity with an easily identifiable flag.",
+    "pid_a": "0c5b2fda72",
+    "pid_b": "a31c1c6ae7",
+    "opinion_no_a": 2,
+    "opinion_no_b": 4,
+    "conflict_found": true,
+    "located_by": "model_index",
+    "attempt_seed": 0
+   },
+   "history": [
+    {
+     "seed": 0,
+     "valid": true,
+     "why": null,
+     "error": null
+    }
+   ]
+  }
+ ]
+}

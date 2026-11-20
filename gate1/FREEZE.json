@@ -1,0 +1,66 @@
+{
+ "files": {
+  "EXPERIMENTS.md": {
+   "path": "EXPERIMENTS.md",
+   "sha256": "454b230721b28fa177c5523b8cee0ed48ac2890263f93fe749acc6dcd0a7342b"
+  },
+  "FROZEN_RULES.md": {
+   "path": "FROZEN_RULES.md",
+   "sha256": "ea9b7a97256eb3bca95ccb0c1135a7ff32d3d520eeb6f484c9c8898f996f94ae"
+  },
+  "N2_ANALYSIS_SPEC.md": {
+   "path": "analysis/N2_ANALYSIS_SPEC.md",
+   "sha256": "afada11746b1dc787888cd421aeaca9997204fb96f13def823ef2c59575091c0"
+  },
+  "R5_FREEZE_MANIFEST.json": {
+   "path": "gate1/R5_FREEZE_MANIFEST.json",
+   "sha256": "101316d8e3d39d3fd640fbef3680e1b2c8bc79373a5074bada0d62d10e91dc77"
+  },
+  "gate1_r5.py": {
+   "path": "analysis/gate1_r5.py",
+   "sha256": "9e640041d012419e9c66de5affa7d6d6ab8386d88c9a7dd0b1b1a1e6b4253ce1"
+  },
+  "scorer_manifest.json": {
+   "path": "analysis/scorer_manifest.json",
+   "sha256": "ed64b540c8018645c16156d0320f6b1152cd2ab57a146cbce2978faa82307f9e"
+  },
+  "step2_reference.py": {
+   "path": "analysis/step2_reference.py",
+   "sha256": "47486cf09ce9e3203006b3229de67bbe85280fc5a8271942d21d3639593f3c76"
+  },
+  "verification_eval.py": {
+   "path": "analysis/verification_eval.py",
+   "sha256": "2e22b2a0e411153305d028fa8bfad8a6ac5c2da760c04b7359d55a920fa339af"
+  }
+ },
+ "first_label_basis": "earliest modification time (ties: file name)",
+ "first_label_file": null,
+ "frozen_utc": "2026-11-16T01:53:53.642Z",
+ "label_files": {},
+ "missing_tracked": [],
+ "r5_manifest_files": {
+  "analysis/N2_ANALYSIS_SPEC.md": "afada11746b1dc787888cd421aeaca9997204fb96f13def823ef2c59575091c0",
+  "analysis/gate1_r5.py": "9e640041d012419e9c66de5affa7d6d6ab8386d88c9a7dd0b1b1a1e6b4253ce1",
+  "analysis/packet_v5_scores.py": "844e435a6b0710913a74b2881b8ac0b855643b1f6ccde12974ba8968aac7dcab",
+  "analysis/panel/P1_prompt.md": "9040afedf5fdc6036eb26535ad5322726bf9dbd1b4549894c83c6e7330de5ab4",
+  "analysis/panel/panel_p1_summary.json": "e74f58cf6ac253548a2ad675db7af4a236d5e52180a51cc755aa6641b879b50f",
+  "analysis/scorer.py": "1413ad6aad3b088c6baac408cb6305a5ac0ed5d776a9bc3d2ecce8d81c733cfa",
+  "analysis/scorer_manifest.json": "ed64b540c8018645c16156d0320f6b1152cd2ab57a146cbce2978faa82307f9e",
+  "analysis/scores/packet_v5_scores.jsonl": "b8e92c31a7de6e45e25eb946ffb29de024dbd9bc184bf338c98308ba2d07f936",
+  "analysis/step2_reference.py": "47486cf09ce9e3203006b3229de67bbe85280fc5a8271942d21d3639593f3c76",
+  "analysis/verification_eval.py": "2e22b2a0e411153305d028fa8bfad8a6ac5c2da760c04b7359d55a920fa339af",
+  "gate1/T_READY.txt": "8efe1b76d0f8880a88508bdfa04cbab55249b9a20310bc7c75399d4af290a571",
+  "gate1/llm_panel/panel_manifest.json": "3e253167227ab48e6b4429c52f1dabd71e37371ecb18fb6c4647fe2129002d72",
+  "labels_build/v5/INSTRUCTIONS_verification.md": "d3048dd63c69f71022a217b516f1c9dc5885b06dffd1e14ff9552010ee928b45",
+  "labels_build/v5/TEMPLATE_author_verification.csv": "c86780ecc5636b8e88d5f2fd763ba9892f75a54032427d0204ff53c66baf7331",
+  "labels_build/v5/X1_prompt.md": "cb25581a311fd663321124f9a722cc8325093417e5300f35b0662413af4e1ab2",
+  "labels_build/v5/extraction.json": "71adf8bd07c8f9967849c45b6486a13b0fadd34f922a96aa97a2fdde4d44bcab",
+  "labels_build/v5/key_verification.csv": "edcf5eb34038ab8d55b720ecfe574b3a549f5d36d0b4b4ef235909a16250545e",
+  "labels_build/v5/packet_verification.html": "5371023f3314136853d6f2097bffd3e8cc22c2ed7e06500466552741524bbe34",
+  "labels_build/v5/select_items.py": "b3fb8fb21a4e75247504b27685df9c1d28abf03083a82fb3375a9fcf51cc92b2",
+  "labels_build/v5/selection.json": "2555c21116fe0875c027f1157df0a503922c464ce29215cf30aade178fe9dba3",
+  "labels_build/v5/verify.py": "b367e744e6cf96cb042e1f97f4b8795f4a033fde651eced8168c9d00fa0290a3"
+ },
+ "root": "C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1",
+ "trigger": "first run of step2_reference.py (labels\\ empty)"
+}

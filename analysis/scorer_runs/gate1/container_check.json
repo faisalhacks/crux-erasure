@@ -1,0 +1,11 @@
+{
+ "waited_s": 329,
+ "own_rows_final": 1,
+ "other_app_rows": 0,
+ "stopped_by_id": [
+  "ta-01M7G7D73X41WA486YT0GVF0GR"
+ ],
+ "returncode": 0,
+ "error": null,
+ "stdout_tail": "\n+------------------------------------------------------------------------------\n| Container ID                  | App ID                    | App Name         \n|-------------------------------+---------------------------+------------------\n| ta-01M7G7WHWRPZAMKJA95T9T9BBR | ap-SjaTupPcJSiqo6zAtVdPbL | pilot-vllm-qwen3.\n+------------------------------------------------------------------------------"
+}

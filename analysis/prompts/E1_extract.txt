@@ -1,0 +1,22 @@
+A small group of people each wrote an opinion on the question below.
+
+Question: {question}
+
+Opinions:
+{numbered_opinions}
+
+Task: list the CRUXES of this group: specific points on which members' opinions genuinely
+DISAGREE (one member asserts or prioritises something that another member denies, rejects,
+or weighs very differently). Do not list points everyone agrees on. Do not list differences
+that are only wording, emphasis or examples. Do not invent disagreements. A crux needs
+members who EXPLICITLY take opposing positions in their own opinions. List a member under a
+side only if that member's own opinion states or clearly implies that position. A member who
+did not address the point belongs to neither side: silence is not opposition, so never infer
+a position from silence. A point raised by one member that no other member contradicts or
+weighs very differently is not a crux. List between 0 and
+4 cruxes, most important first. If the members basically agree, return an empty list.
+
+Return JSON only:
+{"cruxes": [{"issue": "<one short sentence naming the disputed point>",
+  "side_a": "<position A>", "members_a": [<opinion numbers>],
+  "side_b": "<position B>", "members_b": [<opinion numbers>]}]}

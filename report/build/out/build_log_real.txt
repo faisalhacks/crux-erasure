@@ -1,0 +1,110 @@
+free RAM MB: 3308
+{
+ "label": "DRAFT LAYOUT - real results (gate R5 VALIDATED_PRESENCE) - not final",
+ "sources_in_order": [
+  "parts/00_front.md",
+  "parts/05_abstract.md",
+  "parts/10_introduction.md",
+  "related_work.md",
+  "methods_draft.md",
+  "parts/40_results.md",
+  "parts/50_discussion.md",
+  "parts/60_conclusion.md",
+  "parts/70_code_data.md",
+  "parts/90_references.md",
+  "limitations_dualuse_draft.md",
+  "parts/95_appendix_b.md",
+  "parts/80_llm_usage.md"
+ ],
+ "branches_kept": "all",
+ "all_branches": {
+  "pdf": "C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\report\\build\\out\\DRAFT_layout.pdf",
+  "pages_total": 17,
+  "body_pages_before_references": 8,
+  "body_cap": 8,
+  "body_within_cap": true,
+  "heading_first_page": {
+   "Abstract": 1,
+   "1. Introduction": 1,
+   "2. Related Work": 2,
+   "3. Methods": 3,
+   "4. Results": 5,
+   "5. Discussion and Limitations": 7,
+   "6. Conclusion": 8,
+   "Code and Data": 8,
+   "References": 9,
+   "Appendix A. Limitations": 11,
+   "Appendix B. Supplementary": 14,
+   "LLM Usage Statement": 16
+  },
+  "pages_missing_stamp": [],
+  "pages_with_file_path": [],
+  "images": [
+   {
+    "page": 6,
+    "w_in": 5.23,
+    "h_in": 2.61
+   },
+   {
+    "page": 7,
+    "w_in": 5.38,
+    "h_in": 3.02
+   },
+   {
+    "page": 15,
+    "w_in": 5.71,
+    "h_in": 3.11
+   }
+  ],
+  "fonts": [
+   "AAAAAA+ArialMT",
+   "BAAAAA+Arial-BoldMT",
+   "CAAAAA+Arial-ItalicMT",
+   "DAAAAA+Consolas",
+   "EAAAAA+Consolas-Bold"
+  ]
+ },
+ "length_check_one_branch_per_group": {
+  "skipped": "--real: the parts keep one branch only, so the main build is the length check",
+  "branches": {
+   "val": "pass",
+   "a2": "positive",
+   "n2": "validated"
+  }
+ },
+ "abstract_words": {
+  "incl_slot_text": 246,
+  "excl_slot_text": 246,
+  "target": "150-250"
+ },
+ "slot_counts_visible_text": {
+  "RESULT SLOT": 1,
+  "LABEL-DESIGN SLOT": 0,
+  "HUMAN SLOT": 4,
+  "VERIFY": 0,
+  "[IF": 0,
+  "FROZEN": 0,
+  "TODO": 0,
+  "SLOT (any)": 5
+ },
+ "cited_keys": [
+  "cachola2025readability",
+  "habermas_machine_repo",
+  "hafid2026opinion",
+  "khosravani2024argument",
+  "mahajan2026commitments",
+  "ovadya2023bridging",
+  "revel2025representative",
+  "sharma2024sycophancy",
+  "tessler2024habermas",
+  "wan2026deliberative",
+  "wojcik2022birdwatch",
+  "zaghouani2026accountable",
+  "zhang2024fairsumm",
+  "zheng2023judging",
+  "zhu2025voice"
+ ],
+ "cited_not_in_refs_bib": [],
+ "refs_bib_keys_cited_but_absent_from_reference_list": [],
+ "free_ram_mb": 3308
+}

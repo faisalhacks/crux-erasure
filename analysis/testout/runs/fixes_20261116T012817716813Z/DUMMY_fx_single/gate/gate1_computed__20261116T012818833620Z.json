@@ -1,0 +1,211 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "llm_wording": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "status": "PASS",
+ "verdict": "PASS",
+ "note": "",
+ "kappa": {
+  "n": 20,
+  "kappa": 1.0,
+  "ac1": 1.0,
+  "percent_agreement": 1.0,
+  "B": 1000,
+  "seed": 20261116,
+  "kappa_ci95": [
+   1.0,
+   1.0
+  ],
+  "ac1_ci95": [
+   1.0,
+   1.0
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 1.0,
+  "kappa_both_definite": 1.0,
+  "n_both_definite": 19,
+  "unsure_first": 1,
+  "unsure_second": 1,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 9,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 7,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 1
+   }
+  },
+  "by_kind_original": {
+   "n": 15,
+   "kappa": 1.0,
+   "ac1": 1.0
+  },
+  "by_kind_n2": {
+   "n": 5,
+   "kappa": 1.0,
+   "ac1": 1.0
+  },
+  "cut": 0.6,
+  "statistic": "self-consistency kappa (author pass 1 vs pass 2, 20 repeats)",
+  "primary": 1.0,
+  "primary_ci_info_only": [
+   1.0,
+   1.0
+  ],
+  "n_repeats": 20,
+  "pass": true
+ },
+ "kappa_recorded": true,
+ "balanced_accuracy": {
+  "n": 36,
+  "n_human_pos": 19,
+  "n_human_neg": 17,
+  "ba": 0.9473684210526316,
+  "lo": 0.868421052631579,
+  "hi": 1.0,
+  "n_adjudicated_or_of_record": 38,
+  "n_unsure_excluded": 2,
+  "unsure_items": [
+   "P1_018",
+   "P1_026"
+  ],
+  "n_used": 36,
+  "n_ai_parse_failure_or_missing": 1,
+  "must_exceed": 0.5,
+  "B": 1000,
+  "seed": 20261116,
+  "against": "author pass-1 labels (first pass)",
+  "passed": true,
+  "pass": true
+ },
+ "confusion": {
+  "TP": 17,
+  "FN": 2,
+  "TN": 17,
+  "FP": 0
+ },
+ "FR_6_4a": {
+  "BA_crux": {
+   "n": 36,
+   "n_human_pos": 19,
+   "n_human_neg": 17,
+   "ba": 0.9473684210526316,
+   "lo": 0.868421052631579,
+   "hi": 1.0
+  },
+  "n_gate_items_dropped_ncruxes_unknown": 0,
+  "BA_sh": {
+   "n": 29,
+   "n_human_pos": 19,
+   "n_human_neg": 10,
+   "ba": 0.9473684210526316,
+   "lo": 0.868421052631579,
+   "hi": 1.0,
+   "n_no_disagreement_left_out": 7,
+   "n_human_shows": 10
+  },
+  "zero_crux_share_of_correct_AI_negatives": {
+   "zero_crux_correct_negatives": 0,
+   "correct_negatives": 17,
+   "share": 0.0
+  },
+  "wording_rule_fires": false
+ },
+ "also_reported": {
+  "spearman_E_vs_human_binary": 0.8208580038893131,
+  "agreement_on_is_there_any_disagreement": 0.8055555555555556
+ },
+ "labels_of_record_source": "author pass 1",
+ "n_adjudicated": 0,
+ "headline": {
+  "n_originals": 38,
+  "n_hides": 19,
+  "n_shows": 10,
+  "n_no_disagreement": 7,
+  "n_unsure": 2,
+  "unsure_items": [
+   "P1_018",
+   "P1_026"
+  ],
+  "H": 0.5277777777777778,
+  "H_wilson95": [
+   0.3700593790863453,
+   0.6801395859153836
+  ],
+  "n_definite": 36,
+  "bounds_unsure_as_not_hiding_and_as_hiding": [
+   0.5,
+   0.5526315789473685
+  ],
+  "rate_depends_on_unsure_items": false,
+  "conditional_H_among_hides_or_shows": [
+   19,
+   29,
+   0.6551724137931034,
+   0.47345103949857975,
+   0.8005928156337425
+  ],
+  "share_no_disagreement_among_definite": 0.19444444444444445,
+  "annotator_wording": "validated against a single hypothesis-aware human annotator",
+  "sentence_requirements": "name n (38 or fewer), the interval, the annotator wording; call it an estimate from a small sample; no numeric comparison with other studies (FR 6.7)",
+  "llm_annotator_gpt_oss_120b_NOT_HUMAN": {
+   "label": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+   "n_labelled": 37,
+   "n_definite": 36,
+   "H": 0.4722222222222222,
+   "wilson95": [
+    0.4722222222222222,
+    0.31986041408461635,
+    0.6299406209136547
+   ]
+  },
+  "secondary_scorer1_rate_on_same_items": {
+   "n_scored": 37,
+   "n_missing_E": 1,
+   "n_E_ge_0.5": 18,
+   "rate_zero_crux_counts_as_not_hiding": 0.4864864864864865,
+   "wilson95": [
+    0.4864864864864865,
+    0.33446404195282825,
+    0.6410510344574818
+   ],
+   "label": "SECONDARY: scorer-based rate, never alone in the abstract; whole-confirmatory-set prevalence is a separate analysis (FR 7.3)"
+  },
+  "state_stamp": ""
+ },
+ "hashes": {
+  "author_pass1": "4084fff955225c53e82492cf930867945acb763a71905d3a155988cf1685010a",
+  "author_pass2": "0d8ded0d71f53fe3228c0fbcce0af84207fad15d74c494388df794a4e310a111",
+  "volunteer_pass1": null,
+  "ADJ": null,
+  "scores": "66ed03849c65ebea61c51ce9b87a846fff87269f5c5e725c0c35fde5456cdfe5",
+  "n2check_scores": "12b13fafc151ff4d2ab6981f6830489ffff13ca851aba1988e631307c949f699",
+  "item_key": "0217b64f0f030d213477da4618733ce1f26c1429a876f484f22a25a1d21b807e",
+  "DESIGN": "cc017ca2fa54c24a69dad323d0509273304de6ab2f510c3a15704f4562bd530d",
+  "sample": null,
+  "n2_items": null,
+  "FROZEN_RULES": "ea9b7a97256eb3bca95ccb0c1135a7ff32d3d520eeb6f484c9c8898f996f94ae"
+ },
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

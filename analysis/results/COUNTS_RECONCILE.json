@@ -1,0 +1,81 @@
+{
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED",
+ "inputs": {
+  "a2_scores_v2.jsonl": "c9e83a5d74e68a37c01191a060d42a7c1fc69aac90a20f71b3387c2ea8fa8307",
+  "pilot_groups.jsonl": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ },
+ "all_launches": {
+  "rounds": 1960,
+  "launches": 871,
+  "extraction_failed": 3,
+  "zero_crux": 481,
+  "with_ge1_crux": 1476,
+  "ge1_crux_all4_E_missing": 12,
+  "ge1_crux_some_but_not_all_E_missing": 55,
+  "evaluable_all4_E__D32_definition": 1409,
+  "rounds_with_ge1_nonmissing_E__A2_TIER_counts_definition": 1464,
+  "R_inf_all4_E": 176,
+  "K_inf_all4_E": 166,
+  "R_inf_A2_TIER_counts_definition": 178,
+  "K_inf_A2_TIER_counts_definition": 168
+ },
+ "confirmatory_set": {
+  "rounds": 1622,
+  "launches": 721,
+  "extraction_failed": 3,
+  "zero_crux": 397,
+  "with_ge1_crux": 1222,
+  "ge1_crux_all4_E_missing": 11,
+  "ge1_crux_some_but_not_all_E_missing": 45,
+  "evaluable_all4_E__D32_definition": 1166,
+  "rounds_with_ge1_nonmissing_E__A2_TIER_counts_definition": 1211,
+  "R_inf_all4_E": 150,
+  "K_inf_all4_E": 142,
+  "R_inf_A2_TIER_counts_definition": 152,
+  "K_inf_A2_TIER_counts_definition": 144
+ },
+ "a2_informativeness_counts_reproduced": {
+  "all": {
+   "rounds_in_set": 1464,
+   "R_inf": 178,
+   "K_inf": 168
+  },
+  "confirmatory": {
+   "rounds_in_set": 1211,
+   "R_inf": 152,
+   "K_inf": 144
+  }
+ },
+ "A2_TIER_R4_json": {
+  "counts": {
+   "rounds_in_set": 1211,
+   "R_inf": 152,
+   "K_inf": 144
+  },
+  "counts_including_development_launches": {
+   "rounds_in_set": 1464,
+   "R_inf": 178,
+   "K_inf": 168
+  }
+ },
+ "A2_primary_fit": {
+  "file": "A2_primary__20261116T021237469424Z.json",
+  "sha256": "38c18a2e1332b3821197f76e35cd720b842eeb528e3911923cf91e00274f2d46",
+  "n_rounds_in_fit": 1166,
+  "rounds_dropped_missing_E": 456,
+  "rounds_no_E_variation": 1016,
+  "launches_with_E_variation": 142,
+  "n_clusters": 642,
+  "rater_rounds_dropped_all_tied": 21
+ },
+ "A2d_fit": {
+  "file": "A2d__20261116T021245491310Z.json",
+  "sha256": "d0cae16e480fcd5bb97acbd0b62ac56905d3bdd2dc8aaff4e5151499e030da4e",
+  "n_rounds_in_fit": 1409,
+  "rounds_dropped_missing_E": 551,
+  "rounds_no_E_variation": 1233,
+  "launches_with_E_variation": 166,
+  "n_clusters": 775,
+  "rater_rounds_dropped_all_tied": 22
+ }
+}

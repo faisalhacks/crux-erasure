@@ -1,0 +1,95 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "kappa": {
+  "n": 20,
+  "kappa": 1.0,
+  "ac1": 1.0,
+  "percent_agreement": 1.0,
+  "B": 10000,
+  "seed": 20261116,
+  "kappa_ci95": [
+   1.0,
+   1.0
+  ],
+  "ac1_ci95": [
+   1.0,
+   1.0
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 1.0,
+  "kappa_both_definite": 1.0,
+  "n_both_definite": 19,
+  "unsure_first": 1,
+  "unsure_second": 1,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 9,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 7,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 1
+   }
+  },
+  "by_kind_original": {
+   "n": 15,
+   "kappa": 1.0,
+   "ac1": 1.0
+  },
+  "by_kind_n2": {
+   "n": 5,
+   "kappa": 1.0,
+   "ac1": 1.0
+  },
+  "cut": 0.6,
+  "statistic": "self-consistency kappa (author pass 1 vs pass 2, 20 repeats)",
+  "primary": 1.0,
+  "primary_ci_info_only": [
+   1.0,
+   1.0
+  ],
+  "n_repeats": 20,
+  "pass": true
+ },
+ "pass2_rule": {
+  "ok": true,
+  "reasons": [],
+  "pass1_mtime_utc": "2026-11-20T10:00:00+00:00",
+  "pass1_mtime_source": "FREEZE.json",
+  "pass2_started_utc": "2026-11-20T12:00:00+00:00",
+  "pass2_mtime_utc": "2026-11-20T12:30:00+00:00"
+ },
+ "to_adjudicate": [],
+ "provisional_real_rank_output_existed_when_pass2_arrived": false,
+ "hashes": {
+  "author_pass1": "4084fff955225c53e82492cf930867945acb763a71905d3a155988cf1685010a",
+  "author_pass2": "0d8ded0d71f53fe3228c0fbcce0af84207fad15d74c494388df794a4e310a111",
+  "item_key": "0217b64f0f030d213477da4618733ce1f26c1429a876f484f22a25a1d21b807e"
+ },
+ "row_hashes": {
+  "author_pass1_repeated_rows": "b9c1acb91d1e7bf7511f91d1a58b4689c8e4c4cf9a713b1a860aab5a0acdcbfd",
+  "author_pass1_all": "bd58a16d05e5eba1715af0c62085a04292d1cb722f3ad76c39e1908b70874336",
+  "author_pass2_all": "5afe0c68fd4b6f434f8c676d1ead966a531dcaaa1a7e41d76b353323afc07ca4"
+ },
+ "status": "COMPUTED"
+}

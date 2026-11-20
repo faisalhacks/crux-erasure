@@ -1,0 +1,102 @@
+{
+ "tag": "smoke_llama",
+ "provider": "modal",
+ "wall_s": 202.2,
+ "per_model": [
+  {
+   "model": "llama3.1-8b",
+   "total": 40,
+   "cached_in_file": 0,
+   "run": 40,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 5365,
+   "session": {
+    "billed_s": 336.8,
+    "session_cost_usd": 0.2241,
+    "cold_start_s": 191.3
+   },
+   "cold_start_s": 191.3,
+   "gen_wall_s": 10.5,
+   "measured_tok_per_s": 510.2,
+   "mean_out_tokens": 134.1
+  }
+ ],
+ "harness_spent_usd": 0.2241,
+ "design_sha256": "84ddff58369db9fd3a51dafe59c10808c6a3b880c729f463d171f3735eb6fbd9",
+ "plan_sha256": "05b4bea734857e42d5b7ec1da8b2b6529942d7b80e69f2d7b768f370076c6fb4",
+ "format_report": {
+  "cells": {
+   "llama3.1-8b|ACC-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 118.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|ACC-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 114.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|NEU-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 118.9,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|SAT-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 119.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|SAT-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 117.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   }
+  },
+  "near_duplicate": {
+   "llama3.1-8b": {
+    "rounds": 8,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": false,
+  "any_dead_manipulation": false
+ }
+}

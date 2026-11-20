@@ -1,0 +1,198 @@
+{
+ "meta": {
+  "utc": "2026-11-15T18:16:27Z",
+  "R": 3,
+  "B": 2000,
+  "perm_seeds": "numpy default_rng 99970..99972",
+  "boot_seeds": "9970..9972",
+  "verified_against_author_code": true,
+  "code_sha256_16": {
+   "coverage_fast.py": "920a29ab499ba485",
+   "common.py": "14fd5b0c494e1039",
+   "a2_within_round.py": "3f87eb8ee90c0595",
+   "n1_winner_vs_mean.py": "2cf3b12aeaca91ca"
+  },
+  "code_changed_during_run": false,
+  "input_sha256_16": {
+   "features.parquet": "66ed880872dde8b9",
+   "all_groups.jsonl": "fa3a39694560d514"
+  },
+  "versions": {
+   "python": "3.12.4",
+   "numpy": "2.2.6",
+   "pandas": "2.3.3",
+   "scipy": "1.16.3"
+  },
+  "seconds": 83.6
+ },
+ "summary": {
+  "A2_controlled": {
+   "k": 3,
+   "n": 3,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.2924017738212867,
+    1.0
+   ]
+  },
+  "A2_controlled_p_lt_05": {
+   "k": 0,
+   "n": 3,
+   "rate": 0.0,
+   "clopper_pearson_95": [
+    0.0,
+    0.7075982261787133
+   ]
+  },
+  "A2_controlled_est": {
+   "mean": 0.0019598879444426773,
+   "sd": 0.010390611438437725
+  },
+  "A2_uncontrolled": {
+   "k": 3,
+   "n": 3,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.2924017738212867,
+    1.0
+   ]
+  },
+  "A2_uncontrolled_p_lt_05": {
+   "k": 0,
+   "n": 3,
+   "rate": 0.0,
+   "clopper_pearson_95": [
+    0.0,
+    0.7075982261787133
+   ]
+  },
+  "A2_uncontrolled_est": {
+   "mean": 0.0015826347486805113,
+   "sd": 0.007764723394370276
+  },
+  "A2_A2h": {
+   "k": 3,
+   "n": 3,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.2924017738212867,
+    1.0
+   ]
+  },
+  "A2_A2h_p_lt_05": {
+   "k": 0,
+   "n": 3,
+   "rate": 0.0,
+   "clopper_pearson_95": [
+    0.0,
+    0.7075982261787133
+   ]
+  },
+  "A2_A2h_est": {
+   "mean": 0.002640039039729291,
+   "sd": 0.009122007834033287
+  },
+  "A2_controlled_cr1": {
+   "k": 3,
+   "n": 3,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.2924017738212867,
+    1.0
+   ]
+  },
+  "A2_controlled_bca": {
+   "k": 3,
+   "n": 3,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.2924017738212867,
+    1.0
+   ]
+  },
+  "bootSE_over_CR1": {
+   "mean": 1.0049805839466481,
+   "sd": 0.0012617294403458477
+  },
+  "N1": {
+   "k": 3,
+   "n": 3,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.2924017738212867,
+    1.0
+   ]
+  },
+  "N1_est": {
+   "mean": 0.0016119078194821361,
+   "sd": 0.0033079045117273553
+  },
+  "N1_tied_excluded": {
+   "mean": 280.6666666666667,
+   "sd": 2.516611478423583
+  },
+  "N1_rounds_used": {
+   "mean": 1679.3333333333333,
+   "sd": 2.5166114784235836
+  }
+ },
+ "reps": [
+  {
+   "rep": 9970,
+   "A2_controlled": true,
+   "A2_controlled_p_lt_05": false,
+   "A2_controlled_est": 0.013706522486151188,
+   "A2_uncontrolled": true,
+   "A2_uncontrolled_p_lt_05": false,
+   "A2_uncontrolled_est": 0.010404408368578047,
+   "A2_A2h": true,
+   "A2_A2h_p_lt_05": false,
+   "A2_A2h_est": 0.012790032657864476,
+   "A2_controlled_cr1": true,
+   "A2_controlled_bca": true,
+   "bootSE_over_CR1": 1.0047597661210075,
+   "N1": true,
+   "N1_est": 0.004725469458084577,
+   "N1_tied_excluded": 283,
+   "N1_rounds_used": 1677
+  },
+  {
+   "rep": 9971,
+   "A2_controlled": true,
+   "A2_controlled_p_lt_05": false,
+   "A2_controlled_est": -0.0017974806568431803,
+   "A2_uncontrolled": true,
+   "A2_uncontrolled_p_lt_05": false,
+   "A2_uncontrolled_est": -0.0014414708815066429,
+   "A2_A2h": true,
+   "A2_A2h_p_lt_05": false,
+   "A2_A2h_est": 3.125307184294536e-06,
+   "A2_controlled_cr1": true,
+   "A2_controlled_bca": true,
+   "bootSE_over_CR1": 1.0038438397828393,
+   "N1": true,
+   "N1_est": 0.001971251396109755,
+   "N1_tied_excluded": 278,
+   "N1_rounds_used": 1682
+  },
+  {
+   "rep": 9972,
+   "A2_controlled": true,
+   "A2_controlled_p_lt_05": false,
+   "A2_controlled_est": -0.0060293779959799745,
+   "A2_uncontrolled": true,
+   "A2_uncontrolled_p_lt_05": false,
+   "A2_uncontrolled_est": -0.0042150332410298705,
+   "A2_A2h": true,
+   "A2_A2h_p_lt_05": false,
+   "A2_A2h_est": -0.0048730408458609,
+   "A2_controlled_cr1": true,
+   "A2_controlled_bca": true,
+   "bootSE_over_CR1": 1.0063381459360972,
+   "N1": true,
+   "N1_est": -0.0018609973957479228,
+   "N1_tied_excluded": 281,
+   "N1_rounds_used": 1679
+  }
+ ]
+}

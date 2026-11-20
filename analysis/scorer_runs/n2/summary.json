@@ -1,0 +1,147 @@
+{
+ "n_statements": 6250,
+ "n_with_E": 4457,
+ "n_zero_cruxes": 1725,
+ "n_missing_E": 68,
+ "mean_E": 0.4601,
+ "n_E_ge_half": 2192,
+ "order_flips": 0,
+ "order_checked": 0,
+ "calls": 4794,
+ "errors": 0,
+ "truncated": 2,
+ "prompt_tokens": 0,
+ "completion_tokens": 0,
+ "chunks_total": 5,
+ "chunks_done": 5,
+ "resumed_statements": 0,
+ "parse_fail_first_extract": 1,
+ "parse_fail_final_extract": 1,
+ "n_extract": 250,
+ "t_extract_s": 11.0,
+ "parse_fail_first_label": 43,
+ "parse_fail_final_label": 43,
+ "n_label": 4500,
+ "t_label_s": 431.40000000000003,
+ "mode": "score",
+ "scorer": "qwen3.8-27b",
+ "stamp": "EXPLORATORY; HIDE_NOT_HUMAN_VALIDATED",
+ "gate": {
+  "rules": "R5",
+  "status": "VALIDATED_PRESENCE"
+ },
+ "wall_s": 633.4,
+ "session": {
+  "billed_s": 694.4,
+  "session_cost_usd": 0.9332,
+  "cold_start_s": 116.3
+ },
+ "plan": {
+  "scorer": "qwen3.8-27b",
+  "gpu": "H100x1",
+  "rate_usd_per_s": 0.00134388,
+  "calls": 6500,
+  "decode_tokens": 262500,
+  "prefill_tokens": 5986000,
+  "expected_wall_s": 2308,
+  "session_max_seconds": 2400,
+  "expected_usd": 3.283,
+  "worst_case_usd": 3.407,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  },
+  "expected_wall_s_measured_rule": 1072,
+  "expected_usd_measured_rule": 1.622,
+  "note": "timeout fixed at 2400 s; worst case = rate x (timeout + scaledown tail); extraction calls may be harness-cache hits from A2 (same E1 prompt, same seed) at $0"
+ },
+ "harness_stats": {
+  "calls": 4539,
+  "cache_hits": 255,
+  "retries": 0,
+  "spent_usd": 0.9331902719999999
+ },
+ "per_generator": {
+  "qwen3.8-27b": {
+   "n": 1250,
+   "extract_fail": 5,
+   "zero_crux": 345,
+   "label_parse_fail": 5,
+   "with_E": 895
+  },
+  "gemma4-12b": {
+   "n": 1250,
+   "extract_fail": 5,
+   "zero_crux": 345,
+   "label_parse_fail": 10,
+   "with_E": 890
+  },
+  "ministral3-14b": {
+   "n": 1250,
+   "extract_fail": 5,
+   "zero_crux": 345,
+   "label_parse_fail": 14,
+   "with_E": 886
+  },
+  "phi4-14b": {
+   "n": 1250,
+   "extract_fail": 5,
+   "zero_crux": 345,
+   "label_parse_fail": 6,
+   "with_E": 894
+  },
+  "llama3.1-8b": {
+   "n": 1250,
+   "extract_fail": 5,
+   "zero_crux": 345,
+   "label_parse_fail": 8,
+   "with_E": 892
+  }
+ },
+ "empty_side_cruxes_dropped_this_process": 1,
+ "prompt_sha256": {
+  "E1": "be662ca757c7e17d88ac2b0dcbdb2c9133844f3f90036306ec424b166b82f226",
+  "L1": "8799f803b571b4e584779b54f170c2f305cab5cddc10721ba47988aeda2e350e",
+  "C1": "cea226abba1285912e76825327ed2d80449705381b46c4d5d0e4f369d737a3d1"
+ },
+ "scorer_py_sha256": "1413ad6aad3b088c6baac408cb6305a5ac0ed5d776a9bc3d2ecce8d81c733cfa",
+ "n2_grid_sha256": "ca6f167ff8fd45b3a4db81e047c8f9529e210d31e20bd8a3cd6646b320b3b1ea",
+ "n2_score_sha256": "ccbcde34e394f6bb450a799cde44a6d36ce107c55d0724f9b98e2d879f9854af",
+ "scorer_manifest_sha256": "ed64b540c8018645c16156d0320f6b1152cd2ab57a146cbce2978faa82307f9e",
+ "gens_sha256": {
+  "qwen3.8-27b": "99ed998c7011b4a4ca66eb60b9ca7864aeecc206aa4559bdb7156539d7a933fe",
+  "gemma4-12b": "942746ca306abce84c31b06b1604a8b1c8d32c813fb7db5b453dfce82397c36a",
+  "ministral3-14b": "1b40228c3915114b9691aa694c20eb0012430348a2018153da0c67508258aaee",
+  "phi4-14b": "fab609a13fa631e787210121393cd9ce83c2f84fd47cb9ae969dc3bf05ef067a",
+  "llama3.1-8b": "7089573fd7fae49803abd9f376cfd6f11419da9e43ded7aff40d84ac6e2a5431"
+ },
+ "decoding": {
+  "temperature": 0.0,
+  "seed": 0,
+  "retry_seed": 1,
+  "max_tokens": {
+   "extract": 700,
+   "label": 300
+  },
+  "response_format": "json_object",
+  "thinking": "off"
+ },
+ "order_check": false,
+ "container_check": {
+  "waited_s": 71,
+  "own_rows_final": 0,
+  "other_app_rows": 0,
+  "stopped_by_id": [],
+  "returncode": 0,
+  "error": null,
+  "stdout_tail": "Active Containers in environment:                    \n+------------------------------------------------------------------------------\n| Container ID                  | App ID                    | App Name | Start \n|-------------------------------+---------------------------+----------+-------\n+------------------------------------------------------------------------------"
+ },
+ "n_requested": 6250,
+ "complete": true
+}

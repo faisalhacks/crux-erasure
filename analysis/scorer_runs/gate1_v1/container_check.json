@@ -1,0 +1,6 @@
+{
+ "returncode": 0,
+ "container_rows": 1,
+ "stdout_tail": " Containers in environment:             \n+------------------------------------------------------------------------------\n| Container ID                  | App ID                    | App Name         \n|-------------------------------+---------------------------+------------------\n| ta-01M7G6E9CNYF6M6XG4W7NKJ8BR | ap-SjaTupPcJSiqo6zAtVdPbL | pilot-vllm-qwen\u2026 \n|                               |                           |                  \n|                               |                           |                  \n+------------------------------------------------------------------------------",
+ "stderr_tail": ""
+}

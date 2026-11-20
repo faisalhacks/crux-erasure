@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "experiment": "A2 full scoring (scorer v2, all eligible rounds)",
+  "max_usd": 5.20,
+  "approved_by": "experiment council 2/3 APPROVE-AFTER-Q1 (SCORER_vote_skeptic.md, SCORER_vote_costcutter.md; methodologist's conditional approval void after the E1 prompt change); Q1 resolved by orchestrator decision D18, implemented as scorer v2 (manifest final). Approval file written by the orchestrator, not by the runner.",
+  "scope": "Scoring only. Scores are stored in analysis/scores/ and never joined to rankings before GATE1_RESULT.json exists (FROZEN_RULES; BRIEF rule 3).",
+  "conditions": [
+    "estimate + timeout to ledger.csv before launch, actual after",
+    "chunked incremental writes; timeout 3700 s",
+    "stop only containers this session started; N2 generation runs concurrently",
+    "report within-round E variation counts (counts only)"
+  ],
+  "written_utc": "2026-11-16"
+}

@@ -1,0 +1,79 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [],
+ "status": "COMPUTED",
+ "kappa": {
+  "n_shared": 20,
+  "primary": 0.9019607843137253,
+  "primary_ci_info_only": [
+   0.6923076923076923,
+   1.0
+  ],
+  "cutoff": 0.6,
+  "pass": true,
+  "kappa_4cat": 0.47955390334572495,
+  "kappa_both_definite": 0.516949152542373,
+  "n_both_definite": 19,
+  "unsure_L1": 0,
+  "unsure_L2": 1,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 8,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 2,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 3,
+    "SHOWS": 3,
+    "UNSURE": 1
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "B": 10000,
+  "seed": 20261116
+ },
+ "duplicate_checks": {
+  "L1": {
+   "n_pairs": 4,
+   "exact_match": 2,
+   "match_3cat": 3
+  },
+  "L2": {
+   "n_pairs": 4,
+   "exact_match": 4,
+   "match_3cat": 4
+  }
+ },
+ "to_adjudicate": [
+  "DUMMY016"
+ ],
+ "hashes": {
+  "L1": "064f1aa3493c79d881c9209e511c800721bc5dbea5c5bd6d172a7f811c204a31",
+  "L2": "95de4e49e33678a61b00503e70de5f640220ddbc6a5a891989df9c23479c1f6b",
+  "item_key": "75c85228656f0ba4ef063e79ff4e9a4bbcd2f83a102c177e0e7e009fd469a408"
+ },
+ "row_hashes": {
+  "L1": {
+   "shared_rows_used_sha256": "8f1955606629d84d8b6dde6e6d65f32328ce26a49d7509b166875b2d3a472a54",
+   "all_rows_sha256": "2645f45b7103f4cbed012515b4ff7ba22ac20df8c893db3aba9bdc32b83cc5f9"
+  },
+  "L2": {
+   "shared_rows_used_sha256": "5e955446ebfa398a8eacf3b6b4e2d30a45e7141c5c7de11e5c5ecf0c5626ee2f",
+   "all_rows_sha256": "284239e229b1d702e3664fdd421f0314d55e3ed45f896438008d0830b04d1bd8"
+  }
+ }
+}

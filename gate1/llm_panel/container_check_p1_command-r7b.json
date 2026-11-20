@@ -1,0 +1,88 @@
+{
+ "app": "pilot-vllm-command-r7b",
+ "waited_s": 141,
+ "polls": [
+  {
+   "t": 2,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 20,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 37,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 54,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 71,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 89,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 106,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 124,
+   "rc": 0,
+   "all_rows": 3,
+   "own": [
+    "ta-01M7H04SX7RFZ8S2WV8QD1KKPR"
+   ],
+   "err": ""
+  },
+  {
+   "t": 141,
+   "rc": 0,
+   "all_rows": 0,
+   "own": [],
+   "err": ""
+  }
+ ],
+ "stops": [],
+ "own_final": [],
+ "baseline": []
+}

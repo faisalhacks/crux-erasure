@@ -1,0 +1,15 @@
+{
+ "n_rater_rounds": 7881,
+ "n_launches": 871,
+ "slope_agreement_on_rank": {
+  "est": -0.5756817713080562,
+  "lo": -0.5940140421817874,
+  "hi": -0.5566091265582809,
+  "se": 0.009550341720653513,
+  "p_boot": 0.0009995002498750624
+ },
+ "rater_rounds_spearman_negative": 6744,
+ "rater_rounds_spearman_positive": 876,
+ "rater_rounds_spearman_zero_or_nan": 261,
+ "reading": "NEGATIVE slope (CI below 0) => lower rank number = higher agreement => 0 = best CONFIRMED"
+}

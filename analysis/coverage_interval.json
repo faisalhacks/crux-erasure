@@ -1,0 +1,29 @@
+{
+ "R": 400,
+ "B": 2000,
+ "shuffle_seeds": "800000..800399",
+ "E": "DUMMY proxy 1/(1+markers/100w)",
+ "methods": {
+  "percentile": {
+   "coverage": 0.9675,
+   "covered": 387,
+   "ci_all_above_0": 10,
+   "ci_all_below_0": 3,
+   "mean_width": 0.03989548054621067
+  },
+  "bca": {
+   "coverage": 0.9675,
+   "covered": 387,
+   "ci_all_above_0": 9,
+   "ci_all_below_0": 4,
+   "mean_width": 0.03991320722063278
+  },
+  "wild": {
+   "coverage": 0.965,
+   "covered": 386,
+   "ci_all_above_0": 11,
+   "ci_all_below_0": 3,
+   "mean_width": 0.040084561218494415
+  }
+ }
+}

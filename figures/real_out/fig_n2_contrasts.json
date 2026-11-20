@@ -1,0 +1,7 @@
+{
+ "script": "figures/make_real_figures.py",
+ "stamp": "HIDE_NOT_HUMAN_VALIDATED",
+ "inputs_sha256": {
+  "analysis\\n2_results\\n2_estimates.csv": "644b5e96cb7ad042bbda99f260e498d4928615c31e51a5975ae0f4cb33b7740b"
+ }
+}

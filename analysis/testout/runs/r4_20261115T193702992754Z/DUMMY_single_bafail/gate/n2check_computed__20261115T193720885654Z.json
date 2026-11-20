@@ -1,0 +1,39 @@
+{
+ "step": "n2check",
+ "kind": "dummy",
+ "problems": [],
+ "design": "single_labeler",
+ "status": "COMPUTED",
+ "n2_check": "NOT PASSED",
+ "gate1_record_used": "gate1_computed__20261115T193714351839Z.json",
+ "gate1_status": "FAIL",
+ "fisher_one_sided_p": 0.1212121212121212,
+ "fisher_rule": "one-sided Fisher exact p <= 0.05 and gate 1 PASS (PROVISIONAL_PASS -> provisional)",
+ "table": {
+  "TP": 4,
+  "FN": 2,
+  "TN": 5,
+  "FP": 1
+ },
+ "n_items": 12,
+ "n_used": 12,
+ "n_unsure_excluded": 0,
+ "unsure_items": [],
+ "n_missing_E_counted_wrong": 0,
+ "balanced_accuracy_descriptive": {
+  "n": 12,
+  "n_human_pos": 6,
+  "n_human_neg": 6,
+  "ba": 0.75,
+  "lo": 0.4857142857142857,
+  "hi": 1.0
+ },
+ "N2_VALIDATED": false,
+ "N2_VALIDATED_PROVISIONAL": false,
+ "label_if_validated": "scorer checked against human labels on 12 N2 statements pooled over five generators (2 or 3 per generator); validated against a single hypothesis-aware human annotator",
+ "label_otherwise": "EXPLORATORY: the scorer was not validated on newly generated text",
+ "stated_in_advance": "NOT PASSED is a likely outcome for a scorer right 4 times in 5; it is not evidence that the scorer is invalid on N2 text (FR 6.6)",
+ "scope": "pooled 12 only; no generator- or cell-level validity claim; scorer 1 only; estimates without the development-launch N2 rounds (FR 6.6)",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

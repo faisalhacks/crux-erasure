@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\intel\Downloads\OU\projects\_apart_intel\t3_1\analysis\eval\coverage.py", line 204, in <module>
+    main()
+  File "C:\Users\intel\Downloads\OU\projects\_apart_intel\t3_1\analysis\eval\coverage.py", line 154, in main
+    r = A2.run(df, p)
+        ^^^^^^
+AttributeError: module 'a2_within_round' has no attribute 'run'

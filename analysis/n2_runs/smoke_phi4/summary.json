@@ -1,0 +1,102 @@
+{
+ "tag": "smoke_phi4",
+ "provider": "modal",
+ "wall_s": 92.5,
+ "per_model": [
+  {
+   "model": "phi4-14b",
+   "total": 40,
+   "cached_in_file": 0,
+   "run": 40,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 6067,
+   "session": {
+    "billed_s": 227.1,
+    "session_cost_usd": 0.1511,
+    "cold_start_s": 72.9
+   },
+   "cold_start_s": 72.9,
+   "gen_wall_s": 19.2,
+   "measured_tok_per_s": 316.1,
+   "mean_out_tokens": 151.7
+  }
+ ],
+ "harness_spent_usd": 0.1511,
+ "design_sha256": "cfa34190240f27a73508b19e6842b542498563e77e7fdca61d297e1da4fa0ba4",
+ "plan_sha256": "6c4cbd2daf04fd82b911fa040efd07b52e7b36ada5cd9cfc66f47729f8e66929",
+ "format_report": {
+  "cells": {
+   "phi4-14b|ACC-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 133.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|ACC-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 143.5,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|NEU-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 134.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|SAT-COMMON": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 129.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|SAT-DIS": {
+    "n": 8,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 125.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   }
+  },
+  "near_duplicate": {
+   "phi4-14b": {
+    "rounds": 8,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": false,
+  "any_dead_manipulation": false
+ }
+}

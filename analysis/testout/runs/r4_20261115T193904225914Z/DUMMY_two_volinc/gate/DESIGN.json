@@ -1,0 +1,25 @@
+{
+ "design": "two_human",
+ "created_utc": "2026-11-15T19:39:10Z",
+ "rule": "volunteer_pass1.csv exists at gate time -> two_human; otherwise single_labeler; nothing else decides (FR 6.0)",
+ "files_in_labels_dir": {
+  "ADJ.csv": {
+   "sha256": "254154c380de9e16b3b7b06c7f3bdb0b8b6cb62fc1fc48a9714d11c1b774d98a",
+   "mtime_utc": "2026-11-15T19:39:10Z"
+  },
+  "author_pass1.csv": {
+   "sha256": "a85270a9c58baf7b0fdb7d474c6c6892f33843c3a16d4677bfdb221f28e26811",
+   "mtime_utc": "2026-11-20T10:00:00Z"
+  },
+  "author_pass2.csv": {
+   "sha256": "bd133ea91f088e803a744afc84608cf8913a7ab7713acf922a2b047b6b1372de",
+   "mtime_utc": "2026-11-20T12:30:00Z"
+  },
+  "volunteer_pass1.csv": {
+   "sha256": "4b8798cabe13f4e802280b83b9adbcfbc8c764b037359726c74f418ea51e495e",
+   "mtime_utc": "2026-11-15T19:39:10Z"
+  }
+ },
+ "item_key_sha256": "0217b64f0f030d213477da4618733ce1f26c1429a876f484f22a25a1d21b807e",
+ "validation_wording": "validated against labels from two human annotators, a hypothesis-blind volunteer and the hypothesis-aware author, with disagreements adjudicated by the two together without sight of scores, rankings, model or condition"
+}

@@ -1,0 +1,12 @@
+{
+ "round_ids_sha256_ext": "4af9cf03c84bc25196be41d832c4f3dbd9b6ba31b56e2dce5ae2d54928616ad8",
+ "round_ids_sha256_full_k1": "4af9cf03c84bc25196be41d832c4f3dbd9b6ba31b56e2dce5ae2d54928616ad8",
+ "rounds_equal": true,
+ "ext_jobs": 3750,
+ "msg_sha256_mismatches": 0,
+ "same_seed": true,
+ "same_decoding": true,
+ "same_prompts": true,
+ "rendered_prompt_check": "NOT DONE (needs vLLM /tokenize per model)",
+ "PASS": true
+}

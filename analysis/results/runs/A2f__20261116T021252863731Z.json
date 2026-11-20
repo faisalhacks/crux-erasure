@@ -1,0 +1,80 @@
+{
+ "analysis_set": {
+  "set": "CONFIRMATORY (development launches excluded)",
+  "n_launches_in": 871,
+  "n_launches_out": 721,
+  "n_dev_launches_dropped": 150,
+  "dev_file_sha256": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ },
+ "unit": "rater",
+ "interval": "wild",
+ "B": 10000,
+ "seed": 20261119,
+ "n_rows": 22536,
+ "n_clusters": 642,
+ "n_rounds": 1166,
+ "rounds_dropped_missing_E": 456,
+ "rater_rounds_dropped_all_tied": 21,
+ "rounds_no_E_variation": 1016,
+ "launches_with_E_variation": 142,
+ "interpretability_floor_fires": false,
+ "controlled": {
+  "erasure": {
+   "est": 0.05607686699378912,
+   "lo": 0.012342859954734303,
+   "hi": 0.10004932705712538,
+   "se": 0.021869734071558497,
+   "p_boot": 0.013498650134986502
+  },
+  "length": {
+   "est": 0.16517463754293718,
+   "lo": 0.15590832333041402,
+   "hi": 0.174577099460424,
+   "se": 0.00478169925730595,
+   "p_boot": 9.999000099990002e-05
+  },
+  "clarity": {
+   "est": -0.025202697533418902,
+   "lo": -0.03370325925531355,
+   "hi": -0.016660179763277647,
+   "se": 0.004349946736429432,
+   "p_boot": 9.999000099990002e-05
+  },
+  "vague": {
+   "est": 0.013174875491242546,
+   "lo": 0.005027784942279295,
+   "hi": 0.021406477955527234,
+   "se": 0.004171742760182074,
+   "p_boot": 0.0016998300169983002
+  }
+ },
+ "uncontrolled": {
+  "erasure": {
+   "est": -0.07428967428967428,
+   "lo": -0.12621856441171878,
+   "hi": -0.02391893720917012,
+   "se": 0.025395864539069377,
+   "p_boot": 0.004199580041995801
+  }
+ },
+ "A2h": {
+  "erasure": {
+   "est": 0.04548290650441985,
+   "lo": 0.0018383119120422772,
+   "hi": 0.09024821878260664,
+   "se": 0.02198035282427082,
+   "p_boot": 0.0443955604439556
+  },
+  "length": {
+   "est": 0.16790278021115124,
+   "lo": 0.15887735185103619,
+   "hi": 0.17708850544900767,
+   "se": 0.004689447584468941,
+   "p_boot": 9.999000099990002e-05
+  }
+ },
+ "kind": "real",
+ "tier_blind": "INFORMATIVE",
+ "tier_final": "INFORMATIVE",
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED"
+}

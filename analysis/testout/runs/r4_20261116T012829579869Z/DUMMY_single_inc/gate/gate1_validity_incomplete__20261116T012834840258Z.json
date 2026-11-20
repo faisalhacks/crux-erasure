@@ -1,0 +1,11 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "author_pass1.csv: item P1_037: invalid or blank label ''",
+  "author_pass1.csv missing or incomplete: no gate time yet"
+ ],
+ "status": "INCOMPLETE",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

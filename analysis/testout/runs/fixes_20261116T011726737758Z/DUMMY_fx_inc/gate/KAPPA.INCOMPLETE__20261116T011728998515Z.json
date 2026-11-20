@@ -1,0 +1,10 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [
+  "author_pass2.csv: item P2_013: invalid or blank label ''"
+ ],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "status": "INCOMPLETE"
+}

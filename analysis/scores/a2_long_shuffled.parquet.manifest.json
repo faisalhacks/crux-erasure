@@ -1,0 +1,19 @@
+{
+ "source_parquet_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+ "table_sha256": "d957c609785fb5ac0b985e9ea40d4b8595c6b67a4b59d9c32ef3dd702212f3da",
+ "build_analysis_set_counts": {
+  "n_rounds": 1960,
+  "n_launches": 871,
+  "n_rater_rows": 9501
+ },
+ "table_counts": {
+  "n_rounds": 1960,
+  "n_launches": 871,
+  "n_rater_rows": 9501
+ },
+ "ranks": "shuffled at build (random.Random(777000)); real ranks not persisted",
+ "inputs": {
+  "a2_scores_v2.jsonl": "c9e83a5d74e68a37c01191a060d42a7c1fc69aac90a20f71b3387c2ea8fa8307",
+  "all_groups.jsonl": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "G1 hash mismatch: author_pass2 changed since KAPPA.json"
+ ],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "llm_wording": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "status": "INCOMPLETE",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

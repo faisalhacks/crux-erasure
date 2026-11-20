@@ -1,0 +1,26 @@
+{
+  "written_by": "orchestrator, 2026-11-16T01:40Z (D50a follow-up; labels\\ empty at write time)",
+  "paths": [
+    "labels_build/v5/packet_verification.html",
+    "labels_build/v5/TEMPLATE_author_verification.csv",
+    "labels_build/v5/INSTRUCTIONS_verification.md",
+    "labels_build/v5/key_verification.csv",
+    "labels_build/v5/selection.json",
+    "labels_build/v5/extraction.json",
+    "labels_build/v5/X1_prompt.md",
+    "labels_build/v5/select_items.py",
+    "labels_build/v5/verify.py",
+    "analysis/scores/packet_v5_scores.jsonl",
+    "analysis/packet_v5_scores.py",
+    "analysis/step2_reference.py",
+    "analysis/verification_eval.py",
+    "analysis/gate1_r5.py",
+    "analysis/scorer.py",
+    "analysis/scorer_manifest.json",
+    "analysis/N2_ANALYSIS_SPEC.md",
+    "gate1/T_READY.txt",
+    "gate1/llm_panel/panel_manifest.json",
+    "analysis/panel/panel_p1_summary.json",
+    "analysis/panel/P1_prompt.md"
+  ]
+}

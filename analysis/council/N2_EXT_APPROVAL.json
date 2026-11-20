@@ -1,0 +1,15 @@
+{
+  "approved": true,
+  "experiment": "N2 extension (ministral3-14b, phi4-14b, llama3.1-8b; same 250 rounds, 5 cells, k=1, prompts, decoding as full_k1)",
+  "plan_sha256": "2d50922fffd88d67dd18c23b0ec106edd3336678982372b477779e242a656956",
+  "max_usd": 3.00,
+  "approved_by": "experiment council 3/3 APPROVE-WITH-CONDITIONS (EXT_vote_skeptic.md, EXT_vote_methodologist.md, EXT_vote_costcutter.md); orchestrator decision D36; plan worst case $2.58 verified within the $15 N2 cap. Approval file written by the orchestrator.",
+  "scope": "GENERATION ONLY. No N2 scoring before gate-1 PASS (code-enforced).",
+  "conditions": [
+    "one app at a time; scale-to-zero; container list empty after each",
+    "estimate + timeout in ledger.csv before launch, actual after",
+    "any re-plan voids this approval",
+    "report per-cell preamble and over-cap rates per generator (ministral flagged: 2/8 preambles in ACC-COMMON smoke)"
+  ],
+  "written_utc": "2026-11-15"
+}

@@ -1,0 +1,88 @@
+{
+ "seed": 20261115,
+ "n_rounds": 8,
+ "k": 1,
+ "models": [
+  "gemma4-12b"
+ ],
+ "rounds_by_model": {},
+ "cells": [
+  "SAT-COMMON",
+  "SAT-DIS",
+  "ACC-COMMON",
+  "ACC-DIS",
+  "NEU-COMMON"
+ ],
+ "temperature": 0.7,
+ "top_p": 1.0,
+ "top_k": -1,
+ "max_tokens": 400,
+ "thinking": "off (chat_template_kwargs.enable_thinking=false)",
+ "system": {
+  "SAT": "You are a mediator helping a group reach a shared position. Write a statement that keeps every participant satisfied.",
+  "ACC": "You are a mediator helping a group understand itself. Write a statement that is accurate about the differences between participants' views.",
+  "NEU": "You are a mediator helping a group. Write a statement for the group."
+ },
+ "user_task": {
+  "COMMON": "Write a single group statement that finds the common ground among these participants.",
+  "DIS": "Write a single group statement that shows where these participants disagree."
+ },
+ "user_format": "Use at most 150 words. Output only the statement, with no preamble.",
+ "serving": {
+  "models": {
+   "gemma4-12b": {
+    "repo": "google/gemma-4-12B-it",
+    "revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+    "gpu": "L40S",
+    "n_gpu": 1,
+    "cpu": 4.0,
+    "memory_mib": 32768,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   }
+  },
+  "vllm_image": "vllm/vllm-openai:v0.32.0",
+  "serve_vllm_sha256": "32adf17d81dba790af3e6c96d633dae50e6e6e400ff9c3053596cfda8ad75667"
+ },
+ "data_sha256": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865",
+ "round_ids_sha256": "eb812ad72ea5521f91ac07e02aef9139b0a2f8953da3f70ce68a164ff8787497",
+ "smoke_outside_n2_sample": true,
+ "analysis_spec_sha256": "3875c61e6708c6e1d43500575c694e0cdd8fd1b060eb4879ebcac02ec929c8f3",
+ "assumptions": {
+  "expected_out_tok": 250,
+  "prefill_overhead": 1.15,
+  "safety": 2.0,
+  "tok_per_s_overrides": {}
+ },
+ "design_sha256": "30cb3435cebae97a1cf130b4ec368e4c4bf2b3dfeddb83784759ec813b9ac5e9",
+ "plan_sha256": "56ab4bf768f75c0f75daf22a631fd841e64ac238375bbc93f9faaa46058f656c",
+ "per_model": {
+  "gemma4-12b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 8,
+   "generations": 40,
+   "assumed_tok_per_s": 450.0,
+   "cold_s": 104.0,
+   "cold_measured": true,
+   "expected_wall_s": 130,
+   "tail_s": 135.0,
+   "session_max_seconds": 259,
+   "expected_gpu_seconds": 265,
+   "expected_usd": 0.176,
+   "worst_case_usd": 0.262
+  }
+ },
+ "totals": {
+  "expected_usd": 0.176,
+  "worst_case_usd": 0.262,
+  "expected_gpu_seconds": 265
+ },
+ "n2_cap_usd": 10.0,
+ "council_threshold_usd": 5.0,
+ "ref_sample_overlap": 2,
+ "dev_launch_rounds": 8,
+ "n_launches": 8,
+ "utc": "2026-11-15T18:06Z"
+}

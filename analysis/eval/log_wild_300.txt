@@ -1,0 +1,19 @@
+VERIFY OK: fast path == A2.fit_models and N1.run on 2 permutations
+rep 300 28s
+rep 320 41s
+rep 340 61s
+rep 360 81s
+rep 380 100s
+A2_controlled {"k": 93, "n": 100, "rate": 0.93, "clopper_pearson_95": [0.8610802715441336, 0.9713947110925815]}
+A2_controlled_p_lt_05 {"k": 7, "n": 100, "rate": 0.07, "clopper_pearson_95": [0.02860528890741859, 0.13891972845586656]}
+A2_controlled_est {"mean": -0.0009089320991620422, "sd": 0.009939323665146582}
+A2_uncontrolled {"k": 91, "n": 100, "rate": 0.91, "clopper_pearson_95": [0.83601774497036, 0.9580164043716084]}
+A2_uncontrolled_p_lt_05 {"k": 9, "n": 100, "rate": 0.09, "clopper_pearson_95": [0.041983595628391525, 0.16398225502963992]}
+A2_uncontrolled_est {"mean": -0.0006778252280799932, "sd": 0.009896444693910832}
+A2_A2h {"k": 93, "n": 100, "rate": 0.93, "clopper_pearson_95": [0.8610802715441336, 0.9713947110925815]}
+A2_A2h_p_lt_05 {"k": 7, "n": 100, "rate": 0.07, "clopper_pearson_95": [0.02860528890741859, 0.13891972845586656]}
+A2_A2h_est {"mean": -0.000804060626396094, "sd": 0.0098413316643956}
+A2_controlled_cr1 {"k": 93, "n": 100, "rate": 0.93, "clopper_pearson_95": [0.8610802715441336, 0.9713947110925815]}
+A2_controlled_bca {"k": 93, "n": 100, "rate": 0.93, "clopper_pearson_95": [0.8610802715441336, 0.9713947110925815]}
+A2_controlled_wild {"k": 93, "n": 100, "rate": 0.93, "clopper_pearson_95": [0.8610802715441336, 0.9713947110925815]}
+bootSE_over_CR1 {"mean": 0.9979886385017452, "sd": 0.015828550193492}

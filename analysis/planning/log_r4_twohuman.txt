@@ -1,0 +1,14 @@
+﻿kappa n=50 prev=0.5 acc=0.65: pop=0.090 sd=0.129 P(>=.40)=0.0055
+kappa n=50 prev=0.5 acc=0.7: pop=0.160 sd=0.122 P(>=.40)=0.0135
+kappa n=50 prev=0.5 acc=0.75: pop=0.250 sd=0.119 P(>=.40)=0.0520
+kappa n=50 prev=0.5 acc=0.8: pop=0.360 sd=0.120 P(>=.40)=0.1830
+kappa n=50 prev=0.5 acc=0.85: pop=0.490 sd=0.117 P(>=.40)=0.5185
+kappa n=50 prev=0.5 acc=0.9: pop=0.640 sd=0.107 P(>=.40)=0.8835
+kappa n=50 prev=0.5 acc=0.95: pop=0.810 sd=0.095 P(>=.40)=0.9935
+kappa n=50 prev=0.75 acc=0.65: pop=0.069 sd=0.122 P(>=.40)=0.0015
+kappa n=50 prev=0.75 acc=0.7: pop=0.125 sd=0.125 P(>=.40)=0.0105
+kappa n=50 prev=0.75 acc=0.75: pop=0.200 sd=0.123 P(>=.40)=0.0315
+kappa n=50 prev=0.75 acc=0.8: pop=0.297 sd=0.122 P(>=.40)=0.0925
+kappa n=50 prev=0.75 acc=0.85: pop=0.419 sd=0.122 P(>=.40)=0.2720
+kappa n=50 prev=0.75 acc=0.9: pop=0.571 sd=0.120 P(>=.40)=0.6620
+kappa n=50 prev=0.75 acc=0.95: pop=0.762 sd=0.114 P(>=.40)=0.9525

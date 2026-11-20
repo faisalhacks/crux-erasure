@@ -1,0 +1,34 @@
+BA n=20 prev=0.5 trueBA=0.5: P(pass)=0.037
+BA n=20 prev=0.5 trueBA=0.6: P(pass)=0.143
+BA n=20 prev=0.5 trueBA=0.65: P(pass)=0.273
+BA n=20 prev=0.5 trueBA=0.7: P(pass)=0.373
+BA n=20 prev=0.5 trueBA=0.8: P(pass)=0.803
+BA n=20 prev=0.25 trueBA=0.5: P(pass)=0.040
+BA n=20 prev=0.25 trueBA=0.6: P(pass)=0.130
+BA n=20 prev=0.25 trueBA=0.65: P(pass)=0.257
+BA n=20 prev=0.25 trueBA=0.7: P(pass)=0.343
+BA n=20 prev=0.25 trueBA=0.8: P(pass)=0.603
+BA n=40 prev=0.5 trueBA=0.5: P(pass)=0.020
+BA n=40 prev=0.5 trueBA=0.6: P(pass)=0.253
+BA n=40 prev=0.5 trueBA=0.65: P(pass)=0.443
+BA n=40 prev=0.5 trueBA=0.7: P(pass)=0.750
+BA n=40 prev=0.5 trueBA=0.8: P(pass)=0.993
+BA n=40 prev=0.25 trueBA=0.5: P(pass)=0.040
+BA n=40 prev=0.25 trueBA=0.6: P(pass)=0.197
+BA n=40 prev=0.25 trueBA=0.65: P(pass)=0.390
+BA n=40 prev=0.25 trueBA=0.7: P(pass)=0.583
+BA n=40 prev=0.25 trueBA=0.8: P(pass)=0.930
+BA n=60 prev=0.5 trueBA=0.5: P(pass)=0.023
+BA n=60 prev=0.5 trueBA=0.6: P(pass)=0.367
+BA n=60 prev=0.5 trueBA=0.65: P(pass)=0.657
+BA n=60 prev=0.5 trueBA=0.7: P(pass)=0.873
+BA n=60 prev=0.5 trueBA=0.8: P(pass)=1.000
+BA n=60 prev=0.25 trueBA=0.5: P(pass)=0.030
+BA n=60 prev=0.25 trueBA=0.6: P(pass)=0.277
+BA n=60 prev=0.25 trueBA=0.65: P(pass)=0.493
+BA n=60 prev=0.25 trueBA=0.7: P(pass)=0.783
+BA n=60 prev=0.25 trueBA=0.8: P(pass)=0.990
+kappa acc=0.8: pop kappa=0.360 P(k>=.6 | n=20)=0.054 sd=0.184
+kappa acc=0.85: pop kappa=0.490 P(k>=.6 | n=20)=0.140 sd=0.185
+kappa acc=0.9: pop kappa=0.640 P(k>=.6 | n=20)=0.344 sd=0.168
+kappa acc=0.95: pop kappa=0.810 P(k>=.6 | n=20)=0.672 sd=0.155

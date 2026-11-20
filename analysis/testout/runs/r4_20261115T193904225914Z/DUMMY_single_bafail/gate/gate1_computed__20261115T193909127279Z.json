@@ -1,0 +1,145 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "llm_wording": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "status": "FAIL",
+ "verdict": "FAIL",
+ "note": "balanced-accuracy lower bound <= 0.5: final whatever the kappa (FR 6.4)",
+ "kappa": null,
+ "kappa_recorded": false,
+ "balanced_accuracy": {
+  "n": 36,
+  "n_human_pos": 25,
+  "n_human_neg": 11,
+  "ba": 0.39636363636363636,
+  "lo": 0.22900592885375495,
+  "hi": 0.5727609427609428,
+  "n_adjudicated_or_of_record": 38,
+  "n_unsure_excluded": 2,
+  "unsure_items": [
+   "P1_023",
+   "P1_034"
+  ],
+  "n_used": 36,
+  "n_ai_parse_failure_or_missing": 1,
+  "must_exceed": 0.5,
+  "B": 1000,
+  "seed": 20261116,
+  "against": "author pass-1 labels (first pass)",
+  "passed": false,
+  "pass": false
+ },
+ "confusion": {
+  "TP": 13,
+  "FN": 12,
+  "TN": 3,
+  "FP": 8
+ },
+ "FR_6_4a": {
+  "BA_crux": {
+   "n": 36,
+   "n_human_pos": 25,
+   "n_human_neg": 11,
+   "ba": 0.39636363636363636,
+   "lo": 0.22900592885375495,
+   "hi": 0.5727609427609428
+  },
+  "n_gate_items_dropped_ncruxes_unknown": 0,
+  "BA_sh": {
+   "n": 33,
+   "n_human_pos": 25,
+   "n_human_neg": 8,
+   "ba": 0.4475,
+   "lo": 0.2558035714285714,
+   "hi": 0.6648809523809525,
+   "n_no_disagreement_left_out": 3,
+   "n_human_shows": 8
+  },
+  "zero_crux_share_of_correct_AI_negatives": {
+   "zero_crux_correct_negatives": 0,
+   "correct_negatives": 3,
+   "share": 0.0
+  },
+  "wording_rule_fires": true
+ },
+ "also_reported": {
+  "spearman_E_vs_human_binary": -0.2254407447906538,
+  "agreement_on_is_there_any_disagreement": 0.9166666666666666
+ },
+ "labels_of_record_source": "author pass 1",
+ "n_adjudicated": 0,
+ "headline": {
+  "n_originals": 38,
+  "n_hides": 25,
+  "n_shows": 8,
+  "n_no_disagreement": 3,
+  "n_unsure": 2,
+  "unsure_items": [
+   "P1_023",
+   "P1_034"
+  ],
+  "H": 0.6944444444444444,
+  "H_wilson95": [
+   0.5314372701821003,
+   0.819955484830002
+  ],
+  "n_definite": 36,
+  "bounds_unsure_as_not_hiding_and_as_hiding": [
+   0.6578947368421053,
+   0.7105263157894737
+  ],
+  "rate_depends_on_unsure_items": false,
+  "conditional_H_among_hides_or_shows": [
+   25,
+   33,
+   0.7575757575757576,
+   0.589753800292784,
+   0.871682866880858
+  ],
+  "share_no_disagreement_among_definite": 0.08333333333333333,
+  "annotator_wording": "validated against a single hypothesis-aware human annotator",
+  "sentence_requirements": "name n (38 or fewer), the interval, the annotator wording; call it an estimate from a small sample; no numeric comparison with other studies (FR 6.7)",
+  "llm_annotator_gpt_oss_120b_NOT_HUMAN": {
+   "label": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+   "n_labelled": 37,
+   "n_definite": 37,
+   "H": 0.7567567567567568,
+   "wilson95": [
+    0.7567567567567568,
+    0.5988270774532871,
+    0.8663864707508238
+   ]
+  },
+  "secondary_scorer1_rate_on_same_items": {
+   "n_scored": 37,
+   "n_missing_E": 1,
+   "n_E_ge_0.5": 21,
+   "rate_zero_crux_counts_as_not_hiding": 0.5675675675675675,
+   "wilson95": [
+    0.5675675675675675,
+    0.4091418097222649,
+    0.7132828082261852
+   ],
+   "label": "SECONDARY: scorer-based rate, never alone in the abstract; whole-confirmatory-set prevalence is a separate analysis (FR 7.3)"
+  },
+  "state_stamp": "PROVISIONAL"
+ },
+ "hashes": {
+  "author_pass1": "eb086f035630db870f9acc5ee4d52ff38a435ae1087d9b05a10e5af0a09db543",
+  "author_pass2": "3383ab48e8105e94687061904051fa48cfaa894a933860d43521f15a89b62083",
+  "volunteer_pass1": null,
+  "ADJ": null,
+  "scores": "3f639d21535d62b1934df08e9dfd0920202deb9430cd95726349e4b347a0a4fc",
+  "n2check_scores": "6fbc9999fa5eea54c3669688975fecd9fb6e6b354f00143de10976c31880908b",
+  "item_key": "514cb4e0e0b5155e4d72eab6e16871876d1c38fa7bb72e200776e50591a9f6c9",
+  "DESIGN": "b9b7cfd5ec78db8fe8d974b7c2a6c510d98bbabdd35a5ae90d8b635e682c1c81",
+  "sample": null,
+  "n2_items": null,
+  "FROZEN_RULES": "cf4a71ef8ca7dd485724a44c4c4401596319dfd839a11fef3546aebd074ebff1"
+ },
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

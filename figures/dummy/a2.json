@@ -1,0 +1,31 @@
+{
+ "n_clusters": 300,
+ "unit": "rater",
+ "B": 2000,
+ "seed": 20261115,
+ "controlled": {
+  "erasure": {
+   "est": 0.2,
+   "lo": 0.08,
+   "hi": 0.32
+  },
+  "length": {
+   "est": 0.03,
+   "lo": -0.08,
+   "hi": 0.14
+  },
+  "clarity": {
+   "est": 0.1,
+   "lo": -0.01,
+   "hi": 0.21
+  }
+ },
+ "uncontrolled": {
+  "erasure": {
+   "est": 0.22,
+   "lo": 0.1,
+   "hi": 0.34
+  }
+ },
+ "kind": "dummy"
+}

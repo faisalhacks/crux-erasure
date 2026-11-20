@@ -1,0 +1,88 @@
+{
+ "columns_raw": [
+  "round_id",
+  "launch_id",
+  "rater",
+  "cand",
+  "rank",
+  "agree",
+  "own_sim",
+  "n_words",
+  "log_len",
+  "markers",
+  "min_cov",
+  "mean_cov"
+ ],
+ "n_rows_after_dropna": 38004,
+ "n_rows_raw": 38004,
+ "cands_per_round": {
+  "4": 1960
+ },
+ "rater_rounds": 9501,
+ "rater_rounds_ranking_subset_of_round": 0,
+ "raters_per_round": {
+  "count": 1960.0,
+  "mean": 4.85,
+  "std": 0.38,
+  "min": 3.0,
+  "25%": 5.0,
+  "50%": 5.0,
+  "75%": 5.0,
+  "max": 5.0
+ },
+ "rater_rounds_with_ties": 871,
+ "rank_min_values": {
+  "0": 9501
+ },
+ "rank_max_minus_k": {
+  "-1": 8630,
+  "-2": 605,
+  "-3": 236,
+  "-4": 30
+ },
+ "rank_dtype": "int64",
+ "rank_unique_values_sample": [
+  0.0,
+  1.0,
+  2.0,
+  3.0
+ ],
+ "rounds_per_launch": {
+  "1": 205,
+  "2": 243,
+  "3": 423
+ },
+ "n_launch_clusters": 871,
+ "raters_in_more_than_one_launch": 0,
+ "n_raters": 4255,
+ "rows_per_cluster": {
+  "count": 871.0,
+  "mean": 43.6,
+  "std": 16.1,
+  "min": 12.0,
+  "25%": 32.0,
+  "50%": 40.0,
+  "75%": 60.0,
+  "max": 60.0
+ },
+ "erasure_within_round_var_share": 0.624,
+ "length_within_round_var_share": 0.57,
+ "clarity_within_round_var_share": 0.635,
+ "within_round_corr_proxies": {
+  "erasure_w": {
+   "erasure_w": 1.0,
+   "length_w": 0.021,
+   "clarity_w": 0.006
+  },
+  "length_w": {
+   "erasure_w": 0.021,
+   "length_w": 1.0,
+   "clarity_w": -0.2
+  },
+  "clarity_w": {
+   "erasure_w": 0.006,
+   "length_w": -0.2,
+   "clarity_w": 1.0
+  }
+ }
+}

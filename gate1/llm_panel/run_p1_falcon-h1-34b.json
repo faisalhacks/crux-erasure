@@ -1,0 +1,40 @@
+{
+ "alias": "falcon-h1-34b",
+ "app": "pilot-vllm-falcon-h1-34b",
+ "utc": "2026-11-16T01:44Z",
+ "bar": {
+  "alias": "falcon-h1-34b",
+  "items": 20,
+  "calls": 20,
+  "first_attempt_valid": 20,
+  "valid_after_retry": 20,
+  "valid_share": 1.0,
+  "bar_pass": true,
+  "truncated": 0,
+  "decided_utc": "2026-11-16T01:42Z",
+  "cold_start_s": 138.6
+ },
+ "members_known_at_decision": {
+  "falcon-h1-34b": true,
+  "command-r7b": true,
+  "granite4.2-30b": true
+ },
+ "packet_called": true,
+ "packet_valid": 25,
+ "packet_calls": 25,
+ "session": {
+  "billed_s": 295.9,
+  "session_cost_usd": 0.4462,
+  "cold_start_s": 138.6
+ },
+ "error": null,
+ "wall_s": 302.1,
+ "container_check": {
+  "app": "pilot-vllm-falcon-h1-34b",
+  "waited_s": 140,
+  "stops": [],
+  "own_final": [],
+  "baseline": []
+ },
+ "script_sha256": "aed3437d117204efe93699a52ba3ed1b49d981db5bad3e7fad0e535dc26e9857"
+}

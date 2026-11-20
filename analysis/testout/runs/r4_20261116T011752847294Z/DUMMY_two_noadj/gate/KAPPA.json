@@ -1,0 +1,111 @@
+{
+ "step": "kappa",
+ "kind": "dummy",
+ "problems": [],
+ "design": "two_human",
+ "validation_wording": "validated against labels from two human annotators, a hypothesis-blind volunteer and the hypothesis-aware author, with disagreements adjudicated by the two together without sight of scores, rankings, model or condition",
+ "kappa": {
+  "n": 50,
+  "kappa": 0.4598765432098765,
+  "ac1": 0.622234214786832,
+  "percent_agreement": 0.72,
+  "B": 1000,
+  "seed": 20261116,
+  "kappa_ci95": [
+   0.2024498703385806,
+   0.682577296321372
+  ],
+  "ac1_ci95": [
+   0.43231340242993604,
+   0.78584787599527
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.23371647509578547,
+  "kappa_both_definite": 0.243010752688172,
+  "n_both_definite": 48,
+  "unsure_first": 2,
+  "unsure_second": 0,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 17,
+    "NO_DISAGREEMENT": 2,
+    "SHOWS": 4,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 4,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 5,
+    "NO_DISAGREEMENT": 6,
+    "SHOWS": 9,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 1,
+    "SHOWS": 1,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 38,
+   "kappa": 0.49735449735449727,
+   "ac1": 0.6438612933458294
+  },
+  "by_kind_n2": {
+   "n": 12,
+   "kappa": 0.3513513513513512,
+   "ac1": 0.5555555555555555
+  },
+  "cut": 0.4,
+  "statistic": "inter-rater kappa (author pass 1 vs hypothesis-blind volunteer, 50 items)",
+  "primary": 0.4598765432098765,
+  "primary_ci_info_only": [
+   0.2024498703385806,
+   0.682577296321372
+  ],
+  "n_items": 50,
+  "pass": true,
+  "moderate_wording_note": "kappa in [0.40, 0.60): call it 'moderate agreement' and state that the brief's original 0.60 would not have been met; 'substantial/good/high' only at >= 0.60 and never when the CI lower end < 0.40"
+ },
+ "to_adjudicate": [
+  "P1_048",
+  "P1_008",
+  "P1_049",
+  "P1_026",
+  "P1_012",
+  "P1_000",
+  "P1_038",
+  "P1_025",
+  "P1_019",
+  "P1_021",
+  "P1_022",
+  "P1_031",
+  "P1_006",
+  "P1_003",
+  "P1_007",
+  "P1_023",
+  "P1_043",
+  "P1_040",
+  "P1_014",
+  "P1_045",
+  "P1_002",
+  "P1_028",
+  "P1_041",
+  "P1_027"
+ ],
+ "hashes": {
+  "author_pass1": "8b7dc6d949b62b15894d32f1819acc80a5a631db9a3c40f8ddafd382fff7e178",
+  "volunteer_pass1": "89f2717636510b8c1ce249809b9bbefa920fb42f073f4dbd7ca980f364a2a53b",
+  "item_key": "0ed194b4edba2fe38402b7086957a72b540203dd9b0452f5d920f26300867a2d"
+ },
+ "row_hashes": {
+  "author_pass1_all": "3435a026ee5e4b992c86429dafccf41c6763429e35b61dccf8210d24301d2f0f",
+  "volunteer_pass1_all": "d7d5730ee5a35fd2a37f5524ccc67629568d7454672d9c98457b4f2b11a628b8"
+ },
+ "status": "COMPUTED"
+}

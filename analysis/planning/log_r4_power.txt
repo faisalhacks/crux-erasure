@@ -1,0 +1,48 @@
+﻿kappa n=20 acc=0.7: pop=0.160 sd=0.193 P(>=.40)=0.0690 P(>=.60)=0.0105
+kappa n=20 acc=0.75: pop=0.250 sd=0.190 P(>=.40)=0.1445 P(>=.60)=0.0230
+kappa n=20 acc=0.8: pop=0.360 sd=0.190 P(>=.40)=0.2605 P(>=.60)=0.0515
+kappa n=20 acc=0.85: pop=0.490 sd=0.180 P(>=.40)=0.5060 P(>=.60)=0.1525
+kappa n=20 acc=0.9: pop=0.640 sd=0.167 P(>=.40)=0.7575 P(>=.60)=0.3270
+kappa n=20 acc=0.95: pop=0.810 sd=0.150 P(>=.40)=0.9500 P(>=.60)=0.6910
+kappa n=30 acc=0.7: pop=0.160 sd=0.163 P(>=.40)=0.0515 P(>=.60)=0.0025
+kappa n=30 acc=0.75: pop=0.250 sd=0.159 P(>=.40)=0.0980 P(>=.60)=0.0065
+kappa n=30 acc=0.8: pop=0.360 sd=0.155 P(>=.40)=0.2200 P(>=.60)=0.0280
+kappa n=30 acc=0.85: pop=0.490 sd=0.144 P(>=.40)=0.4850 P(>=.60)=0.0800
+kappa n=30 acc=0.9: pop=0.640 sd=0.138 P(>=.40)=0.8190 P(>=.60)=0.3035
+kappa n=30 acc=0.95: pop=0.810 sd=0.121 P(>=.40)=0.9810 P(>=.60)=0.7095
+n2check n=12 prev=0.5 acc=0.5: F05=0.0145 F025=0.0035 BAboot=0.026 oneclass=0.0010
+n2check n=12 prev=0.5 acc=0.6: F05=0.0735 F025=0.0210 BAboot=0.094 oneclass=0.0010
+n2check n=12 prev=0.5 acc=0.7: F05=0.2150 F025=0.0795 BAboot=0.195 oneclass=0.0005
+n2check n=12 prev=0.5 acc=0.8: F05=0.4740 F025=0.2430 BAboot=0.422 oneclass=0.0005
+n2check n=12 prev=0.5 acc=0.9: F05=0.8390 F025=0.6605 BAboot=0.712 oneclass=0.0010
+n2check n=12 prev=0.5 acc=0.95: F05=0.9500 F025=0.8535 BAboot=0.787 oneclass=0.0005
+n2check n=12 prev=0.67 acc=0.5: F05=0.0130 F025=0.0030 BAboot=0.016 oneclass=0.0080
+n2check n=12 prev=0.67 acc=0.6: F05=0.0570 F025=0.0175 BAboot=0.069 oneclass=0.0075
+n2check n=12 prev=0.67 acc=0.7: F05=0.1715 F025=0.0655 BAboot=0.131 oneclass=0.0095
+n2check n=12 prev=0.67 acc=0.8: F05=0.4270 F025=0.2370 BAboot=0.319 oneclass=0.0080
+n2check n=12 prev=0.67 acc=0.9: F05=0.7355 F025=0.5345 BAboot=0.465 oneclass=0.0070
+n2check n=12 prev=0.67 acc=0.95: F05=0.8750 F025=0.7695 BAboot=0.566 oneclass=0.0100
+n2check n=12 prev=0.75 acc=0.5: F05=0.0110 F025=0.0005 BAboot=0.006 oneclass=0.0265
+n2check n=12 prev=0.75 acc=0.6: F05=0.0395 F025=0.0125 BAboot=0.033 oneclass=0.0340
+n2check n=12 prev=0.75 acc=0.7: F05=0.1255 F025=0.0445 BAboot=0.090 oneclass=0.0375
+n2check n=12 prev=0.75 acc=0.8: F05=0.3210 F025=0.1710 BAboot=0.152 oneclass=0.0235
+n2check n=12 prev=0.75 acc=0.9: F05=0.6520 F025=0.4545 BAboot=0.281 oneclass=0.0305
+n2check n=12 prev=0.75 acc=0.95: F05=0.7755 F025=0.6550 BAboot=0.332 oneclass=0.0315
+n2check n=24 prev=0.5 acc=0.5: F05=0.0190 F025=0.0100 BAboot=0.025 oneclass=0.0000
+n2check n=24 prev=0.5 acc=0.6: F05=0.1525 F025=0.0860 BAboot=0.158 oneclass=0.0000
+n2check n=24 prev=0.5 acc=0.7: F05=0.4735 F025=0.3525 BAboot=0.481 oneclass=0.0000
+n2check n=24 prev=0.5 acc=0.8: F05=0.8525 F025=0.7775 BAboot=0.874 oneclass=0.0000
+n2check n=24 prev=0.5 acc=0.9: F05=0.9930 F025=0.9890 BAboot=0.995 oneclass=0.0000
+n2check n=24 prev=0.5 acc=0.95: F05=1.0000 F025=1.0000 BAboot=0.999 oneclass=0.0000
+n2check n=24 prev=0.67 acc=0.5: F05=0.0200 F025=0.0060 BAboot=0.025 oneclass=0.0000
+n2check n=24 prev=0.67 acc=0.6: F05=0.1305 F025=0.0730 BAboot=0.148 oneclass=0.0000
+n2check n=24 prev=0.67 acc=0.7: F05=0.4240 F025=0.3055 BAboot=0.435 oneclass=0.0010
+n2check n=24 prev=0.67 acc=0.8: F05=0.8050 F025=0.6875 BAboot=0.800 oneclass=0.0000
+n2check n=24 prev=0.67 acc=0.9: F05=0.9800 F025=0.9565 BAboot=0.941 oneclass=0.0000
+n2check n=24 prev=0.67 acc=0.95: F05=0.9960 F025=0.9935 BAboot=0.970 oneclass=0.0000
+n2check n=24 prev=0.75 acc=0.5: F05=0.0185 F025=0.0070 BAboot=0.035 oneclass=0.0010
+n2check n=24 prev=0.75 acc=0.6: F05=0.1005 F025=0.0495 BAboot=0.111 oneclass=0.0010
+n2check n=24 prev=0.75 acc=0.7: F05=0.3485 F025=0.2250 BAboot=0.355 oneclass=0.0015
+n2check n=24 prev=0.75 acc=0.8: F05=0.7355 F025=0.5910 BAboot=0.637 oneclass=0.0010
+n2check n=24 prev=0.75 acc=0.9: F05=0.9425 F025=0.8995 BAboot=0.792 oneclass=0.0010
+n2check n=24 prev=0.75 acc=0.95: F05=0.9845 F025=0.9710 BAboot=0.836 oneclass=0.0005

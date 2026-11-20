@@ -1,0 +1,176 @@
+{
+ "tag": "dryrun_mock_v2",
+ "provider": "mock",
+ "wall_s": 0.2,
+ "per_model": [
+  {
+   "model": "gemma4-12b",
+   "total": 60,
+   "cached_in_file": 0,
+   "run": 60,
+   "errors": 0,
+   "truncated": 60,
+   "cost_usd": 0.040753000000000004,
+   "out_tokens": 3600,
+   "session": null,
+   "gen_wall_s": 0.1,
+   "measured_tok_per_s": 38720.8,
+   "mean_out_tokens": 60.0
+  },
+  {
+   "model": "qwen3.8-27b",
+   "total": 60,
+   "cached_in_file": 0,
+   "run": 60,
+   "errors": 0,
+   "truncated": 60,
+   "cost_usd": 0.040753000000000004,
+   "out_tokens": 3600,
+   "session": null,
+   "gen_wall_s": 0.1,
+   "measured_tok_per_s": 28620.7,
+   "mean_out_tokens": 60.0
+  }
+ ],
+ "harness_spent_usd": 0.0815,
+ "design_sha256": "ca3a66d2666a3a728e2076056b5b8d14926c93629c6a2234e80659687aac76a1",
+ "plan_sha256": "4d9abd270ea36391d648a9c3775f137b2a51ee977f41e270e379cb50b0d1cf55",
+ "format_report": {
+  "cells": {
+   "gemma4-12b|ACC-COMMON": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "gemma4-12b|ACC-DIS": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "gemma4-12b|NEU-COMMON": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "gemma4-12b|SAT-COMMON": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "gemma4-12b|SAT-DIS": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "qwen3.8-27b|ACC-COMMON": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "qwen3.8-27b|ACC-DIS": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "qwen3.8-27b|NEU-COMMON": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "qwen3.8-27b|SAT-COMMON": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   },
+   "qwen3.8-27b|SAT-DIS": {
+    "n": 12,
+    "empty": 0,
+    "truncated": 12,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 60.0,
+    "max_flagged_share": 1.0,
+    "fix_and_resmoke": true
+   }
+  },
+  "near_duplicate": {
+   "gemma4-12b": {
+    "rounds": 12,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   },
+   "qwen3.8-27b": {
+    "rounds": 12,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": true,
+  "any_dead_manipulation": false
+ }
+}

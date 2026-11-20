@@ -1,0 +1,12 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "G1 hash mismatch: L1 file changed since KAPPA.json (kappa saw 064f1aa3493c79d881c9209e511c800721bc5dbea5c5bd6d172a7f811c204a31, now 0612ba9b3bf994932ba5d31e2742efbda3c9200a5bd8ec6ba9ca8a635ab87eb9)",
+  "G1 row-hash mismatch: L1 rows differ from the rows kappa used"
+ ],
+ "status": "INCOMPLETE",
+ "verdict": "INCOMPLETE",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

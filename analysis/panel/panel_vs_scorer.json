@@ -1,0 +1,260 @@
+{
+ "stamp": "EXPLORATORY",
+ "wording": "LLM-vs-LLM; not human",
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED",
+ "rule": "decisions.md D60; FR 6.R5.4 'panel-majority A vs scorer S' (not pre-specified without an author file)",
+ "definitions": "A = panel-majority Q2 'no' (not acknowledged); S = scorer E >= 0.5 (0 cruxes -> 0); items with panel-majority Q1 = yes",
+ "n_items_q1_yes": 21,
+ "n_used": 21,
+ "excluded": [],
+ "table_A_by_S": {
+  "A1_S1": 6,
+  "A1_S0": 3,
+  "A0_S1": 8,
+  "A0_S0": 4
+ },
+ "agreement": 0.47619047619047616,
+ "cohen_kappa": {
+  "point": 0.0,
+  "ci95": [
+   -0.38766519823788553,
+   0.36909871244635184
+  ],
+  "B": 10000,
+  "seed": 20261145,
+  "bootstrap": "item percentile; numpy.random.default_rng",
+  "undefined_resamples": 0
+ },
+ "agreement_failed_counted_wrong": 0.47619047619047616,
+ "n_failed_counted_wrong_variant": 21,
+ "by_kind": {
+  "original": {
+   "n": 16,
+   "agreement": 0.5,
+   "A1_S1": 6,
+   "A1_S0": 3,
+   "A0_S1": 5,
+   "A0_S0": 2
+  },
+  "n2": {
+   "n": 5,
+   "agreement": 0.4,
+   "A1_S1": 0,
+   "A1_S0": 0,
+   "A0_S1": 3,
+   "A0_S0": 2
+  }
+ },
+ "E_eq_1_items": {
+  "n": 13,
+  "panel_says_acknowledged": 7,
+  "original": {
+   "n": 11,
+   "acknowledged": 5
+  },
+  "n2": {
+   "n": 2,
+   "acknowledged": 2
+  }
+ },
+ "caveats": [
+  "panel judged one LLM-extracted quote pair; S summarises all scorer cruxes (unit mismatch, FR 6.R5.2)",
+  "both sides are LLMs; no human judgement",
+  "n is small"
+ ],
+ "rows": [
+  {
+   "item_id": "v5-01",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "S": 0,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-02",
+   "kind": "n2",
+   "E": 0.5,
+   "n_cruxes": 2,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-04",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 2,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-05",
+   "kind": "original",
+   "E": 0.0,
+   "n_cruxes": 1,
+   "S": 0,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-06",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "S": 0,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-08",
+   "kind": "n2",
+   "E": null,
+   "n_cruxes": 0,
+   "S": 0,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-09",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 2,
+   "S": 1,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-10",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-11",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-12",
+   "kind": "n2",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-13",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-15",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-16",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-17",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "S": 0,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-18",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-19",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-20",
+   "kind": "original",
+   "E": null,
+   "n_cruxes": 0,
+   "S": 0,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-21",
+   "kind": "n2",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 0,
+   "panel_q2": "yes"
+  },
+  {
+   "item_id": "v5-23",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 2,
+   "S": 1,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-24",
+   "kind": "original",
+   "E": 1.0,
+   "n_cruxes": 1,
+   "S": 1,
+   "A": 1,
+   "panel_q2": "no"
+  },
+  {
+   "item_id": "v5-25",
+   "kind": "n2",
+   "E": 0.0,
+   "n_cruxes": 1,
+   "S": 0,
+   "A": 0,
+   "panel_q2": "yes"
+  }
+ ],
+ "inputs_sha256": {
+  "analysis\\panel\\panel_p1_summary.json": "e74f58cf6ac253548a2ad675db7af4a236d5e52180a51cc755aa6641b879b50f",
+  "analysis\\scores\\packet_v5_scores.jsonl": "b8e92c31a7de6e45e25eb946ffb29de024dbd9bc184bf338c98308ba2d07f936"
+ }
+}

@@ -1,0 +1,1 @@
+{"source_parquet_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4", "table_sha256": "c2b1ea07cd81c574ee5a91d19191960a60d049375e12907d79eecddd91c53cf1", "build_analysis_set_counts": {"n_rounds": 1960, "n_launches": 871, "n_rater_rows": 9501}, "table_counts": {"n_rounds": 40, "n_launches": 20, "n_rater_rows": 160}}

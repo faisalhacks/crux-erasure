@@ -1,0 +1,9 @@
+{
+ "waited_s": 2,
+ "own_rows_final": 0,
+ "other_app_rows": 0,
+ "stopped_by_id": [],
+ "returncode": 0,
+ "error": null,
+ "stdout_tail": ""
+}

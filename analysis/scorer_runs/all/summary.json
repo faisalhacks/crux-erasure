@@ -1,0 +1,73 @@
+{
+ "n_statements": 7840,
+ "n_with_E": 5781,
+ "n_zero_cruxes": 1924,
+ "n_missing_E": 135,
+ "mean_E": 0.9684,
+ "n_E_ge_half": 5631,
+ "order_flips": 0,
+ "order_checked": 0,
+ "calls": 7993,
+ "errors": 0,
+ "truncated": 4,
+ "prompt_tokens": 0,
+ "completion_tokens": 0,
+ "chunks_total": 20,
+ "chunks_done": 20,
+ "resumed_statements": 0,
+ "parse_fail_first_extract": 3,
+ "parse_fail_final_extract": 3,
+ "n_extract": 1960,
+ "t_extract_s": 1123.0,
+ "parse_fail_first_label": 126,
+ "parse_fail_final_label": 123,
+ "n_label": 5904,
+ "t_label_s": 565.7000000000002,
+ "empty_side_cruxes_dropped_this_process": 19,
+ "mode": "all",
+ "scorer": "qwen3.8-27b",
+ "wall_s": 1695.0,
+ "session": {
+  "billed_s": 1825.6,
+  "session_cost_usd": 2.4534,
+  "cold_start_s": 1.1
+ },
+ "plan": {
+  "scorer": "qwen3.8-27b",
+  "calls": 9800,
+  "expected_wall_s": 2783,
+  "session_max_seconds": 3700,
+  "expected_usd": 3.922,
+  "worst_case_usd": 5.154,
+  "gpu": "H100x1",
+  "rate_usd_per_s": 0.00134388,
+  "note": "extrapolated from 2 measured runs of ~180 calls; timeout 3700 s per EXPERIMENTS.md A2"
+ },
+ "prompt_sha256": {
+  "E1": "be662ca757c7e17d88ac2b0dcbdb2c9133844f3f90036306ec424b166b82f226",
+  "L1": "8799f803b571b4e584779b54f170c2f305cab5cddc10721ba47988aeda2e350e",
+  "C1": "cea226abba1285912e76825327ed2d80449705381b46c4d5d0e4f369d737a3d1"
+ },
+ "thinking": "off (enable_thinking=False) on modal",
+ "decoding": {
+  "temperature": 0.0,
+  "seed": 0,
+  "retry_seed": 1,
+  "max_tokens": {
+   "extract": 700,
+   "label": 300
+  },
+  "response_format": "json_object"
+ },
+ "container_check": {
+  "waited_s": 4,
+  "own_rows_final": 0,
+  "other_app_rows": 1,
+  "stopped_by_id": [],
+  "returncode": 0,
+  "error": null,
+  "stdout_tail": "\n|-------------------------------+---------------------------+------------------\n| ta-01M7G7WHWRPZAMKJA95T9T9BBR | ap-SjaTupPcJSiqo6zAtVdPbL | pilot-vllm-qwen\u2026 \n|                               |                           |                  \n|                               |                           |                  \n+------------------------------------------------------------------------------"
+ },
+ "n_requested": 7840,
+ "complete": true
+}

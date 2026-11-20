@@ -1,0 +1,270 @@
+{
+ "tag": "full_ext",
+ "provider": "modal",
+ "wall_s": 1218.8,
+ "per_model": [
+  {
+   "model": "ministral3-14b",
+   "total": 1250,
+   "cached_in_file": 2,
+   "run": 1248,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 253008,
+   "session": {
+    "billed_s": 681.8,
+    "session_cost_usd": 0.4537,
+    "cold_start_s": 107.7
+   },
+   "cold_start_s": 107.7,
+   "gen_wall_s": 439.1,
+   "measured_tok_per_s": 576.2,
+   "mean_out_tokens": 202.7
+  },
+  {
+   "model": "phi4-14b",
+   "total": 1250,
+   "cached_in_file": 2,
+   "run": 1248,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 187948,
+   "session": {
+    "billed_s": 573.6,
+    "session_cost_usd": 0.3817,
+    "cold_start_s": 79.4
+   },
+   "cold_start_s": 79.4,
+   "gen_wall_s": 359.3,
+   "measured_tok_per_s": 523.1,
+   "mean_out_tokens": 150.6
+  },
+  {
+   "model": "llama3.1-8b",
+   "total": 1250,
+   "cached_in_file": 3,
+   "run": 1247,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 169843,
+   "session": {
+    "billed_s": 367.0,
+    "session_cost_usd": 0.2442,
+    "cold_start_s": 49.9
+   },
+   "cold_start_s": 49.9,
+   "gen_wall_s": 182.0,
+   "measured_tok_per_s": 933.0,
+   "mean_out_tokens": 136.2
+  }
+ ],
+ "harness_spent_usd": 1.0796,
+ "design_sha256": "fa1e281555edcfad6c32378c5ba8dd31f81d91c0bc40b842729cf8d47afd6f61",
+ "plan_sha256": "2d50922fffd88d67dd18c23b0ec106edd3336678982372b477779e242a656956",
+ "format_report": {
+  "cells": {
+   "ministral3-14b|ACC-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 16,
+    "mean_words": 149.1,
+    "max_flagged_share": 0.064,
+    "fix_and_resmoke": false
+   },
+   "ministral3-14b|ACC-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 161.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "ministral3-14b|NEU-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 63,
+    "mean_words": 148.3,
+    "max_flagged_share": 0.252,
+    "fix_and_resmoke": true
+   },
+   "ministral3-14b|SAT-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 18,
+    "mean_words": 148.9,
+    "max_flagged_share": 0.072,
+    "fix_and_resmoke": false
+   },
+   "ministral3-14b|SAT-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 12,
+    "mean_words": 154.9,
+    "max_flagged_share": 0.048,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|ACC-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 127.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|ACC-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 137.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|NEU-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 129.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|SAT-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 126.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "phi4-14b|SAT-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 130.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|ACC-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 117.5,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|ACC-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 115.1,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|NEU-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 120.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|SAT-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 119.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "llama3.1-8b|SAT-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 117.6,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   }
+  },
+  "near_duplicate": {
+   "ministral3-14b": {
+    "rounds": 250,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   },
+   "phi4-14b": {
+    "rounds": 250,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   },
+   "llama3.1-8b": {
+    "rounds": 250,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": true,
+  "any_dead_manipulation": false
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "note": "manual bounded poll after the probe (scorer.py's own check returned empty output: UnicodeDecodeError in its subprocess reader under -X utf8)",
+ "own_container": "ta-01M7GWBFVMHDT68F7D8Z7MPCER",
+ "waited_s": 113,
+ "final_command_r7b_ids": [],
+ "final_all_ids": [],
+ "polls": [
+  {
+   "t_s": 2,
+   "rc": 0,
+   "all_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ],
+   "command_r7b_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ]
+  },
+  {
+   "t_s": 24,
+   "rc": 0,
+   "all_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ],
+   "command_r7b_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ]
+  },
+  {
+   "t_s": 47,
+   "rc": 0,
+   "all_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ],
+   "command_r7b_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ]
+  },
+  {
+   "t_s": 69,
+   "rc": 0,
+   "all_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ],
+   "command_r7b_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ]
+  },
+  {
+   "t_s": 91,
+   "rc": 0,
+   "all_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ],
+   "command_r7b_ids": [
+    "ta-01M7GWBFVMHDT68F7D8Z7MPCER"
+   ]
+  },
+  {
+   "t_s": 113,
+   "rc": 0,
+   "all_ids": [],
+   "command_r7b_ids": []
+  }
+ ],
+ "stopped_by_id": []
+}

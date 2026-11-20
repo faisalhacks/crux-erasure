@@ -1,0 +1,16 @@
+{
+ "bar": "V1",
+ "scorer": "falcon-h1-34b",
+ "calls": 299,
+ "calls_ok": true,
+ "statements": 280,
+ "missing_E": 15,
+ "missing_rate": 0.0536,
+ "max_allowed": 0.05,
+ "extract_parse_fail_final": 1,
+ "label_parse_fail_final": 11,
+ "zero_crux_statements": 60,
+ "non_development_launches_in_smoke": [],
+ "development_only": true,
+ "V1_met": false
+}

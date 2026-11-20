@@ -1,0 +1,49 @@
+20 {'percentile': '19/20', 'bca': '19/20', 'wild': '19/20'} 34s
+40 {'percentile': '39/40', 'bca': '39/40', 'wild': '38/40'} 67s
+60 {'percentile': '57/60', 'bca': '57/60', 'wild': '56/60'} 99s
+80 {'percentile': '77/80', 'bca': '77/80', 'wild': '76/80'} 131s
+100 {'percentile': '96/100', 'bca': '96/100', 'wild': '95/100'} 164s
+120 {'percentile': '116/120', 'bca': '115/120', 'wild': '115/120'} 197s
+140 {'percentile': '135/140', 'bca': '134/140', 'wild': '134/140'} 231s
+160 {'percentile': '154/160', 'bca': '154/160', 'wild': '153/160'} 265s
+180 {'percentile': '174/180', 'bca': '174/180', 'wild': '173/180'} 298s
+200 {'percentile': '192/200', 'bca': '192/200', 'wild': '191/200'} 330s
+220 {'percentile': '212/220', 'bca': '212/220', 'wild': '211/220'} 362s
+240 {'percentile': '232/240', 'bca': '232/240', 'wild': '231/240'} 394s
+260 {'percentile': '252/260', 'bca': '252/260', 'wild': '251/260'} 427s
+280 {'percentile': '270/280', 'bca': '270/280', 'wild': '269/280'} 457s
+300 {'percentile': '289/300', 'bca': '289/300', 'wild': '288/300'} 489s
+320 {'percentile': '309/320', 'bca': '309/320', 'wild': '308/320'} 521s
+340 {'percentile': '328/340', 'bca': '328/340', 'wild': '327/340'} 553s
+360 {'percentile': '347/360', 'bca': '347/360', 'wild': '346/360'} 586s
+380 {'percentile': '367/380', 'bca': '367/380', 'wild': '366/380'} 619s
+400 {'percentile': '387/400', 'bca': '387/400', 'wild': '386/400'} 652s
+{
+ "R": 400,
+ "B": 2000,
+ "shuffle_seeds": "800000..800399",
+ "E": "DUMMY proxy 1/(1+markers/100w)",
+ "methods": {
+  "percentile": {
+   "coverage": 0.9675,
+   "covered": 387,
+   "ci_all_above_0": 10,
+   "ci_all_below_0": 3,
+   "mean_width": 0.03989548054621067
+  },
+  "bca": {
+   "coverage": 0.9675,
+   "covered": 387,
+   "ci_all_above_0": 9,
+   "ci_all_below_0": 4,
+   "mean_width": 0.03991320722063278
+  },
+  "wild": {
+   "coverage": 0.965,
+   "covered": 386,
+   "ci_all_above_0": 11,
+   "ci_all_below_0": 3,
+   "mean_width": 0.040084561218494415
+  }
+ }
+}

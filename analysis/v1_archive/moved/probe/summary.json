@@ -1,0 +1,69 @@
+{
+ "n_statements": 160,
+ "n_with_E": 136,
+ "n_zero_cruxes": 20,
+ "n_missing_E": 4,
+ "mean_E": 0.9853,
+ "n_E_ge_half": 135,
+ "order_flips": 0,
+ "order_checked": 0,
+ "calls": 184,
+ "errors": 0,
+ "truncated": 0,
+ "prompt_tokens": 0,
+ "completion_tokens": 0,
+ "parse_fail_first_extract": 0,
+ "parse_fail_final_extract": 0,
+ "n_extract": 40,
+ "t_extract_s": 35.5,
+ "parse_fail_first_label": 4,
+ "parse_fail_final_label": 4,
+ "n_label": 140,
+ "t_label_s": 16.4,
+ "mode": "probe",
+ "scorer": "qwen3.8-27b",
+ "wall_s": 164.5,
+ "session": {
+  "billed_s": 296.2,
+  "session_cost_usd": 0.3981,
+  "cold_start_s": 109.2
+ },
+ "plan": {
+  "scorer": "qwen3.8-27b",
+  "gpu": "H100x1",
+  "rate_usd_per_s": 0.00134388,
+  "calls": 200,
+  "decode_tokens": 16800,
+  "prefill_tokens": 160112,
+  "expected_wall_s": 245,
+  "session_max_seconds": 500,
+  "expected_usd": 0.511,
+  "worst_case_usd": 0.853,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  }
+ },
+ "prompt_sha256": {
+  "E1": "65450760176c7ad4e79c9329664c2074f08df5c23db6098613c580b77228c0aa",
+  "L1": "8799f803b571b4e584779b54f170c2f305cab5cddc10721ba47988aeda2e350e",
+  "C1": "cea226abba1285912e76825327ed2d80449705381b46c4d5d0e4f369d737a3d1"
+ },
+ "thinking": "off (enable_thinking=False) on modal",
+ "decoding": {
+  "temperature": 0.0,
+  "seed": 0,
+  "retry_seed": 1,
+  "max_tokens": {
+   "extract": 700,
+   "label": 300
+  },
+  "response_format": "json_object"
+ }
+}

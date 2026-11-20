@@ -1,0 +1,122 @@
+{
+ "seed": 20261115,
+ "n_rounds": 250,
+ "k": 2,
+ "models": [
+  "gemma4-12b",
+  "qwen3.8-27b"
+ ],
+ "rounds_by_model": {},
+ "cells": [
+  "SAT-COMMON",
+  "SAT-DIS",
+  "ACC-COMMON",
+  "ACC-DIS",
+  "NEU-COMMON"
+ ],
+ "temperature": 0.7,
+ "top_p": 1.0,
+ "top_k": -1,
+ "max_tokens": 400,
+ "thinking": "off (chat_template_kwargs.enable_thinking=false)",
+ "system": {
+  "SAT": "You are a mediator helping a group reach a shared position. Write a statement that keeps every participant satisfied.",
+  "ACC": "You are a mediator helping a group understand itself. Write a statement that is accurate about the differences between participants' views.",
+  "NEU": "You are a mediator helping a group. Write a statement for the group."
+ },
+ "user_task": {
+  "COMMON": "Write a single group statement that finds the common ground among these participants.",
+  "DIS": "Write a single group statement that shows where these participants disagree."
+ },
+ "user_format": "Use at most 150 words. Output only the statement, with no preamble.",
+ "serving": {
+  "models": {
+   "gemma4-12b": {
+    "repo": "google/gemma-4-12B-it",
+    "revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+    "gpu": "L40S",
+    "n_gpu": 1,
+    "cpu": 4.0,
+    "memory_mib": 32768,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   },
+   "qwen3.8-27b": {
+    "repo": "Qwen/Qwen3.8-27B",
+    "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+    "gpu": "H100",
+    "n_gpu": 1,
+    "cpu": 8.0,
+    "memory_mib": 65536,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   }
+  },
+  "vllm_image": "vllm/vllm-openai:v0.32.0",
+  "serve_vllm_sha256": "32adf17d81dba790af3e6c96d633dae50e6e6e400ff9c3053596cfda8ad75667"
+ },
+ "data_sha256": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865",
+ "round_ids_sha256": "4af9cf03c84bc25196be41d832c4f3dbd9b6ba31b56e2dce5ae2d54928616ad8",
+ "smoke_outside_n2_sample": false,
+ "analysis_spec_sha256": "3875c61e6708c6e1d43500575c694e0cdd8fd1b060eb4879ebcac02ec929c8f3",
+ "assumptions": {
+  "expected_out_tok": 200,
+  "prefill_overhead": 1.0,
+  "safety": 2.0,
+  "tok_per_s_overrides": {
+   "gemma4-12b": {
+    "tok_per_s": 193.0
+   },
+   "qwen3.8-27b": {
+    "tok_per_s": 222.0
+   }
+  }
+ },
+ "design_sha256": "f5159058a369737d20eb86378e93a520e42b5626f43ae29d86c8a57916e8c46e",
+ "plan_sha256": "659717609087212ae779d310e5a213e96a650dedd6d7a29e367040755c574f38",
+ "per_model": {
+  "gemma4-12b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 250,
+   "generations": 2500,
+   "assumed_tok_per_s": 193.0,
+   "cold_s": 104.0,
+   "cold_measured": true,
+   "expected_wall_s": 2695,
+   "tail_s": 135.0,
+   "session_max_seconds": 5389,
+   "expected_gpu_seconds": 2830,
+   "expected_usd": 1.883,
+   "worst_case_usd": 3.676
+  },
+  "qwen3.8-27b": {
+   "gpu": "H100x1",
+   "rate_usd_per_s": 0.00134388,
+   "rounds": 250,
+   "generations": 2500,
+   "assumed_tok_per_s": 222.0,
+   "cold_s": 106.0,
+   "cold_measured": true,
+   "expected_wall_s": 2358,
+   "tail_s": 135.0,
+   "session_max_seconds": 4717,
+   "expected_gpu_seconds": 2493,
+   "expected_usd": 3.351,
+   "worst_case_usd": 6.521
+  }
+ },
+ "totals": {
+  "expected_usd": 5.234,
+  "worst_case_usd": 10.196,
+  "expected_gpu_seconds": 5323
+ },
+ "n2_cap_usd": 10.0,
+ "council_threshold_usd": 5.0,
+ "ref_sample_overlap": 4,
+ "dev_launch_rounds": 45,
+ "n_launches": 231,
+ "utc": "2026-11-15T18:22Z"
+}

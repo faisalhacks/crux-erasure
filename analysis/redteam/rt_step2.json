@@ -1,0 +1,51 @@
+{
+ "n_rounds": 1622,
+ "n_launches": 721,
+ "confusion_missing_as_wrong": {
+  "tp": 907,
+  "fn": 101,
+  "tn": 297,
+  "fp": 317
+ },
+ "sens": 0.8998015873015873,
+ "spec": 0.4837133550488599,
+ "BA2": 0.6917574711752237,
+ "PPV": 0.7410130718954249,
+ "n_rated_distribution": {
+  "3": 4,
+  "4": 196,
+  "5": 1422
+ },
+ "n_unrated_gt1": 0,
+ "n_rated_lt3": 0,
+ "A2_set_rounds_by_hsplit": {
+  "1": 877,
+  "0": 289
+ },
+ "A2_informative_rounds_by_hsplit": {
+  "1": 111,
+  "0": 39
+ },
+ "A2_informative_launches_by_hsplit": {
+  "0": 39,
+  "1": 106
+ },
+ "share_hsplit1_by_ncrux": {
+  "0.0": {
+   "mean": 0.2519,
+   "size": 397
+  },
+  "1.0": {
+   "mean": 0.6627,
+   "size": 762
+  },
+  "2.0": {
+   "mean": 0.8734,
+   "size": 458
+  },
+  "3.0": {
+   "mean": 1.0,
+   "size": 2
+  }
+ }
+}

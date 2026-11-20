@@ -1,0 +1,147 @@
+free RAM MB: 4899
+{
+ "label": "DRAFT LAYOUT - DUMMY / NOT RESULTS - not final",
+ "sources_in_order": [
+  "parts/00_front.md",
+  "parts/05_abstract.md",
+  "parts/10_introduction.md",
+  "related_work.md",
+  "methods_draft.md",
+  "parts/40_results.md",
+  "parts/50_discussion.md",
+  "parts/60_conclusion.md",
+  "parts/70_code_data.md",
+  "parts/90_references.md",
+  "limitations_dualuse_draft.md",
+  "parts/95_appendix_b.md",
+  "parts/80_llm_usage.md"
+ ],
+ "branches_kept": "all",
+ "all_branches": {
+  "pdf": "C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\report\\build\\out\\DRAFT_layout.pdf",
+  "pages_total": 16,
+  "body_pages_before_references": 9,
+  "body_cap": 8,
+  "body_within_cap": false,
+  "heading_first_page": {
+   "Abstract": 1,
+   "1. Introduction": 1,
+   "2. Related Work": 2,
+   "3. Methods": 3,
+   "4. Results": 5,
+   "5. Discussion and Limitations": 7,
+   "6. Conclusion": 9,
+   "Code and Data": 9,
+   "References": 10,
+   "Appendix A. Limitations": 12,
+   "Appendix B. Supplementary": 14,
+   "LLM Usage Statement": 15
+  },
+  "pages_missing_stamp": [],
+  "images": [
+   {
+    "page": 6,
+    "w_in": 6.33,
+    "h_in": 2.33
+   },
+   {
+    "page": 7,
+    "w_in": 6.33,
+    "h_in": 2.53
+   }
+  ],
+  "fonts": [
+   "AAAAAA+Arial-BoldMT",
+   "BAAAAA+ArialMT",
+   "CAAAAA+Arial-ItalicMT",
+   "DAAAAA+Consolas"
+  ]
+ },
+ "length_check_one_branch_per_group": {
+  "pdf": "C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\report\\build\\out\\lengthcheck\\DRAFT_layout.pdf",
+  "pages_total": 15,
+  "body_pages_before_references": 8,
+  "body_cap": 8,
+  "body_within_cap": true,
+  "heading_first_page": {
+   "Abstract": 1,
+   "1. Introduction": 1,
+   "2. Related Work": 2,
+   "3. Methods": 3,
+   "4. Results": 5,
+   "5. Discussion and Limitations": 7,
+   "6. Conclusion": 8,
+   "Code and Data": 8,
+   "References": 9,
+   "Appendix A. Limitations": 11,
+   "Appendix B. Supplementary": 13,
+   "LLM Usage Statement": 14
+  },
+  "pages_missing_stamp": [],
+  "images": [
+   {
+    "page": 6,
+    "w_in": 6.33,
+    "h_in": 2.33
+   },
+   {
+    "page": 7,
+    "w_in": 6.33,
+    "h_in": 2.53
+   }
+  ],
+  "fonts": [
+   "AAAAAA+Arial-BoldMT",
+   "BAAAAA+ArialMT",
+   "CAAAAA+Arial-ItalicMT",
+   "DAAAAA+Consolas"
+  ],
+  "branches": {
+   "val": "pass",
+   "a2": "positive",
+   "n2": "validated"
+  }
+ },
+ "abstract_words": {
+  "incl_slot_text": 225,
+  "excl_slot_text": 169,
+  "target": "150-250"
+ },
+ "slot_counts_visible_text": {
+  "RESULT SLOT": 34,
+  "LABEL-DESIGN SLOT": 16,
+  "HUMAN SLOT": 7,
+  "VERIFY": 7,
+  "[IF": 10,
+  "FROZEN": 0,
+  "TODO": 0,
+  "SLOT (any)": 57
+ },
+ "cited_keys": [
+  "cachola2025readability",
+  "farrow2026habermas",
+  "fish2023generative",
+  "habermas_machine_repo",
+  "hafid2026opinion",
+  "khosravani2024argument",
+  "mahajan2026commitments",
+  "milli2024bridging",
+  "ovadya2023bridging",
+  "revel2025representative",
+  "shandilya2020fairness",
+  "sharma2024sycophancy",
+  "tessler2024habermas",
+  "wan2026deliberative",
+  "wen2025mislead",
+  "wojcik2022birdwatch",
+  "zaghouani2026accountable",
+  "zhang2024fairsumm",
+  "zheng2023judging",
+  "zhu2025voice"
+ ],
+ "cited_not_in_refs_bib": [
+  "milli2024bridging"
+ ],
+ "refs_bib_keys_cited_but_absent_from_reference_list": [],
+ "free_ram_mb": 4899
+}

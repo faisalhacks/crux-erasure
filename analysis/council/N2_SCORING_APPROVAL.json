@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "experiment": "N2 scoring with frozen scorer v2 (qwen3.8-27b), all 6,250 generated statements (full_k1 + full_ext), then the N2 analysis per N2_ANALYSIS_SPEC.md (sha afada117..., Amendment 5)",
+  "max_usd": 5.00,
+  "approved_by": "N2 experiment council 3/3 (N2_vote_*.md, EXT_vote_*.md): scoring was part of the approved N2 design, gated in code on gate 1; R5 council 3/3 (D50) set N2 as always EXPLORATORY after a recorded R5 status. Cost basis: A2 full scoring, 7,840 statements = $2.45 actual (ledger row 34). Approval file written by the orchestrator (D56).",
+  "scope": "Scoring + the pre-specified N2 analysis only. Outputs stamped EXPLORATORY.",
+  "conditions": [
+    "estimate + timeout to ledger.csv before launch, actual after",
+    "chunked incremental writes; resume from cache on failure",
+    "own containers only; bounded poll; report any denied stop",
+    "report per generator; Qwen's own N2 set flagged; length and preamble covariates per spec"
+  ],
+  "written_utc": "2026-11-16T02:08Z"
+}

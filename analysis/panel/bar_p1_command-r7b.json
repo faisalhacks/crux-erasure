@@ -1,0 +1,12 @@
+{
+ "alias": "command-r7b",
+ "items": 20,
+ "calls": 20,
+ "first_attempt_valid": 20,
+ "valid_after_retry": 20,
+ "valid_share": 1.0,
+ "bar_pass": true,
+ "truncated": 0,
+ "decided_utc": "2026-11-16T01:41Z",
+ "cold_start_s": 86.1
+}

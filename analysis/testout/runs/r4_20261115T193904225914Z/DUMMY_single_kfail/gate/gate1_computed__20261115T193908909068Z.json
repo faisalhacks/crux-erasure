@@ -1,0 +1,205 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "llm_wording": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "status": "FAIL",
+ "verdict": "FAIL",
+ "note": "self-consistency not established at n = 20: 'not yet measurable' write-up (FR s12), no definition changed",
+ "kappa": {
+  "n": 20,
+  "kappa": 0.19999999999999996,
+  "ac1": 0.4666666666666666,
+  "percent_agreement": 0.6,
+  "B": 1000,
+  "seed": 20261116,
+  "kappa_ci95": [
+   -0.19999999999999996,
+   0.6000000000000001
+  ],
+  "ac1_ci95": [
+   0.2025913621262459,
+   0.736842105263158
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 0.3495934959349593,
+  "kappa_both_definite": 0.3495934959349593,
+  "n_both_definite": 20,
+  "unsure_first": 0,
+  "unsure_second": 0,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 6,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 4,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 1,
+    "NO_DISAGREEMENT": 3,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 3,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "by_kind_original": {
+   "n": 15,
+   "kappa": 0.07079646017699116,
+   "ac1": 0.37777777777777777
+  },
+  "by_kind_n2": {
+   "n": 5,
+   "kappa": 0.6153846153846155,
+   "ac1": 0.7333333333333334
+  },
+  "cut": 0.6,
+  "statistic": "self-consistency kappa (author pass 1 vs pass 2, 20 repeats)",
+  "primary": 0.19999999999999996,
+  "primary_ci_info_only": [
+   -0.19999999999999996,
+   0.6000000000000001
+  ],
+  "n_repeats": 20,
+  "pass": false
+ },
+ "kappa_recorded": true,
+ "balanced_accuracy": {
+  "n": 38,
+  "n_human_pos": 20,
+  "n_human_neg": 18,
+  "ba": 0.9472222222222222,
+  "lo": 0.864139239028945,
+  "hi": 1.0,
+  "n_adjudicated_or_of_record": 38,
+  "n_unsure_excluded": 0,
+  "unsure_items": [],
+  "n_used": 38,
+  "n_ai_parse_failure_or_missing": 1,
+  "must_exceed": 0.5,
+  "B": 1000,
+  "seed": 20261116,
+  "against": "author pass-1 labels (first pass)",
+  "passed": true,
+  "pass": true
+ },
+ "confusion": {
+  "TP": 19,
+  "FN": 1,
+  "TN": 17,
+  "FP": 1
+ },
+ "FR_6_4a": {
+  "BA_crux": {
+   "n": 38,
+   "n_human_pos": 20,
+   "n_human_neg": 18,
+   "ba": 0.9472222222222222,
+   "lo": 0.864139239028945,
+   "hi": 1.0
+  },
+  "n_gate_items_dropped_ncruxes_unknown": 0,
+  "BA_sh": {
+   "n": 31,
+   "n_human_pos": 20,
+   "n_human_neg": 11,
+   "ba": 0.975,
+   "lo": 0.9117647058823529,
+   "hi": 1.0,
+   "n_no_disagreement_left_out": 7,
+   "n_human_shows": 11
+  },
+  "zero_crux_share_of_correct_AI_negatives": {
+   "zero_crux_correct_negatives": 0,
+   "correct_negatives": 17,
+   "share": 0.0
+  },
+  "wording_rule_fires": false
+ },
+ "also_reported": {
+  "spearman_E_vs_human_binary": 0.7951227391471162,
+  "agreement_on_is_there_any_disagreement": 0.8157894736842105
+ },
+ "labels_of_record_source": "author pass 1",
+ "n_adjudicated": 0,
+ "headline": {
+  "n_originals": 38,
+  "n_hides": 20,
+  "n_shows": 11,
+  "n_no_disagreement": 7,
+  "n_unsure": 0,
+  "unsure_items": [],
+  "H": 0.5263157894736842,
+  "H_wilson95": [
+   0.37258971272613683,
+   0.6752097678243378
+  ],
+  "n_definite": 38,
+  "bounds_unsure_as_not_hiding_and_as_hiding": [
+   0.5263157894736842,
+   0.5263157894736842
+  ],
+  "rate_depends_on_unsure_items": false,
+  "conditional_H_among_hides_or_shows": [
+   20,
+   31,
+   0.6451612903225806,
+   0.46947953928713704,
+   0.7888334099685982
+  ],
+  "share_no_disagreement_among_definite": 0.18421052631578946,
+  "annotator_wording": "validated against a single hypothesis-aware human annotator",
+  "sentence_requirements": "name n (38 or fewer), the interval, the annotator wording; call it an estimate from a small sample; no numeric comparison with other studies (FR 6.7)",
+  "llm_annotator_gpt_oss_120b_NOT_HUMAN": {
+   "label": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+   "n_labelled": 37,
+   "n_definite": 36,
+   "H": 0.5277777777777778,
+   "wilson95": [
+    0.5277777777777778,
+    0.3700593790863453,
+    0.6801395859153836
+   ]
+  },
+  "secondary_scorer1_rate_on_same_items": {
+   "n_scored": 37,
+   "n_missing_E": 1,
+   "n_E_ge_0.5": 20,
+   "rate_zero_crux_counts_as_not_hiding": 0.5405405405405406,
+   "wilson95": [
+    0.5405405405405406,
+    0.38384046777409486,
+    0.6896143029949754
+   ],
+   "label": "SECONDARY: scorer-based rate, never alone in the abstract; whole-confirmatory-set prevalence is a separate analysis (FR 7.3)"
+  },
+  "state_stamp": "AGREEMENT_NOT_ESTABLISHED: not presented as the paper's headline (FR 6.7, s12)"
+ },
+ "hashes": {
+  "author_pass1": "8f2ec44a73bee00457d738fe61c1a98e9a8133de9aad53c4fed458ddb28a8c79",
+  "author_pass2": "3dc20a3261b65c26bb2e1f4f281d2b2704f0649761df484c094b3c597215887c",
+  "volunteer_pass1": null,
+  "ADJ": null,
+  "scores": "c097c148071b3135d6e36ff5865b2a9d0011e8e4a6be57ce7ec3afbfa48c5625",
+  "n2check_scores": "21b3a5366bc3f79966349534e3cb4f91b57dfea981038952903c08dfc3a86f1d",
+  "item_key": "dfcbf85cb54c8245ab417593645c317022920117c0ae8dfefb7f29944f7d2660",
+  "DESIGN": "6c349fb222792007ed58560fbe1cf97e888f83c0feb8455eb814ec40eea799f7",
+  "sample": null,
+  "n2_items": null,
+  "FROZEN_RULES": "cf4a71ef8ca7dd485724a44c4c4401596319dfd839a11fef3546aebd074ebff1"
+ },
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

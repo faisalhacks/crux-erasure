@@ -1,0 +1,58 @@
+{
+ "wording": "LLM annotator panel (supplementary; not human)",
+ "task": "P1 only (P2 dropped, D50 q4)",
+ "rules": "FROZEN_RULES.md 6.R5.4; decisions.md D50, D51",
+ "frozen_rules_sha256": "ea9b7a97256eb3bca95ccb0c1135a7ff32d3d520eeb6f484c9c8898f996f94ae",
+ "members": [
+  "falcon-h1-34b",
+  "command-r7b",
+  "granite4.2-30b"
+ ],
+ "excluded": {
+  "gptoss-120b": "extracts the quotes (self-evaluation on Q1)"
+ },
+ "prompt_file": "analysis/panel/P1_prompt.md",
+ "prompt_sha256": "9040afedf5fdc6036eb26535ad5322726bf9dbd1b4549894c83c6e7330de5ab4",
+ "prompt_note": "FR 6.R5.4 fixes the inputs, Q1/Q2 wording and the format line, not the full text; written neutrally from INSTRUCTIONS_verification.md and the packet wording; identical for every model",
+ "format_line": "Return JSON only: {\"q1_quotes_disagree\": \"yes\" or \"no\", \"q2_statement_acknowledges\": \"yes\" or \"no\"}",
+ "format_line_revisions": 0,
+ "decoding": {
+  "temperature": 0.0,
+  "seed": 0,
+  "retry_seed": 1,
+  "max_tokens": 512,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   }
+  },
+  "one_item_per_call": true,
+  "fresh_context": true,
+  "system_prompt": null,
+  "response_format": null
+ },
+ "validity": "JSON object (first '{' to last '}') with q1_quotes_disagree and q2_statement_acknowledges each yes/no (case and surrounding spaces ignored); invalid after the seed-1 retry -> missing, counted, never filled",
+ "format_bar": {
+  "items": "analysis/panel/dev_items.json (development launches only)",
+  "dev_items_sha256": "460b333909a58d134cb024f560fe158986a4352a49dbddb1fcd34564879d6d05",
+  "min_calls": 20,
+  "min_valid_share_after_retry": 0.95,
+  "decided_before_any_packet_call": true,
+  "reruns": 0,
+  "substitutes": 0,
+  "no_panel_rule": "fewer than 2 models pass -> NO_PANEL, reported, nothing else"
+ },
+ "packet_inputs": {
+  "key_verification.csv": "edcf5eb34038ab8d55b720ecfe574b3a549f5d36d0b4b4ef235909a16250545e",
+  "extraction.json": "71adf8bd07c8f9967849c45b6486a13b0fadd34f922a96aa97a2fdde4d44bcab",
+  "packet_verification.html": "5371023f3314136853d6f2097bffd3e8cc22c2ed7e06500466552741524bbe34"
+ },
+ "majority": "value given by >= 2 members; a member missing -> the other two must agree; else NO_MAJORITY; with exactly 2 members: unanimity",
+ "bootstrap": {
+  "B": 10000,
+  "rng": "numpy.random.default_rng(20261145)",
+  "unit": "item"
+ },
+ "outputs": "analysis/panel/ (as instructed by the orchestrator) with identical copies in gate1/llm_panel/ (FR 6.R5.4); never labels\\",
+ "written_utc": "2026-11-16T01:39Z"
+}

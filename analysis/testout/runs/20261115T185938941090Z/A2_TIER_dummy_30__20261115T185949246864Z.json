@@ -1,0 +1,29 @@
+{
+ "kind": "dummy",
+ "counts": {
+  "rounds_in_set": 240,
+  "R_inf": 60,
+  "K_inf": 30
+ },
+ "counts_without_development_launches": {
+  "rounds_in_set": 240,
+  "R_inf": 60,
+  "K_inf": 30
+ },
+ "counts_other": {},
+ "R_inf": 60,
+ "K_inf": 30,
+ "SD_null_beta_E": 0.08054175763063898,
+ "MDE80": 0.22551692136578913,
+ "n_null_fits": 20,
+ "null_beta_E_mean": -0.014386499996628027,
+ "shuffle_seeds": "random.Random(430000+i), i=0..19",
+ "thresholds": {
+  "K_informative": 100,
+  "K_low_power": 50,
+  "MDE80_max": 0.1
+ },
+ "tier": "NOT MEASURABLE",
+ "note": "computed from shuffled ranks only; one-way downgrade after unblinding is applied by the A2 run (FR 7.1)",
+ "gate_tag": "NOT_REAL(dummy)"
+}

@@ -1,0 +1,23 @@
+PASS A2 bca planted recovered :: +0.656 [+0.619,+0.694] p=0.0010
+PASS A2 bca confound controlled covers 0 :: -0.007 [-0.049,+0.036]
+PASS A2 wild planted recovered :: +0.656 [+0.619,+0.693] p=0.0005
+PASS A2 wild confound controlled covers 0 :: -0.007 [-0.048,+0.035]
+{"R_inf": 240, "K_inf": 120, "SD_null_beta_E": 0.037001730780458875, "MDE80": 0.10360484618528484, "tier": "LOW-POWER"}
+PASS tier INFORMATIVE or LOW-POWER on varied-E synthetic, K_inf=120 :: LOW-POWER MDE80=0.104
+PASS constant E -> design singular (NOT MEASURABLE by construction) :: LinAlgError
+{"R_inf": 60, "K_inf": 30, "SD_null_beta_E": 0.08054175763063898, "MDE80": 0.22551692136578913, "tier": "NOT MEASURABLE"}
+PASS 30 informative launches -> NOT MEASURABLE :: NOT MEASURABLE K_inf=30
+PASS dummy refuses P/gate1/A2_TIER.json :: SystemExit
+PASS real A2 refused without A2_TIER/GATE1_RESULT :: REFUSED (FR 7.1): real-rank analysis needs P/gate1/A2_TIER.json (a2_in
+gate1 kappa: COMPUTED 0.9019607843137253 []
+gate1 validity: PASS BA=0.863 [0.770,0.948]
+PASS gate1 good FR6.4a fields :: BA_crux=0.8630952380952381 n=58 BA_sh n=49 shows=21 wording_fires=False zero_crux_share=0.0
+PASS gate1 good pass rule unchanged by 6.4a :: PASS
+gate1 kappa: COMPUTED -0.3492063492063492 []
+gate1 validity: FAIL BA=0.437 [0.312,0.568]
+PASS gate1 bad FR6.4a fields :: BA_crux=0.437037037037037 n=57 BA_sh n=54 shows=24 wording_fires=True zero_crux_share=0.0
+PASS gate1 bad pass rule unchanged by 6.4a :: FAIL
+gate1 kappa: COMPUTED 0.9019607843137253 []
+gate1 validity: INCOMPLETE ['ADJ.csv: no adj_label column (final_label is not accepted, FR 6.3 R1)', 'ADJ.csv: shared item DUMMY016 needs an adjudicated label']
+PASS ADJ with final_label column rejected -> INCOMPLETE :: ['ADJ.csv: no adj_label column (final_label is not accepted, FR 6.3 R1)']
+R1 TESTS PASS

@@ -1,0 +1,132 @@
+{
+ "seed": 20261116,
+ "rule": "generators shuffled: first two get 3 items, others 2; cells shuffled; generator i takes cells i.. cyclic (no generator-cell repeat); each item from a distinct round and launch of the 250-round N2 sample, outside the 150 development launches and the gate-1 sample; rounds drawn by seed from the sorted eligible list, never by text, score or flag",
+ "generator_order": [
+  "qwen3.8-27b",
+  "llama3.1-8b",
+  "phi4-14b",
+  "ministral3-14b",
+  "gemma4-12b"
+ ],
+ "cell_order": [
+  "ACC-DIS",
+  "SAT-COMMON",
+  "NEU-COMMON",
+  "ACC-COMMON",
+  "SAT-DIS"
+ ],
+ "n_eligible_rounds": 191,
+ "n2_round_ids_sha256": "4af9cf03c84bc25196be41d832c4f3dbd9b6ba31b56e2dce5ae2d54928616ad8",
+ "selection_script_sha256": "28a46d70df36aa34ffee7a1453d74cf29d2cb7194c527a437962a2ecdd952c60",
+ "items": [
+  {
+   "slot": 0,
+   "generator": "qwen3.8-27b",
+   "cell": "ACC-DIS",
+   "round_id": "0d038cbd781dae39fbfb327e537b3e8b",
+   "launch_id": "7c6630b1fd714ff8a8b7bf9e895533bf",
+   "question_id": "S173968839",
+   "job_id": "qwen3.8-27b|0d038cbd781dae39fbfb327e537b3e8b|ACC-DIS|0"
+  },
+  {
+   "slot": 1,
+   "generator": "qwen3.8-27b",
+   "cell": "SAT-COMMON",
+   "round_id": "738d1a8b37be519affb1f0ff164eb20a",
+   "launch_id": "7bbb81fd850b4d4e9ae6005522019af0",
+   "question_id": "S173968196",
+   "job_id": "qwen3.8-27b|738d1a8b37be519affb1f0ff164eb20a|SAT-COMMON|0"
+  },
+  {
+   "slot": 2,
+   "generator": "qwen3.8-27b",
+   "cell": "NEU-COMMON",
+   "round_id": "e3f4f02fceaab4c68b1bdb15ff7feac7",
+   "launch_id": "d59ff6d58cd049769d87cea0f82e1231",
+   "question_id": "S173969841",
+   "job_id": "qwen3.8-27b|e3f4f02fceaab4c68b1bdb15ff7feac7|NEU-COMMON|0"
+  },
+  {
+   "slot": 3,
+   "generator": "llama3.1-8b",
+   "cell": "SAT-COMMON",
+   "round_id": "433f12e423d6a12b3d37a433d7bd7f23",
+   "launch_id": "afeb37cd90714b4482c7d435790d91c6",
+   "question_id": "S173962354",
+   "job_id": "llama3.1-8b|433f12e423d6a12b3d37a433d7bd7f23|SAT-COMMON|0"
+  },
+  {
+   "slot": 4,
+   "generator": "llama3.1-8b",
+   "cell": "NEU-COMMON",
+   "round_id": "26ac825386b02c465fb5c644c9662976",
+   "launch_id": "815d6a62b79645259e413611c4a3a1b5",
+   "question_id": "S173963475",
+   "job_id": "llama3.1-8b|26ac825386b02c465fb5c644c9662976|NEU-COMMON|0"
+  },
+  {
+   "slot": 5,
+   "generator": "llama3.1-8b",
+   "cell": "ACC-COMMON",
+   "round_id": "e627d0810d183bb9eef8087eb7e95dbd",
+   "launch_id": "b64c10b92e5c48599fc08195d42616e2",
+   "question_id": "S173969969",
+   "job_id": "llama3.1-8b|e627d0810d183bb9eef8087eb7e95dbd|ACC-COMMON|0"
+  },
+  {
+   "slot": 6,
+   "generator": "phi4-14b",
+   "cell": "NEU-COMMON",
+   "round_id": "3e24b67bb7a2d9d16ff0e0da357bafa2",
+   "launch_id": "431f94af85464fceb56b6a6f6b79d143",
+   "question_id": "S173964225",
+   "job_id": "phi4-14b|3e24b67bb7a2d9d16ff0e0da357bafa2|NEU-COMMON|0"
+  },
+  {
+   "slot": 7,
+   "generator": "phi4-14b",
+   "cell": "ACC-COMMON",
+   "round_id": "249125bc5a175eafc8bfe3b930fb1a39",
+   "launch_id": "37f71501617f4057a7c16a19c318e459",
+   "question_id": "S173968683",
+   "job_id": "phi4-14b|249125bc5a175eafc8bfe3b930fb1a39|ACC-COMMON|0"
+  },
+  {
+   "slot": 8,
+   "generator": "ministral3-14b",
+   "cell": "ACC-COMMON",
+   "round_id": "45479e2e7e8d374d5f96332af2eaaf00",
+   "launch_id": "34ed4d169bfc48cea6024b8dc18b3e18",
+   "question_id": "S173961048",
+   "job_id": "ministral3-14b|45479e2e7e8d374d5f96332af2eaaf00|ACC-COMMON|0"
+  },
+  {
+   "slot": 9,
+   "generator": "ministral3-14b",
+   "cell": "SAT-DIS",
+   "round_id": "45058a272246e6a3c0497bbfca574aa5",
+   "launch_id": "784e9a1fdc1f45659ac13a2bdbcc36d6",
+   "question_id": "S173966715",
+   "job_id": "ministral3-14b|45058a272246e6a3c0497bbfca574aa5|SAT-DIS|0"
+  },
+  {
+   "slot": 10,
+   "generator": "gemma4-12b",
+   "cell": "SAT-DIS",
+   "round_id": "ec7a8648f3d2c93c977b09f34a45956f",
+   "launch_id": "ac584518bb694450b8a18717bf874a8a",
+   "question_id": "S173969607",
+   "job_id": "gemma4-12b|ec7a8648f3d2c93c977b09f34a45956f|SAT-DIS|0"
+  },
+  {
+   "slot": 11,
+   "generator": "gemma4-12b",
+   "cell": "ACC-DIS",
+   "round_id": "1fcd9d556bbc5a75ea63d9e81c63641f",
+   "launch_id": "5d4e936a96ba43efae9a5e8b1fb0458e",
+   "question_id": "S173966162",
+   "job_id": "gemma4-12b|1fcd9d556bbc5a75ea63d9e81c63641f|ACC-DIS|0"
+  }
+ ],
+ "note": "Selection fixed before any extension text exists. gemma4-12b and qwen3.8-27b texts already exist (full_k1); the rule used ids only."
+}

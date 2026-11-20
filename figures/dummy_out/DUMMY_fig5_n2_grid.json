@@ -1,0 +1,14 @@
+{
+ "script": "figures/make_figures.py",
+ "inputs_sha256": {
+  "gate1.json": "07792fc2689a5490bc496ba39d36dae793f48d3f05e9470a8ab28d08b09b0928",
+  "a2.json": "b2d40be111c88deb0bb9a2e6b4816c2577d893af3929dd01cbb1fb4db423fb21",
+  "n1.json": "0be8ca580654f4fbecbc982b0d28bce68f57eb0c2074e1a56a5bbb75684be838",
+  "a4.json": "7e11e75fa2504c62779ab2a04c26cf14a1419b3e63b2c9a6790dacfd9b194b68",
+  "a3.json": "327d3cbcab5456418e15c2060950230f16055eac5be1e6ade99b0f24ac20dce7",
+  "n3.json": "ce975dd3a30f15a4547353be661895fddd9dae12c9f8e25b004760e87ae85835",
+  "n4.json": "ba59db574afd05714632084149a40470b172e4f14915eca1529e7ded74010c2d",
+  "n2.json": "a8e3b783f735d62c826c3abd477bf90d00b04da2546b064a07f19b2d872e4762"
+ },
+ "dummy": true
+}

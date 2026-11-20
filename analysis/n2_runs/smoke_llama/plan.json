@@ -1,0 +1,88 @@
+{
+ "seed": 20261115,
+ "n_rounds": 8,
+ "k": 1,
+ "models": [
+  "llama3.1-8b"
+ ],
+ "rounds_by_model": {},
+ "cells": [
+  "SAT-COMMON",
+  "SAT-DIS",
+  "ACC-COMMON",
+  "ACC-DIS",
+  "NEU-COMMON"
+ ],
+ "temperature": 0.7,
+ "top_p": 1.0,
+ "top_k": -1,
+ "max_tokens": 400,
+ "thinking": "off (chat_template_kwargs.enable_thinking=false)",
+ "system": {
+  "SAT": "You are a mediator helping a group reach a shared position. Write a statement that keeps every participant satisfied.",
+  "ACC": "You are a mediator helping a group understand itself. Write a statement that is accurate about the differences between participants' views.",
+  "NEU": "You are a mediator helping a group. Write a statement for the group."
+ },
+ "user_task": {
+  "COMMON": "Write a single group statement that finds the common ground among these participants.",
+  "DIS": "Write a single group statement that shows where these participants disagree."
+ },
+ "user_format": "Use at most 150 words. Output only the statement, with no preamble.",
+ "serving": {
+  "models": {
+   "llama3.1-8b": {
+    "repo": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "gpu": "L40S",
+    "n_gpu": 1,
+    "cpu": 4.0,
+    "memory_mib": 32768,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   }
+  },
+  "vllm_image": "vllm/vllm-openai:v0.32.0",
+  "serve_vllm_sha256": "a630686d610fee6360b0fc4804496298882ddf3289b542da10764fb0ba6e12a7"
+ },
+ "data_sha256": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865",
+ "round_ids_sha256": "eb812ad72ea5521f91ac07e02aef9139b0a2f8953da3f70ce68a164ff8787497",
+ "smoke_outside_n2_sample": true,
+ "analysis_spec_sha256": "126787ad8c4932a3b4c9776f274e87b2e27787cd9cc7215cfe54e9f42c0dc60b",
+ "assumptions": {
+  "expected_out_tok": 250,
+  "prefill_overhead": 1.15,
+  "safety": 2.0,
+  "tok_per_s_overrides": {}
+ },
+ "design_sha256": "84ddff58369db9fd3a51dafe59c10808c6a3b880c729f463d171f3735eb6fbd9",
+ "plan_sha256": "05b4bea734857e42d5b7ec1da8b2b6529942d7b80e69f2d7b768f370076c6fb4",
+ "per_model": {
+  "llama3.1-8b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 8,
+   "generations": 40,
+   "assumed_tok_per_s": 500.0,
+   "cold_s": 150.0,
+   "cold_measured": false,
+   "expected_wall_s": 173,
+   "tail_s": 135.0,
+   "session_max_seconds": 900.0,
+   "expected_gpu_seconds": 308,
+   "expected_usd": 0.205,
+   "worst_case_usd": 0.689
+  }
+ },
+ "totals": {
+  "expected_usd": 0.205,
+  "worst_case_usd": 0.689,
+  "expected_gpu_seconds": 308
+ },
+ "n2_cap_usd": 15.0,
+ "council_threshold_usd": 5.0,
+ "ref_sample_overlap": 2,
+ "dev_launch_rounds": 8,
+ "n_launches": 8,
+ "utc": "2026-11-15T19:31Z"
+}

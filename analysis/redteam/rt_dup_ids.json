@@ -1,0 +1,73 @@
+{
+ "rounds": 40,
+ "texts_also_duplicated": 40,
+ "nondev": 36,
+ "in_A2_fit": 27,
+ "informative": 4,
+ "dup_pairs_E_differ": 0,
+ "examples": [
+  {
+   "round": "4dce41f4c4bbb385941b5227a03e2dd0",
+   "ids": [
+    "e8afa2934aaa41a371ae185ea9efc11d",
+    "e8afa2934aaa41a371ae185ea9efc11d",
+    "e8afa2934aaa41a371ae185ea9efc11d",
+    "4171f61f68f7a4e1cf651ce0fc5dd8e9"
+   ],
+   "dup_idx": [
+    0,
+    1,
+    2
+   ],
+   "same_text": true,
+   "E": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "round": "4e0553229ffd0dd2ef030a7bfc07a1fc",
+   "ids": [
+    "e543eb94dae14a7a705311a27a960e33",
+    "5d985e5851beddb0b057fa8b350463cc",
+    "e543eb94dae14a7a705311a27a960e33",
+    "e543eb94dae14a7a705311a27a960e33"
+   ],
+   "dup_idx": [
+    0,
+    2,
+    3
+   ],
+   "same_text": true,
+   "E": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "round": "b7ee19b61a733c86bd3a71d2e6ca9fe2",
+   "ids": [
+    "259b05d4836e14fb2b997c7f35e43428",
+    "259b05d4836e14fb2b997c7f35e43428",
+    "9f428eb36f3e098b717224b8e6859b58",
+    "259b05d4836e14fb2b997c7f35e43428"
+   ],
+   "dup_idx": [
+    0,
+    1,
+    3
+   ],
+   "same_text": true,
+   "E": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

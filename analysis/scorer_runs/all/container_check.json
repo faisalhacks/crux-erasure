@@ -1,0 +1,9 @@
+{
+ "waited_s": 4,
+ "own_rows_final": 0,
+ "other_app_rows": 1,
+ "stopped_by_id": [],
+ "returncode": 0,
+ "error": null,
+ "stdout_tail": "\n|-------------------------------+---------------------------+------------------\n| ta-01M7G7WHWRPZAMKJA95T9T9BBR | ap-SjaTupPcJSiqo6zAtVdPbL | pilot-vllm-qwen\u2026 \n|                               |                           |                  \n|                               |                           |                  \n+------------------------------------------------------------------------------"
+}

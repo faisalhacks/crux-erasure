@@ -1,0 +1,10 @@
+{
+ "B": 10000,
+ "seed": 20261122,
+ "n_rounds": 20,
+ "n_clusters": 10,
+ "status": "NOT_RUN",
+ "reason": "10 launches < floor 30 (FR s8)",
+ "kind": "synthetic",
+ "gate_tag": "NOT_REAL(synthetic)"
+}

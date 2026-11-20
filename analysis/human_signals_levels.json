@@ -1,0 +1,101 @@
+{
+ "cc_rows_human": 35489,
+ "cc_human_by_iteration": {
+  "0": 19421,
+  "1": 16068
+ },
+ "critiques_human_completed_by_iteration": {
+  "1": 15754
+ },
+ "critiques_human_completed_rounds": 3770,
+ "critiques_human_completed_launches": 1274,
+ "agreement_array_len": {
+  "4": 32597,
+  "5": 935,
+  "2": 1935,
+  "3": 22
+ },
+ "agreement_values_sample": [
+  "AGREE",
+  "DISAGREE",
+  "MOCK",
+  "NEUTRAL",
+  "SOMEWHAT_AGREE",
+  "SOMEWHAT_DISAGREE",
+  "STRONGLY_AGREE",
+  "STRONGLY_DISAGREE"
+ ],
+ "quality_array_len": {
+  "4": 32597,
+  "5": 935,
+  "2": 1935,
+  "3": 22
+ },
+ "quality_values_sample": [
+  "EXCELLENT_QUALITY",
+  "GOOD_QUALITY",
+  "MOCK",
+  "NEUTRAL",
+  "POOR_QUALITY",
+  "SOMEWHAT_GOOD_QUALITY",
+  "SOMEWHAT_POOR_QUALITY",
+  "TERRIBLE_QUALITY"
+ ],
+ "ranking_explanations_human_nonempty": 1750,
+ "ranking_explanations_by_iteration": {
+  "0": 1750
+ },
+ "position_rows_human": 40171,
+ "position_by_rating_index": {
+  "0": 21178,
+  "1": 18993
+ },
+ "position_by_question_index": {
+  "0": 12994,
+  "1": 12994,
+  "2": 12994,
+  "3": 1189
+ },
+ "position_agreement_array_len": {
+  "1": 40171
+ },
+ "position_agreement_values": [
+  "AGREE",
+  "DISAGREE",
+  "NEUTRAL",
+  "SOMEWHAT_AGREE",
+  "SOMEWHAT_DISAGREE",
+  "STRONGLY_AGREE",
+  "STRONGLY_DISAGREE"
+ ],
+ "position_launches": 1514,
+ "position_participants": 6869,
+ "survey_rows_human": 18785,
+ "survey_best_expression": {
+  "FINAL_CONSENSUS": 11703,
+  "OWN_OPINION": 7082
+ },
+ "survey_own_influence": {
+  "YES": 12150,
+  "NO": 6635
+ },
+ "survey_unwanted_pressure": {
+  "NO": 17934,
+  "YES": 851
+ },
+ "survey_view_change": {
+  "NO": 15748,
+  "YES": 3037
+ },
+ "survey_view_movement": {
+  "NO_CHANGE": 11673,
+  "CLOSER_TO_CONSENSUS": 6197,
+  "SOME_OTHER_WAY": 915
+ },
+ "survey_candidate.metadata.provenance": {
+  "MODEL_MEDIATOR": 16930,
+  "HUMAN_CITIZEN": 1179,
+  "HUMAN_MEDIATOR": 676
+ },
+ "survey_view_explanation_nonempty": 11592
+}

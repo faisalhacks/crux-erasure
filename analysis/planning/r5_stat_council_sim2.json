@@ -1,0 +1,79 @@
+{
+ "note": "synthetic only",
+ "sims": 150,
+ "B": 400,
+ "cells": [
+  {
+   "k_hsplit0": 30,
+   "scorer": "null",
+   "true_BA": 0.5,
+   "p_LB_gt_0.5": 0.007,
+   "p_PASS": 0.0,
+   "mean_ci_width": 0.065
+  },
+  {
+   "k_hsplit0": 30,
+   "scorer": "ba0.60",
+   "true_BA": 0.6,
+   "p_LB_gt_0.5": 0.88,
+   "p_PASS": 0.52,
+   "mean_ci_width": 0.155
+  },
+  {
+   "k_hsplit0": 30,
+   "scorer": "ba0.65",
+   "true_BA": 0.65,
+   "p_LB_gt_0.5": 0.973,
+   "p_PASS": 0.9,
+   "mean_ci_width": 0.17
+  },
+  {
+   "k_hsplit0": 50,
+   "scorer": "null",
+   "true_BA": 0.5,
+   "p_LB_gt_0.5": 0.013,
+   "p_PASS": 0.0,
+   "mean_ci_width": 0.054
+  },
+  {
+   "k_hsplit0": 50,
+   "scorer": "ba0.60",
+   "true_BA": 0.6,
+   "p_LB_gt_0.5": 0.987,
+   "p_PASS": 0.5,
+   "mean_ci_width": 0.119
+  },
+  {
+   "k_hsplit0": 50,
+   "scorer": "ba0.65",
+   "true_BA": 0.65,
+   "p_LB_gt_0.5": 0.993,
+   "p_PASS": 0.94,
+   "mean_ci_width": 0.13
+  },
+  {
+   "k_hsplit0": 100,
+   "scorer": "null",
+   "true_BA": 0.5,
+   "p_LB_gt_0.5": 0.027,
+   "p_PASS": 0.0,
+   "mean_ci_width": 0.043
+  },
+  {
+   "k_hsplit0": 100,
+   "scorer": "ba0.60",
+   "true_BA": 0.6,
+   "p_LB_gt_0.5": 0.993,
+   "p_PASS": 0.42,
+   "mean_ci_width": 0.084
+  },
+  {
+   "k_hsplit0": 100,
+   "scorer": "ba0.65",
+   "true_BA": 0.65,
+   "p_LB_gt_0.5": 1.0,
+   "p_PASS": 0.987,
+   "mean_ci_width": 0.093
+  }
+ ]
+}

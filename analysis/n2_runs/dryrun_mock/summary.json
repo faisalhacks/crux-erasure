@@ -1,0 +1,29 @@
+{
+ "tag": "dryrun_mock",
+ "provider": "mock",
+ "wall_s": 0.0,
+ "per_model": [
+  {
+   "model": "gemma4-12b",
+   "total": 48,
+   "cached_in_file": 48,
+   "run": 0,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "session": null
+  },
+  {
+   "model": "qwen3.8-27b",
+   "total": 48,
+   "cached_in_file": 48,
+   "run": 0,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "session": null
+  }
+ ],
+ "harness_spent_usd": 0.0,
+ "plan_sha256": "f3a99b428f2d8bcfd28c376af04fff070701e2d873aac8b2c648e5b6e34b8163"
+}

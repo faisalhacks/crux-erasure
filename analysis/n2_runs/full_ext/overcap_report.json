@@ -1,0 +1,122 @@
+{
+ "llama3.1-8b|ACC-COMMON": {
+  "n": 250,
+  "mean_words": 117.5,
+  "median_words": 118,
+  "max_words": 137,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|ACC-DIS": {
+  "n": 250,
+  "mean_words": 115.1,
+  "median_words": 116,
+  "max_words": 140,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|NEU-COMMON": {
+  "n": 250,
+  "mean_words": 120.6,
+  "median_words": 121,
+  "max_words": 150,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|SAT-COMMON": {
+  "n": 250,
+  "mean_words": 119.4,
+  "median_words": 120,
+  "max_words": 143,
+  "over_cap": 0,
+  "over_cap_rate": 0.0
+ },
+ "llama3.1-8b|SAT-DIS": {
+  "n": 250,
+  "mean_words": 117.6,
+  "median_words": 118,
+  "max_words": 154,
+  "over_cap": 1,
+  "over_cap_rate": 0.004
+ },
+ "ministral3-14b|ACC-COMMON": {
+  "n": 250,
+  "mean_words": 149.1,
+  "median_words": 147,
+  "max_words": 199,
+  "over_cap": 100,
+  "over_cap_rate": 0.4
+ },
+ "ministral3-14b|ACC-DIS": {
+  "n": 250,
+  "mean_words": 161.6,
+  "median_words": 159,
+  "max_words": 218,
+  "over_cap": 181,
+  "over_cap_rate": 0.724
+ },
+ "ministral3-14b|NEU-COMMON": {
+  "n": 250,
+  "mean_words": 148.3,
+  "median_words": 148,
+  "max_words": 196,
+  "over_cap": 113,
+  "over_cap_rate": 0.452
+ },
+ "ministral3-14b|SAT-COMMON": {
+  "n": 250,
+  "mean_words": 148.9,
+  "median_words": 147,
+  "max_words": 220,
+  "over_cap": 104,
+  "over_cap_rate": 0.416
+ },
+ "ministral3-14b|SAT-DIS": {
+  "n": 250,
+  "mean_words": 154.9,
+  "median_words": 156,
+  "max_words": 213,
+  "over_cap": 152,
+  "over_cap_rate": 0.608
+ },
+ "phi4-14b|ACC-COMMON": {
+  "n": 250,
+  "mean_words": 127.4,
+  "median_words": 127,
+  "max_words": 161,
+  "over_cap": 10,
+  "over_cap_rate": 0.04
+ },
+ "phi4-14b|ACC-DIS": {
+  "n": 250,
+  "mean_words": 137.6,
+  "median_words": 139,
+  "max_words": 185,
+  "over_cap": 43,
+  "over_cap_rate": 0.172
+ },
+ "phi4-14b|NEU-COMMON": {
+  "n": 250,
+  "mean_words": 129.8,
+  "median_words": 130,
+  "max_words": 157,
+  "over_cap": 11,
+  "over_cap_rate": 0.044
+ },
+ "phi4-14b|SAT-COMMON": {
+  "n": 250,
+  "mean_words": 126.8,
+  "median_words": 127,
+  "max_words": 160,
+  "over_cap": 6,
+  "over_cap_rate": 0.024
+ },
+ "phi4-14b|SAT-DIS": {
+  "n": 250,
+  "mean_words": 130.4,
+  "median_words": 131,
+  "max_words": 176,
+  "over_cap": 19,
+  "over_cap_rate": 0.076
+ }
+}

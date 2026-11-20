@@ -1,0 +1,269 @@
+{
+ "meta": {
+  "utc": "2026-11-15T18:10:55Z",
+  "mode": "synth_hard",
+  "R": 2,
+  "B": 10000,
+  "start": 9990,
+  "G": 60,
+  "len_eff": 0.0,
+  "data_seeds": "99990..99991",
+  "boot_seeds": "9990..9991",
+  "code_sha256_16_at_start": {
+   "coverage.py": "ae4bc4d6977d7c31",
+   "common.py": "14fd5b0c494e1039",
+   "a2_within_round.py": "5b9c3e238be021a9",
+   "n1_winner_vs_mean.py": "2cf3b12aeaca91ca"
+  },
+  "code_changed_during_run": false,
+  "input_sha256_16": {},
+  "versions": {
+   "python": "3.12.4",
+   "numpy": "2.2.6",
+   "pandas": "2.3.3",
+   "scipy": "1.16.3"
+  },
+  "seconds": 7.7
+ },
+ "summary": {
+  "A2_rater_controlled": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_rater_uncontrolled": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_rater_A2h": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_rater_controlled_cr1": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_rater_controlled_boot_se_normal": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_rater_controlled_bca": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_group_controlled": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_group_uncontrolled": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_group_A2h": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_group_controlled_cr1": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_group_controlled_boot_se_normal": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "A2_group_controlled_bca": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "N1": {
+   "covered": 2,
+   "n": 2,
+   "rate": 1.0,
+   "clopper_pearson_95": [
+    0.15811388300839305,
+    1.0
+   ]
+  },
+  "launches_with_E_variation": {
+   "mean": 56.5,
+   "sd": 3.5355339059327378
+  },
+  "A2_rater_controlled_est": {
+   "mean": 0.007081895738821166,
+   "sd": 0.022787687924590582
+  },
+  "A2_rater_uncontrolled_est": {
+   "mean": -0.00029130644621128826,
+   "sd": 0.030605424481043454
+  },
+  "A2_rater_A2h_est": {
+   "mean": 0.006884914708319392,
+   "sd": 0.022375799435847235
+  },
+  "A2_rater_ratio_bootSE_to_CR1": {
+   "mean": 1.0014104706718083,
+   "sd": 0.010430573562285645
+  },
+  "A2_group_controlled_est": {
+   "mean": -0.006882916708937915,
+   "sd": 0.008668260763162211
+  },
+  "A2_group_uncontrolled_est": {
+   "mean": -0.013618983508066387,
+   "sd": 0.020593086906739423
+  },
+  "A2_group_A2h_est": {
+   "mean": -0.007164980373466441,
+   "sd": 0.008332980796393705
+  },
+  "A2_group_ratio_bootSE_to_CR1": {
+   "mean": 0.9992148626049393,
+   "sd": 0.008916567098284003
+  },
+  "N1_est": {
+   "mean": 0.00662042980555779,
+   "sd": 0.012795258809984843
+  },
+  "N1_tied_excluded": {
+   "mean": 7.5,
+   "sd": 3.5355339059327378
+  },
+  "N1_rounds": {
+   "mean": 112.0,
+   "sd": 12.727922061357855
+  }
+ },
+ "reps": [
+  {
+   "rep": 9990,
+   "data_seed": 99990,
+   "n_clusters": 60,
+   "launches_with_E_variation": 54,
+   "A2_rater_controlled": true,
+   "A2_rater_controlled_est": -0.009031432920219637,
+   "A2_rater_controlled_p": 0.8375162483751625,
+   "A2_rater_uncontrolled": true,
+   "A2_rater_uncontrolled_est": -0.021932609637849886,
+   "A2_rater_uncontrolled_p": 0.6199380061993801,
+   "A2_rater_A2h": true,
+   "A2_rater_A2h_est": -0.008937164807238312,
+   "A2_rater_A2h_p": 0.8409159084091591,
+   "A2_rater_controlled_cr1": true,
+   "A2_rater_controlled_boot_se_normal": true,
+   "A2_rater_controlled_bca": true,
+   "A2_rater_ratio_bootSE_to_CR1": 0.994034941374251,
+   "A2_group_controlled": true,
+   "A2_group_controlled_est": -0.013012302675663192,
+   "A2_group_controlled_p": 0.7733226677332267,
+   "A2_group_uncontrolled": true,
+   "A2_group_uncontrolled_est": -0.028180494905385736,
+   "A2_group_uncontrolled_p": 0.5377462253774623,
+   "A2_group_A2h": true,
+   "A2_group_A2h_est": -0.013057287602093707,
+   "A2_group_A2h_p": 0.7669233076692331,
+   "A2_group_controlled_cr1": true,
+   "A2_group_controlled_boot_se_normal": true,
+   "A2_group_controlled_bca": true,
+   "A2_group_ratio_bootSE_to_CR1": 0.9929098975448378,
+   "N1": true,
+   "N1_est": -0.0024271844660194077,
+   "N1_tied_excluded": 10,
+   "N1_rounds": 103
+  },
+  {
+   "rep": 9991,
+   "data_seed": 99991,
+   "n_clusters": 60,
+   "launches_with_E_variation": 59,
+   "A2_rater_controlled": true,
+   "A2_rater_controlled_est": 0.02319522439786197,
+   "A2_rater_controlled_p": 0.6639336066393361,
+   "A2_rater_uncontrolled": true,
+   "A2_rater_uncontrolled_est": 0.02134999674542731,
+   "A2_rater_uncontrolled_p": 0.6879312068793121,
+   "A2_rater_A2h": true,
+   "A2_rater_A2h_est": 0.022706994223877095,
+   "A2_rater_A2h_p": 0.6757324267573243,
+   "A2_rater_controlled_cr1": true,
+   "A2_rater_controlled_boot_se_normal": true,
+   "A2_rater_controlled_bca": true,
+   "A2_rater_ratio_bootSE_to_CR1": 1.0087859999693656,
+   "A2_group_controlled": true,
+   "A2_group_controlled_est": -0.000753530742212638,
+   "A2_group_controlled_p": 0.9929007099290071,
+   "A2_group_uncontrolled": true,
+   "A2_group_uncontrolled_est": 0.0009425278892529615,
+   "A2_group_uncontrolled_p": 0.9955004499550045,
+   "A2_group_A2h": true,
+   "A2_group_A2h_est": -0.0012726731448391747,
+   "A2_group_A2h_p": 0.9839016098390161,
+   "A2_group_controlled_cr1": true,
+   "A2_group_controlled_boot_se_normal": true,
+   "A2_group_controlled_bca": true,
+   "A2_group_ratio_bootSE_to_CR1": 1.0055198276650408,
+   "N1": true,
+   "N1_est": 0.01566804407713499,
+   "N1_tied_excluded": 5,
+   "N1_rounds": 121
+  }
+ ]
+}

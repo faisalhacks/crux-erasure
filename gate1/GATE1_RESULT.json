@@ -1,0 +1,15 @@
+{
+  "rules": "R5",
+  "status": "VALIDATED_PRESENCE",
+  "recorded_utc": "2026-11-16T02:05Z",
+  "recorded_by": "orchestrator acting as planning room (FR 6.R5.6; status copied from the computed file, not changed)",
+  "computed_file": "gate1/gate1_r5_computed__20261116T015404Z.json",
+  "step2_file": "gate1/STEP2_computed__20261116T015355Z.json",
+  "step2_outcome": "PASS",
+  "step3_outcome": "NOT_DONE (no author file by T_cut 2026-11-16T01:53Z; D51)",
+  "independent_review": "analysis/review/GATE_REVIEW.md (Opus re-derivation: AGREE; all step-2 numbers reproduced exactly)",
+  "freeze": "gate1/FREEZE.json (2026-11-16T01:53:53.642Z)",
+  "output_tag": "HIDE_NOT_HUMAN_VALIDATED",
+  "binding_wording": "the scorer's detection of disagreement was validated against participants' own pre-deliberation position ratings, for whether a group disagrees, not for whether a statement hides it",
+  "panel": "LLM verification of LLM-extracted evidence (supplementary; not human); not part of this status"
+}

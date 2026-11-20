@@ -1,0 +1,29 @@
+{
+ "_doc": "Read by pilot_harness/llm.py ModalSession. No secrets here. gpu/n_gpu/cpu/memory_mib/scaledown_s MUST match serve_vllm.py MODELS + SCALEDOWN_S (they set the booked $/s). url is empty until the alias is deployed.",
+ "endpoints": {
+  "gemma4-12b": {"url": "https://riyann00b--pilot-vllm-gemma4-12b-server.us-east.modal.direct", "app": "pilot-vllm-gemma4-12b",
+                 "repo": "google/gemma-4-12B-it", "gpu": "L40S", "n_gpu": 1, "cpu": 4.0, "memory_mib": 32768, "scaledown_s": 120},
+  "llama3.1-8b": {"url": "https://riyann00b--pilot-vllm-llama3-1-8b-server.us-east.modal.direct", "app": "pilot-vllm-llama3.1-8b",
+                  "repo": "meta-llama/Llama-3.1-8B-Instruct", "gpu": "L40S", "n_gpu": 1, "cpu": 4.0, "memory_mib": 32768, "scaledown_s": 120},
+  "qwen3.8-27b": {"url": "https://riyann00b--pilot-vllm-qwen3-8-27b-server.us-east.modal.direct","app": "pilot-vllm-qwen3.8-27b",
+                  "repo": "Qwen/Qwen3.8-27B", "gpu": "H100", "n_gpu": 1, "cpu": 8.0, "memory_mib": 65536, "scaledown_s": 120},
+  "llama3.3-70b": {"url": "", "app": "pilot-vllm-llama3.3-70b",
+                   "repo": "meta-llama/Llama-3.3-70B-Instruct", "gpu": "H200", "n_gpu": 2, "cpu": 16.0, "memory_mib": 196608, "scaledown_s": 120},
+  "r1-distill-llama-70b": {"url": "", "app": "pilot-vllm-r1-distill-llama-70b",
+                           "repo": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B", "gpu": "H200", "n_gpu": 2, "cpu": 16.0, "memory_mib": 196608, "scaledown_s": 120},
+  "ministral3-14b": {"url": "https://riyann00b--pilot-vllm-ministral3-14b-server.us-east.modal.direct", "app": "pilot-vllm-ministral3-14b",
+                     "repo": "mistralai/Ministral-3-14B-Instruct-2512-BF16", "gpu": "L40S", "n_gpu": 1, "cpu": 4.0, "memory_mib": 32768, "scaledown_s": 120},
+  "phi4-14b": {"url": "https://riyann00b--pilot-vllm-phi4-14b-server.us-east.modal.direct", "app": "pilot-vllm-phi4-14b",
+               "repo": "microsoft/phi-4", "gpu": "L40S", "n_gpu": 1, "cpu": 4.0, "memory_mib": 32768, "scaledown_s": 120},
+  "granite4.2-30b": {"url": "https://riyann00b--pilot-vllm-granite4-2-30b-server.us-east.modal.direct", "app": "pilot-vllm-granite4.2-30b",
+                     "repo": "ibm-granite/granite-4.2-30b", "gpu": "H100", "n_gpu": 1, "cpu": 8.0, "memory_mib": 65536, "scaledown_s": 120},
+  "granite4.2-8b": {"url": "https://riyann00b--pilot-vllm-granite4-2-8b-server.us-east.modal.direct", "app": "pilot-vllm-granite4.2-8b",
+                    "repo": "ibm-granite/granite-4.2-8b", "gpu": "L40S", "n_gpu": 1, "cpu": 4.0, "memory_mib": 32768, "scaledown_s": 120},
+  "falcon-h1-34b": {"url": "https://riyann00b--pilot-vllm-falcon-h1-34b-server.us-east.modal.direct", "app": "pilot-vllm-falcon-h1-34b",
+                    "repo": "tiiuae/Falcon-H1-34B-Instruct", "gpu": "H200", "n_gpu": 1, "cpu": 8.0, "memory_mib": 65536, "scaledown_s": 120},
+  "command-r7b": {"url": "https://riyann00b--pilot-vllm-command-r7b-server.us-east.modal.direct","app": "pilot-vllm-command-r7b",
+                  "repo": "CohereLabs/c4ai-command-r7b-12-2024", "gpu": "L40S", "n_gpu": 1, "cpu": 4.0, "memory_mib": 32768, "scaledown_s": 120},
+  "gptoss-120b": {"url": "https://riyann00b--pilot-vllm-gptoss-120b-server.us-east.modal.direct", "app": "pilot-vllm-gptoss-120b",
+                  "repo": "openai/gpt-oss-120b", "gpu": "H100", "n_gpu": 1, "cpu": 8.0, "memory_mib": 65536, "scaledown_s": 120}
+ }
+}

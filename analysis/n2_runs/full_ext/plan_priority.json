@@ -1,0 +1,142 @@
+{
+ "seed": 20261115,
+ "n_rounds": 250,
+ "k": 1,
+ "models": [
+  "ministral3-14b",
+  "phi4-14b",
+  "llama3.1-8b"
+ ],
+ "rounds_by_model": {},
+ "cells": [
+  "SAT-COMMON",
+  "SAT-DIS",
+  "ACC-COMMON",
+  "ACC-DIS",
+  "NEU-COMMON"
+ ],
+ "temperature": 0.7,
+ "top_p": 1.0,
+ "top_k": -1,
+ "max_tokens": 400,
+ "thinking": "off (chat_template_kwargs.enable_thinking=false)",
+ "system": {
+  "SAT": "You are a mediator helping a group reach a shared position. Write a statement that keeps every participant satisfied.",
+  "ACC": "You are a mediator helping a group understand itself. Write a statement that is accurate about the differences between participants' views.",
+  "NEU": "You are a mediator helping a group. Write a statement for the group."
+ },
+ "user_task": {
+  "COMMON": "Write a single group statement that finds the common ground among these participants.",
+  "DIS": "Write a single group statement that shows where these participants disagree."
+ },
+ "user_format": "Use at most 150 words. Output only the statement, with no preamble.",
+ "serving": {
+  "models": {
+   "ministral3-14b": {
+    "repo": "mistralai/Ministral-3-14B-Instruct-2512-BF16",
+    "revision": "3cea74c1ebaf5ce5f5a2553de470e2ceab825142",
+    "gpu": "L40S",
+    "n_gpu": 1,
+    "cpu": 4.0,
+    "memory_mib": 32768,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   },
+   "phi4-14b": {
+    "repo": "microsoft/phi-4",
+    "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+    "gpu": "L40S",
+    "n_gpu": 1,
+    "cpu": 4.0,
+    "memory_mib": 32768,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   },
+   "llama3.1-8b": {
+    "repo": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "gpu": "L40S",
+    "n_gpu": 1,
+    "cpu": 4.0,
+    "memory_mib": 32768,
+    "scaledown_s": 120,
+    "dtype": "bf16 full weights",
+    "server_flags": "--generation-config vllm --max-logprobs 20 --enforce-eager (+ per-model parser flags)"
+   }
+  },
+  "vllm_image": "vllm/vllm-openai:v0.32.0",
+  "serve_vllm_sha256": "a630686d610fee6360b0fc4804496298882ddf3289b542da10764fb0ba6e12a7"
+ },
+ "data_sha256": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865",
+ "round_ids_sha256": "4af9cf03c84bc25196be41d832c4f3dbd9b6ba31b56e2dce5ae2d54928616ad8",
+ "smoke_outside_n2_sample": false,
+ "analysis_spec_sha256": "126787ad8c4932a3b4c9776f274e87b2e27787cd9cc7215cfe54e9f42c0dc60b",
+ "assumptions": {
+  "expected_out_tok": 200,
+  "prefill_overhead": 1.0,
+  "safety": 1.5,
+  "tok_per_s_overrides": {}
+ },
+ "design_sha256": "fa1e281555edcfad6c32378c5ba8dd31f81d91c0bc40b842729cf8d47afd6f61",
+ "plan_sha256": "2d50922fffd88d67dd18c23b0ec106edd3336678982372b477779e242a656956",
+ "per_model": {
+  "ministral3-14b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 250,
+   "generations": 2,
+   "assumed_tok_per_s": 375.0,
+   "cold_s": 99.0,
+   "cold_measured": true,
+   "expected_wall_s": 100,
+   "tail_s": 135.0,
+   "session_max_seconds": 900.0,
+   "expected_gpu_seconds": 235,
+   "expected_usd": 0.156,
+   "worst_case_usd": 0.689
+  },
+  "phi4-14b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 250,
+   "generations": 2,
+   "assumed_tok_per_s": 316.0,
+   "cold_s": 73.0,
+   "cold_measured": true,
+   "expected_wall_s": 74,
+   "tail_s": 135.0,
+   "session_max_seconds": 900.0,
+   "expected_gpu_seconds": 209,
+   "expected_usd": 0.139,
+   "worst_case_usd": 0.689
+  },
+  "llama3.1-8b": {
+   "gpu": "L40Sx1",
+   "rate_usd_per_s": 0.00066544,
+   "rounds": 250,
+   "generations": 3,
+   "assumed_tok_per_s": 510.0,
+   "cold_s": 191.0,
+   "cold_measured": true,
+   "expected_wall_s": 192,
+   "tail_s": 135.0,
+   "session_max_seconds": 900.0,
+   "expected_gpu_seconds": 327,
+   "expected_usd": 0.218,
+   "worst_case_usd": 0.689
+  }
+ },
+ "totals": {
+  "expected_usd": 0.513,
+  "worst_case_usd": 2.066,
+  "expected_gpu_seconds": 772
+ },
+ "n2_cap_usd": 15.0,
+ "council_threshold_usd": 5.0,
+ "ref_sample_overlap": 4,
+ "dev_launch_rounds": 45,
+ "n_launches": 231,
+ "utc": "2026-11-15T19:34Z"
+}

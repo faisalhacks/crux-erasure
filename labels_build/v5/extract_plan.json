@@ -1,0 +1,12 @@
+{
+ "x1_sha256": "cb25581a311fd663321124f9a722cc8325093417e5300f35b0662413af4e1ab2",
+ "alias": "gptoss-120b",
+ "max_tokens": 6000,
+ "temperature": 0.0,
+ "seeds": [
+  0,
+  1
+ ],
+ "n_items": 25,
+ "max_s": 1200
+}

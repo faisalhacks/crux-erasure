@@ -1,0 +1,403 @@
+{
+ "seed": 777,
+ "sims": 2000,
+ "utc_start": "2026-11-15T19:13:16Z",
+ "versions": {
+  "python": "3.12.4",
+  "numpy": "2.2.6",
+  "scipy": "1.16.3"
+ },
+ "code_sha256": {
+  "r4_power.py": "ab5cd55b179cd1c5690b9f62f7437b90fc55abe83c987e6d2222ad1c84aa2942",
+  "gate1.py": "362b12d20d437b8a92aa2786215dc905fe8ab53a971804c2609cd3cf376046ee"
+ },
+ "kappa": {
+  "n20_acc0.7": {
+   "pop_kappa_no_unsure": 0.15999999999999992,
+   "kappa_mean": 0.12947202078897305,
+   "kappa_sd": 0.19320398898608412,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.069,
+   "P(kappa>=0.60)": 0.0105
+  },
+  "n20_acc0.75": {
+   "pop_kappa_no_unsure": 0.25,
+   "kappa_mean": 0.20263306611901075,
+   "kappa_sd": 0.19023371079629656,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.1445,
+   "P(kappa>=0.60)": 0.023
+  },
+  "n20_acc0.8": {
+   "pop_kappa_no_unsure": 0.3600000000000003,
+   "kappa_mean": 0.279839585197162,
+   "kappa_sd": 0.18958133370961225,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.2605,
+   "P(kappa>=0.60)": 0.0515
+  },
+  "n20_acc0.85": {
+   "pop_kappa_no_unsure": 0.48999999999999977,
+   "kappa_mean": 0.39898175393845686,
+   "kappa_sd": 0.17960752456481532,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.506,
+   "P(kappa>=0.60)": 0.1525
+  },
+  "n20_acc0.9": {
+   "pop_kappa_no_unsure": 0.6400000000000001,
+   "kappa_mean": 0.5171461501871886,
+   "kappa_sd": 0.1666665399281261,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.7575,
+   "P(kappa>=0.60)": 0.327
+  },
+  "n20_acc0.95": {
+   "pop_kappa_no_unsure": 0.81,
+   "kappa_mean": 0.6642024202191037,
+   "kappa_sd": 0.14992409645732832,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.95,
+   "P(kappa>=0.60)": 0.691
+  },
+  "n30_acc0.7": {
+   "pop_kappa_no_unsure": 0.15999999999999992,
+   "kappa_mean": 0.132653602303991,
+   "kappa_sd": 0.16281787610219264,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.0515,
+   "P(kappa>=0.60)": 0.0025
+  },
+  "n30_acc0.75": {
+   "pop_kappa_no_unsure": 0.25,
+   "kappa_mean": 0.1962162060962137,
+   "kappa_sd": 0.15885964403082167,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.098,
+   "P(kappa>=0.60)": 0.0065
+  },
+  "n30_acc0.8": {
+   "pop_kappa_no_unsure": 0.3600000000000003,
+   "kappa_mean": 0.28398726068623625,
+   "kappa_sd": 0.15509270322905203,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.22,
+   "P(kappa>=0.60)": 0.028
+  },
+  "n30_acc0.85": {
+   "pop_kappa_no_unsure": 0.48999999999999977,
+   "kappa_mean": 0.3952929904862488,
+   "kappa_sd": 0.14429438009407533,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.485,
+   "P(kappa>=0.60)": 0.08
+  },
+  "n30_acc0.9": {
+   "pop_kappa_no_unsure": 0.6400000000000001,
+   "kappa_mean": 0.5219779952422775,
+   "kappa_sd": 0.13766326991745428,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.819,
+   "P(kappa>=0.60)": 0.3035
+  },
+  "n30_acc0.95": {
+   "pop_kappa_no_unsure": 0.81,
+   "kappa_mean": 0.6665123378935849,
+   "kappa_sd": 0.1205308095597765,
+   "undefined": 0,
+   "P(kappa>=0.40)": 0.981,
+   "P(kappa>=0.60)": 0.7095
+  }
+ },
+ "n2check": {
+  "n12_prev0.5_acc0.5": {
+   "P(pass) Fisher<=0.05": 0.0145,
+   "P(pass) Fisher<=0.025": 0.0035,
+   "P(pass) BA boot 2.5pct>0.5": 0.026,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n12_prev0.5_acc0.6": {
+   "P(pass) Fisher<=0.05": 0.0735,
+   "P(pass) Fisher<=0.025": 0.021,
+   "P(pass) BA boot 2.5pct>0.5": 0.094,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n12_prev0.5_acc0.7": {
+   "P(pass) Fisher<=0.05": 0.215,
+   "P(pass) Fisher<=0.025": 0.0795,
+   "P(pass) BA boot 2.5pct>0.5": 0.195,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0005
+  },
+  "n12_prev0.5_acc0.8": {
+   "P(pass) Fisher<=0.05": 0.474,
+   "P(pass) Fisher<=0.025": 0.243,
+   "P(pass) BA boot 2.5pct>0.5": 0.422,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0005
+  },
+  "n12_prev0.5_acc0.9": {
+   "P(pass) Fisher<=0.05": 0.839,
+   "P(pass) Fisher<=0.025": 0.6605,
+   "P(pass) BA boot 2.5pct>0.5": 0.712,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n12_prev0.5_acc0.95": {
+   "P(pass) Fisher<=0.05": 0.95,
+   "P(pass) Fisher<=0.025": 0.8535,
+   "P(pass) BA boot 2.5pct>0.5": 0.787,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0005
+  },
+  "n12_prev0.67_acc0.5": {
+   "P(pass) Fisher<=0.05": 0.013,
+   "P(pass) Fisher<=0.025": 0.003,
+   "P(pass) BA boot 2.5pct>0.5": 0.016,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.008
+  },
+  "n12_prev0.67_acc0.6": {
+   "P(pass) Fisher<=0.05": 0.057,
+   "P(pass) Fisher<=0.025": 0.0175,
+   "P(pass) BA boot 2.5pct>0.5": 0.069,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0075
+  },
+  "n12_prev0.67_acc0.7": {
+   "P(pass) Fisher<=0.05": 0.1715,
+   "P(pass) Fisher<=0.025": 0.0655,
+   "P(pass) BA boot 2.5pct>0.5": 0.131,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0095
+  },
+  "n12_prev0.67_acc0.8": {
+   "P(pass) Fisher<=0.05": 0.427,
+   "P(pass) Fisher<=0.025": 0.237,
+   "P(pass) BA boot 2.5pct>0.5": 0.319,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.008
+  },
+  "n12_prev0.67_acc0.9": {
+   "P(pass) Fisher<=0.05": 0.7355,
+   "P(pass) Fisher<=0.025": 0.5345,
+   "P(pass) BA boot 2.5pct>0.5": 0.465,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.007
+  },
+  "n12_prev0.67_acc0.95": {
+   "P(pass) Fisher<=0.05": 0.875,
+   "P(pass) Fisher<=0.025": 0.7695,
+   "P(pass) BA boot 2.5pct>0.5": 0.566,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.01
+  },
+  "n12_prev0.75_acc0.5": {
+   "P(pass) Fisher<=0.05": 0.011,
+   "P(pass) Fisher<=0.025": 0.0005,
+   "P(pass) BA boot 2.5pct>0.5": 0.006,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0265
+  },
+  "n12_prev0.75_acc0.6": {
+   "P(pass) Fisher<=0.05": 0.0395,
+   "P(pass) Fisher<=0.025": 0.0125,
+   "P(pass) BA boot 2.5pct>0.5": 0.033,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.034
+  },
+  "n12_prev0.75_acc0.7": {
+   "P(pass) Fisher<=0.05": 0.1255,
+   "P(pass) Fisher<=0.025": 0.0445,
+   "P(pass) BA boot 2.5pct>0.5": 0.09,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0375
+  },
+  "n12_prev0.75_acc0.8": {
+   "P(pass) Fisher<=0.05": 0.321,
+   "P(pass) Fisher<=0.025": 0.171,
+   "P(pass) BA boot 2.5pct>0.5": 0.152,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0235
+  },
+  "n12_prev0.75_acc0.9": {
+   "P(pass) Fisher<=0.05": 0.652,
+   "P(pass) Fisher<=0.025": 0.4545,
+   "P(pass) BA boot 2.5pct>0.5": 0.281,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0305
+  },
+  "n12_prev0.75_acc0.95": {
+   "P(pass) Fisher<=0.05": 0.7755,
+   "P(pass) Fisher<=0.025": 0.655,
+   "P(pass) BA boot 2.5pct>0.5": 0.332,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0315
+  },
+  "n24_prev0.5_acc0.5": {
+   "P(pass) Fisher<=0.05": 0.019,
+   "P(pass) Fisher<=0.025": 0.01,
+   "P(pass) BA boot 2.5pct>0.5": 0.025,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.5_acc0.6": {
+   "P(pass) Fisher<=0.05": 0.1525,
+   "P(pass) Fisher<=0.025": 0.086,
+   "P(pass) BA boot 2.5pct>0.5": 0.158,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.5_acc0.7": {
+   "P(pass) Fisher<=0.05": 0.4735,
+   "P(pass) Fisher<=0.025": 0.3525,
+   "P(pass) BA boot 2.5pct>0.5": 0.481,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.5_acc0.8": {
+   "P(pass) Fisher<=0.05": 0.8525,
+   "P(pass) Fisher<=0.025": 0.7775,
+   "P(pass) BA boot 2.5pct>0.5": 0.874,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.5_acc0.9": {
+   "P(pass) Fisher<=0.05": 0.993,
+   "P(pass) Fisher<=0.025": 0.989,
+   "P(pass) BA boot 2.5pct>0.5": 0.995,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.5_acc0.95": {
+   "P(pass) Fisher<=0.05": 1.0,
+   "P(pass) Fisher<=0.025": 1.0,
+   "P(pass) BA boot 2.5pct>0.5": 0.999,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.67_acc0.5": {
+   "P(pass) Fisher<=0.05": 0.02,
+   "P(pass) Fisher<=0.025": 0.006,
+   "P(pass) BA boot 2.5pct>0.5": 0.025,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.67_acc0.6": {
+   "P(pass) Fisher<=0.05": 0.1305,
+   "P(pass) Fisher<=0.025": 0.073,
+   "P(pass) BA boot 2.5pct>0.5": 0.148,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.67_acc0.7": {
+   "P(pass) Fisher<=0.05": 0.424,
+   "P(pass) Fisher<=0.025": 0.3055,
+   "P(pass) BA boot 2.5pct>0.5": 0.435,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n24_prev0.67_acc0.8": {
+   "P(pass) Fisher<=0.05": 0.805,
+   "P(pass) Fisher<=0.025": 0.6875,
+   "P(pass) BA boot 2.5pct>0.5": 0.8,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.67_acc0.9": {
+   "P(pass) Fisher<=0.05": 0.98,
+   "P(pass) Fisher<=0.025": 0.9565,
+   "P(pass) BA boot 2.5pct>0.5": 0.941,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.67_acc0.95": {
+   "P(pass) Fisher<=0.05": 0.996,
+   "P(pass) Fisher<=0.025": 0.9935,
+   "P(pass) BA boot 2.5pct>0.5": 0.97,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0
+  },
+  "n24_prev0.75_acc0.5": {
+   "P(pass) Fisher<=0.05": 0.0185,
+   "P(pass) Fisher<=0.025": 0.007,
+   "P(pass) BA boot 2.5pct>0.5": 0.035,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n24_prev0.75_acc0.6": {
+   "P(pass) Fisher<=0.05": 0.1005,
+   "P(pass) Fisher<=0.025": 0.0495,
+   "P(pass) BA boot 2.5pct>0.5": 0.111,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n24_prev0.75_acc0.7": {
+   "P(pass) Fisher<=0.05": 0.3485,
+   "P(pass) Fisher<=0.025": 0.225,
+   "P(pass) BA boot 2.5pct>0.5": 0.355,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0015
+  },
+  "n24_prev0.75_acc0.8": {
+   "P(pass) Fisher<=0.05": 0.7355,
+   "P(pass) Fisher<=0.025": 0.591,
+   "P(pass) BA boot 2.5pct>0.5": 0.637,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n24_prev0.75_acc0.9": {
+   "P(pass) Fisher<=0.05": 0.9425,
+   "P(pass) Fisher<=0.025": 0.8995,
+   "P(pass) BA boot 2.5pct>0.5": 0.792,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.001
+  },
+  "n24_prev0.75_acc0.95": {
+   "P(pass) Fisher<=0.05": 0.9845,
+   "P(pass) Fisher<=0.025": 0.971,
+   "P(pass) BA boot 2.5pct>0.5": 0.836,
+   "ba_boot_sims": 1000,
+   "ba_boot_B": 2000,
+   "P(one human class only)": 0.0005
+  }
+ },
+ "utc_end": "2026-11-15T19:14:31Z"
+}

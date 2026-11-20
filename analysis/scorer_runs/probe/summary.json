@@ -1,0 +1,20 @@
+{
+ "n_statements": 160,
+ "n_with_E": 116,
+ "n_zero_cruxes": 44,
+ "n_missing_E": 0,
+ "mean_E": 0.9871,
+ "n_E_ge_half": 115,
+ "parse_fail_final_extract": 0,
+ "parse_fail_final_label": 0,
+ "mode": "probe",
+ "scorer": "qwen3.8-27b",
+ "prompt": "E1 v2 (silence fix)",
+ "session": {
+  "billed_s": 232.6,
+  "session_cost_usd": 0.3126,
+  "cold_start_s": 43.9
+ },
+ "note": "summary.json reconstructed from scores/extractions by the scorer runner because the process was stopped during its container poll; cost from pilot_harness/ledger.jsonl",
+ "empty_side_cruxes_in_stored_extractions": 0
+}

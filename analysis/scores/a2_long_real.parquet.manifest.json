@@ -1,0 +1,28 @@
+{
+ "source_parquet_sha256": "7cf8d5ce3fce8853b36f0ffe1158424f7813867e422e313db4df0a5f9e03e4a4",
+ "table_sha256": "c74fa19a01a36acd6338f48021816da914b24cdbb1632101119e1c5d418fc912",
+ "build_analysis_set_counts": {
+  "n_rounds": 1960,
+  "n_launches": 871,
+  "n_rater_rows": 9501
+ },
+ "table_counts": {
+  "n_rounds": 1960,
+  "n_launches": 871,
+  "n_rater_rows": 9501
+ },
+ "ranks": "REAL (numerical_ranks, 0 = best); built after GATE1_RESULT.json rules R5 VALIDATED_PRESENCE",
+ "gate_tag": "HIDE_NOT_HUMAN_VALIDATED",
+ "label_extraction_length_mismatch_statements": 0,
+ "embedding": {
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "sentence_transformers": "5.5.1",
+  "normalize": true,
+  "device": "cpu"
+ },
+ "inputs": {
+  "a2_scores_v2.jsonl": "c9e83a5d74e68a37c01191a060d42a7c1fc69aac90a20f71b3387c2ea8fa8307",
+  "a2_extractions_v2.jsonl": "9dddc782ccab6d3d591130bac42d2c502a8c7accd2babbbf3be2cf06e9fea086",
+  "all_groups.jsonl": "fa3a39694560d514fcaad0fe0fbe7d2191913a847c7e073d8e80727993501865"
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [],
+ "status": "FAIL",
+ "kappa": {
+  "n_shared": 20,
+  "primary": -0.3492063492063492,
+  "primary_ci_info_only": [
+   -0.565217391304348,
+   -0.079136690647482
+  ],
+  "cutoff": 0.6,
+  "pass": false,
+  "kappa_4cat": -0.2500000000000001,
+  "kappa_both_definite": -0.29999999999999993,
+  "n_both_definite": 13,
+  "unsure_L1": 2,
+  "unsure_L2": 5,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 2,
+    "NO_DISAGREEMENT": 2,
+    "SHOWS": 3,
+    "UNSURE": 3
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 2,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 3,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 1,
+    "UNSURE": 2
+   },
+   "UNSURE": {
+    "HIDES": 2,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   }
+  },
+  "B": 10000,
+  "seed": 20261116
+ },
+ "balanced_accuracy": {
+  "n_adjudicated": 60,
+  "n_unsure_excluded": 3,
+  "unsure_items": [
+   "DUMMY028",
+   "DUMMY033",
+   "DUMMY045"
+  ],
+  "n_used": 57,
+  "n_pos": 30,
+  "n_neg": 27,
+  "n_ai_parse_failure_or_missing": 1,
+  "ba": 0.437037037037037,
+  "lo": 0.3120347394540943,
+  "hi": 0.5681818181818181,
+  "must_exceed": 0.5,
+  "B": 10000,
+  "seed": 20261116,
+  "pass": false
+ },
+ "confusion": {
+  "TP": 14,
+  "FN": 16,
+  "TN": 11,
+  "FP": 16
+ },
+ "FR_6_4a": {
+  "BA_crux": {
+   "n": 57,
+   "n_human_pos": 30,
+   "n_human_neg": 27,
+   "ba": 0.437037037037037,
+   "lo": 0.3120347394540943,
+   "hi": 0.5681818181818181
+  },
+  "n_gate_items_dropped_ncruxes_unknown": 0,
+  "BA_sh": {
+   "n": 54,
+   "n_human_pos": 30,
+   "n_human_neg": 24,
+   "ba": 0.4625,
+   "lo": 0.32916666666666666,
+   "hi": 0.5995897615708273,
+   "n_no_disagreement_left_out": 3,
+   "n_human_shows": 24
+  },
+  "zero_crux_share_of_correct_AI_negatives": {
+   "zero_crux_correct_negatives": 0,
+   "correct_negatives": 11,
+   "share": 0.0
+  },
+  "wording_rule_fires": true,
+  "D1h_wilson95": {
+   "HIDES_among_non_UNSURE": [
+    0.5263157894736842,
+    0.3991801612354585,
+    0.6501283210915861
+   ],
+   "HIDES_among_HIDES_or_SHOWS": [
+    0.5555555555555556,
+    0.4237564642692295,
+    0.6799753591675441
+   ]
+  }
+ },
+ "also_reported": {
+  "ba_L1_own_labels": 0.41428571428571426,
+  "spearman_E_vs_human_binary": -0.032122356260803314
+ },
+ "duplicate_checks": {
+  "L1": {
+   "n_pairs": 4,
+   "exact_match": 3,
+   "match_3cat": 3
+  },
+  "L2": {
+   "n_pairs": 4,
+   "exact_match": 3,
+   "match_3cat": 3
+  }
+ },
+ "hashes": {
+  "L1": "0e5c504f6d8364bf39a1f46d3cb641f8253a9bead57f8cd709a74b23a4cf3c72",
+  "L2": "05c2a92f7422af63d202355edc77352fb877baec3c58ffe4d4f6d20e183c4c78",
+  "ADJ": "b6c42569c286689a3cd752b9772bff7cabd9083879b78d237ba4bf6dffc29f0b",
+  "scores": "13a3290063332009a582fa695853d9d8db6d04790a719d42bbb6b1e258d2d9a8",
+  "item_key": "a2ca2148f2049ffa7eddfa0ffd51fe4bef5facc280c177ccf5d7990bb1d947a5",
+  "FROZEN_RULES": "ae230f970f836eab524c5c88e754d498f7c125d3a808e28d549ba723a83e336d",
+  "sample": null
+ },
+ "verdict": "FAIL",
+ "note": "FAIL => 'not yet measurable' version (FR 12); no definition is changed.",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

@@ -1,0 +1,50 @@
+A2[synthetic] beta_E +0.6563 [+0.6193, +0.6930] p=0.000 clusters=300
+PASS A2 planted effect recovered (rater) :: +0.656 [+0.619,+0.693]
+A2[synthetic] beta_E +0.6563 [+0.6193, +0.6930] p=0.000 clusters=300
+PASS A2 planted effect recovered (group) :: +0.656 [+0.619,+0.693]
+A2[synthetic] beta_E -0.0067 [-0.0493, +0.0350] p=0.751 clusters=300
+PASS A2 confound: controlled CI covers 0 :: -0.007 [-0.049,+0.035]
+PASS A2 confound: uncontrolled biased (CI excludes 0) :: +0.569 [+0.522,+0.614]
+PASS A2 A2h (length only) covers 0 in confound :: -0.007 [-0.049,+0.035]
+A2[synthetic] beta_E +0.0032 [-0.0375, +0.0439] p=0.872 clusters=300
+PASS A2 synthetic null (single dataset) covers 0 :: +0.003 [-0.037,+0.044]
+N1[synthetic] mean d_r +0.1566 [+0.1421, +0.1712] p=0.000 rounds=502 ties_excl=98
+PASS N1 planted effect recovered :: +0.157 [+0.142,+0.171]
+N1[synthetic] mean d_r +0.0049 [-0.0133, +0.0226] p=0.589 rounds=505 ties_excl=95
+PASS N1 synthetic null (single dataset) covers 0 :: +0.005 [-0.013,+0.023]
+PASS A2 synthetic null coverage 60 datasets >= 88% :: 56/60
+PASS N1 synthetic null coverage 60 datasets >= 88% :: 58/60
+N4[synthetic] interaction +0.929 [+0.855,+1.002] p=0.000
+PASS N4 planted interaction recovered :: int +0.929 [+0.855,+1.002] maj +0.014 [-0.042,+0.069] min +0.943 [+0.896,+0.990]
+N4[synthetic] interaction +0.058 [-0.034,+0.149] p=0.211
+PASS N4 synthetic null interaction (single dataset) covers 0 :: +0.058 [-0.034,+0.149]
+A3 synthetic RUN {'est': 0.1588223962132179, 'lo': 0.13835102989045456, 'hi': 0.17946934932072903, 'se': 0.010436046994484117, 'p_boot': 9.999000099990002e-05}
+PASS A3 planted effect recovered :: +0.159 [+0.138,+0.179]
+A3 synthetic RUN {'est': -0.019247162145405044, 'lo': -0.03967146294754986, 'hi': 0.0007348656706797976, 'se': 0.010112438883098538, 'p_boot': 0.06029397060293971}
+PASS A3 synthetic null (single dataset) covers 0 :: -0.019 [-0.040,+0.001]
+A3 synthetic NOT_RUN None
+PASS A3 floor: <30 launches -> NOT_RUN :: 10 launches < floor 30 (FR s8)
+N3 synthetic RUN {'est': 0.1588223962132179, 'lo': 0.1382368958614027, 'hi': 0.17964625323961197, 'se': 0.010436046994484117, 'p_boot': 9.999000099990002e-05}
+PASS N3 planted effect recovered :: +0.159 [+0.138,+0.180]
+N3 synthetic RUN {'est': -0.019247162145405044, 'lo': -0.03930975794294879, 'hi': 0.00034649267746422394, 'se': 0.010112438883098538, 'p_boot': 0.05779422057794221}
+PASS N3 synthetic null (single dataset) covers 0 :: -0.019 [-0.039,+0.000]
+N3 synthetic NOT_RUN None
+PASS N3 floor: <30 launches -> NOT_RUN :: 10 launches < floor 30 (FR s8)
+PASS Holm adjustment :: {'a': 0.03, 'c': 0.06, 'b': 0.06}
+A2[shuffled] beta_E -0.0033 [-0.0226, +0.0158] p=0.742 clusters=871
+PASS A2 shuffled null covers 0 (rater) :: -0.003 [-0.023,+0.016] clusters=871 p=0.742
+A2[shuffled] beta_E -0.0034 [-0.0226, +0.0157] p=0.734 clusters=871
+PASS A2 shuffled null covers 0 (group) :: -0.003 [-0.023,+0.016] clusters=871 p=0.734
+N1[shuffled] mean d_r -0.0052 [-0.0156, +0.0053] p=0.334 rounds=1666 ties_excl=294
+PASS N1 shuffled null covers 0 :: -0.005 [-0.016,+0.005] rounds=1666 ties_excl=294
+gate1 kappa: COMPUTED 0.9019607843137253 []
+gate1 validity: PASS BA=0.863 [0.770,0.948]
+PASS gate1 DUMMY good -> PASS :: status=PASS kappa=0.90 BA=0.86 lo=0.77 unsure_excl=2 parse_fail=1 dup={'n_pairs': 4, 'exact_match': 2, 'match_3cat': 3}
+gate1 kappa: COMPUTED -0.3492063492063492 []
+gate1 validity: FAIL BA=0.437 [0.312,0.568]
+PASS gate1 DUMMY bad -> FAIL :: status=FAIL kappa=-0.35 BA=0.44 lo=0.31 unsure_excl=3 parse_fail=1 dup={'n_pairs': 4, 'exact_match': 3, 'match_3cat': 3}
+gate1 kappa: INCOMPLETE None ["C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\analysis\\testdata\\DUMMY_incomplete_L1.csv: item DUMMY018: invalid or blank label ''"]
+PASS gate1 blank label -> INCOMPLETE, nothing filled :: ["C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\analysis\\testdata\\DUMMY_incomplete_L1.csv: item DUMMY018: invalid or blank label ''"]
+PASS gate1 never writes GATE1_RESULT.json :: ok
+PASS real-rank analysis refused without GATE1_RESULT.json :: SystemExit raised
+ALL GATING TESTS PASS

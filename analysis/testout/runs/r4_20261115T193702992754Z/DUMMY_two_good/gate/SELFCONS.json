@@ -1,0 +1,74 @@
+{
+ "step": "selfcons",
+ "kind": "dummy",
+ "design": "two_human",
+ "problems": [],
+ "label": "no rule in this design (FR 6.2)",
+ "self_consistency": {
+  "n": 20,
+  "kappa": 1.0,
+  "ac1": 1.0,
+  "percent_agreement": 1.0,
+  "B": 1000,
+  "seed": 20261116,
+  "kappa_ci95": [
+   1.0,
+   1.0
+  ],
+  "ac1_ci95": [
+   1.0,
+   1.0
+  ],
+  "kappa_undefined_resamples": 0,
+  "kappa_4cat": 1.0,
+  "kappa_both_definite": 1.0,
+  "n_both_definite": 19,
+  "unsure_first": 1,
+  "unsure_second": 1,
+  "table_4x4": {
+   "HIDES": {
+    "HIDES": 9,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "NO_DISAGREEMENT": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 7,
+    "SHOWS": 0,
+    "UNSURE": 0
+   },
+   "SHOWS": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 3,
+    "UNSURE": 0
+   },
+   "UNSURE": {
+    "HIDES": 0,
+    "NO_DISAGREEMENT": 0,
+    "SHOWS": 0,
+    "UNSURE": 1
+   }
+  },
+  "by_kind_original": {
+   "n": 15,
+   "kappa": 1.0,
+   "ac1": 1.0
+  },
+  "by_kind_n2": {
+   "n": 5,
+   "kappa": 1.0,
+   "ac1": 1.0
+  }
+ },
+ "pass2_rule": {
+  "ok": true,
+  "reasons": [],
+  "pass1_mtime_utc": "2026-11-20T10:00:00+00:00",
+  "pass1_mtime_source": "FREEZE.json",
+  "pass2_started_utc": "2026-11-20T12:00:00+00:00",
+  "pass2_mtime_utc": "2026-11-20T12:30:00+00:00"
+ },
+ "status": "COMPUTED"
+}

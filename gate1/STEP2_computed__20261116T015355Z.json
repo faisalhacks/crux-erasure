@@ -1,0 +1,60 @@
+{
+ "n_rounds_in": 1622,
+ "B": 10000,
+ "seed_launch": 20261141,
+ "seed_question": 20261142,
+ "n_dropped_context_length": 0,
+ "n_unusable_rating_coverage": 0,
+ "n_extraction_missing_counted_wrong": 3,
+ "n_usable_rounds": 1622,
+ "n_usable_launches": 721,
+ "hsplit_class_counts": {
+  "0": {
+   "rounds": 614,
+   "launches": 437
+  },
+  "1": {
+   "rounds": 1008,
+   "launches": 605
+  }
+ },
+ "confusion": {
+  "tp": 907,
+  "fn": 101,
+  "tn": 297,
+  "fp": 317
+ },
+ "BA2": 0.6917574711752237,
+ "sens": 0.8998015873015873,
+ "spec": 0.4837133550488599,
+ "launch_boot": {
+  "lb": 0.6689521057995578,
+  "ub": 0.7140082337979413,
+  "n_one_class": 0
+ },
+ "question_in_more_than_one_launch": true,
+ "question_boot": {
+  "lb": 0.6699079258128309,
+  "ub": 0.7133818132887074,
+  "n_one_class": 0
+ },
+ "outcome": "PASS",
+ "lb_used": 0.6689521057995578,
+ "unusable_reasons": [],
+ "reported_no_rule": {
+  "prevalence_hsplit": 0.6214549938347719,
+  "prevalence_sdis": 0.7546239210850801,
+  "BA2_n_rated_5": 0.6811456111209182,
+  "n_rated_5_rounds": 1422,
+  "BA2_all_rated": 0.6929251565615202,
+  "BA2_strong_split": 0.6265131746435846,
+  "spearman_ncruxes_sd": 0.40314814640197627,
+  "context_drop_share": 0.0
+ },
+ "rules": "R5",
+ "step": 2,
+ "kind": "real",
+ "freeze_utc": "2026-11-16T01:53:53.642Z",
+ "script_sha256": "47486cf09ce9e3203006b3229de67bbe85280fc5a8271942d21d3639593f3c76",
+ "scope": "presence of disagreement only; says nothing about whether a statement hides it"
+}

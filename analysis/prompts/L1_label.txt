@@ -1,0 +1,26 @@
+A small group of people each wrote an opinion on the question below. Their opinions disagree
+on the points listed. Then one statement was written to speak for the whole group.
+
+Question: {question}
+
+Points of disagreement:
+{numbered_cruxes_as: "<n>. <issue> (Side A: <side_a> | Side B: <side_b>)"}
+
+Group statement:
+"""{statement}"""
+
+For EACH point, decide how the statement treats it. Use exactly one label per point:
+- VISIBLE: a reader of the statement alone would learn that people in the group hold differing
+  views on this specific point (it gives both sides, or says that some members, a minority, or
+  not everyone thinks differently on this point).
+- SIDED: the statement presents one side of this point as the group's view and gives no sign
+  that anyone in the group thinks otherwise.
+- BLENDED: the statement touches the topic only in vague or general terms that do not reveal
+  a disagreement (for example "a balance is needed", "many factors matter").
+- OMITTED: the statement does not address this point at all.
+
+Judge only the statement's text. A general phrase such as "there are many views" counts as
+VISIBLE only if it is tied to this specific point.
+
+Return JSON only: {"labels": ["VISIBLE|SIDED|BLENDED|OMITTED", ...]}
+with one label per point, in the order given.

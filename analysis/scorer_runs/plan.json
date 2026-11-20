@@ -1,0 +1,79 @@
+{
+ "probe": {
+  "scorer": "command-r7b",
+  "gpu": "L40Sx1",
+  "rate_usd_per_s": 0.00066544,
+  "calls": 350,
+  "decode_tokens": 29400,
+  "prefill_tokens": 286870,
+  "expected_wall_s": 500,
+  "session_max_seconds": 1000,
+  "expected_usd": 0.422,
+  "worst_case_usd": 0.755,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  }
+ },
+ "all": {
+  "scorer": "command-r7b",
+  "gpu": "L40Sx1",
+  "rate_usd_per_s": 0.00066544,
+  "calls": 9800,
+  "decode_tokens": 823200,
+  "prefill_tokens": 7993731,
+  "expected_wall_s": 4259,
+  "session_max_seconds": 8600,
+  "expected_usd": 2.924,
+  "worst_case_usd": 5.813,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  }
+ },
+ "all_measured": {
+  "scorer": "command-r7b",
+  "calls": 9800,
+  "expected_wall_s": 2783,
+  "session_max_seconds": 3700,
+  "expected_usd": 1.942,
+  "worst_case_usd": 2.552,
+  "gpu": "L40Sx1",
+  "rate_usd_per_s": 0.00066544,
+  "note": "extrapolated from 2 measured runs of ~180 calls; timeout 3700 s per EXPERIMENTS.md A2"
+ },
+ "all_gemma4-12b_A4": {
+  "scorer": "gemma4-12b",
+  "gpu": "L40Sx1",
+  "rate_usd_per_s": 0.00066544,
+  "calls": 9800,
+  "decode_tokens": 823200,
+  "prefill_tokens": 7993731,
+  "expected_wall_s": 4259,
+  "session_max_seconds": 8600,
+  "expected_usd": 2.924,
+  "worst_case_usd": 5.813,
+  "assumptions": {
+   "decode_tok_per_s": 400.0,
+   "prefill_tok_per_s": 6000.0,
+   "overhead": 1.15,
+   "phase_floor_s": 30.0,
+   "extract_out_tok": 300.0,
+   "label_out_tok": 30.0,
+   "chars_per_tok": 3.5,
+   "safety": 2.0
+  }
+ }
+}

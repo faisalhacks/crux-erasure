@@ -1,0 +1,13 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "G1: KAPPA.json does not match its .sha256 sidecar (edited or sidecar missing)"
+ ],
+ "design": "single_labeler",
+ "validation_wording": "validated against a single hypothesis-aware human annotator",
+ "llm_wording": "LLM annotator (gpt-oss-120b) given the same instructions; not a human label, not a second rater",
+ "status": "INCOMPLETE",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

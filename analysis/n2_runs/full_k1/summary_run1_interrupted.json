@@ -1,0 +1,190 @@
+{
+ "tag": "full_k1",
+ "provider": "modal",
+ "wall_s": 810.4,
+ "per_model": [
+  {
+   "model": "gemma4-12b",
+   "total": 1250,
+   "cached_in_file": 0,
+   "run": 1250,
+   "errors": 0,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 182164,
+   "session": {
+    "billed_s": 547.8,
+    "session_cost_usd": 0.3645,
+    "cold_start_s": 66.6
+   },
+   "cold_start_s": 66.6,
+   "gen_wall_s": 346.3,
+   "measured_tok_per_s": 526.1,
+   "mean_out_tokens": 145.7
+  },
+  {
+   "model": "qwen3.8-27b",
+   "total": 1250,
+   "cached_in_file": 0,
+   "run": 684,
+   "errors": 84,
+   "truncated": 0,
+   "cost_usd": 0.0,
+   "out_tokens": 118320,
+   "session": {
+    "billed_s": 531.9,
+    "session_cost_usd": 0.7148,
+    "cold_start_s": 1.0
+   },
+   "cold_start_s": 1.0,
+   "error_kinds": {
+    "ProviderError": 84
+   },
+   "stopped": "error rate 84/128 > 0.2",
+   "gen_wall_s": 395.9,
+   "measured_tok_per_s": 298.9,
+   "mean_out_tokens": 173.0
+  }
+ ],
+ "harness_spent_usd": 1.0793,
+ "design_sha256": "bac7604e3addc318162be85f6ff0f35bf8903f7ce5956dad27977b12d7127f3e",
+ "plan_sha256": "1c0f2d7cbb0cdbc154319d7451b823334f5f78196ec272ffd5b351b84fac0b91",
+ "format_report": {
+  "cells": {
+   "gemma4-12b|ACC-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 120.9,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|ACC-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 124.5,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|NEU-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 125.5,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|SAT-COMMON": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 125.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "gemma4-12b|SAT-DIS": {
+    "n": 250,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 126.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|ACC-COMMON": {
+    "n": 137,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 142.4,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|ACC-DIS": {
+    "n": 135,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 146.1,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|NEU-COMMON": {
+    "n": 139,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 147.9,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|SAT-COMMON": {
+    "n": 137,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 144.5,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   },
+   "qwen3.8-27b|SAT-DIS": {
+    "n": 136,
+    "empty": 0,
+    "truncated": 0,
+    "think_tag_leak": 0,
+    "reasoning_content_present": 0,
+    "refusal_or_meta": 0,
+    "preamble": 0,
+    "mean_words": 146.8,
+    "max_flagged_share": 0.0,
+    "fix_and_resmoke": false
+   }
+  },
+  "near_duplicate": {
+   "gemma4-12b": {
+    "rounds": 250,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   },
+   "qwen3.8-27b": {
+    "rounds": 140,
+    "near_duplicate_share": 0.0,
+    "stop": false
+   }
+  },
+  "any_fix_and_resmoke": false,
+  "any_dead_manipulation": false
+ }
+}

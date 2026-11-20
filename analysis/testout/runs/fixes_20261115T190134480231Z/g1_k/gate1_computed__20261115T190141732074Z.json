@@ -1,0 +1,11 @@
+{
+ "step": "validity",
+ "kind": "dummy",
+ "problems": [
+  "G1: KAPPA.json does not match its .sha256 sidecar (edited or sidecar missing)"
+ ],
+ "status": "INCOMPLETE",
+ "verdict": "INCOMPLETE",
+ "output_path": null,
+ "gate_tag": "NOT_REAL(dummy)"
+}

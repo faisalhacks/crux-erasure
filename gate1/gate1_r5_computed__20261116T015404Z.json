@@ -1,0 +1,16 @@
+{
+ "rules": "R5",
+ "computed_status": "VALIDATED_PRESENCE",
+ "notes": [
+  "step 3 NOT DONE (no author file by T_cut)"
+ ],
+ "author_timing": "NOT_DONE",
+ "t_ready": "2026-11-16T01:23:00+00:00",
+ "t_cut": "2026-11-16T01:53:00+00:00",
+ "step2_file": "C:\\Users\\intel\\Downloads\\OU\\projects\\_apart_intel\\t3_1\\gate1\\STEP2_computed__20261116T015355Z.json",
+ "step2_outcome": "PASS",
+ "step3_file": null,
+ "step3_outcome": "NOT_DONE",
+ "computed_utc": "2026-11-16T01:54:04.928931+00:00",
+ "panel": "LLM verification of LLM-extracted evidence (supplementary; not human); never part of this status"
+}

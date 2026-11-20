@@ -1,0 +1,47 @@
+{
+ "items": 10,
+ "valid": 10,
+ "failed": 0,
+ "labels": {
+  "HIDES": 9,
+  "NO_DISAGREEMENT": 1
+ },
+ "first_attempt_failures": 0,
+ "truncated": 0,
+ "thinking_text_in_content": 0,
+ "completion_tokens": [
+  {
+   "in": 972,
+   "out": 1152,
+   "cached_in": 0,
+   "cache_write": 0
+  },
+  {
+   "in": 1124,
+   "out": 461,
+   "cached_in": 0,
+   "cache_write": 0
+  },
+  {
+   "in": 1028,
+   "out": 785,
+   "cached_in": 0,
+   "cache_write": 0
+  }
+ ],
+ "session": {
+  "billed_s": 361.5,
+  "session_cost_usd": 0.4858,
+  "cold_start_s": 131.7
+ },
+ "wall_s": 367.2,
+ "container_check": {
+  "waited_s": 140,
+  "own_rows_final": 0,
+  "other_app_rows": 0,
+  "stopped_by_id": [],
+  "returncode": 0,
+  "error": null
+ },
+ "prompt_sha256": "6e522c03b1e9a9a4b77009da2096d199ec8472e6a4b6d81995d4d03cdb90c184"
+}

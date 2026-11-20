@@ -1,0 +1,23 @@
+{
+ "analysis_set": {
+  "set": "CONFIRMATORY (development launches excluded)",
+  "n_launches_in": 120,
+  "n_launches_out": 120,
+  "n_dev_launches_dropped": 0,
+  "dev_file_sha256": "085d78472d9df42894a065f279656260a35931c3176d9dc5d23c7a38a6868daa"
+ },
+ "B": 10000,
+ "seed": 20261122,
+ "n_rounds": 240,
+ "n_clusters": 120,
+ "status": "RUN",
+ "erasure": {
+  "est": 0.1588223962132179,
+  "lo": 0.13835102989045456,
+  "hi": 0.17946934932072903,
+  "se": 0.010436046994484117,
+  "p_boot": 9.999000099990002e-05
+ },
+ "kind": "synthetic",
+ "gate_tag": "NOT_REAL(synthetic)"
+}

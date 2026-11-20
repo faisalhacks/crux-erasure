@@ -1,0 +1,16 @@
+{
+ "bar": "V1",
+ "scorer": "command-r7b",
+ "calls": 427,
+ "calls_ok": true,
+ "statements": 280,
+ "missing_E": 78,
+ "missing_rate": 0.2786,
+ "max_allowed": 0.05,
+ "extract_parse_fail_final": 0,
+ "label_parse_fail_final": 78,
+ "zero_crux_statements": 4,
+ "non_development_launches_in_smoke": [],
+ "development_only": true,
+ "V1_met": false
+}

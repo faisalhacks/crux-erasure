@@ -1,0 +1,11 @@
+{
+ "n_clusters": 300,
+ "controlled": {
+  "erasure": {
+   "est": 0.17,
+   "lo": 0.04,
+   "hi": 0.3
+  }
+ },
+ "kind": "dummy"
+}
